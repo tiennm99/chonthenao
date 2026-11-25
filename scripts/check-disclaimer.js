@@ -21,7 +21,8 @@ const htmlFiles = (dir) =>
         : [],
   );
 
-const files = htmlFiles(out);
+// 404.html is the client-rendered fallback shell; the layout adds the disclaimer when it renders.
+const files = htmlFiles(out).filter((f) => f !== join(out, '404.html'));
 const missing = files.filter((f) => !readFileSync(f, 'utf8').includes(marker));
 for (const f of missing) console.error(`missing disclaimer: ${f.slice(out.length)}`);
 console.log(`${files.length} pages, ${missing.length} without the disclaimer`);

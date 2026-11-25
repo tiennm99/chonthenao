@@ -14,7 +14,8 @@ export default defineConfig({
     tailwindcss(),
     sveltekit({
       preprocess: vitePreprocess(),
-      adapter: adapter(),
+      // Hosts serve 404.html for unknown paths; it renders the error page in the browser.
+      adapter: adapter({ fallback: '404.html' }),
       paths: { base, origin },
       // Hash mode puts a CSP meta tag with script hashes on every prerendered page.
       csp: {

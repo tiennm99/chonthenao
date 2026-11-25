@@ -22,7 +22,8 @@ Where bank and card facts come from, and which sites need care when fetching the
 - SHB (`shb.com.vn`) shows a security check even in a browser; it is left out of the data until
   its pages can be read.
 - VIB (`vib.com.vn`) serves a JavaScript challenge to `curl` and 403 to headless browsers on its
-  card and fee pages; only the card list loads. VIB has no cards in the data yet.
+  card and fee pages. A real browser reads them: the VIB cards were read in Orca's built-in
+  browser.
 - Vietcombank refuses headless Chrome, but `curl` reads its pages and PDFs. BIDV and MB need a
   browser. TPBank's firewall blocks headless Chrome and resets bursts of `curl`; spaced requests work.
 - Some fee schedules are image-only PDFs or PNGs (Standard Chartered, MSB, parts of MB and ACB).

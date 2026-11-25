@@ -2,8 +2,6 @@
 
 ## Data
 
-- **VIB has no cards.** Its card and fee pages return 403 to automated browsers, so nothing could
-  be read from its own site. See [data-sources.md](data-sources.md).
 - **SHB is not in the bank list.** Its site shows a security check even in a browser.
 - **Some reward terms have ended or end soon.** VPBank StepUp and Lady terms ran to 20/11/2026 and
   no renewal was found; VietinBank, Techcombank Spark and Style and BIDV terms end 31/12/2026.
@@ -19,8 +17,8 @@
 
 ## Scoring
 
-- **The mile value is an assumption** (100 đ per mile, from one domestic route's award price and cash fares), since no bank publishes one. The result
-  page says so and lets the reader change it.
+- **The mile value is an assumption** (100 đ per mile, from one domestic route's award price and cash fares), since no bank
+  publishes one. The result page says so and lets the reader change it.
 - **Spending is estimated from brackets**, not exact amounts.
 - **Fee waivers count from the second year**; first-year refund rules are not scored.
 - **VAT is assumed to be 10%** where a fee schedule prints fees before VAT.

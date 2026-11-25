@@ -1,0 +1,99 @@
+{
+  "id": "vib-max-card",
+  "bank": "vib",
+  "name": "VIB Max Card",
+  "network": "visa",
+  "tier": "Starter",
+  "issuanceFee": null,
+  "annualFee": 0,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "travel",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 5,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Danh mục Du lịch (MCC 7011, 3000-3998, 4511, 4722), khi chủ thẻ chọn danh mục này. Gói Starter 0,5%; Plus 5%; Pro 8%; Elite 10%."
+    },
+    {
+      "category": "dining",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 5,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Danh mục Ẩm thực (MCC 5811, 5812, 5813, 5814), khi chủ thẻ chọn danh mục này. Gói Starter 0,5%; Plus 5%; Pro 8%; Elite 10%."
+    },
+    {
+      "category": "online",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 5,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Danh mục Giao dịch trực tuyến (trừ MCC 6300, 7399), khi chủ thẻ chọn danh mục này. Gói Starter 0,5%; Plus 5%; Pro 8%; Elite 10%."
+    },
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chi tiêu ngoài danh mục đã chọn: 0,1% ở mọi gói."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["all", "travel", "dining", "online"],
+      "capMonth": 500000,
+      "note": "Tối đa 500.000 điểm mỗi kỳ sao kê (không theo tháng dương lịch) với gói Starter và Plus; Pro 1.000.000 điểm, Elite 1.500.000 điểm. Trang sản phẩm ghi tối đa 6 triệu đồng/năm cho Starter và Plus, 12 triệu với Pro, 18 triệu với Elite. Giao dịch đặc biệt tối đa 10.000 điểm/kỳ."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": 1,
+  "rewardsUntil": "2026-12-31",
+  "pointValueVnd": 1,
+  "fxFee": 4.4,
+  "interestRate": null,
+  "interestFreeDays": 55,
+  "minIncome": 10000000,
+  "virtual": null,
+  "perks": [
+    "Tặng 1 lượt phòng chờ hoặc dịch vụ đón tiễn sân bay cho mỗi 30 triệu đồng chi tiêu nước ngoài, không giới hạn số lượt",
+    "Gói Starter: lãi suất 0%/tháng trong 3 kỳ sao kê đầu tiên từ ngày phát hành thẻ lần đầu",
+    "Tự chọn ngày sao kê, thiết kế thẻ, số thẻ; tặng kèm thẻ thanh toán"
+  ],
+  "notes": [
+    "Chủ thẻ chọn 1 trong 4 Gói Hội Viên (Starter, Plus, Pro, Elite), mỗi gói kéo dài 3 kỳ sao kê và tự gia hạn. Số liệu ở đây là gói Starter, miễn phí hội viên và miễn phí thường niên.",
+    "Phí Gói Hội Viên: Plus 300.000 đồng, Pro 500.000 đồng, Elite 1.000.000 đồng mỗi 3 kỳ sao kê; các gói này thêm phí thường niên 5.000 đồng/tháng cho mỗi thẻ chính và thẻ phụ. Phí gói được hoàn mỗi kỳ khi chi tiêu bình quân 3 kỳ gần nhất trên 30 triệu (Plus), 50 triệu (Pro), 100 triệu đồng (Elite).",
+    "Chủ thẻ chọn 1 trong 5 Nhóm Danh Mục Chi Tiêu: Mua sắm, Du lịch, Ẩm thực, Giải trí, Giao dịch trực tuyến. Mua sắm (thời trang, bách hóa và các MCC bán lẻ khác) và Giải trí (rạp phim, game, thể thao, công viên giải trí...) không có mục riêng trong dữ liệu nhưng được hưởng cùng tỷ lệ khi chọn.",
+    "Thưởng trả bằng Điểm thưởng, quy đổi trên ứng dụng Max thành tiền ghi có vào thẻ, quà tặng hoặc phí thường niên theo danh mục quy đổi niêm yết trên ứng dụng; điểm hết hạn sau 6 tháng nếu chưa quy đổi. Thể lệ chỉ ghi 1 điểm = 1 VNĐ cho trường hợp quy đổi điểm bị ghi nợ khi chưa có danh mục quy đổi.",
+    "Chương trình điểm thưởng có hiệu lực đến 31/12/2026.",
+    "Phí quản lý giao dịch ngoại tệ 4,4% (tối thiểu 10.000 đồng); tỷ giá chi tiêu là tỷ giá bán USD của VIB cộng 80 đồng. Giao dịch đồng Việt Nam ở nước ngoài 1,1%.",
+    "Lãi suất từ 2,54% đến 3,71%/tháng tùy lịch sử tín dụng (rút tiền mặt qua POS tại quầy VIB từ 1,88% đến 2,96%/tháng). Ngày đến hạn thanh toán là 25 ngày sau ngày sao kê.",
+    "Biểu phí không có dòng phí phát hành.",
+    "Gói Elite được tặng 2 lượt phòng chờ mỗi năm.",
+    "Không tích điểm cho thuế, giao dịch không có MCC (QR, hóa đơn qua ứng dụng Max), điện nước, viễn thông (MCC 4900, 4814), phí bảo hiểm, quảng cáo trực tuyến, bất động sản.",
+    "Phí đóng thẻ trong 12 tháng đầu 60.000 đồng.",
+    "Thu nhập trung bình tối thiểu 10 triệu đồng/tháng trong 3 tháng gần nhất; chủ thẻ chính từ 20 đến 70 tuổi.",
+    "Trang sản phẩm trình bày ưu đãi là hoàn tiền theo % giá trị giao dịch, tối đa 500.000 VNĐ/tháng, nên dữ liệu tính 1 điểm = 1 VNĐ; tỷ lệ đổi điểm thực tế theo ứng dụng Max."
+  ],
+  "sourceUrls": [
+    "https://www.vib.com.vn/vn/max-card",
+    "https://www.vib.com.vn/vn/max-card/bieu-phi-va-dieu-kien-the-tin-dung",
+    "https://www.vib.com.vn/vn/max-card/diem-thuong-hoan-tien"
+  ],
+  "lastVerified": "2026-11-25"
+}

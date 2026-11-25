@@ -1,0 +1,100 @@
+{
+  "id": "vib-one-card",
+  "bank": "vib",
+  "name": "VIB One Card",
+  "network": "visa",
+  "tier": "Gold",
+  "issuanceFee": 0,
+  "annualFee": 999000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "travel",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 30,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Danh mục Du lịch (MCC 7011, 3000-3998, 4511, 4722), khi chủ thẻ chọn danh mục này. Hạng Gold 3%; Platinum 6%; Signature 9%."
+    },
+    {
+      "category": "education",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 30,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Danh mục Giáo dục (MCC 8211, 8220, 8241, 8244, 8249, 8299), khi chủ thẻ chọn danh mục này. Hạng Gold 3%; Platinum 6%; Signature 9%."
+    },
+    {
+      "category": "foreign",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 30,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Danh mục Chi tiêu nước ngoài: giao dịch tại ĐVCNT ngoài lãnh thổ Việt Nam bằng ngoại tệ qua POS, thanh toán không chạm; khi chủ thẻ chọn danh mục này. Hạng Gold 3%; Platinum 6%; Signature 9%."
+    },
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chi tiêu ngoài Danh Mục Chi Tiêu Đăng Ký: 0,1% ở mọi hạng thẻ."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["all", "travel", "education", "foreign"],
+      "capMonth": 500000,
+      "note": "Tối đa 500.000 điểm mỗi kỳ sao kê (không theo tháng dương lịch) với hạng Gold; Platinum 1.000.000 điểm, Signature 1.500.000 điểm. Giao dịch đặc biệt (thẻ game, thẻ nạp điện thoại, thẻ quà tặng...) tối đa 10.000 điểm/kỳ."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": 1,
+  "rewardsUntil": null,
+  "pointValueVnd": 1,
+  "fxFee": 3.5,
+  "interestRate": null,
+  "interestFreeDays": 55,
+  "minIncome": 7000000,
+  "virtual": null,
+  "perks": [
+    "Tặng thêm 1 lượt phòng chờ hoặc dịch vụ đón tiễn sân bay cho mỗi 30 triệu đồng chi tiêu nước ngoài, không giới hạn số lượt",
+    "Trả góp; rút tiền mặt tại quầy không phí",
+    "Lên hạng thẻ theo hạn mức mà không cần đổi thẻ vật lý"
+  ],
+  "notes": [
+    "Một thẻ có 3 hạng, xác định theo hạn mức tín dụng chứ không do chủ thẻ chọn: Gold đến 50 triệu đồng, Platinum trên 50 đến 100 triệu đồng, Signature trên 100 triệu đồng. Số liệu ở đây là hạng Gold.",
+    "Chủ thẻ chính đăng ký Danh Mục Chi Tiêu trong 5 nhóm: Mua sắm, Du lịch, Giáo dục, Bảo hiểm, Chi tiêu nước ngoài. Gold chọn tối đa 1 danh mục cùng lúc, Platinum 2, Signature 3; mỗi kỳ sao kê đổi danh mục được 1 lần.",
+    "Nhóm Mua sắm (thời trang, cửa hàng bách hóa, trung tâm thương mại và các MCC bán lẻ khác) và Bảo hiểm (MCC 6300) không có mục riêng trong dữ liệu nhưng được hưởng cùng tỷ lệ khi chủ thẻ chọn.",
+    "Thưởng trả bằng Điểm thưởng, quy đổi trên MyVIB thành tiền ghi có vào thẻ, quà tặng, phí thường niên hoặc dặm KrisFlyer (50.000 điểm = 200 dặm). Điểm hết hạn sau 6 tháng nếu chưa quy đổi. Thể lệ ghi tỷ lệ quy đổi cho VIB One Card là 1 điểm = 1 VNĐ.",
+    "Phí thường niên thẻ chính: Gold 999.000 đồng, Platinum 1.999.000 đồng, Signature 2.999.000 đồng (đã gồm VAT). Phí phát hành phôi kim loại 1.500.000 đồng/thẻ.",
+    "Phí quản lý giao dịch ngoại tệ: Gold 3,5%, Platinum 3%, Signature 1% (miễn phí 3 kỳ sao kê đầu từ ngày phát hành lần đầu); tối thiểu 10.000 đồng. Trang sản phẩm quảng cáo \"0% phí ngoại tệ trong 3 kỳ sao kê đầu tiên\", nhưng biểu phí chỉ áp dụng ưu đãi này cho hạng Signature.",
+    "Lãi suất mua sắm từ 2,54% đến 3,71%/tháng tùy lịch sử tín dụng; rút tiền mặt qua POS tại quầy VIB từ 1,88% đến 2,96%/tháng.",
+    "Ngày đến hạn thanh toán: 15 ngày sau ngày sao kê với hạng Gold, 20 ngày với Platinum, 25 ngày với Signature; biểu phí ghi \"Miễn lãi lên đến 55 ngày\".",
+    "Hạng Signature được tặng 4 lượt phòng chờ mỗi chu kỳ phí thường niên.",
+    "Không tích điểm cho thuế, giao dịch không có MCC (QR, hóa đơn qua MyVIB), điện nước, viễn thông (MCC 4900, 4814), bảo hiểm mà chủ thẻ không phải bên mua, quảng cáo trực tuyến, bất động sản.",
+    "Thẻ phát hành điện tử dùng được trước khi nhận thẻ vật lý, trừ thanh toán quốc tế và rút ngoại tệ ở nước ngoài; hạn mức thẻ điện tử tối đa 50 triệu đồng/lần.",
+    "Thu nhập trung bình tối thiểu 7 triệu đồng/tháng trong 3 tháng gần nhất; chủ thẻ chính từ 20 đến 70 tuổi.",
+    "Ưu đãi mở thẻ: tặng mã Lazada 1.300.000 đồng khi mở mới và kích hoạt VIB One Card qua Lazada, khách hàng chưa từng có thẻ tín dụng VIB; từ 10/10/2026 đến 28/02/2027 hoặc đến khi hết ngân sách."
+  ],
+  "sourceUrls": [
+    "https://www.vib.com.vn/vn/the-tin-dung/vib-one-card",
+    "https://www.vib.com.vn/vn/the-tin-dung/vib-one-card/bieu-phi-va-dieu-kien",
+    "https://www.vib.com.vn/vn/the-tin-dung/diem-thuong-hoan-tien",
+    "https://www.vib.com.vn/vn/promotion/details/mo-the-vib-one-card-nhan-ngay-voucher-lazada"
+  ],
+  "lastVerified": "2026-11-25"
+}

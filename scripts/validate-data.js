@@ -1,9 +1,10 @@
 // Validates every card and bank file under src/lib/data and exits non-zero on any problem.
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { validateAll } from '../src/lib/data/schema.js';
 
-const root = new URL('../src/lib/data/', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../src/lib/data/', import.meta.url));
 
 /**
  * @param {string} dir

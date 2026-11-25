@@ -6,7 +6,8 @@
   <div class="mx-auto max-w-5xl space-y-3 px-4 py-8">
     <p><strong class="text-slate-800">Miễn trừ trách nhiệm:</strong> {DISCLAIMER}</p>
     <p>
-      Trang không liên kết với ngân hàng nào. Thấy thông tin sai hoặc đã cũ?
+      Trang không do ngân hàng nào vận hành và không đại diện cho ngân hàng nào. Thấy thông tin sai
+      hoặc đã cũ?
       <a
         class="text-teal-700 underline"
         href="https://github.com/tiennm99/chonthenao/issues/new"

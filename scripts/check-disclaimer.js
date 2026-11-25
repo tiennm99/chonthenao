@@ -1,9 +1,10 @@
 // Fails when any prerendered HTML page lacks the site disclaimer.
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { DISCLAIMER } from '../src/lib/site.js';
 
-const out = new URL('../build/', import.meta.url).pathname;
+const out = fileURLToPath(new URL('../build/', import.meta.url));
 // The first clause is enough to prove the notice is present.
 const marker = DISCLAIMER.split(',')[0];
 

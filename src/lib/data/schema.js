@@ -55,6 +55,10 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
  * @property {{ text: string, minSpendYear: number|null }|null} feeWaiver
  * @property {Reward[]} rewards
  * @property {SharedCap[]} sharedCaps
+ * @property {number|null} minSpendMonth Total spend per month or statement below which the card's
+ *   category rewards pay nothing.
+ * @property {number|null} maxCategories How many bonus categories the cardholder can use at once.
+ * @property {string|null} rewardsUntil YYYY-MM-DD the published reward terms end, when they do.
  * @property {number|null} pointValueVnd VND value of one point or mile, when the bank publishes it.
  * @property {number|null} fxFee Total percent charged on a foreign-currency purchase at a merchant
  *   abroad: the sum of every per-transaction percentage fee the schedule applies to it.
@@ -211,6 +215,20 @@ export function validateCard(card) {
         errors.push(`sharedCaps[${i}] needs two or more known categories and a capMonth`);
       }
     });
+  }
+  if (!isNonNegOrNull(c.minSpendMonth))
+    errors.push('minSpendMonth must be a non-negative number or null');
+  if (
+    c.maxCategories !== null &&
+    !(Number.isInteger(c.maxCategories) && Number(c.maxCategories) > 0)
+  ) {
+    errors.push('maxCategories must be a positive integer or null');
+  }
+  if (
+    c.rewardsUntil !== null &&
+    (typeof c.rewardsUntil !== 'string' || !DATE_RE.test(c.rewardsUntil))
+  ) {
+    errors.push('rewardsUntil must be a YYYY-MM-DD date or null');
   }
   if (c.feesFinal !== null && typeof c.feesFinal !== 'boolean') {
     errors.push('feesFinal must be true, false or null');

@@ -57,6 +57,9 @@
       "note": "Tính theo tháng dương lịch, không theo kỳ sao kê."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
   "pointValueVnd": null,
   "fxFee": 3.5,
   "interestRate": 38.9,

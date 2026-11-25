@@ -36,6 +36,9 @@
       "note": "Hạn mức chung cho du lịch, ẩm thực, tính theo tháng dương lịch; không gồm vé Vietjet."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
   "pointValueVnd": null,
   "fxFee": 1.5,
   "interestRate": null,

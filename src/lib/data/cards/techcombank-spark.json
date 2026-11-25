@@ -75,6 +75,9 @@
       "note": "Tối đa 500.000 điểm U-Point/tháng cho mỗi khách hàng và mỗi tài khoản thẻ (1 điểm = 1 VND)."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": 1,
+  "rewardsUntil": "2026-12-31",
   "pointValueVnd": 1,
   "fxFee": 2.59,
   "interestRate": 37.92,

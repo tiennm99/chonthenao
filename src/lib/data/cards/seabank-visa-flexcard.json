@@ -56,10 +56,13 @@
   "sharedCaps": [
     {
       "categories": ["grocery", "online", "dining", "education", "travel"],
-      "capMonth": 1000000,
-      "note": "Mức tối đa khi chi tiêu trên 50 triệu đồng/tháng; dưới 10 triệu đồng tối đa 300.000 đồng, từ 10 đến 50 triệu đồng tối đa 600.000 đồng."
+      "capMonth": 300000,
+      "note": "Mức tối đa khi tổng chi tiêu dưới 10 triệu đồng/tháng; từ 10 đến 50 triệu đồng tối đa 600.000 đồng, trên 50 triệu đồng tối đa 1.000.000 đồng."
     }
   ],
+  "minSpendMonth": 5000000,
+  "maxCategories": 3,
+  "rewardsUntil": null,
   "pointValueVnd": null,
   "fxFee": null,
   "interestRate": null,

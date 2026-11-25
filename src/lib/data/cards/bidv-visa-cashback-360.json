@@ -53,6 +53,9 @@
       "note": "500.000 điểm/tháng/thẻ cho khách hàng thông thường; 600.000 điểm với khách hàng Private, Elite."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
   "pointValueVnd": 1,
   "fxFee": 2.36,
   "interestRate": 20,

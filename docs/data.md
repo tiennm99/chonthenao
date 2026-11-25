@@ -21,6 +21,9 @@ fee schedule (`feeScheduleUrl`) when it has one, and `npm run validate-data` run
 - A monthly interest rate is stored per year (×12) with the published form in `notes`; a range
   stays `null` with the range in `notes`.
 - `virtual` is `true` when the bank issues a virtual card usable before or without a physical one.
+- `minSpendMonth`, `maxCategories` and `rewardsUntil` carry the conditions the questionnaire scores:
+  the monthly spend below which category rewards pay nothing, how many bonus categories work at
+  once, and when the published reward terms end. Fill them from the card's own sources.
 - Tiered rewards store the lowest tier; higher tiers and spend conditions go in the reward `note`.
   Welcome offers are not rewards; they go in `notes`.
 - Cashback rewards carry `rate`. Points and miles carry `earn` exactly as published

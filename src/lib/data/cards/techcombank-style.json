@@ -51,6 +51,9 @@
       "note": "Tối đa 250.000 điểm U-Point/tháng cho nhà hàng và tiêu dùng online (1 điểm = 1 VND)."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
   "pointValueVnd": 1,
   "fxFee": 2.59,
   "interestRate": 37.92,

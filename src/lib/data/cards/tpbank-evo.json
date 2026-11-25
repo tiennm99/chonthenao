@@ -22,6 +22,9 @@
     }
   ],
   "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
   "pointValueVnd": null,
   "fxFee": 3,
   "interestRate": null,

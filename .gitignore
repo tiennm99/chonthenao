@@ -26,3 +26,5 @@ npm-debug.log*
 *.tsbuildinfo
 .eslintcache
 
+test-results/
+playwright-report/

@@ -33,3 +33,5 @@ jobs:
       - run: npm run validate-data
       - run: npm run build
       - run: npm run check-disclaimer
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e

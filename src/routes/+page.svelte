@@ -50,8 +50,9 @@
   {:else}
     <p>
       Hiện có {cards.length} thẻ của {new Set(cards.map((c) => c.bank)).size} ngân hàng.
-      <a class="font-medium text-teal-700 underline" href={resolve('/the')}>Xem danh mục thẻ</a>. Bộ
-      câu hỏi gợi ý đang được xây dựng.
+      <a class="font-medium text-teal-700 underline" href={resolve('/goi-y')}>Tìm thẻ cho tôi</a>
+      hoặc
+      <a class="font-medium text-teal-700 underline" href={resolve('/the')}>xem danh mục thẻ</a>.
     </p>
   {/if}
 </section>

@@ -43,6 +43,9 @@
       "note": "Tối đa 350.000 VND/khách hàng/tháng (Combo 1)."
     }
   ],
+  "minSpendMonth": 5000000,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
   "pointValueVnd": null,
   "fxFee": 2.73,
   "interestRate": 22,

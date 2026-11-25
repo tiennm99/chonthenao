@@ -33,6 +33,10 @@ jobs:
       - run: npm run check
       - run: npm test
       - run: npm run validate-data
+      # Browser tests of the root build; the Pages build below adds the subpath.
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e
 
       - name: Build
         run: npm run build

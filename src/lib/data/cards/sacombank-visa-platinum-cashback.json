@@ -44,6 +44,9 @@
       "note": "Tính theo kỳ thông báo giao dịch."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
   "pointValueVnd": null,
   "fxFee": 3.6,
   "interestRate": null,

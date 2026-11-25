@@ -22,6 +22,9 @@
     }
   ],
   "sharedCaps": [],
+  "minSpendMonth": 4000000,
+  "maxCategories": null,
+  "rewardsUntil": null,
   "pointValueVnd": null,
   "fxFee": 2,
   "interestRate": 34.5,
@@ -35,7 +38,8 @@
   "notes": [
     "Không có hoàn tiền cho chi tiêu ngoài Shopee và TikTok Shop.",
     "Ưu đãi chào mừng: hoàn 500.000 đồng khi chi tiêu từ 5 triệu đồng và 5 giao dịch trong 60 ngày kể từ ngày kích hoạt, áp dụng cho thẻ tín dụng đầu tiên được cấp hạn mức tại MB.",
-    "Hoàn tiền xét theo thứ tự đến khi hết ngân sách chương trình."
+    "Hoàn tiền xét theo thứ tự đến khi hết ngân sách chương trình.",
+    "Chi tiêu tối thiểu mỗi kỳ được ghi gần đúng là 4 triệu đồng (2 triệu đồng tại Shopee hoặc TikTok Shop và 2 triệu đồng ở lĩnh vực khác)."
   ],
   "sourceUrls": [
     "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/the/the-tin-dung/the-tin-dung-mb-jcb-platinum-the-hoan-tien-shopee-tiktok-shop",

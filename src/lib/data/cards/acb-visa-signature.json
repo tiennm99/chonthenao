@@ -53,6 +53,9 @@
       "note": "Tối đa 500.000 điểm ACB Rewards mỗi tháng (01 điểm = 01 VND)."
     }
   ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
   "pointValueVnd": 1,
   "fxFee": 0.9,
   "interestRate": null,

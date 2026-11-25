@@ -142,6 +142,22 @@
           : ''}
       </p>
     {/each}
+    {#if card.minSpendMonth !== null}
+      <p class="mt-2 text-sm text-slate-700">
+        Chỉ được hoàn hoặc tích điểm khi chi tiêu từ {formatVnd(card.minSpendMonth)} mỗi tháng (kỳ sao
+        kê).
+      </p>
+    {/if}
+    {#if card.maxCategories !== null}
+      <p class="mt-2 text-sm text-slate-700">
+        Mỗi lúc chỉ dùng được {card.maxCategories} danh mục ưu đãi.
+      </p>
+    {/if}
+    {#if card.rewardsUntil !== null}
+      <p class="mt-2 text-sm text-slate-700">
+        Thể lệ ưu đãi công bố áp dụng đến {formatDate(card.rewardsUntil)}.
+      </p>
+    {/if}
     {#if card.pointValueVnd !== null}
       <p class="mt-2 text-sm text-slate-700">
         Ngân hàng quy đổi 1 điểm = {formatVnd(card.pointValueVnd)}.

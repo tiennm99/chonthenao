@@ -19,6 +19,7 @@
       <div class="flex gap-4 text-sm font-medium">
         <a class="hover:text-teal-700" href={resolve('/goi-y')}>Tìm thẻ cho tôi</a>
         <a class="hover:text-teal-700" href={resolve('/the')}>Danh mục thẻ</a>
+        <a class="hover:text-teal-700" href={resolve('/so-sanh')}>So sánh</a>
         <a class="hover:text-teal-700" href={resolve('/ngan-hang')}>Ngân hàng</a>
       </div>
     </nav>

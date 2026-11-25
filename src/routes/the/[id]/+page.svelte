@@ -1,6 +1,9 @@
 <script>
   import { resolve } from '$app/paths';
   import ExternalLink from '#lib/components/ExternalLink.svelte';
+  import ReferralLink from '#lib/components/ReferralLink.svelte';
+  import ReportLink from '#lib/components/ReportLink.svelte';
+  import StaleBadge from '#lib/components/StaleBadge.svelte';
   import {
     CATEGORY_LABELS,
     NETWORK_LABELS,
@@ -52,8 +55,16 @@
   {bank.shortName} · {NETWORK_LABELS[card.network]}{card.tier ? ` · ${card.tier}` : ''}
 </p>
 <p class="mt-2 text-sm text-slate-500">
+  <StaleBadge lastVerified={card.lastVerified} />
   Kiểm tra lần cuối: {formatDate(card.lastVerified)}. Hãy xác nhận lại với {bank.shortName} trước khi
   đăng ký.
+</p>
+
+<p class="mt-3 flex flex-wrap gap-4 text-sm">
+  <a class="text-teal-700 underline" href="{resolve('/so-sanh')}/?the={card.id}">
+    So sánh với thẻ khác
+  </a>
+  <ReportLink subject={card.name} />
 </p>
 
 <section class="mt-8">
@@ -183,6 +194,19 @@
     </ul>
   </section>
 {/if}
+
+<section class="mt-8">
+  <h2 class="text-xl font-semibold">Đăng ký</h2>
+  <p class="mt-3 text-sm">
+    Đăng ký trực tiếp với ngân hàng:
+    <ExternalLink href={bank.cardsUrl ?? bank.officialUrl}>
+      trang chính thức của {bank.shortName}
+    </ExternalLink>
+  </p>
+  {#if bank.referral}
+    <div class="mt-3"><ReferralLink referral={bank.referral} /></div>
+  {/if}
+</section>
 
 <section class="mt-8">
   <h2 class="text-xl font-semibold">Nguồn</h2>

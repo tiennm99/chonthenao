@@ -17,3 +17,25 @@ export const SUGGESTION_DISCLAIMER =
 export const REFERRAL_NOTE =
   'Link giới thiệu: trang có thể nhận quà giới thiệu khi bạn đăng ký qua link này. ' +
   'Link giới thiệu không ảnh hưởng đến thứ tự gợi ý; bạn luôn có thể dùng link chính thức.';
+
+/**
+ * A link that opens a new GitHub issue prefilled for reporting wrong or outdated data.
+ * @param {string} subject What the report is about, such as a card name.
+ * @param {string} pageUrl The page the reader was on.
+ * @returns {string}
+ */
+export function reportIssueUrl(subject, pageUrl) {
+  const title = `Báo sai: ${subject}`;
+  const body = [
+    `Trang: ${pageUrl}`,
+    '',
+    'Thông tin nào sai hoặc đã cũ?',
+    '',
+    'Thông tin đúng là gì?',
+    '',
+    'Link nguồn chính thức của ngân hàng (nếu có):',
+    '',
+  ].join('\n');
+  const q = new URLSearchParams({ title, body });
+  return `${ISSUES_NEW_URL}?${q}`;
+}

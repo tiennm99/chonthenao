@@ -12,6 +12,7 @@
     isConditional,
     rewardFor,
   } from '#lib/catalog.js';
+  import StaleBadge from '#lib/components/StaleBadge.svelte';
   import { bankById } from '#lib/data/index.js';
 
   /**
@@ -34,6 +35,7 @@
       <a class="text-teal-800 hover:underline" href={resolve('/the/[id]', { id: card.id })}>
         {card.name}
       </a>
+      <StaleBadge lastVerified={card.lastVerified} />
     </h3>
     <span class="text-sm text-slate-500">{bank?.shortName} · {NETWORK_LABELS[card.network]}</span>
   </div>

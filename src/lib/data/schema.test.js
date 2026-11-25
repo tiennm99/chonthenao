@@ -118,9 +118,16 @@ describe('validateBank', () => {
     expect(validateBank(withReferral)).toEqual([]);
   });
 
+  it('rejects a referral that publishes a code', () => {
+    const bad = { ...bank, referral: { url: 'https://ref.example.com/x', code: 'ABC', note: '' } };
+    expect(validateBank(bad)).toHaveLength(1);
+  });
+
   it('rejects a non-https referral link', () => {
     const bad = { ...bank, referral: { url: 'http://ref.example.com', code: null, note: '' } };
-    expect(validateBank(bad)).toContain('referral must be null or { url, code, note }');
+    expect(validateBank(bad)).toContain(
+      'referral must be null or { url, code: null, note }; never publish a code',
+    );
   });
 
   it('rejects a non-https cards page', () => {

@@ -2,6 +2,8 @@
   import { resolve } from '$app/paths';
   import CardSummary from '#lib/components/CardSummary.svelte';
   import ExternalLink from '#lib/components/ExternalLink.svelte';
+  import ReferralLink from '#lib/components/ReferralLink.svelte';
+  import ReportLink from '#lib/components/ReportLink.svelte';
   import { formatDate } from '#lib/catalog.js';
   import { SITE_NAME } from '#lib/site.js';
 
@@ -31,6 +33,10 @@
   {/if}
 </ul>
 
+{#if bank.referral}
+  <div class="mt-4 max-w-xl"><ReferralLink referral={bank.referral} /></div>
+{/if}
+
 <h2 class="mt-8 text-xl font-semibold">Thẻ trong dữ liệu ({data.cards.length})</h2>
 {#if data.cards.length === 0}
   <p class="mt-3 text-slate-700">
@@ -45,5 +51,7 @@
 {/if}
 
 <p class="mt-8 text-sm text-slate-500">
-  Thông tin ngân hàng kiểm tra lần cuối: {formatDate(bank.lastVerified)}.
+  Thông tin ngân hàng kiểm tra lần cuối: {formatDate(bank.lastVerified)}. <ReportLink
+    subject={bank.shortName}
+  />
 </p>

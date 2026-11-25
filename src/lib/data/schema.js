@@ -76,7 +76,7 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 /**
  * @typedef {object} Referral
  * @property {string} url
- * @property {string|null} code
+ * @property {null} code Always null: the site publishes referral links, never codes.
  * @property {string} note
  */
 
@@ -262,13 +262,8 @@ export function validateBank(bank) {
   }
   if (b.referral !== null) {
     const r = b.referral;
-    if (
-      !isObject(r) ||
-      !isHttpsUrl(r.url) ||
-      (r.code !== null && typeof r.code !== 'string') ||
-      typeof r.note !== 'string'
-    ) {
-      errors.push('referral must be null or { url, code, note }');
+    if (!isObject(r) || !isHttpsUrl(r.url) || r.code !== null || typeof r.note !== 'string') {
+      errors.push('referral must be null or { url, code: null, note }; never publish a code');
     }
   }
   checkProvenance(b, errors);

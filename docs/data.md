@@ -35,13 +35,17 @@ fee schedule (`feeScheduleUrl`) when it has one, and `npm run validate-data` run
   kể từ ngày sao kê", stay in `notes` with the field `null`.
 - `notes` holds what the fields cannot: conditions, exclusions, and conflicts between the bank's
   own pages. When two official pages disagree, store the fee schedule's figure and note the other.
-- Planned: a card not checked for 90 days will show a "có thể đã cũ" badge, computed in the
-  visitor's browser (`src/lib/staleness.js`).
+- A card not checked for 90 days shows a "có thể đã cũ" badge, computed in the visitor's browser
+  (`src/lib/staleness.js`), so it appears on time without a rebuild. Every card and bank page has a
+  "Báo thông tin sai hoặc đã cũ" link that opens a prefilled GitHub issue.
 
 ## Referral links
 
-A bank may carry an optional `referral` (`url`, `code`, `note`). Planned display: labelled as a
-referral link, shown beside the official link, and never allowed to change a ranking.
+A bank may carry an optional `referral` (`url`, `code`, `note`). The site shows the link only, on
+the bank's page and its cards' pages, labelled "Link giới thiệu", next to the official link and the
+note that the site may receive a reward. `code` stays `null` in the public data. Referrals never
+appear in the catalog, comparison or suggestions, and a test checks that the ranking code never
+reads bank records.
 
 ## How the site uses unknowns
 

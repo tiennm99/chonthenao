@@ -19,7 +19,7 @@
 
 ## Scoring
 
-- **The mile value is an assumption** (200 đ per mile), since no bank publishes one. The result
+- **The mile value is an assumption** (100 đ per mile, from one domestic route's award price and cash fares), since no bank publishes one. The result
   page says so and lets the reader change it.
 - **Spending is estimated from brackets**, not exact amounts.
 - **Fee waivers count from the second year**; first-year refund rules are not scored.

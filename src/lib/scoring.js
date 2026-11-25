@@ -10,10 +10,13 @@ import { CATEGORY_LABELS } from './catalog.js';
 /** @typedef {import('./data/schema.js').Reward} Reward */
 
 /**
- * VND value the site assumes for one airline mile, since no bank publishes one. It is an
- * assumption, shown as such on the result page, where the reader can change it.
+ * VND value the site assumes for one Lotusmiles mile, since no bank publishes one: a domestic
+ * economy award ticket (11.000 to 15.000 miles Hà Nội – TP.HCM on Vietnam Airlines' award chart)
+ * against the airline's published cash fare gives about 60 to 136 đ per mile, before the taxes and
+ * fees an award still costs. Shown as an assumption on the result page, where the reader can change
+ * it. Sources: docs/questionnaire.md.
  */
-export const ASSUMED_MILE_VND = 200;
+export const ASSUMED_MILE_VND = 100;
 
 /** VAT the site adds when a fee schedule prints fees before VAT. */
 export const VAT_RATE = 0.1;
@@ -154,7 +157,11 @@ export function scoreCard(card, p, { mileVnd = ASSUMED_MILE_VND, today = '' } = 
         ...(r.note ? { note: r.note } : {}),
       });
       if (r.type === 'miles' && card.pointValueVnd === null) {
-        flags.push(`Giá trị dặm là giả định của trang: ${fmt(mileVnd)}/dặm.`);
+        flags.push(
+          mileVnd === ASSUMED_MILE_VND
+            ? `Giá trị dặm là giả định của trang: ${fmt(mileVnd)}/dặm, ước tính từ vé thưởng phổ thông nội địa của Vietnam Airlines so với giá vé mua bằng tiền, chưa trừ thuế, phí bạn vẫn phải trả; bạn có thể đổi con số này.`
+            : `Giá trị dặm do bạn nhập: ${fmt(mileVnd)}/dặm.`,
+        );
       }
     }
     if (card.maxCategories !== null) {

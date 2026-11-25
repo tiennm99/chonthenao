@@ -25,7 +25,16 @@ Yearly value = rewards − annual fee − foreign fees.
   limits bonus categories (`maxCategories`) uses the reader's best ones.
 - Caps apply once per reward, then shared caps. Below `minSpendMonth` the card earns nothing.
 - Points use the bank's published value. Miles have none, so the site assumes
-  `ASSUMED_MILE_VND` (200 đ per mile), says so on the result, and lets the reader change it.
+  `ASSUMED_MILE_VND` (100 đ per mile), says so on the result, and lets the reader change it. The
+  figure comes from Vietnam Airlines' own data: a Hà Nội – TP.HCM economy award costs 11.000
+  miles one way in regular season and 15.000 in peak
+  ([award chart](https://www.vietnamairlines.com/content/dam/vna/vna-assets/global/documents/lotusmiles/redeem/VI_AwardTicket.pdf)),
+  against a one-way cash fare from 888.181 to 1.494.000 đ
+  ([route page](https://www.vietnamairlines.com/vi-vn/vé-máy-bay-từ-hà-nội-đến-tp-hồ-chí-minh)),
+  so about 60 to 136 đ per mile. Miles do not pay an award's taxes and fees
+  ([redemption rules](https://www.vietnamairlines.com/vn/vi/lotusmile/redeem-mile/ticket-awards/how-to-redeem-miles)),
+  which pushes the real value lower. The airline's selling price for miles (550 đ before VAT) is
+  what a mile costs to buy, not what it returns, so the site does not use it.
 - A fee printed before VAT gets 10% added. A fee waiver counts, as "từ năm 2", when the yearly
   spend reaches its threshold. An unknown fee, or foreign spend with an unknown foreign fee,
   leaves the value unknown and sorts it last.

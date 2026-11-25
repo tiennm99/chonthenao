@@ -6,7 +6,18 @@
 export const NETWORKS = ['visa', 'mastercard', 'jcb', 'amex', 'napas', 'unionpay'];
 export const REWARD_TYPES = ['cashback', 'points', 'miles'];
 /** Spending categories the quiz asks about; `all` is the base rate for any spend. */
-export const CATEGORIES = ['all', 'dining', 'grocery', 'online', 'fuel', 'travel', 'foreign'];
+export const CATEGORIES = [
+  'all',
+  'dining',
+  'grocery',
+  'online',
+  'fuel',
+  'travel',
+  'foreign',
+  'transport',
+  'education',
+  'health',
+];
 
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
@@ -15,8 +26,18 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
  * @typedef {object} Reward
  * @property {string} category
  * @property {string} type
- * @property {number} rate Percent of spend, or points or miles per 100 VND spent.
- * @property {number|null} capMonth Monthly cap in VND of reward, or null when none or unknown.
+ * @property {number|null} rate Cashback: percent of spend. Points and miles: null.
+ * @property {{ units: number, perVnd: number }|null} earn Points and miles as published, such as
+ *   1 mile per 30.000 VND: `{ units: 1, perVnd: 30000 }`. Cashback: null.
+ * @property {number|null} capMonth This reward's own monthly cap in VND, or null when none or unknown.
+ * @property {string} [note] Conditions the numbers cannot hold, such as a bonus tied to payroll.
+ */
+
+/**
+ * One monthly cap shared by several reward categories.
+ * @typedef {object} SharedCap
+ * @property {string[]} categories
+ * @property {number} capMonth VND of reward per month.
  * @property {string} [note]
  */
 
@@ -28,15 +49,19 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
  * @property {string} network
  * @property {string|null} tier
  * @property {number|null} issuanceFee VND.
- * @property {number|null} annualFee VND per year.
+ * @property {number|null} annualFee VND per year, primary card, for a customer with no special segment.
+ * @property {boolean|null} feesIncludeVat Whether the source says the fees include VAT.
  * @property {{ text: string, minSpendYear: number|null }|null} feeWaiver
  * @property {Reward[]} rewards
+ * @property {SharedCap[]} sharedCaps
+ * @property {number|null} pointValueVnd VND value of one point or mile, when the bank publishes it.
  * @property {number|null} fxFee Percent.
  * @property {number|null} interestRate Percent per year.
- * @property {number|null} interestFreeDays
+ * @property {number|null} interestFreeDays The published maximum ("tối đa N ngày"); otherwise null.
  * @property {number|null} minIncome VND per month.
  * @property {boolean|null} virtual
  * @property {string[]} perks
+ * @property {string[]} notes Caveats for the reader: source conflicts, terms the fields cannot hold.
  * @property {string[]} sourceUrls
  * @property {string} lastVerified YYYY-MM-DD.
  */
@@ -80,6 +105,35 @@ const isHttpsUrl = (v) => typeof v === 'string' && /^https:\/\/\S+$/.test(v);
 const isNonNegOrNull = (v) => v === null || (typeof v === 'number' && Number.isFinite(v) && v >= 0);
 
 /**
+ * @param {unknown} v
+ * @returns {boolean}
+ */
+const isPositive = (v) => typeof v === 'number' && Number.isFinite(v) && v > 0;
+
+/**
+ * @param {unknown} v
+ * @returns {boolean}
+ */
+const isStringArray = (v) => Array.isArray(v) && v.every((s) => typeof s === 'string');
+
+/**
+ * @param {unknown} r
+ * @returns {boolean}
+ */
+function isValidReward(r) {
+  if (!isObject(r)) return false;
+  if (typeof r.category !== 'string' || !CATEGORIES.includes(r.category)) return false;
+  if (!isNonNegOrNull(r.capMonth)) return false;
+  if (r.note !== undefined && typeof r.note !== 'string') return false;
+  if (r.type === 'cashback') return isNonNegOrNull(r.rate) && r.rate !== null && r.earn === null;
+  if (r.type === 'points' || r.type === 'miles') {
+    const e = r.earn;
+    return r.rate === null && isObject(e) && isPositive(e.units) && isPositive(e.perVnd);
+  }
+  return false;
+}
+
+/**
  * @param {Record<string, unknown>} r
  * @param {string[]} errors
  */
@@ -119,6 +173,7 @@ export function validateCard(card) {
     'interestRate',
     'interestFreeDays',
     'minIncome',
+    'pointValueVnd',
   ]) {
     if (!isNonNegOrNull(c[key])) errors.push(`${key} must be a non-negative number or null`);
   }
@@ -132,25 +187,36 @@ export function validateCard(card) {
     errors.push('rewards must be an array');
   } else {
     c.rewards.forEach((r, i) => {
-      if (
-        !isObject(r) ||
-        typeof r.category !== 'string' ||
-        !CATEGORIES.includes(r.category) ||
-        typeof r.type !== 'string' ||
-        !REWARD_TYPES.includes(r.type) ||
-        typeof r.rate !== 'number' ||
-        !(r.rate >= 0) ||
-        !isNonNegOrNull(r.capMonth)
-      ) {
-        errors.push(`rewards[${i}] needs a known category and type, a rate and capMonth`);
+      if (!isValidReward(r)) {
+        errors.push(
+          `rewards[${i}] needs a known category and type, a rate (cashback) or earn (points, miles), and capMonth`,
+        );
       }
     });
+  }
+  if (!Array.isArray(c.sharedCaps)) {
+    errors.push('sharedCaps must be an array');
+  } else {
+    c.sharedCaps.forEach((cap, i) => {
+      if (
+        !isObject(cap) ||
+        !Array.isArray(cap.categories) ||
+        cap.categories.length < 2 ||
+        !cap.categories.every((k) => CATEGORIES.includes(String(k))) ||
+        !isPositive(cap.capMonth)
+      ) {
+        errors.push(`sharedCaps[${i}] needs two or more known categories and a capMonth`);
+      }
+    });
+  }
+  if (c.feesIncludeVat !== null && typeof c.feesIncludeVat !== 'boolean') {
+    errors.push('feesIncludeVat must be true, false or null');
   }
   if (c.virtual !== null && typeof c.virtual !== 'boolean') {
     errors.push('virtual must be true, false or null');
   }
-  if (!Array.isArray(c.perks) || !c.perks.every((p) => typeof p === 'string')) {
-    errors.push('perks must be an array of strings');
+  for (const key of ['perks', 'notes']) {
+    if (!isStringArray(c[key])) errors.push(`${key} must be an array of strings`);
   }
   checkProvenance(c, errors);
   return errors;

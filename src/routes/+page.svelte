@@ -1,5 +1,5 @@
 <script>
-  import { cards, banks } from '#lib/data/index.js';
+  import { cards } from '#lib/data/index.js';
   import { SITE_NAME } from '#lib/site.js';
 </script>
 
@@ -47,6 +47,9 @@
       hàng. Danh mục và bộ câu hỏi sẽ mở khi có dữ liệu.
     </p>
   {:else}
-    <p>Hiện có {cards.length} thẻ của {banks.length} ngân hàng.</p>
+    <p>
+      Hiện có {cards.length} thẻ của {new Set(cards.map((c) => c.bank)).size} ngân hàng. Danh mục và bộ
+      câu hỏi đang được xây dựng.
+    </p>
   {/if}
 </section>

@@ -1,0 +1,59 @@
+{
+  "id": "hsbc-cash-back",
+  "bank": "hsbc",
+  "name": "HSBC Cash Back",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 880000,
+  "annualFee": 880000,
+  "feesIncludeVat": true,
+  "feeWaiver": {
+    "text": "Ưu đãi phí phát hành và phí thường niên cho khách hàng nhận lương qua tài khoản HSBC từ 10 triệu đồng/tháng.",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "grocery",
+      "type": "cashback",
+      "rate": 6,
+      "earn": null,
+      "capMonth": null,
+      "note": "Siêu thị, cửa hàng bách hóa (MCC 5411). Thêm 2% (tổng 8%) khi nhận lương qua HSBC từ 10 triệu đồng/tháng."
+    },
+    {
+      "category": "transport",
+      "type": "cashback",
+      "rate": 6,
+      "earn": null,
+      "capMonth": null,
+      "note": "Taxi, limousine (MCC 4121)."
+    },
+    { "category": "education", "type": "cashback", "rate": 1, "earn": null, "capMonth": null },
+    { "category": "health", "type": "cashback", "rate": 1, "earn": null, "capMonth": null },
+    { "category": "all", "type": "cashback", "rate": 0.3, "earn": null, "capMonth": null }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["grocery", "transport"],
+      "capMonth": 200000,
+      "note": "Tính theo tháng dương lịch, không theo kỳ sao kê."
+    }
+  ],
+  "pointValueVnd": null,
+  "fxFee": 3.5,
+  "interestRate": 38.9,
+  "interestFreeDays": 55,
+  "minIncome": 6000000,
+  "virtual": null,
+  "perks": ["Trả góp 0% lãi suất đến 24 tháng", "Ưu đãi Visa Concierge và đối tác HSBC"],
+  "notes": [
+    "Không hoàn tiền cho giao dịch ví điện tử (MoMo, VNPay...), rút tiền mặt, phí và trả góp.",
+    "Thu nhập tối thiểu 6 triệu đồng/tháng qua chuyển khoản lương; 40 triệu đồng với người nước ngoài hoặc người tự doanh."
+  ],
+  "sourceUrls": [
+    "https://www.hsbc.com.vn/credit-cards/products/cashback/",
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/vi/credit-cards/credit-card-cashback-terms-vn.pdf",
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/foreign-exchange/personal-banking-tariff.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

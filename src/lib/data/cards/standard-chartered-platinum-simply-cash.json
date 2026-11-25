@@ -1,0 +1,37 @@
+{
+  "id": "standard-chartered-platinum-simply-cash",
+  "bank": "standard-chartered",
+  "name": "Standard Chartered Platinum Simply Cash",
+  "network": "mastercard",
+  "tier": "Platinum",
+  "issuanceFee": null,
+  "annualFee": 1000000,
+  "feesIncludeVat": true,
+  "feeWaiver": null,
+  "rewards": [
+    { "category": "all", "type": "cashback", "rate": 0.5, "earn": null, "capMonth": null },
+    { "category": "foreign", "type": "cashback", "rate": 1, "earn": null, "capMonth": null }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 2.49,
+  "interestRate": 37,
+  "interestFreeDays": null,
+  "minIncome": 10000000,
+  "virtual": null,
+  "perks": ["Trả góp 0% lãi suất", "Ưu đãi tại hơn 3.500 đại lý ở Việt Nam và châu Á"],
+  "notes": [
+    "Phí thường niên năm đầu thu ngay khi phát hành thẻ; biểu phí không có dòng phí phát hành riêng.",
+    "Không giới hạn tiền hoàn. Không hoàn tiền cho xăng dầu, từ thiện, rút tiền mặt, phí và lãi.",
+    "Trang sản phẩm phân biệt giao dịch nước ngoài theo loại tiền, còn hướng dẫn hoàn tiền phân biệt theo nơi đặt ngân hàng thanh toán của điểm bán.",
+    "Miễn lãi 25 ngày kể từ ngày sao kê.",
+    "Thu nhập tối thiểu 45 triệu đồng/tháng với người nước ngoài."
+  ],
+  "sourceUrls": [
+    "https://www.sc.com/vn/credit-cards/platinum-simplycash-credit-card/",
+    "https://av.sc.com/vn/content/docs/vn-credit-card-fees-charges-vn.pdf",
+    "https://av.sc.com/vn/content/docs/vn-cashback-guide.pdf",
+    "https://av.sc.com/vn/content/docs/VN_SCB_Credit-Card-Terms.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

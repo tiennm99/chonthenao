@@ -1,0 +1,52 @@
+{
+  "id": "techcombank-vietnam-airlines-visa-platinum",
+  "bank": "techcombank",
+  "name": "Vietnam Airlines Techcombank Visa Platinum",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 990000,
+  "feesIncludeVat": true,
+  "feeWaiver": {
+    "text": "Hoàn phí năm đầu khi chi tiêu 3 triệu đồng trong 30 ngày từ khi kích hoạt; miễn phí năm sau khi chi tiêu 120 triệu đồng trong năm trước. Khách hàng ưu tiên được miễn phí thường niên.",
+    "minSpendYear": 120000000
+  },
+  "rewards": [
+    {
+      "category": "all",
+      "type": "miles",
+      "rate": null,
+      "earn": { "units": 1, "perVnd": 30000 },
+      "capMonth": null,
+      "note": "Dặm Bông Sen Vàng (Lotusmiles)."
+    },
+    {
+      "category": "foreign",
+      "type": "miles",
+      "rate": null,
+      "earn": { "units": 1, "perVnd": 25000 },
+      "capMonth": null
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 2.59,
+  "interestRate": 36.96,
+  "interestFreeDays": null,
+  "minIncome": null,
+  "virtual": null,
+  "perks": ["Nâng hạng Lotusmiles Titan khi đạt điều kiện chi tiêu"],
+  "notes": [
+    "Biểu phí ghi phí giao dịch ngoại tệ 2,59%, còn trang sản phẩm ghi 2,95%.",
+    "Tại điểm thu tiền điện, nước, gas, dặm chỉ tính tối đa cho 150 triệu đồng chi tiêu mỗi tháng.",
+    "Cần có số thẻ hội viên Bông Sen Vàng để được tích dặm.",
+    "Hạn mức tín dụng từ 90 triệu đồng."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-tin-dung/vietnam-airlines-techcombank-visa-platinum",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-the-tin-dung-ap-dung-tu-ngay-15112026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/en/images/personal-banking/uu-dai-tich-dam-bong-sen-vang-vna-39c590b091.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/vn-phu-luc-lai-suat-the-tin-dung-09-2026.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

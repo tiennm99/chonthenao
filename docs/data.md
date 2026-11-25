@@ -11,7 +11,19 @@ fee schedule (`feeScheduleUrl`) when it has one, and `npm run validate-data` run
   and set `lastVerified` to the day you checked it.
 - A figure you could not confirm stays `null`; the site shows it as unknown. Never fill one in
   from memory or a third-party blog.
-- Money is in VND, rates in percent (`2` means 2%).
+- Money is in VND, rates in percent (`2` means 2%), interest per year.
+- Fees are stored as the source prints them, and `feesIncludeVat` records whether it says they
+  include VAT (`null` when it does not say). `annualFee` is the primary card's fee for a customer
+  outside any priority or payroll segment; segment deals go in `feeWaiver`.
+- Cashback rewards carry `rate`. Points and miles carry `earn` exactly as published
+  (`{ "units": 1, "perVnd": 30000 }` for 1 mile per 30.000 VND) and `rate: null`; never convert
+  them to a percent. `pointValueVnd` stays `null` unless the bank publishes a value.
+- `category: "all"` is the base rate; a specific category overrides it. One cap shared by several
+  categories goes in `sharedCaps`, a cap on one category in that reward's `capMonth`.
+- `interestFreeDays` is the published maximum ("tối đa 55 ngày"). Other wordings, such as "25 ngày
+  kể từ ngày sao kê", stay in `notes` with the field `null`.
+- `notes` holds what the fields cannot: conditions, exclusions, and conflicts between the bank's
+  own pages. When two official pages disagree, store the fee schedule's figure and note the other.
 - Planned: a card not checked for 90 days will show a "có thể đã cũ" badge, computed in the
   visitor's browser (`src/lib/staleness.js`).
 

@@ -22,14 +22,21 @@ const card = {
   tier: null,
   issuanceFee: 0,
   annualFee: null,
+  feesIncludeVat: true,
   feeWaiver: { text: 'Chi tiêu đủ ngưỡng', minSpendYear: null },
-  rewards: [{ category: 'online', type: 'cashback', rate: 5, capMonth: null }],
+  rewards: [
+    { category: 'online', type: 'cashback', rate: 5, earn: null, capMonth: null },
+    { category: 'grocery', type: 'cashback', rate: 5, earn: null, capMonth: null },
+  ],
+  sharedCaps: [{ categories: ['online', 'grocery'], capMonth: 100000 }],
+  pointValueVnd: null,
   fxFee: null,
   interestRate: null,
   interestFreeDays: 45,
   minIncome: null,
   virtual: true,
   perks: [],
+  notes: [],
   sourceUrls: ['https://bank.example.com/card'],
   lastVerified: '2026-11-25',
 };
@@ -54,9 +61,42 @@ describe('validateCard', () => {
   it('rejects an unknown reward category', () => {
     const bad = {
       ...card,
-      rewards: [{ category: 'casino', type: 'cashback', rate: 1, capMonth: null }],
+      rewards: [{ category: 'casino', type: 'cashback', rate: 1, earn: null, capMonth: null }],
     };
     expect(validateCard(bad)).toHaveLength(1);
+  });
+
+  it('accepts miles earned as published units per VND', () => {
+    const miles = {
+      ...card,
+      rewards: [
+        {
+          category: 'all',
+          type: 'miles',
+          rate: null,
+          earn: { units: 1, perVnd: 30000 },
+          capMonth: null,
+        },
+      ],
+      sharedCaps: [],
+    };
+    expect(validateCard(miles)).toEqual([]);
+  });
+
+  it('rejects miles stored as a percent rate', () => {
+    const bad = {
+      ...card,
+      rewards: [{ category: 'all', type: 'miles', rate: 1, earn: null, capMonth: null }],
+      sharedCaps: [],
+    };
+    expect(validateCard(bad)).toHaveLength(1);
+  });
+
+  it('rejects a shared cap over a single category', () => {
+    const bad = { ...card, sharedCaps: [{ categories: ['online'], capMonth: 100000 }] };
+    expect(validateCard(bad)).toEqual([
+      'sharedCaps[0] needs two or more known categories and a capMonth',
+    ]);
   });
 
   it('rejects a negative fee', () => {

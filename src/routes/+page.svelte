@@ -21,38 +21,28 @@
 </section>
 
 <section class="mt-10 grid gap-4 sm:grid-cols-3">
-  <div class="rounded-xl border border-slate-200 p-5">
-    <h2 class="font-semibold">Danh mục thẻ</h2>
+  <a class="rounded-xl border border-slate-200 p-5 hover:border-teal-400" href={resolve('/goi-y')}>
+    <h2 class="font-semibold text-teal-800">Tìm thẻ cho tôi</h2>
     <p class="mt-2 text-sm text-slate-600">
-      Lọc theo phí thường niên, điều kiện miễn phí, tỷ lệ hoàn tiền, phí giao dịch nước ngoài.
+      Vài câu hỏi ngắn về chi tiêu, rồi nhận các thẻ và ngân hàng hợp với bạn, kèm cách tính.
     </p>
-  </div>
-  <div class="rounded-xl border border-slate-200 p-5">
-    <h2 class="font-semibold">Bộ câu hỏi gợi ý</h2>
+  </a>
+  <a class="rounded-xl border border-slate-200 p-5 hover:border-teal-400" href={resolve('/the')}>
+    <h2 class="font-semibold text-teal-800">Danh mục thẻ</h2>
     <p class="mt-2 text-sm text-slate-600">
-      Tối đa 20 câu về chi tiêu và ưu tiên của bạn, kết quả là các thẻ và ngân hàng phù hợp nhất.
+      Lọc và sắp xếp theo phí thường niên, tỷ lệ hoàn tiền, phí giao dịch nước ngoài, ngày miễn lãi.
     </p>
-  </div>
-  <div class="rounded-xl border border-slate-200 p-5">
-    <h2 class="font-semibold">Nguồn rõ ràng</h2>
-    <p class="mt-2 text-sm text-slate-600">
-      Mỗi con số đều kèm link nguồn của ngân hàng và ngày kiểm tra gần nhất.
-    </p>
-  </div>
+  </a>
+  <a
+    class="rounded-xl border border-slate-200 p-5 hover:border-teal-400"
+    href={resolve('/so-sanh')}
+  >
+    <h2 class="font-semibold text-teal-800">So sánh thẻ</h2>
+    <p class="mt-2 text-sm text-slate-600">Đặt 2 đến 3 thẻ cạnh nhau để xem khác biệt.</p>
+  </a>
 </section>
 
-<section class="mt-10 rounded-xl bg-slate-50 p-5 text-sm text-slate-700">
-  {#if cards.length === 0}
-    <p>
-      Trang đang được xây dựng: dữ liệu thẻ đang được tổng hợp từ biểu phí chính thức của các ngân
-      hàng. Danh mục và bộ câu hỏi sẽ mở khi có dữ liệu.
-    </p>
-  {:else}
-    <p>
-      Hiện có {cards.length} thẻ của {new Set(cards.map((c) => c.bank)).size} ngân hàng.
-      <a class="font-medium text-teal-700 underline" href={resolve('/goi-y')}>Tìm thẻ cho tôi</a>
-      hoặc
-      <a class="font-medium text-teal-700 underline" href={resolve('/the')}>xem danh mục thẻ</a>.
-    </p>
-  {/if}
-</section>
+<p class="mt-10 rounded-xl bg-slate-50 p-5 text-sm text-slate-700">
+  Hiện có {cards.length} thẻ của {new Set(cards.map((c) => c.bank)).size} ngân hàng. Mỗi con số đều kèm
+  link nguồn của ngân hàng và ngày kiểm tra gần nhất.
+</p>

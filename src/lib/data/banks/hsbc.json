@@ -1,0 +1,14 @@
+{
+  "id": "hsbc",
+  "name": "Ngân hàng TNHH một thành viên HSBC Việt Nam",
+  "shortName": "HSBC",
+  "officialUrl": "https://www.hsbc.com.vn/",
+  "cardsUrl": "https://www.hsbc.com.vn/credit-cards/",
+  "feeScheduleUrl": null,
+  "referral": null,
+  "sourceUrls": [
+    "https://sbv.gov.vn/vi/ng%C3%A2n-h%C3%A0ng-100-v%E1%BB%91n-n%C6%B0%E1%BB%9Bc-ngo%C3%A0i",
+    "https://www.hsbc.com.vn/"
+  ],
+  "lastVerified": "2026-11-25"
+}

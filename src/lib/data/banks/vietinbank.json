@@ -1,0 +1,14 @@
+{
+  "id": "vietinbank",
+  "name": "Ngân hàng TMCP Công thương Việt Nam",
+  "shortName": "VietinBank",
+  "officialUrl": "https://www.vietinbank.vn/",
+  "cardsUrl": "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/danh-sach-the",
+  "feeScheduleUrl": "https://www.vietinbank.vn/ca-nhan/cong-cu-tien-ich/bieu-phi-va-bieu-mau/bieu-phi-dich-vu-ap-dung-cho-san-pham-the-tin-dung-quoc-te-40-html",
+  "referral": null,
+  "sourceUrls": [
+    "https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n",
+    "https://www.vietinbank.vn/"
+  ],
+  "lastVerified": "2026-11-25"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pvcombank",
+  "name": "Ngân hàng TMCP Đại Chúng Việt Nam",
+  "shortName": "PVcomBank",
+  "officialUrl": "https://www.pvcombank.com.vn/",
+  "cardsUrl": null,
+  "feeScheduleUrl": null,
+  "referral": null,
+  "sourceUrls": [
+    "https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n",
+    "https://www.pvcombank.com.vn/"
+  ],
+  "lastVerified": "2026-11-25"
+}

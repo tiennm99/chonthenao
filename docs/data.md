@@ -2,7 +2,8 @@
 
 Each card is one JSON file in `src/lib/data/cards/<id>.json`, each bank one file in
 `src/lib/data/banks/<id>.json`; the file name must equal the record's `id`. The shapes and their
-checks live in `src/lib/data/schema.js`, and `npm run validate-data` runs them over every file.
+checks live in `src/lib/data/schema.js`. A bank also links its credit card page (`cardsUrl`) and
+fee schedule (`feeScheduleUrl`) when it has one, and `npm run validate-data` runs them over every file.
 
 ## Rules
 

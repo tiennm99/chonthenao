@@ -54,6 +54,8 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
  * @property {string} name
  * @property {string} shortName
  * @property {string} officialUrl
+ * @property {string|null} cardsUrl The bank's credit card listing page.
+ * @property {string|null} feeScheduleUrl The bank's fee schedule (biểu phí) landing page.
  * @property {Referral|null} referral
  * @property {string[]} sourceUrls
  * @property {string} lastVerified
@@ -168,6 +170,9 @@ export function validateBank(bank) {
     if (typeof b[key] !== 'string' || b[key].trim() === '') errors.push(`${key} is required`);
   }
   if (!isHttpsUrl(b.officialUrl)) errors.push('officialUrl must be an https URL');
+  for (const key of ['cardsUrl', 'feeScheduleUrl']) {
+    if (b[key] !== null && !isHttpsUrl(b[key])) errors.push(`${key} must be an https URL or null`);
+  }
   if (b.referral !== null) {
     const r = b.referral;
     if (

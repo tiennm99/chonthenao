@@ -1,0 +1,11 @@
+{
+  "id": "bidv",
+  "name": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam",
+  "shortName": "BIDV",
+  "officialUrl": "https://bidv.com.vn/",
+  "cardsUrl": "https://bidv.com.vn/vn/ca-nhan/san-pham-dich-vu/dich-vu-the/the-tin-dung-quoc-te",
+  "feeScheduleUrl": "https://bidv.com.vn/vn/ca-nhan/cong-cu-tien-ich/bieu-phi",
+  "referral": null,
+  "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://bidv.com.vn/"],
+  "lastVerified": "2026-11-25"
+}

@@ -20,7 +20,7 @@ npm run dev
 
 Before pushing: `npm run lint && npm run format:check && npm run check && npm test && npm run validate-data`.
 
-More: [docs/data.md](docs/data.md) explains the card and bank data files.
+More: [docs/data.md](docs/data.md) explains the data files, [docs/data-sources.md](docs/data-sources.md) where the data comes from.
 
 ## License
 

@@ -7,6 +7,8 @@ const bank = {
   name: 'Ngân hàng Thử nghiệm',
   shortName: 'TestBank',
   officialUrl: 'https://bank.example.com',
+  cardsUrl: null,
+  feeScheduleUrl: 'https://bank.example.com/fees',
   referral: null,
   sourceUrls: ['https://bank.example.com/about'],
   lastVerified: '2026-11-25',
@@ -76,6 +78,12 @@ describe('validateBank', () => {
   it('rejects a non-https referral link', () => {
     const bad = { ...bank, referral: { url: 'http://ref.example.com', code: null, note: '' } };
     expect(validateBank(bad)).toContain('referral must be null or { url, code, note }');
+  });
+
+  it('rejects a non-https cards page', () => {
+    expect(validateBank({ ...bank, cardsUrl: 'http://bank.example.com/cards' })).toContain(
+      'cardsUrl must be an https URL or null',
+    );
   });
 });
 

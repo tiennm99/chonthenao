@@ -1,0 +1,11 @@
+{
+  "id": "vib",
+  "name": "Ngân hàng TMCP Quốc Tế Việt Nam",
+  "shortName": "VIB",
+  "officialUrl": "https://www.vib.com.vn/",
+  "cardsUrl": "https://www.vib.com.vn/vn/the-tin-dung",
+  "feeScheduleUrl": "https://www.vib.com.vn/vn/cong-cu-bieu-phi/bieu-phi",
+  "referral": null,
+  "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://www.vib.com.vn/"],
+  "lastVerified": "2026-11-25"
+}

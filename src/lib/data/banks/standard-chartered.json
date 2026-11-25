@@ -1,0 +1,14 @@
+{
+  "id": "standard-chartered",
+  "name": "Ngân hàng TNHH một thành viên Standard Chartered Việt Nam",
+  "shortName": "Standard Chartered",
+  "officialUrl": "https://www.sc.com/vn/",
+  "cardsUrl": "https://www.sc.com/vn/credit-cards/",
+  "feeScheduleUrl": null,
+  "referral": null,
+  "sourceUrls": [
+    "https://sbv.gov.vn/vi/ng%C3%A2n-h%C3%A0ng-100-v%E1%BB%91n-n%C6%B0%E1%BB%9Bc-ngo%C3%A0i",
+    "https://www.sc.com/vn/"
+  ],
+  "lastVerified": "2026-11-25"
+}

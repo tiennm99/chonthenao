@@ -1,0 +1,14 @@
+{
+  "id": "sacombank",
+  "name": "Ngân hàng TMCP Sài Gòn Tài Lộc",
+  "shortName": "Sacombank",
+  "officialUrl": "https://www.sacombank.com.vn/",
+  "cardsUrl": "https://www.sacombank.com.vn/ca-nhan/the/the-tin-dung.html",
+  "feeScheduleUrl": "https://www.sacombank.com.vn/cong-cu/bieu-phi.html",
+  "referral": null,
+  "sourceUrls": [
+    "https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n",
+    "https://www.sacombank.com.vn/"
+  ],
+  "lastVerified": "2026-11-25"
+}

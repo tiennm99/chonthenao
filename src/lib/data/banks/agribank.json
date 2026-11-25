@@ -1,0 +1,14 @@
+{
+  "id": "agribank",
+  "name": "Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam",
+  "shortName": "Agribank",
+  "officialUrl": "https://www.agribank.com.vn/",
+  "cardsUrl": "https://www.agribank.com.vn/vn/ca-nhan/san-pham/the/the-tin-dung-quoc-te",
+  "feeScheduleUrl": "https://www.agribank.com.vn/vn/bieu-phi",
+  "referral": null,
+  "sourceUrls": [
+    "https://sbv.gov.vn/vi/w/danh-s%C3%A1ch-c%C3%A1c-ng%C3%A2n-h%C3%A0ng-th%C6%B0%C6%A1ng-m%E1%BA%A1i-nh%C3%A0-n%C6%B0%E1%BB%9Bc-%C4%91%E1%BA%BFn-30/9/2026-2-1",
+    "https://www.agribank.com.vn/"
+  ],
+  "lastVerified": "2026-11-25"
+}

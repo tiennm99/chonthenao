@@ -1,13 +1,15 @@
 {
   "id": "techcombank",
-  "name": "Ngân hàng TMCP Kỹ thương Việt Nam",
+  "name": "Ngân hàng TMCP Kỹ Thương Việt Nam",
   "shortName": "Techcombank",
   "officialUrl": "https://techcombank.com/",
+  "cardsUrl": "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-tin-dung",
+  "feeScheduleUrl": null,
   "referral": {
     "url": "https://tcbmobile.onelink.me/TBS9/uk1je7b2",
     "code": null,
     "note": "Đăng ký Techcombank Mobile qua link này để nhận quà từ Techcombank."
   },
-  "sourceUrls": ["https://techcombank.com/"],
+  "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://techcombank.com/"],
   "lastVerified": "2026-11-25"
 }

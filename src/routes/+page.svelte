@@ -1,4 +1,5 @@
 <script>
+  import { resolve } from '$app/paths';
   import { cards } from '#lib/data/index.js';
   import { SITE_NAME } from '#lib/site.js';
 </script>
@@ -48,8 +49,9 @@
     </p>
   {:else}
     <p>
-      Hiện có {cards.length} thẻ của {new Set(cards.map((c) => c.bank)).size} ngân hàng. Danh mục và bộ
-      câu hỏi đang được xây dựng.
+      Hiện có {cards.length} thẻ của {new Set(cards.map((c) => c.bank)).size} ngân hàng.
+      <a class="font-medium text-teal-700 underline" href={resolve('/the')}>Xem danh mục thẻ</a>. Bộ
+      câu hỏi gợi ý đang được xây dựng.
     </p>
   {/if}
 </section>

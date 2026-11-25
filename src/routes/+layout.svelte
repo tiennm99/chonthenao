@@ -16,6 +16,10 @@
   <header class="border-b border-slate-200">
     <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
       <a href={resolve('/')} class="text-lg font-bold text-teal-800">{SITE_NAME}</a>
+      <div class="flex gap-4 text-sm font-medium">
+        <a class="hover:text-teal-700" href={resolve('/the')}>Danh mục thẻ</a>
+        <a class="hover:text-teal-700" href={resolve('/ngan-hang')}>Ngân hàng</a>
+      </div>
     </nav>
   </header>
   <main class="mx-auto w-full max-w-5xl flex-1 px-4 py-10">

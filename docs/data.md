@@ -39,3 +39,11 @@ fee schedule (`feeScheduleUrl`) when it has one, and `npm run validate-data` run
 
 A bank may carry an optional `referral` (`url`, `code`, `note`). Planned display: labelled as a
 referral link, shown beside the official link, and never allowed to change a ranking.
+
+## How the site uses unknowns
+
+The catalog (`src/lib/catalog.js`) never treats `null` as 0. A card with an unknown fee never
+matches a fee filter, and unknown values sort last in either direction. Points and miles show as
+published; they get a "tương đương" percent only when `pointValueVnd` is set, and sort after
+rewards with a known value otherwise. A card with no reward in a category counts as earning 0
+there.

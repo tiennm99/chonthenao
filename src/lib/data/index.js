@@ -13,3 +13,16 @@ const bankModules = import.meta.glob('./banks/*.json', { eager: true, import: 'd
 export const cards = /** @type {Card[]} */ (Object.values(cardModules));
 /** @type {Bank[]} */
 export const banks = /** @type {Bank[]} */ (Object.values(bankModules));
+
+/** Banks by id. */
+export const bankById = new Map(banks.map((b) => [b.id, b]));
+
+/** Cards by id. */
+export const cardById = new Map(cards.map((c) => [c.id, c]));
+
+/**
+ * @param {string} bankId
+ * @returns {Card[]} The bank's cards, by name.
+ */
+export const cardsOfBank = (bankId) =>
+  cards.filter((c) => c.bank === bankId).sort((a, b) => a.name.localeCompare(b.name, 'vi'));

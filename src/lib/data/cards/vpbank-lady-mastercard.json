@@ -1,0 +1,74 @@
+{
+  "id": "vpbank-lady-mastercard",
+  "bank": "vpbank",
+  "name": "VPBank Lady Mastercard",
+  "network": "mastercard",
+  "tier": "Titanium",
+  "issuanceFee": 0,
+  "annualFee": 599000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí năm đầu khi thẻ chính vật lý có từ 3 giao dịch chi tiêu trong 30 ngày đầu sau khi mở thẻ (mỗi giao dịch từ 300.000 VNĐ); miễn phí năm tiếp theo khi tổng chi tiêu thẻ chính, thẻ phụ và thẻ ảo năm liền trước đạt từ 120 triệu đồng. Miễn phí năm 2 khi tham gia gói Hội viên Thịnh Vượng.",
+    "minSpendYear": 120000000
+  },
+  "rewards": [
+    {
+      "category": "education",
+      "type": "cashback",
+      "rate": 7.5,
+      "earn": null,
+      "capMonth": 100000,
+      "note": "Mức khi tổng chi tiêu dưới 15 triệu đồng/kỳ sao kê; từ 15 triệu đồng/kỳ: 15%, tối đa 200.000 VND. Hạn mức tính theo kỳ sao kê."
+    },
+    {
+      "category": "health",
+      "type": "cashback",
+      "rate": 7.5,
+      "earn": null,
+      "capMonth": 150000,
+      "note": "Nhóm chăm sóc sắc đẹp, y tế, thời trang, giải trí dùng chung một hạn mức. Mức khi tổng chi tiêu dưới 15 triệu đồng/kỳ sao kê; từ 15 triệu đồng/kỳ: 15%, tối đa 300.000 VND. Hạn mức tính theo kỳ sao kê."
+    },
+    {
+      "category": "grocery",
+      "type": "cashback",
+      "rate": 2.5,
+      "earn": null,
+      "capMonth": 150000,
+      "note": "Mức khi tổng chi tiêu dưới 15 triệu đồng/kỳ sao kê; từ 15 triệu đồng/kỳ: 5%, tối đa 300.000 VND. Hạn mức tính theo kỳ sao kê."
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.1,
+      "earn": null,
+      "capMonth": null
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 3.5,
+  "interestRate": 47.88,
+  "interestFreeDays": 45,
+  "minIncome": 7000000,
+  "virtual": null,
+  "perks": [
+    "Miễn phí thường niên thẻ phụ",
+    "Trả góp tại hơn 150 đối tác (Nguyễn Kim, Điện máy Chợ Lớn, Samsung…)",
+    "Giảm giá đến 30% tại hơn 5.000 cửa hàng, đối tác ăn uống, du lịch, mua sắm"
+  ],
+  "notes": [
+    "Hoàn tiền bảo hiểm (giao dịch online MCC 6300, 5960): 7,5%, tối đa 150.000 VND/kỳ sao kê khi tổng chi tiêu dưới 15 triệu đồng/kỳ; 15%, tối đa 300.000 VND/kỳ khi từ 15 triệu đồng/kỳ.",
+    "Thể lệ hoàn tiền đang đăng trên trang sản phẩm ghi thời gian triển khai từ 21/11/2025 đến hết 20/11/2026; chưa thấy thể lệ gia hạn, trang sản phẩm vẫn hiển thị cơ chế hoàn tiền này.",
+    "Tiền hoàn vào Tài khoản hoàn tiền; cần tối thiểu 500.000 VNĐ để chuyển về thẻ tín dụng.",
+    "Biểu phí cập nhật áp dụng từ 19/10/2026 ghi điều kiện miễn phí năm đầu là 3 giao dịch với tổng chi tiêu từ 3.000.000 VNĐ trong 30 ngày, còn biểu phí đầy đủ và trang sản phẩm ghi mỗi giao dịch từ 300.000 VNĐ.",
+    "Lãi suất công bố 3,99%/tháng.",
+    "Quà chào mừng cho chủ thẻ mới: hoàn 400.000 VNĐ khi tổng chi tiêu từ 2 triệu VNĐ trong 30 ngày đầu."
+  ],
+  "sourceUrls": [
+    "https://www.vpbank.com.vn/ca-nhan/the-tin-dung/vpbank-lady-mastercard",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/credit-cards/Website-The-le-uu-dai-VPBank-Lady-Mastercard--1-.pdf",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/bieu-phi/khcn/2026/Final-ver-MB01.BGA-PH.TH-BIEU-PHI-THE-TIN-DUNG-TAI-VPBANK.pdf",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/Cap-nhat-bieu-phi-the-tin-dung-tai-VPBANK---Khoi-KHCN-20261019-tt.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

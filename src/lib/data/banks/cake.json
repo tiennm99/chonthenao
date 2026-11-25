@@ -3,8 +3,8 @@
   "name": "Ngân hàng số Cake by VPBank",
   "shortName": "Cake",
   "officialUrl": "https://cake.vn/",
-  "cardsUrl": null,
-  "feeScheduleUrl": null,
+  "cardsUrl": "https://cake.vn/the-tin-dung-2in1",
+  "feeScheduleUrl": "https://cake.vn/cong-cu-tien-ich/tai-lieu-bieu-mau-bieu-phi",
   "referral": null,
   "sourceUrls": ["https://cake.vn/"],
   "lastVerified": "2026-11-25"

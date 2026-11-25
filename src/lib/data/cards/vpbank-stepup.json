@@ -1,0 +1,65 @@
+{
+  "id": "vpbank-stepup",
+  "bank": "vpbank",
+  "name": "VPBank StepUp Mastercard",
+  "network": "mastercard",
+  "tier": "Titanium",
+  "issuanceFee": 0,
+  "annualFee": 599000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí năm đầu khi thẻ chính vật lý có từ 3 giao dịch chi tiêu trong 30 ngày đầu sau khi mở thẻ (mỗi giao dịch từ 300.000 VNĐ); miễn phí năm tiếp theo khi tổng chi tiêu thẻ chính, thẻ phụ và thẻ ảo năm liền trước đạt từ 120 triệu đồng. Miễn phí năm 2 khi tham gia gói Hội viên Thịnh Vượng.",
+    "minSpendYear": 120000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 6,
+      "earn": null,
+      "capMonth": 300000,
+      "note": "Mức khi tổng chi tiêu dưới 10 triệu đồng/kỳ sao kê. Từ 10 đến dưới 100 triệu đồng/kỳ: 15%, tối đa 700.000 VNĐ; từ 100 triệu đồng/kỳ: 15%, tối đa 1.500.000 VNĐ. Không tính giao dịch tại Shopee (kể cả ShopeeFood) và bảo hiểm. Hạn mức tính theo kỳ sao kê."
+    },
+    {
+      "category": "dining",
+      "type": "cashback",
+      "rate": 2,
+      "earn": null,
+      "capMonth": 100000,
+      "note": "Mức khi tổng chi tiêu dưới 10 triệu đồng/kỳ sao kê; từ 10 triệu đồng/kỳ: 4%, tối đa 200.000 VNĐ. MCC 5811, 5812, 5813, 5814, 5921. Hạn mức tính theo kỳ sao kê."
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.1,
+      "earn": null,
+      "capMonth": null
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 3.5,
+  "interestRate": 47.88,
+  "interestFreeDays": 45,
+  "minIncome": 7000000,
+  "virtual": null,
+  "perks": [
+    "Trả góp tại hơn 150 đối tác (Nguyễn Kim, Điện máy Chợ Lớn, Samsung…)",
+    "Giảm giá đến 30% tại hơn 5.000 cửa hàng, đối tác ăn uống, du lịch, mua sắm"
+  ],
+  "notes": [
+    "Thể lệ hoàn tiền đang đăng trên trang sản phẩm ghi thời gian triển khai từ 21/11/2025 đến 20/11/2026; chưa thấy thể lệ gia hạn, trang sản phẩm vẫn hiển thị cơ chế hoàn tiền này.",
+    "Không hoàn tiền cho xăng dầu, hóa đơn điện, nước, gas, viễn thông, ví điện tử, giao dịch trên VPBank NEO, trả góp, rút tiền mặt, phí và lãi.",
+    "Tiền hoàn vào Tài khoản hoàn tiền; cần tối thiểu 500.000 VNĐ để chuyển về thẻ tín dụng.",
+    "Biểu phí cập nhật áp dụng từ 19/10/2026 ghi điều kiện miễn phí năm đầu là 3 giao dịch với tổng chi tiêu từ 3.000.000 VNĐ trong 30 ngày, còn biểu phí đầy đủ và trang sản phẩm ghi mỗi giao dịch từ 300.000 VNĐ.",
+    "Lãi suất công bố 3,99%/tháng.",
+    "Quà chào mừng cho chủ thẻ mới: hoàn 400.000 VNĐ khi có ít nhất 3 giao dịch với tổng từ 2 triệu VNĐ trong 30 ngày đầu."
+  ],
+  "sourceUrls": [
+    "https://www.vpbank.com.vn/ca-nhan/the-tin-dung/vpbank-stepup",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/credit-cards/Website--The---le---tinh---nang---the-Step-Up--2025-final.pdf",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/bieu-phi/khcn/2026/Final-ver-MB01.BGA-PH.TH-BIEU-PHI-THE-TIN-DUNG-TAI-VPBANK.pdf",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/Cap-nhat-bieu-phi-the-tin-dung-tai-VPBANK---Khoi-KHCN-20261019-tt.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

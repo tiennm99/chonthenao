@@ -12,9 +12,17 @@ fee schedule (`feeScheduleUrl`) when it has one, and `npm run validate-data` run
 - A figure you could not confirm stays `null`; the site shows it as unknown. Never fill one in
   from memory or a third-party blog.
 - Money is in VND, rates in percent (`2` means 2%), interest per year.
-- Fees are stored as the source prints them, and `feesIncludeVat` records whether it says they
-  include VAT (`null` when it does not say). `annualFee` is the primary card's fee for a customer
-  outside any priority or payroll segment; segment deals go in `feeWaiver`.
+- Fees are stored as the source prints them. `feesFinal` is `true` when that is what the cardholder
+  pays (VAT included, or the fee is not subject to VAT), `false` when VAT is added on top, and
+  `null` when the source does not say. `annualFee` is the primary card's fee for a customer outside
+  any priority or payroll segment; segment deals go in `feeWaiver`.
+- `fxFee` is the total percent on a foreign-currency purchase at a merchant abroad: add up every
+  per-transaction percentage fee the schedule charges on it, and list the parts in `notes`.
+- A monthly interest rate is stored per year (×12) with the published form in `notes`; a range
+  stays `null` with the range in `notes`.
+- `virtual` is `true` when the bank issues a virtual card usable before or without a physical one.
+- Tiered rewards store the lowest tier; higher tiers and spend conditions go in the reward `note`.
+  Welcome offers are not rewards; they go in `notes`.
 - Cashback rewards carry `rate`. Points and miles carry `earn` exactly as published
   (`{ "units": 1, "perVnd": 30000 }` for 1 mile per 30.000 VND) and `rate: null`; never convert
   them to a percent. `pointValueVnd` stays `null` unless the bank publishes a value.

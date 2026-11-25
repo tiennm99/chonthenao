@@ -1,0 +1,70 @@
+{
+  "id": "vietinbank-visa-platinum-cashback",
+  "bank": "vietinbank",
+  "name": "VietinBank Visa Platinum Cashback",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 899000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu khi chi tiêu từ 2 triệu đồng trong 1 tháng kể từ ngày kích hoạt; miễn phí các năm tiếp theo khi chi tiêu từ 80 triệu đồng năm liền trước.",
+    "minSpendYear": 80000000
+  },
+  "rewards": [
+    {
+      "category": "grocery",
+      "type": "cashback",
+      "rate": 6,
+      "earn": null,
+      "capMonth": 300000,
+      "note": "Siêu thị (MCC 5411)."
+    },
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 3,
+      "earn": null,
+      "capMonth": 300000,
+      "note": "Giao dịch thanh toán trực tuyến."
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.1,
+      "earn": null,
+      "capMonth": null
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["grocery", "online", "all"],
+      "capMonth": 350000,
+      "note": "Tối đa 350.000 VND/khách hàng/tháng (Combo 1)."
+    }
+  ],
+  "pointValueVnd": null,
+  "fxFee": 2.73,
+  "interestRate": 22,
+  "interestFreeDays": null,
+  "minIncome": null,
+  "virtual": null,
+  "perks": [
+    "Trả góp 0% lãi suất cho giao dịch từ 300.000 VND",
+    "Ứng tiền mặt tại quầy VietinBank phí 2%"
+  ],
+  "notes": [
+    "Tỷ lệ hoàn tiền thuộc chương trình khuyến mại từ 01/09/2026 đến 31/12/2026 hoặc khi hết ngân sách.",
+    "Chỉ được hoàn tiền khi tổng chi tiêu trong tháng từ 5.000.000 VND.",
+    "Combo 2: hoàn 5% cho chi tiêu bảo hiểm (MCC 6300), tối đa 350.000 VND/tháng; mỗi tháng chỉ nhận theo combo có giá trị hoàn cao hơn.",
+    "Không hoàn tiền cho giao dịch trên VietinBank iPay, rút tiền mặt, ví điện tử, điện nước gas, xăng dầu, vàng bạc, chuyển tiền, chứng khoán.",
+    "Biểu phí gọi thẻ này là \"Thẻ Visa Cashback\" và ghi các mức phí chưa gồm VAT; phí phát hành và phí thường niên thuộc đối tượng không chịu VAT.",
+    "Ngoài phí chuyển đổi tiền tệ 1,82%, giao dịch ngoại tệ chịu thêm phí xử lý 0,91%."
+  ],
+  "sourceUrls": [
+    "https://www.vietinbank.vn/vi/ca-nhan/san-pham-dich-vu/danh-sach-the/vietinbank-visa-platinum-cashback-20-html",
+    "https://vietinbank.vn/assets/7c88e8cc-825d-4838-9f43-5b336958253b",
+    "https://www.vietinbank.vn/ca-nhan/cong-cu-tien-ich/bieu-phi-va-bieu-mau/bieu-phi-dich-vu-ap-dung-cho-san-pham-the-tin-dung-quoc-te-40-html"
+  ],
+  "lastVerified": "2026-11-25"
+}

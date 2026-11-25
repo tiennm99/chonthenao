@@ -1,0 +1,101 @@
+{
+  "id": "techcombank-spark",
+  "bank": "techcombank",
+  "name": "Techcombank Spark",
+  "network": "mastercard",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 699000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Hoàn phí năm đầu khi chi tiêu từ 1,5 triệu đồng trong 30 ngày từ khi kích hoạt; miễn phí năm sau khi chi tiêu 120 triệu đồng trong năm trước. Hội viên Priority/Private hoặc Inspire Max được miễn phí thường niên.",
+    "minSpendYear": 120000000
+  },
+  "rewards": [
+    {
+      "category": "travel",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 80,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Điểm U-Point. Chỉ áp dụng khi chọn lĩnh vực Du lịch: mỗi lúc chỉ một lĩnh vực ưu đãi, đổi tối đa 1 lần/ngày trên Techcombank Mobile."
+    },
+    {
+      "category": "grocery",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 20,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chỉ khi chọn lĩnh vực Siêu thị, và chỉ tại các chuỗi trong danh sách của Techcombank (Winmart, AEON Mart, CoopMart, Bách Hóa Xanh, Lotte Mart...)."
+    },
+    {
+      "category": "dining",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 20,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chỉ khi chọn lĩnh vực Nhà hàng."
+    },
+    {
+      "category": "online",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 20,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chỉ khi chọn lĩnh vực Chi tiêu trực tuyến; loại trừ nạp ví điện tử, hóa đơn điện nước, viễn thông và các MCC trong danh sách loại trừ."
+    },
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chi tiêu ngoài lĩnh vực đã chọn."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["travel", "grocery", "dining", "online", "all"],
+      "capMonth": 500000,
+      "note": "Tối đa 500.000 điểm U-Point/tháng cho mỗi khách hàng và mỗi tài khoản thẻ (1 điểm = 1 VND)."
+    }
+  ],
+  "pointValueVnd": 1,
+  "fxFee": 2.59,
+  "interestRate": 37.92,
+  "interestFreeDays": null,
+  "minIncome": null,
+  "virtual": null,
+  "perks": ["Đổi lĩnh vực tích điểm mỗi ngày trên Techcombank Mobile"],
+  "notes": [
+    "Mức tích điểm trên là của khách hàng không đăng ký LƯƠNG+. Đăng ký LƯƠNG+ và chuyển về Techcombank từ 20 triệu đồng/tháng: 10% (Du lịch, Thời trang), 4% (Siêu thị, Nhà hàng, Trực tuyến), tối đa 700.000 điểm/tháng; từ 40 triệu đồng: 12% và 6%, tối đa 1.000.000 điểm/tháng.",
+    "Ngân hàng công bố mức tích điểm dưới dạng \"số điểm tương đương 8% giá trị giao dịch\"; trang sản phẩm ghi 80 điểm/1.000 VND.",
+    "Lĩnh vực Thời trang (quần áo, giày, mỹ phẩm, trang sức, spa) cũng được 80 điểm/1.000 VND khi được chọn.",
+    "Mục \"Tính năng thẻ\" trên trang sản phẩm ghi 80 điểm/1.000 VND cho du lịch, thời trang, giải trí và không nhắc siêu thị; bảng quyền lợi và thể lệ ghi 5 lĩnh vực Du lịch, Thời trang, Siêu thị, Nhà hàng, Trực tuyến. Dữ liệu theo thể lệ.",
+    "Thể lệ áp dụng mức tích điểm mới cho thẻ Spark từ 21/11/2026 đến hết 31/12/2026.",
+    "Hạn mức tín dụng từ 50 triệu đồng."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-tin-dung/techcombank-spark",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-the-tin-dung-ap-dung-tu-ngay-15112026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/vn-phu-luc-lai-suat-the-tin-dung-09-2026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/promo_file/the-le-chuong-trinh-khach-hang-than-thiet-tai-techcombank-12092026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/spark-danh-sach-mcc-cap-nhat-2111.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

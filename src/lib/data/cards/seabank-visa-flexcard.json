@@ -1,0 +1,85 @@
+{
+  "id": "seabank-visa-flexcard",
+  "bank": "seabank",
+  "name": "SeABank Visa FlexCard",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 660000,
+  "feesFinal": null,
+  "feeWaiver": {
+    "text": "Hoàn phí năm đầu khi có ít nhất 2 giao dịch, tổng từ 1 triệu đồng trong 30 ngày kể từ khi kích hoạt; hoàn phí từ năm thứ 2 khi tổng chi tiêu năm trước đạt tối thiểu 70 triệu đồng.",
+    "minSpendYear": 70000000
+  },
+  "rewards": [
+    {
+      "category": "grocery",
+      "type": "cashback",
+      "rate": 15,
+      "earn": null,
+      "capMonth": null,
+      "note": "Cửa hàng tiện lợi, siêu thị (MCC 5499, 5411)."
+    },
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": null,
+      "note": "Mua sắm trực tuyến; riêng TikTok Shop hoàn 10%."
+    },
+    {
+      "category": "dining",
+      "type": "cashback",
+      "rate": 8,
+      "earn": null,
+      "capMonth": null,
+      "note": "Ăn uống (MCC 5814)."
+    },
+    {
+      "category": "education",
+      "type": "cashback",
+      "rate": 5,
+      "earn": null,
+      "capMonth": null,
+      "note": "Giáo dục (MCC 8211, 8220)."
+    },
+    {
+      "category": "travel",
+      "type": "cashback",
+      "rate": 2,
+      "earn": null,
+      "capMonth": null,
+      "note": "Du lịch nội địa 2%, du lịch nước ngoài 3% (MCC 4722, 4511, 7011, 3000-3294)."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["grocery", "online", "dining", "education", "travel"],
+      "capMonth": 1000000,
+      "note": "Mức tối đa khi chi tiêu trên 50 triệu đồng/tháng; dưới 10 triệu đồng tối đa 300.000 đồng, từ 10 đến 50 triệu đồng tối đa 600.000 đồng."
+    }
+  ],
+  "pointValueVnd": null,
+  "fxFee": null,
+  "interestRate": null,
+  "interestFreeDays": 45,
+  "minIncome": null,
+  "virtual": true,
+  "perks": ["Nhận thẻ ảo dùng ngay sau khi đăng ký; in thẻ vật lý miễn phí phát hành"],
+  "notes": [
+    "Chỉ được chọn tối đa 3 trong 6 danh mục hoàn tiền mỗi kỳ sao kê; mặc định là Mua sắm trực tuyến.",
+    "Chỉ hoàn tiền khi tổng chi tiêu trong tháng đạt tối thiểu 5 triệu đồng.",
+    "Danh mục thứ 6 là Bảo hiểm (MCC 6300): hoàn 3% với đối tác bảo hiểm liên kết SeABank, 2% bảo hiểm khác.",
+    "Tiền hoàn tích dưới dạng điểm Cashback (1 điểm = 1 đồng), hoàn theo bội số 50.000 điểm. Không hoàn cho xăng dầu, giao thông công cộng, điện nước, thanh toán hóa đơn.",
+    "Biểu phí thẻ tín dụng SeABank (hiệu lực 01/05/2026) không có cột riêng cho FlexCard; phí thường niên lấy từ trang sản phẩm.",
+    "Bảng lãi suất thẻ tín dụng cá nhân ghi 30% - 34%, giảm dần theo dư nợ (không ghi kỳ tính lãi)."
+  ],
+  "sourceUrls": [
+    "https://www.seabank.com.vn/ca-nhan/the/the-tin-dung-quoc-te/the-tin-dung-seabank-visa-flexcard",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/%C6%AFU%20%C4%90%C3%83I%20HO%C3%80N%20TI%E1%BB%80N%20TH%E1%BA%BA%20T%C3%8DN%20D%E1%BB%A4NG%20VISA%20FLEXCARD_final_up.pdf",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/sites/default/files/2025-02/L%C3%83I%20SU%E1%BA%A4T%20TH%E1%BA%BA%20T%C3%8DN%20D%E1%BB%A4NG%20KH%C3%81CH%20H%C3%80NG%20C%C3%81%20NH%C3%82N%20.pdf",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20th%E1%BA%BB%20t%C3%ADn%20dung%20SeABan1.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

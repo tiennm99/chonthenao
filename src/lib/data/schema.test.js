@@ -22,7 +22,7 @@ const card = {
   tier: null,
   issuanceFee: 0,
   annualFee: null,
-  feesIncludeVat: true,
+  feesFinal: true,
   feeWaiver: { text: 'Chi tiêu đủ ngưỡng', minSpendYear: null },
   rewards: [
     { category: 'online', type: 'cashback', rate: 5, earn: null, capMonth: null },

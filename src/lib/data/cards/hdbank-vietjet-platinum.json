@@ -1,0 +1,64 @@
+{
+  "id": "hdbank-vietjet-platinum",
+  "bank": "hdbank",
+  "name": "HDBank Vietjet Platinum",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 990000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu cho thẻ chính và thẻ phụ; miễn phí từ năm thứ 2 khi đạt doanh số giao dịch (trang sản phẩm không nêu mức doanh số).",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "dining",
+      "type": "cashback",
+      "rate": 10,
+      "earn": null,
+      "capMonth": null,
+      "note": "Nhà hàng, quán ăn, quán bar (MCC 5811, 5812, 5813, 5921)."
+    },
+    {
+      "category": "travel",
+      "type": "cashback",
+      "rate": 10,
+      "earn": null,
+      "capMonth": null,
+      "note": "Đại lý du lịch, lữ hành (MCC 4722). Riêng vé máy bay Vietjet mua trên website hoặc ứng dụng Vietjet được hoàn 10% theo hạn mức riêng, tối đa 500.000 đồng/tháng."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["dining", "travel"],
+      "capMonth": 300000,
+      "note": "Hạn mức chung cho du lịch, ẩm thực, tính theo tháng dương lịch; không gồm vé Vietjet."
+    }
+  ],
+  "pointValueVnd": null,
+  "fxFee": 1.5,
+  "interestRate": null,
+  "interestFreeDays": 55,
+  "minIncome": null,
+  "virtual": null,
+  "perks": [
+    "Ưu tiên check-in tại quầy Vietjet ở sân bay",
+    "Bảo hiểm du lịch toàn cầu đến 12 tỷ đồng",
+    "Trả góp lãi suất 0% tại đối tác liên kết của HDBank"
+  ],
+  "notes": [
+    "Biểu phí ghi lãi suất 0,83% - 3,25%/tháng, còn trang sản phẩm ghi 0,83% - 2,67%/tháng.",
+    "Biểu phí ghi đã gồm thuế GTGT, trừ các phí liên quan phát hành thẻ tín dụng thuộc đối tượng không chịu thuế GTGT; không rõ phí thường niên thuộc nhóm nào.",
+    "Không hoàn tiền cho giao dịch qua ví điện tử, QR, trả góp, rút tiền mặt. Hoàn vé Vietjet chỉ cho giao dịch có chủ thẻ trong hành trình, không áp dụng tại đại lý.",
+    "Hạn mức tín dụng từ 20 triệu đồng."
+  ],
+  "sourceUrls": [
+    "https://hdbank.com.vn/vi/personal/product/detail/the/the-tin-dung/hdbank-vietjet-platinum",
+    "https://cdn.hdbank.com.vn/hdbank-file/product/editor/fbyjnAMRTeKkKKfYpStb20260512111730/THELECTHOANTIENVEMBVIETJET10_1778559487924.pdf",
+    "https://cdn.hdbank.com.vn/hdbank-file/product/editor/G39vueN0rHCNr5teKK4420250908090734/THELECTHOANTIENDULICHAMTHUC1_1757297296321.pdf",
+    "https://cdn.hdbank.com.vn/hdbank-file/product/editor/F2FKjHyfbF33t2R7KPD020260915135508/BieuphiThetindungcanhan1_1789455526019.pdf",
+    "https://cdn.hdbank.com.vn/hdbank-file/banner/VietjetPlatinum_1756866957619.jpg"
+  ],
+  "lastVerified": "2026-11-25"
+}

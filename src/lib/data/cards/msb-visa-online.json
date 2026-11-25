@@ -1,0 +1,48 @@
+{
+  "id": "msb-visa-online",
+  "bank": "msb",
+  "name": "MSB Visa Online",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": null,
+  "annualFee": 399000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Hoàn phí năm đầu khi chi tiêu từ 500.000 đồng trong 30 ngày đầu kích hoạt; hoàn phí năm tiếp theo khi tổng chi tiêu năm trước đạt tối thiểu 60 triệu đồng.",
+    "minSpendYear": 60000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 10,
+      "earn": null,
+      "capMonth": 300000,
+      "note": "Chỉ tại Shopee, Lazada, TikTok và vé xem phim CGV, BHD, Galaxy, Lotte, Beta, Cinestar. Cần tổng chi tiêu từ 3 triệu đồng/kỳ sao kê; hạn mức hoàn tính theo kỳ sao kê."
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "interestRate": 42,
+  "interestFreeDays": null,
+  "minIncome": 5000000,
+  "virtual": null,
+  "perks": [
+    "Trả góp đến 12 tháng, 0% lãi suất tại đối tác như Samsung, Nguyễn Kim, FPT Shop, CellphoneS",
+    "Ưu đãi JOY đến 50% tại hơn 300 cửa hàng"
+  ],
+  "notes": [
+    "Tiền hoàn được tích dưới dạng điểm Loyalty (1 điểm = 1 đồng), đổi vào hạn mức thẻ khi đạt tối thiểu 300.000 điểm; điểm hết hạn sau 12 tháng.",
+    "Biểu phí ghi lãi suất 3,5%/tháng.",
+    "Biểu phí chỉ ghi phí phát hành cho thẻ chính thứ 2 trở lên và thẻ phụ (300.000 đồng thẻ vật lý, 200.000 đồng thẻ phi vật lý).",
+    "Biểu phí ghi chưa gồm thuế VAT, nhưng phí thường niên thuộc nhóm phí không áp dụng VAT.",
+    "Thu nhập là lương chuyển khoản; cần có hộ khẩu hoặc tạm trú tại tỉnh, thành có trụ sở MSB."
+  ],
+  "sourceUrls": [
+    "https://www.msb.com.vn/khach-hang-ca-nhan/the/the-msb-visa-online/",
+    "https://www.msb.com.vn/msb-website/2026/06/Visa-online-26.5.2026.pdf",
+    "https://www.msb.com.vn/msb-website/MSB_Bie%CC%82%CC%89u-phi%CC%81-the%CC%89-2026-1-scaled.png"
+  ],
+  "lastVerified": "2026-11-25"
+}

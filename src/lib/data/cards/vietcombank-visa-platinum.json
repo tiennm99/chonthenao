@@ -1,0 +1,47 @@
+{
+  "id": "vietcombank-visa-platinum",
+  "bank": "vietcombank",
+  "name": "Vietcombank Visa Platinum",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 800000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.5,
+      "earn": null,
+      "capMonth": 1500000,
+      "note": "Tối đa 1.500.000 VND mỗi kỳ sao kê."
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 2.27,
+  "interestRate": 19.5,
+  "interestFreeDays": 45,
+  "minIncome": null,
+  "virtual": null,
+  "perks": [
+    "Tặng 1 triệu VND nhân dịp sinh nhật",
+    "Bảo hiểm chuyến đi đến 11,65 tỷ VND cho chủ thẻ và người thân",
+    "Trả góp 0% lãi suất"
+  ],
+  "notes": [
+    "Biểu phí ghi các mức phí chưa gồm VAT; phí phát hành và phí thường niên thuộc đối tượng không chịu VAT.",
+    "Tỷ lệ hoàn tiền theo điều khoản áp dụng từ 21/07/2026; kỳ xét hoàn tiền từ ngày 21 tháng này đến ngày 20 tháng sau.",
+    "Không hoàn tiền cho giao dịch POS tại khu vực kinh tế châu Âu (EEA), rút tiền mặt, phí và lãi, nạp hoặc rút ví điện tử, chứng khoán, ngoại hối, đánh bạc.",
+    "Miễn phí thường niên năm đầu cho 01 thẻ phụ; thẻ phụ 500.000 VND/năm.",
+    "Phí xử lý giao dịch nội tệ tại nước ngoài (giao dịch bằng VND) 1%.",
+    "Hạn mức tín dụng từ 70 triệu VND."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The/Credit_VCB-Visa-Platinum",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/20260820_DKDK-chuong-trinh-hoan-tien-the-tren-VCB-Loyalty_VN.pdf?ts=20260818075434",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/Bieu-mau-Bieu-phi-KHCN/Bieu-phi-TDQT-22012026/20260122_VN_Bieu-phi-the-TDQT.pdf?ts=20260122013900"
+  ],
+  "lastVerified": "2026-11-25"
+}

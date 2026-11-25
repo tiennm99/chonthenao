@@ -50,16 +50,19 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
  * @property {string|null} tier
  * @property {number|null} issuanceFee VND.
  * @property {number|null} annualFee VND per year, primary card, for a customer with no special segment.
- * @property {boolean|null} feesIncludeVat Whether the source says the fees include VAT.
+ * @property {boolean|null} feesFinal True when the printed fees are what the cardholder pays (VAT
+ *   included, or the fee is not subject to VAT); false when VAT is added on top.
  * @property {{ text: string, minSpendYear: number|null }|null} feeWaiver
  * @property {Reward[]} rewards
  * @property {SharedCap[]} sharedCaps
  * @property {number|null} pointValueVnd VND value of one point or mile, when the bank publishes it.
- * @property {number|null} fxFee Percent.
+ * @property {number|null} fxFee Total percent charged on a foreign-currency purchase at a merchant
+ *   abroad: the sum of every per-transaction percentage fee the schedule applies to it.
  * @property {number|null} interestRate Percent per year.
  * @property {number|null} interestFreeDays The published maximum ("tối đa N ngày"); otherwise null.
  * @property {number|null} minIncome VND per month.
- * @property {boolean|null} virtual
+ * @property {boolean|null} virtual True when the bank issues a virtual card usable before or without
+ *   a physical one.
  * @property {string[]} perks
  * @property {string[]} notes Caveats for the reader: source conflicts, terms the fields cannot hold.
  * @property {string[]} sourceUrls
@@ -209,8 +212,8 @@ export function validateCard(card) {
       }
     });
   }
-  if (c.feesIncludeVat !== null && typeof c.feesIncludeVat !== 'boolean') {
-    errors.push('feesIncludeVat must be true, false or null');
+  if (c.feesFinal !== null && typeof c.feesFinal !== 'boolean') {
+    errors.push('feesFinal must be true, false or null');
   }
   if (c.virtual !== null && typeof c.virtual !== 'boolean') {
     errors.push('virtual must be true, false or null');

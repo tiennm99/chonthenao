@@ -1,0 +1,46 @@
+{
+  "id": "tpbank-evo",
+  "bank": "tpbank",
+  "name": "TPBank EVO Visa",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 495000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Miễn phí quản lý hạn mức năm đầu khi có ít nhất 3 giao dịch chi tiêu trong 90 ngày kể từ ngày mở thẻ; hoàn phí năm tiếp theo khi tổng chi tiêu năm liền trước từ 100 triệu đồng.",
+    "minSpendYear": 100000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": 300000,
+      "note": "Mức khi tổng chi tiêu dưới 10 triệu đồng/kỳ sao kê. Từ 10 đến dưới 30 triệu đồng/kỳ: 5%; từ 30 triệu đồng/kỳ: 10%. Hoàn tối đa 300.000 VND/kỳ với hạng Silver, 500.000 VND/kỳ với hạng Gold. Không tính giao dịch qua ví điện tử, cổng thanh toán (MoMo, ZaloPay, VNPay...) trừ FPT Shop, Thế giới di động, Tiki, Baemin, Con Cưng."
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "interestRate": null,
+  "interestFreeDays": null,
+  "minIncome": null,
+  "virtual": null,
+  "perks": ["Mở thẻ 100% online", "Trả góp 0% áp dụng cho tất cả các giao dịch"],
+  "notes": [
+    "Biểu phí ghi phí thường niên 0 VND nhưng thu phí quản lý hạn mức 495.000 VND cho thẻ chính; thể lệ ưu đãi của TPBank cho thấy phí này thu theo năm, nên lưu là phí năm.",
+    "Lãi suất công bố 0,99% - 3,99%/tháng.",
+    "Không có hoàn tiền cho chi tiêu tại cửa hàng (không trực tuyến).",
+    "Chương trình tặng tiền theo sở thích (chọn 1 trong 4 gói danh mục) đã kết thúc ngày 20/10/2026 và không áp dụng cùng lúc với hoàn tiền chi tiêu trực tuyến."
+  ],
+  "sourceUrls": [
+    "https://tpb.vn/khach-hang-ca-nhan/the-tin-dung/tpbank-visa-evo",
+    "https://tpb.vn/wps/wcm/connect/01d9edaf-2b89-43cf-90c6-f04de788e40f/BIEU-PHI-THE-TIN-DUNG-QUOC-TE-TPBANK_20261022.pdf?MOD=AJPERES",
+    "https://tpb.vn/wps/wcm/connect/8e910384-70ff-4861-9269-0a0cc53890ee/Web+The+_le_hoan_tien_the_TPBank_EVO.PDF?MOD=AJPERES",
+    "https://tpb.vn/wps/wcm/connect/1b00d25a-c1c7-46cb-8fe8-bba88c11a758/%5BWeb%5D+The+_le_Phi_Quan_ly_han_muc_EVO.pdf?MOD=AJPERES",
+    "https://tpb.vn/wps/wcm/connect/95329eef-7ea2-46f4-90f3-20b3e19ffb4f/The+le+hoan+tien+theo+so+thich_EVO.pdf?MOD=AJPERES"
+  ],
+  "lastVerified": "2026-11-25"
+}

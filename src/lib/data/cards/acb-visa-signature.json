@@ -1,0 +1,78 @@
+{
+  "id": "acb-visa-signature",
+  "bank": "acb",
+  "name": "ACB Visa Signature",
+  "network": "visa",
+  "tier": "Signature",
+  "issuanceFee": 0,
+  "annualFee": 1900000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Hoàn phí năm đầu khi chi tiêu 8 triệu đồng trong 30 ngày đầu tiên; hoàn phí năm tiếp theo khi chi tiêu 12 tháng từ 150 triệu đồng.",
+    "minSpendYear": 150000000
+  },
+  "rewards": [
+    {
+      "category": "dining",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 50,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Điểm ACB Rewards, nhà hàng, địa điểm ăn uống."
+    },
+    {
+      "category": "travel",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 50,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Mua vé máy bay, đặt phòng khách sạn, đại lý du lịch."
+    },
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 10,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Chi tiêu khác, không giới hạn điểm tích."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["dining", "travel"],
+      "capMonth": 500000,
+      "note": "Tối đa 500.000 điểm ACB Rewards mỗi tháng (01 điểm = 01 VND)."
+    }
+  ],
+  "pointValueVnd": 1,
+  "fxFee": 0.9,
+  "interestRate": null,
+  "interestFreeDays": 55,
+  "minIncome": null,
+  "virtual": null,
+  "perks": [
+    "Phòng chờ sân bay: 1 lượt khi kích hoạt tính năng Phòng chờ Thương Gia, sau đó 1 lượt mỗi quý khi chi tiêu quý liền trước từ 30 triệu đồng",
+    "Trả góp lãi suất 0%"
+  ],
+  "notes": [
+    "Thể lệ ACB đang dẫn trên trang sản phẩm là bản áp dụng 01/04/2025 - 31/03/2026 (10 điểm/1.000 VND hoặc hoàn tiền 0,5% cho mọi chi tiêu) và đã hết hạn; mức tích điểm ở đây theo trang sản phẩm hiện tại.",
+    "Biểu phí miễn phí chênh lệch tỷ giá cho thẻ này; phí xử lý giao dịch ngoại tệ 0,9% (tối thiểu 10.000 VND). Giao dịch bằng VND tại đơn vị nước ngoài chịu phí 1,2%.",
+    "Biểu phí ghi lãi suất trong hạn là một khoảng 2,5% - 3,25%/tháng, không có mức cố định.",
+    "Khách hàng ưu tiên dùng thẻ ACB Privilege Visa Signature (cùng mức phí, miễn phí thường niên cho khách hàng ưu tiên)."
+  ],
+  "sourceUrls": [
+    "https://acb.com.vn/the/the-acb-visa-signature",
+    "https://acb.com.vn/acbwebsite/files/Bieu_phi_the_tin_dung%2030%2009.pdf",
+    "https://acb.com.vn/acbwebsite/files/Th%E1%BB%83%20l%E1%BB%87%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20%C6%B0u%20%C4%91%C3%A3i%20th%E1%BA%BB%20t%C3%ADn%20d%E1%BB%A5ng%20ACB%20Visa%20Signature.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

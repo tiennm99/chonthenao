@@ -6,7 +6,7 @@
   "tier": null,
   "issuanceFee": 880000,
   "annualFee": 880000,
-  "feesIncludeVat": true,
+  "feesFinal": true,
   "feeWaiver": {
     "text": "Ưu đãi phí phát hành và phí thường niên cho khách hàng nhận lương qua tài khoản HSBC từ 10 triệu đồng/tháng.",
     "minSpendYear": null
@@ -28,9 +28,27 @@
       "capMonth": null,
       "note": "Taxi, limousine (MCC 4121)."
     },
-    { "category": "education", "type": "cashback", "rate": 1, "earn": null, "capMonth": null },
-    { "category": "health", "type": "cashback", "rate": 1, "earn": null, "capMonth": null },
-    { "category": "all", "type": "cashback", "rate": 0.3, "earn": null, "capMonth": null }
+    {
+      "category": "education",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": null
+    },
+    {
+      "category": "health",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": null
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.3,
+      "earn": null,
+      "capMonth": null
+    }
   ],
   "sharedCaps": [
     {

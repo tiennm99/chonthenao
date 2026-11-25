@@ -1,0 +1,61 @@
+{
+  "id": "cake-2in1-standard",
+  "bank": "cake",
+  "name": "Thẻ Cake 2in1 - Gói Standard",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 150000,
+  "annualFee": 599000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Hoàn phí thường niên khi tổng chi tiêu hợp lệ trong năm đạt từ 150 triệu đồng (không tính MCC 4900, 4111, 5541).",
+    "minSpendYear": 150000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 20,
+      "earn": null,
+      "capMonth": 200000,
+      "note": "Chỉ sàn thương mại điện tử MCC 5262. Chỉ hoàn khi tổng chi tiêu hợp lệ trong kỳ sao kê từ 5 triệu đồng; tối đa 50.000 đồng/giao dịch từ 200.000 đồng, 10.000 đồng/giao dịch dưới 200.000 đồng. Hạn mức tính theo kỳ sao kê."
+    },
+    {
+      "category": "travel",
+      "type": "cashback",
+      "rate": 20,
+      "earn": null,
+      "capMonth": 200000,
+      "note": "Chỉ đại lý du lịch, vận hành tour MCC 4722. Chỉ hoàn khi tổng chi tiêu hợp lệ trong kỳ sao kê từ 5 triệu đồng; tối đa 50.000 đồng/giao dịch từ 200.000 đồng, 10.000 đồng/giao dịch dưới 200.000 đồng. Hạn mức tính theo kỳ sao kê."
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 5.1,
+  "interestRate": 48,
+  "interestFreeDays": 45,
+  "minIncome": null,
+  "virtual": true,
+  "perks": [
+    "Thẻ 2in1: vừa là thẻ ghi nợ, vừa là thẻ tín dụng",
+    "Mở thẻ online, có thẻ phi vật lý dùng ngay"
+  ],
+  "notes": [
+    "Cơ chế Freedom: hoàn 20% cho 3 danh mục cố định (sàn thương mại điện tử, đại lý du lịch, thời trang MCC 5611) và 2 danh mục khách hàng tự chọn trong 9 danh mục (siêu thị, ăn uống, di chuyển, cửa hàng tiện lợi, bảo hiểm, khách sạn, dịch vụ chuyên nghiệp/ví điện tử, hàng không, rạp chiếu phim).",
+    "Mỗi danh mục hoàn tối đa 200.000 đồng/kỳ sao kê; siêu thị chỉ hoàn giao dịch đầu tiên mỗi ngày.",
+    "Tổng hoàn tối đa 1.000.000 đồng/kỳ sao kê.",
+    "Biểu phí thu phí phát hành thẻ vật lý 150.000 đồng, còn trang sản phẩm ghi \"Miễn phí phát hành\".",
+    "Ngoài phí giao dịch ngoại tệ 4%, giao dịch ở nước ngoài chịu thêm phí 1,1%; thanh toán bằng mã QR chịu phí 1%.",
+    "Không yêu cầu chứng minh thu nhập, chỉ cần CCCD.",
+    "Trang Cake Freedom 2in1 nay hiển thị Thẻ Cake 2in1 - Gói Standard; Thẻ Tự Do 2in1 đã tạm ngưng phát hành mới."
+  ],
+  "sourceUrls": [
+    "https://cake.vn/the-tin-dung-2in1/the-cake-2in1/goi-standard",
+    "https://cake.vn/the-tin-dung-2in1/the-tin-dung-cake-freedom-2in1",
+    "https://cake.vn/the/the-cake-2in1/goi-standard/bieu-phi",
+    "https://static.cake.vn/homepage/LDP_DKDK_87e48a2374/LDP_DKDK_87e48a2374.png",
+    "https://cake.vn/the-tin-dung-2in1/the-cake-partner/the-tu-do-2in1",
+    "https://cake.vn/cong-cu-tien-ich/tai-lieu-bieu-mau-bieu-phi"
+  ],
+  "lastVerified": "2026-11-25"
+}

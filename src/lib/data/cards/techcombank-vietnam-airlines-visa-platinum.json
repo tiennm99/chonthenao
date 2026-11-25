@@ -6,7 +6,7 @@
   "tier": "Platinum",
   "issuanceFee": 0,
   "annualFee": 990000,
-  "feesIncludeVat": true,
+  "feesFinal": true,
   "feeWaiver": {
     "text": "Hoàn phí năm đầu khi chi tiêu 3 triệu đồng trong 30 ngày từ khi kích hoạt; miễn phí năm sau khi chi tiêu 120 triệu đồng trong năm trước. Khách hàng ưu tiên được miễn phí thường niên.",
     "minSpendYear": 120000000
@@ -16,7 +16,10 @@
       "category": "all",
       "type": "miles",
       "rate": null,
-      "earn": { "units": 1, "perVnd": 30000 },
+      "earn": {
+        "units": 1,
+        "perVnd": 30000
+      },
       "capMonth": null,
       "note": "Dặm Bông Sen Vàng (Lotusmiles)."
     },
@@ -24,7 +27,10 @@
       "category": "foreign",
       "type": "miles",
       "rate": null,
-      "earn": { "units": 1, "perVnd": 25000 },
+      "earn": {
+        "units": 1,
+        "perVnd": 25000
+      },
       "capMonth": null
     }
   ],

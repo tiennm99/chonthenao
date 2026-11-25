@@ -1,0 +1,74 @@
+{
+  "id": "techcombank-style",
+  "bank": "techcombank",
+  "name": "Techcombank Style",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 899000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Hoàn phí năm đầu khi chi tiêu từ 1,5 triệu đồng trong 30 ngày từ khi kích hoạt; miễn phí năm sau khi chi tiêu 120 triệu đồng trong năm trước. Khách hàng ưu tiên và khách hàng Techcombank Inspire được miễn phí thường niên.",
+    "minSpendYear": 120000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 3,
+        "perVnd": 100
+      },
+      "capMonth": null,
+      "note": "Điểm U-Point, tiêu dùng online nội địa. Tiêu dùng online quốc tế được số điểm tương ứng 8% giá trị giao dịch."
+    },
+    {
+      "category": "dining",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 100
+      },
+      "capMonth": null
+    },
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 1000
+      },
+      "capMonth": null
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["online", "dining"],
+      "capMonth": 250000,
+      "note": "Tối đa 250.000 điểm U-Point/tháng cho nhà hàng và tiêu dùng online (1 điểm = 1 VND)."
+    }
+  ],
+  "pointValueVnd": 1,
+  "fxFee": 2.59,
+  "interestRate": 37.92,
+  "interestFreeDays": null,
+  "minIncome": 10000000,
+  "virtual": null,
+  "perks": ["Trả góp lãi suất 0%"],
+  "notes": [
+    "Ngân hàng công bố mức tích điểm dưới dạng \"số điểm tương ứng 3% giá trị giao dịch\"; dữ liệu ghi lại thành 3 điểm/100 VND.",
+    "Tổng điểm thưởng tối đa 500.000 điểm/tháng cho mỗi khách hàng và mỗi tài khoản thẻ.",
+    "Thể lệ tích điểm áp dụng từ 01/05/2026 đến hết 31/12/2026."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-tin-dung/techcombank-style",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-the-tin-dung-ap-dung-tu-ngay-15112026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/vn-phu-luc-lai-suat-the-tin-dung-09-2026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/promo_file/the-le-chuong-trinh-khach-hang-than-thiet-tai-techcombank-12092026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/en/images/personal-banking/spend/tcb-style-credit-card-pack.png"
+  ],
+  "lastVerified": "2026-11-25"
+}

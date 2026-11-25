@@ -1,0 +1,72 @@
+{
+  "id": "sacombank-visa-platinum-cashback",
+  "bank": "sacombank",
+  "name": "Sacombank Visa Bạch Kim Hoàn Tiền",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 599000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Từ năm thứ 2: miễn 100% phí thường niên khi doanh số thanh toán đạt 400 triệu đồng/năm, giảm 50% khi đạt 300 triệu đồng/năm (hạng Platinum). Chỉ áp dụng cho thẻ chính.",
+    "minSpendYear": 400000000
+  },
+  "rewards": [
+    {
+      "category": "grocery",
+      "type": "cashback",
+      "rate": 6.8,
+      "earn": null,
+      "capMonth": null,
+      "note": "Siêu thị, cửa hàng tiện lợi (MCC 5411, 5499, 5722, 9751, 5311)."
+    },
+    {
+      "category": "transport",
+      "type": "cashback",
+      "rate": 16.8,
+      "earn": null,
+      "capMonth": null,
+      "note": "Ứng dụng di chuyển như Be Group, Grab, Mai Linh, Vato, Taxi Green SM, GSM (MCC 4121, 4131, 5969, 4789)."
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.39,
+      "earn": null,
+      "capMonth": null,
+      "note": "Hoàn tiền không giới hạn."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["grocery", "transport"],
+      "capMonth": 680000,
+      "note": "Tính theo kỳ thông báo giao dịch."
+    }
+  ],
+  "pointValueVnd": null,
+  "fxFee": 3.6,
+  "interestRate": null,
+  "interestFreeDays": 55,
+  "minIncome": 10000000,
+  "virtual": null,
+  "perks": [
+    "Tặng thẻ Priority Pass và 1 lượt phòng chờ khi đạt doanh số 100 triệu đồng/quý (tối đa 6 lượt/quý)",
+    "Bảo hiểm du lịch toàn cầu đến 11,6 tỷ đồng",
+    "Trả góp lãi suất 0%"
+  ],
+  "notes": [
+    "Lãi suất theo biểu phí: 2,4% - 2,84%/tháng từ ngày 20/11/2026 (trước đó 1,85% - 2,75%/tháng).",
+    "Ngoài phí chuyển đổi ngoại tệ 2,6%, biểu phí còn thu phí xử lý giao dịch nước ngoài 1%/giao dịch (tối thiểu 10.000 đồng) từ ngày 01/10/2026.",
+    "Biểu phí ghi phí phát hành và phí thường niên không chịu thuế VAT.",
+    "Chỉ hoàn cho giao dịch từ 100.000 đồng; số tiền hoàn tối thiểu 10.000 đồng/kỳ. Không hoàn cho xăng dầu, hóa đơn, viễn thông, vàng bạc, chứng khoán, giao dịch tài chính và giao dịch VND tại đơn vị nước ngoài như Agoda, Amazon.",
+    "Thẻ phụ miễn phí thường niên."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/ca-nhan/the/the-tin-dung/the-tin-dung-sacombank-visa-platinum-cashback.html",
+    "https://www.sacombank.com.vn/content/dam/sacombank/files/ca-nhan/the/tin-dung/Quy-dinh-hoan-tien-Visa-PlatinumCashback.pdf",
+    "https://www.sacombank.com.vn/cong-cu/bieu-phi.html",
+    "https://www.sacombank.com.vn/ca-nhan/the/dich-vu-the/mien-giam-phi-thuong-nien.html"
+  ],
+  "lastVerified": "2026-11-25"
+}

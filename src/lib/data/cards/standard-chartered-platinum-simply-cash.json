@@ -6,11 +6,23 @@
   "tier": "Platinum",
   "issuanceFee": null,
   "annualFee": 1000000,
-  "feesIncludeVat": true,
+  "feesFinal": true,
   "feeWaiver": null,
   "rewards": [
-    { "category": "all", "type": "cashback", "rate": 0.5, "earn": null, "capMonth": null },
-    { "category": "foreign", "type": "cashback", "rate": 1, "earn": null, "capMonth": null }
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.5,
+      "earn": null,
+      "capMonth": null
+    },
+    {
+      "category": "foreign",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": null
+    }
   ],
   "sharedCaps": [],
   "pointValueVnd": null,

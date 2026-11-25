@@ -1,0 +1,47 @@
+{
+  "id": "mb-jcb-platinum",
+  "bank": "mb",
+  "name": "MB JCB Platinum",
+  "network": "jcb",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 199000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí năm đầu; từ năm thứ 2 miễn phí khi tổng chi tiêu năm liền trước đạt từ 20 triệu đồng.",
+    "minSpendYear": 20000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 10,
+      "earn": null,
+      "capMonth": 500000,
+      "note": "Chỉ mua hàng hóa tại Shopee và TikTok Shop, mỗi nơi cần chi tiêu từ 2 triệu đồng trong kỳ sao kê, và chi tiêu lĩnh vực khác từ 2 triệu đồng trong kỳ. Không hoàn ShopeeFood, ShopeeMart, hóa đơn, vé, quảng cáo. Hạn mức tính theo kỳ sao kê."
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 2,
+  "interestRate": 34.5,
+  "interestFreeDays": null,
+  "minIncome": null,
+  "virtual": null,
+  "perks": [
+    "Tặng lượt phòng chờ sân bay cho mỗi 20 triệu đồng chi tiêu trong tháng, tối đa 2 lượt/tháng",
+    "Ưu đãi golf, khách sạn, nhà hàng qua JCB"
+  ],
+  "notes": [
+    "Không có hoàn tiền cho chi tiêu ngoài Shopee và TikTok Shop.",
+    "Ưu đãi chào mừng: hoàn 500.000 đồng khi chi tiêu từ 5 triệu đồng và 5 giao dịch trong 60 ngày kể từ ngày kích hoạt, áp dụng cho thẻ tín dụng đầu tiên được cấp hạn mức tại MB.",
+    "Hoàn tiền xét theo thứ tự đến khi hết ngân sách chương trình."
+  ],
+  "sourceUrls": [
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/the/the-tin-dung/the-tin-dung-mb-jcb-platinum-the-hoan-tien-shopee-tiktok-shop",
+    "https://webcdn.mbbank.com.vn/public/media/f07846c9-c4a9-41b3-9dc3-8dba3504f685.pdf",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/uu-dai/the/dich-vu-the-mbbank-bieu-phi-hien-hanh",
+    "https://webcdn.mbbank.com.vn/public/media/0d039d14-48a7-472e-8211-9c4a52b8c792.pdf"
+  ],
+  "lastVerified": "2026-11-25"
+}

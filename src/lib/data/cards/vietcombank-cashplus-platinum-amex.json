@@ -1,0 +1,55 @@
+{
+  "id": "vietcombank-cashplus-platinum-amex",
+  "bank": "vietcombank",
+  "name": "Vietcombank Cashplus Platinum American Express",
+  "network": "amex",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 800000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "foreign",
+      "type": "cashback",
+      "rate": 1.5,
+      "earn": null,
+      "capMonth": null,
+      "note": "Chi tiêu nước ngoài bằng ngoại tệ, không giới hạn số tiền hoàn."
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.5,
+      "earn": null,
+      "capMonth": 2000000,
+      "note": "Tối đa 2.000.000 VND mỗi kỳ sao kê."
+    }
+  ],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 2.27,
+  "interestRate": 19.5,
+  "interestFreeDays": 50,
+  "minIncome": null,
+  "virtual": null,
+  "perks": [
+    "Bảo hiểm chuyến đi đến 23,3 tỷ VND cho chủ thẻ và người thân",
+    "Dịch vụ Concierge và hotline riêng miễn phí 1800 1565",
+    "Trả góp 0% lãi suất"
+  ],
+  "notes": [
+    "Biểu phí ghi các mức phí chưa gồm VAT; phí phát hành và phí thường niên thuộc đối tượng không chịu VAT.",
+    "Giao dịch chi tiêu nước ngoài là giao dịch tại điểm bán dùng dịch vụ thanh toán thẻ của tổ chức ngoài lãnh thổ Việt Nam.",
+    "Không hoàn tiền cho rút tiền mặt, phí và lãi, nạp ví điện tử, chứng khoán, ngoại hối, hoàn thuế.",
+    "Miễn phí thường niên năm đầu cho 01 thẻ phụ; thẻ phụ 500.000 VND/năm.",
+    "Phí xử lý giao dịch nội tệ tại nước ngoài (giao dịch bằng VND) 1%.",
+    "Hạn mức tín dụng từ 70 triệu VND."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The/Credit_VCB-Cashplus-Platinum-Amex",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/Tai-lieu-THE/22092025_-Update-dkdk-hoan-tien-tich-diem-cong-dam/20250918_DKDK-CT-hoan-tien-the-TDQT-Amex-Cashplus-Platinum.pdf?ts=20250922065045",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/Bieu-mau-Bieu-phi-KHCN/Bieu-phi-TDQT-22012026/20260122_VN_Bieu-phi-the-TDQT.pdf?ts=20260122013900"
+  ],
+  "lastVerified": "2026-11-25"
+}

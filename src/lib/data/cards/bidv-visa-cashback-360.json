@@ -1,0 +1,77 @@
+{
+  "id": "bidv-visa-cashback-360",
+  "bank": "bidv",
+  "name": "BIDV Visa Cashback 360",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 1000000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm tiếp theo khi đạt doanh số từ 70 triệu VND/năm. Khách hàng Premier, Premier Elite, Private được miễn phí thường niên 1 năm.",
+    "minSpendYear": 70000000
+  },
+  "rewards": [
+    {
+      "category": "grocery",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 20,
+        "perVnd": 1000
+      },
+      "capMonth": 300000,
+      "note": "Siêu thị (MCC 5411). Phần doanh số siêu thị trong tháng trên 10 triệu VND được 100 điểm/1.000 VND. Tối đa 300.000 điểm/tháng/thẻ."
+    },
+    {
+      "category": "health",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 20,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Y tế, sức khỏe (MCC 8062, 8050, 8099, 8021, 8042, 8071)."
+    },
+    {
+      "category": "education",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 20,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Giáo dục (MCC 8244, 8351, 8220, 8211, 8299, 8249, 8241)."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["grocery", "health", "education"],
+      "capMonth": 500000,
+      "note": "500.000 điểm/tháng/thẻ cho khách hàng thông thường; 600.000 điểm với khách hàng Private, Elite."
+    }
+  ],
+  "pointValueVnd": 1,
+  "fxFee": 2.36,
+  "interestRate": 20,
+  "interestFreeDays": 45,
+  "minIncome": null,
+  "virtual": null,
+  "perks": ["Bảo hiểm cho chủ thẻ đến 13,2 tỷ VND", "Trả góp 0% lãi suất tại đối tác của BIDV"],
+  "notes": [
+    "Thưởng là điểm hoàn tiền Bpoint: 1 điểm = 1 VND hoàn tiền. Đổi tối thiểu 600.000 điểm mỗi lần.",
+    "Thể lệ tích điểm áp dụng từ 01/07/2026 đến hết 31/12/2026; đổi điểm đến 31/03/2027 hoặc khi hết ngân sách.",
+    "Thể lệ không tích điểm cho chi tiêu ngoài siêu thị, y tế và giáo dục.",
+    "Trang sản phẩm ghi hoàn tiền tối đa 600.000 VND/tháng; thể lệ ghi mức này chỉ cho khách hàng Private, Elite, còn lại 500.000 điểm/tháng.",
+    "Biểu phí ghi các mức phí chưa gồm VAT; phí thường niên thuộc đối tượng không chịu VAT.",
+    "Ngoài phí chuyển đổi ngoại tệ 1%, giao dịch tại điểm bán nước ngoài chịu thêm phí xử lý 1,36% (tối thiểu 9.000 VND)."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/bidv/ca-nhan/san-pham-dich-vu/dich-vu-the/the-tin-dung-quoc-te/2/the-bidv-visa-cashback-360",
+    "https://bidv.com.vn/wps/wcm/connect/010780c3-d9dd-467a-9947-4481dde3ed9d/Th%E1%BB%83+l%E1%BB%87+G%C4%902.2026+19.10.pdf?MOD=AJPERES&CVID=q5tCHgU",
+    "https://bidv.com.vn/wps/wcm/connect/3d3c05ff-2737-474a-ab4e-b2c85376a194/BIEU+PHI+THE+KHACH+HANG+CA+NHAN+BIDV+20.08.26.pdf?MOD=AJPERES&CONVERT_TO=title&CACHEID=ROOTWORKSPACE-3d3c05ff-2737-474a-ab4e-b2c85376a194-q0V2bzV"
+  ],
+  "lastVerified": "2026-11-25"
+}

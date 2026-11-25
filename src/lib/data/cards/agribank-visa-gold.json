@@ -1,0 +1,31 @@
+{
+  "id": "agribank-visa-gold",
+  "bank": "agribank",
+  "name": "Agribank Visa Gold",
+  "network": "visa",
+  "tier": "Gold",
+  "issuanceFee": 200000,
+  "annualFee": 300000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "pointValueVnd": null,
+  "fxFee": 2,
+  "interestRate": null,
+  "interestFreeDays": null,
+  "minIncome": null,
+  "virtual": null,
+  "perks": ["Miễn phí bảo hiểm tai nạn chủ thẻ toàn cầu đến 20 triệu đồng"],
+  "notes": [
+    "Trang sản phẩm và biểu phí không công bố tính năng hoàn tiền hay tích điểm cho thẻ này.",
+    "Biểu phí ghi các mức phí chưa gồm thuế GTGT; phí phát hành và phí thường niên không thuộc đối tượng chịu thuế GTGT.",
+    "Phí chuyển đổi ngoại tệ 2%, tối thiểu 10.000 VND/giao dịch.",
+    "Hạn mức tín dụng tối đa 300 triệu đồng."
+  ],
+  "sourceUrls": [
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/the/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/the/the-tin-dung/the-agribank-visa-gold",
+    "https://www.agribank.com.vn/wcm/connect/f9655589-5671-4c8a-9c1e-1bb53956b61c/Bi%E1%BB%83u+ph%C3%AD+d%E1%BB%8Bch+v%E1%BB%A5+th%E1%BA%BB+KHCN.pdf?MOD=AJPERES&CVID=q3Hrgzf"
+  ],
+  "lastVerified": "2026-11-25"
+}

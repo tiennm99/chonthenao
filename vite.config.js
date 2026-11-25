@@ -1,14 +1,11 @@
-import cloudflareAdapter from '@sveltejs/adapter-cloudflare';
-import staticAdapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { sveltekit } from '@sveltejs/kit/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 
-// Cloudflare Pages with its default SvelteKit preset is the main target: `npm run build` writes
-// .svelte-kit/cloudflare and the site serves from the domain root. The GitHub Pages workflow sets
-// SITE_TARGET=github-pages for a plain static build, with its own SITE_BASE and SITE_ORIGIN.
-const githubPages = process.env.SITE_TARGET === 'github-pages';
+// `npm run build` writes a static site to build/ that serves from the domain root, as on
+// Cloudflare Pages. The GitHub Pages workflow sets SITE_BASE and SITE_ORIGIN for its subpath.
 const base = /** @type {'' | `/${string}`} */ (process.env.SITE_BASE ?? '');
 const origin = process.env.SITE_ORIGIN ?? 'https://chonthenao.pages.dev';
 
@@ -17,7 +14,7 @@ export default defineConfig({
     tailwindcss(),
     sveltekit({
       preprocess: vitePreprocess(),
-      adapter: githubPages ? staticAdapter() : cloudflareAdapter(),
+      adapter: adapter(),
       paths: { base, origin },
       // Hash mode puts a CSP meta tag with script hashes on every prerendered page.
       csp: {

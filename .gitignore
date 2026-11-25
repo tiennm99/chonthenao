@@ -26,5 +26,3 @@ npm-debug.log*
 *.tsbuildinfo
 .eslintcache
 
-# Cloudflare adapter output
-.wrangler/

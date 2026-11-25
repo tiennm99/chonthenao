@@ -21,8 +21,8 @@ npm run dev
 
 Before pushing: `npm run lint && npm run format:check && npm run check && npm test && npm run validate-data`.
 
-Cloudflare Pages builds with its default SvelteKit preset; the GitHub Pages workflow builds a
-static copy with `SITE_TARGET=github-pages`.
+`npm run build` writes a static site to `build/` (`@sveltejs/adapter-static`). Cloudflare Pages
+serves it from the root; the GitHub Pages workflow builds it under `/chonthenao`.
 
 More: [docs/data.md](docs/data.md) explains the data files, [docs/data-sources.md](docs/data-sources.md) where the data comes from.
 

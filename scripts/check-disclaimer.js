@@ -4,11 +4,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DISCLAIMER } from '../src/lib/site.js';
 
-// The output folder is the first argument: .svelte-kit/cloudflare for Cloudflare Pages
-// (the default), build for GitHub Pages.
-const out = fileURLToPath(
-  new URL(`../${process.argv[2] ?? '.svelte-kit/cloudflare'}/`, import.meta.url),
-);
+const out = fileURLToPath(new URL('../build/', import.meta.url));
 // The first clause is enough to prove the notice is present.
 const marker = DISCLAIMER.split(',')[0];
 

@@ -4,7 +4,7 @@ import svelte from 'eslint-plugin-svelte';
 import globals from 'globals';
 
 export default [
-  { ignores: ['build/', '.svelte-kit/', '.wrangler/', 'node_modules/'] },
+  { ignores: ['build/', '.svelte-kit/', 'node_modules/'] },
   js.configs.recommended,
   jsdoc.configs['flat/recommended'],
   ...svelte.configs.recommended,

@@ -1,0 +1,13 @@
+{
+  "id": "techcombank",
+  "name": "Ngân hàng TMCP Kỹ thương Việt Nam",
+  "shortName": "Techcombank",
+  "officialUrl": "https://techcombank.com/",
+  "referral": {
+    "url": "https://tcbmobile.onelink.me/TBS9/uk1je7b2",
+    "code": null,
+    "note": "Đăng ký Techcombank Mobile qua link này để nhận quà từ Techcombank."
+  },
+  "sourceUrls": ["https://techcombank.com/"],
+  "lastVerified": "2026-11-25"
+}

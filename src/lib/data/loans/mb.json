@@ -1,0 +1,47 @@
+{
+  "id": "mb",
+  "bank": "mb",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng không tài sản đảm bảo trên App MBBank",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 1500000000,
+      "note": "Trang sản phẩm ghi lãi suất \"theo quy định của MB từng thời kỳ\", không công bố mức. Vay từ 10 triệu đến 1,5 tỷ đồng, thời hạn 12 đến 60 tháng, đăng ký và giải ngân trên App MBBank. Cần tài khoản thanh toán tại MB, đi làm từ 6 tháng và thu nhập bình quân 3 tháng gần nhất từ 5 triệu đồng/tháng."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà cho người trẻ MB Dream Home",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": 10000000000,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cho vay mua nhà ưu đãi cạnh tranh\", không công bố mức. Vay đến 10 tỷ đồng và 80% giá trị tài sản bảo đảm, trả góp đến 35 năm, không trả gốc 5 năm đầu và 10 năm tiếp theo chỉ trả 15% nợ gốc. Cho khách hàng 23 đến 40 tuổi khi vay, thu nhập từ 10 triệu đồng/tháng."
+    },
+    {
+      "type": "auto",
+      "name": "Gói sản phẩm dành cho khách hàng vay mua xe ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Vay đến 75% giá trị xe (gồm thuế, lệ phí) tùy loại xe, hoặc 80% khi thế chấp bằng bất động sản; trang danh sách ghi mức vay \"Không giới hạn\". Đăng ký và phê duyệt tự động trên App MBBank."
+    }
+  ],
+  "notes": [
+    "Lãi suất tham chiếu KHCN của MB áp dụng từ 29/10/2026 cho khoản giải ngân từ 01/03/2025, điều chỉnh 3 tháng/lần: thời hạn đến 12 tháng 8,50%, trên 12 đến 60 tháng 8,80%, trên 60 đến 120 tháng 9,30%, trên 120 tháng 9,50%/năm. Các trang sản phẩm không công bố biên độ cộng thêm.",
+    "Lãi suất cho vay bình quân khách hàng cá nhân MB công bố cùng ngày: 8,94%/năm.",
+    "Gói M.Companion chỉ dành cho khách hàng quân nhân từ Thiếu úy trở lên (gồm vay có và không có tài sản bảo đảm): trang danh sách ghi \"Lãi suất chỉ 5,0%\" còn mục Chính sách của trang gói ghi \"chỉ từ 6%/năm\"; vì giới hạn đối tượng nên không đưa vào danh sách sản phẩm."
+  ],
+  "sourceUrls": [
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/vay-von",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/vay-von/tieu-dung/vay-tieu-dung-khong-tai-san-dam-bao-tren-app-mbbank",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/vay-von/bat-dong-san/vay-mua-nha-cho-nguoi-tre-mb-dream-home",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/vay-von/o-to/goi-san-pham-danh-cho-khach-hang-vay-mua-xe-o-to",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/vay-von/tieu-dung/mcompanion-goi-san-pham-danh-cho-khach-hang-quan-nhan",
+    "https://www.mbbank.com.vn/ho-tro/bieu-lai-suat?tab=lai-suat-cap-tin-dung"
+  ],
+  "lastVerified": "2026-11-26"
+}

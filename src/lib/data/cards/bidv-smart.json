@@ -1,0 +1,40 @@
+{
+  "id": "bidv-smart",
+  "bank": "bidv",
+  "name": "BIDV Smart",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 50000,
+  "annualFee": 60000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Khách hàng Premier, Premier Elite và Private được miễn phí phát hành và phí thường niên.",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Thanh toán không tiếp xúc (contactless), liên kết ví điện tử qua Tokenization",
+    "Rút tiền bằng mã QR trên ATM BIDV qua ứng dụng SmartBanking",
+    "Không giới hạn hạn mức thanh toán; rút tối đa 70 triệu VND/ngày tại ATM BIDV"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa Napas, dùng tại ATM/POS có biểu tượng Napas và BIDV trong nước và nước ngoài. Rút tiền tại ngân hàng nước ngoài có biểu tượng NAPAS (hiện có LaoVietBank tại Lào và các ngân hàng thuộc mạng lưới BCCard tại Hàn Quốc) phí 40.000 VND/giao dịch; biểu phí không có phí chuyển đổi ngoại tệ cho thẻ này để so sánh.",
+    "Biểu phí ghi các mức phí chưa gồm VAT; cột \"Đối tượng KHÔNG chịu VAT\" không đánh dấu các phí thẻ ghi nợ nội địa.",
+    "Phí phát hành 50.000 VND và phí thường niên 60.000 VND/năm áp dụng cho thẻ vật lý; thẻ phi vật lý miễn phí phát hành.",
+    "Biểu phí thu phí thường niên 30.000 VND/năm với thẻ phi vật lý phát hành mới từ 01/12/2025 (thẻ phi vật lý phát hành trước đó miễn phí thường niên đến hết 30/06/2027); trang sản phẩm ghi thẻ phi vật lý miễn phí thường niên.",
+    "Rút tiền tại ATM BIDV 1.000 VND/giao dịch; tại ATM ngân hàng khác trong nước 3.000 VND/giao dịch."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/bidv/ca-nhan/san-pham-dich-vu/dich-vu-the/the-ghi-no-noi-dia/1/the-bidv-smart",
+    "https://bidv.com.vn/wps/wcm/connect/517a3656-a452-490c-94c1-5bb5beca287a/BIEU+PHI+THE+KHACH+HANG+CA+NHAN+BIDV+20.08.26.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-517a3656-a452-490c-94c1-5bb5beca287a-p.RH4bB"
+  ],
+  "lastVerified": "2026-11-26"
+}

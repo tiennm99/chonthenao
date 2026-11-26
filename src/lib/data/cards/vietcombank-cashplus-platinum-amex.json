@@ -2,6 +2,7 @@
   "id": "vietcombank-cashplus-platinum-amex",
   "bank": "vietcombank",
   "name": "Vietcombank Cashplus Platinum American Express",
+  "kind": "credit",
   "network": "amex",
   "tier": "Platinum",
   "issuanceFee": 0,

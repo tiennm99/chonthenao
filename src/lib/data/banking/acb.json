@@ -1,0 +1,34 @@
+{
+  "id": "acb",
+  "bank": "acb",
+  "accountMonthlyFee": 0,
+  "minBalance": 0,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 3300,
+  "smsFeeMonth": 20000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": true,
+  "perks": [
+    "Mở tài khoản trực tuyến",
+    "Miễn phí quản lý tài khoản và chuyển tiền online trọn đời với Tài khoản First",
+    "Không yêu cầu số dư tối thiểu"
+  ],
+  "notes": [
+    "Số liệu cho Tài khoản Đầu Tiên - First, tài khoản thanh toán cá nhân mở trực tuyến mà ACB giới thiệu đầu tiên; trang sản phẩm không ghi điều kiện về độ tuổi hay đối tượng. Tài khoản Eco Plus, Eco, Tài khoản Trực Tuyến cũng miễn phí quản lý tài khoản, nhưng rút tiền bằng thẻ ACB Green tại ATM ACB với Tài khoản Trực Tuyến thu 1.100 VND/lần.",
+    "Tài khoản thanh toán khác (truyền thống, liên kết chứng khoán, TK đối tác từ năm thứ 2) thu phí quản lý 15.000 VND/tháng khi số dư bình quân tháng dưới 500.000 VND; chuyển Napas 247 trên ACB ONE tính theo bậc: đến 500.000 VND 0,4% số tiền, trên 500.000 đến 2.000.000 VND 5.000 VND/giao dịch, trên 2.000.000 VND 0,025% (tối thiểu 10.000 VND).",
+    "Chuyển nhanh Napas 247 trên ACB ONE miễn phí cho TK Ưu Tiên, Thương Gia, Tài Lộc, First, Eco Plus, EBiz, Tài khoản trực tuyến. Chuyển khoản ngoài hệ thống thường (không qua Napas 247) trên ACB ONE 0,028%, tối thiểu 10.500 VND, tối đa 800.000 VND.",
+    "Rút tiền tại ATM ACB bằng thẻ ACB Green miễn phí khi kết nối TK First (cũng miễn phí với EBIZ, Tài Lộc, ECO+, Thương Gia; trường hợp khác 1.100 VND/lần). Rút tại ATM ngân hàng khác 3.300 VND/lần (1.100 VND với TK ECO+); thẻ ACB Visa Debit kết nối TK First rút tại ATM ngân hàng khác trong nước miễn phí.",
+    "SMS Banking 20.000 VND/tháng cho đến 20 tin, từ tin thứ 21 thêm 800 VND/tin; gồm SMS báo số dư và OTP. Mặc định chỉ báo biến động từ 1.000.000 VND.",
+    "Phí gia nhập và phí thường niên ACB ONE miễn phí đến hết 31/12/2026; biểu phí chưa công bố mức phí sau thời điểm đó. ACB SafeKey 10.000 VND/tháng, miễn phí đến hết 31/12/2026.",
+    "Biểu phí dịch vụ tài khoản có hiệu lực từ 01/12/2026; các mức phí đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tien-first",
+    "https://acb.com.vn/acbwebsite/files/DICH%20VU%20TAI%20KHOAN%2017%2011.pdf",
+    "https://acb.com.vn/acbwebsite/files/Bieu%20phi%20ACB%20ONE%20KHCN%20012026.pdf",
+    "https://acb.com.vn/acbwebsite/files/BIEU%20PHI%20THE%20GHI%20NO%20KHCN%20(1)%2012%2011.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

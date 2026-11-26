@@ -1,0 +1,38 @@
+{
+  "id": "nam-a-bank-napas-debit",
+  "bank": "nam-a-bank",
+  "name": "Nam A Bank Napas Debit",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 0,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Miễn phí phát hành, gia hạn và phí thường niên trong suốt quá trình sử dụng",
+    "Rút tiền mặt và truy vấn số dư miễn phí tại ATM Nam A Bank",
+    "Chip VCCS và thanh toán không tiếp xúc (contactless)",
+    "Hưởng lãi trên số dư trong tài khoản thẻ"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa: biểu phí ghi phí giao dịch ngoại tệ là \"Không áp dụng\"; trang sản phẩm ghi thẻ dùng để chi tiêu \"trong phạm vi trong nước Việt Nam\", thanh toán và rút tiền mặt trong nước tại các điểm có logo Napas.",
+    "Rút tiền tại ATM ngân hàng khác trong liên minh Napas: 3.300 đồng/giao dịch, miễn phí với thẻ phát hành theo Gói ưu đãi (tài khoản nhận lương tại Nam A Bank và các chương trình từng thời kỳ); thẻ phát hành trước 03/01/2023 vẫn miễn phí đến hết hạn thẻ. Trang danh sách thẻ ghi nợ ghi \"Miễn phí rút tiền mặt tại tất cả ATM nội địa\", trang sản phẩm ghi \"tại tất cả ATM Nam A Bank\"; ở đây lấy theo biểu phí.",
+    "Truy vấn số dư tại ATM liên minh Napas: 1.100 đồng/lần. Cấp lại thẻ 110.000 đồng tại quầy, 55.000 đồng qua Open Banking.",
+    "Biểu phí thẻ ghi nợ, thẻ trả trước (hiệu lực 04/09/2025) ghi đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.namabank.com.vn/napas-debit-1",
+    "https://www.namabank.com.vn/the-ghi-no",
+    "https://www.namabank.com.vn/Data/Sites/1/media/bieu-phi/bieu-phi-the-ghi-no-the-tra-truoc-4.9.25.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

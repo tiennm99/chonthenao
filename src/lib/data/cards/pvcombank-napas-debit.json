@@ -1,0 +1,40 @@
+{
+  "id": "pvcombank-napas-debit",
+  "bank": "pvcombank",
+  "name": "Thẻ thanh toán nội địa PVcomBank",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 0,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Miễn phí phát hành và phí thường niên",
+    "Giao dịch qua POS (vấn tin, mua hàng, hủy giao dịch) miễn phí",
+    "Hưởng lãi suất không kỳ hạn trên số dư tài khoản",
+    "Chip EMV và thanh toán không tiếp xúc (contactless)",
+    "Không cần chứng minh thu nhập khi mở thẻ"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa Napas: hướng dẫn sử dụng thẻ của ngân hàng ghi thẻ dùng tại ATM, POS, website và ứng dụng có logo Napas; biểu phí thẻ nội địa không có phí giao dịch ngoại tệ và không nói thẻ thanh toán được ở nước ngoài.",
+    "Phí giao dịch tại ATM PVcomBank: rút tiền 1.000 đồng/giao dịch, in sao kê 500 đồng, vấn tin miễn phí; tại ATM ngân hàng khác: rút tiền 3.000 đồng, in sao kê 800 đồng, vấn tin 500 đồng.",
+    "Phát hành nhanh 50.000 đồng; cấp lại thẻ 50.000 đồng; cấp lại PIN 20.000 đồng; chuyển phát thẻ/PIN tại nhà 20.000 đồng.",
+    "Biểu phí thẻ nội địa (Phụ lục 04A, áp dụng từ 06/01/2025) ghi các phí trên là chưa gồm VAT; PVcomBank thu thêm 10% VAT. Hội viên ngân hàng ưu tiên được miễn nhiều khoản phí.",
+    "Trang sản phẩm thẻ còn dẫn tới một biểu phí thẻ cũ năm 2020; số liệu ở đây theo biểu phí hiện hành trên trang biểu phí của ngân hàng."
+  ],
+  "sourceUrls": [
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/dich-vu-the/the-thanh-toan-noi-dia-pvcombank",
+    "https://www.pvcombank.com.vn/static/BieuPhi/Bieu%20phi%207-2024/6.%20Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20th%E1%BA%BB%20v%C3%A0%20d%E1%BB%8Bch%20v%E1%BB%A5%20thanh%20to%C3%A1n%20th%E1%BA%BB.pdf",
+    "https://www.pvcombank.com.vn/static/HDSD/HD_theATM_2026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

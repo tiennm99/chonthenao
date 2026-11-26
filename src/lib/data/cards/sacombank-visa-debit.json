@@ -1,0 +1,38 @@
+{
+  "id": "sacombank-visa-debit",
+  "bank": "sacombank",
+  "name": "Sacombank Visa Debit",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Classic",
+  "issuanceFee": 0,
+  "annualFee": 149000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 4,
+  "virtual": true,
+  "perks": [
+    "Thẻ phi vật lý (thẻ chính) miễn phí thường niên",
+    "Thanh toán tại POS và qua Internet toàn cầu, rút tiền tại ATM có biểu tượng Visa trên toàn thế giới",
+    "Tiền trong thẻ hưởng lãi theo lãi suất tài khoản tiền gửi thanh toán",
+    "Giảm đến 50% ăn uống, mua sắm, du lịch tại đối tác ưu đãi"
+  ],
+  "notes": [
+    "Biểu phí ghi thẻ là \"Thẻ thanh toán quốc tế Visa Classic\".",
+    "fxFee 4% = phí chuyển đổi ngoại tệ 3% + phí xử lý giao dịch nước ngoài 1%/giao dịch (tối thiểu 10.000 đồng) từ ngày 01/10/2026 (trước đó 0,8%).",
+    "Phí thường niên 149.000 đồng áp dụng cho thẻ vật lý; thẻ phi vật lý (thẻ chính) 0 đồng; thẻ phụ 149.000 đồng. Biểu phí cho phép thu theo tháng (chia đều) hoặc theo năm.",
+    "Rút tiền tại ATM Sacombank Việt Nam 1.000 đồng, ATM ngân hàng khác tại Việt Nam 6.000 đồng; ATM nước ngoài (kể cả Sacombank Campuchia/Lào) và POS khác 4% số tiền (tối thiểu 60.000 đồng). Thay thế thẻ 99.000 đồng; phát hành nhanh 100.000 đồng.",
+    "Biểu phí thẻ thanh toán (hiệu lực 01/10/2026) ghi mức phí thẻ đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/ca-nhan/the/the-thanh-toan/the-sacombank-visa-debit.html",
+    "https://www.sacombank.com.vn/cong-cu/bieu-phi.html"
+  ],
+  "lastVerified": "2026-11-26"
+}

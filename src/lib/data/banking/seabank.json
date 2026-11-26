@@ -1,0 +1,35 @@
+{
+  "id": "seabank",
+  "bank": "seabank",
+  "accountMonthlyFee": 7700,
+  "minBalance": 0,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 1100,
+  "atmOffUsFee": 3300,
+  "smsFeeMonth": 33000,
+  "digitalBankingFeeMonth": null,
+  "feesFinal": true,
+  "perks": [
+    "Miễn phí mở tài khoản, miễn phí chuyển tiền trên kênh online",
+    "Miễn duy trì số dư tối thiểu trên tài khoản thanh toán VND",
+    "Miễn phí nhận thông báo biến động số dư qua ứng dụng SeAMobile",
+    "Đăng ký SeAMobile 100% online bằng eKYC"
+  ],
+  "notes": [
+    "Phí quản lý tài khoản thanh toán đang hoạt động 7.700 đồng/tháng (không gắn hạn mức thấu chi); miễn với tài khoản SeAUpper, tài khoản thuộc gói SeASuper hoặc SeAPremium. Tài khoản không hoạt động 16.500 đồng/tháng.",
+    "Chuyển khoản trong hệ thống, ngoài hệ thống thường và nhanh 247 trên ngân hàng điện tử đều miễn phí. Chuyển tại quầy có thu phí theo biểu phí dịch vụ tài khoản (ví dụ chuyển ngoài hệ thống số tiền dưới 500 triệu đồng trước 14h30: 0,033%, tối thiểu 11.000 đồng).",
+    "Rút tiền bằng thẻ ghi nợ nội địa S24++ tại ATM SeABank 1.100 đồng/lần, tại ATM ngân hàng khác 3.300 đồng/lần (theo biểu phí thẻ ghi nợ hiệu lực 01/05/2026).",
+    "SMS báo biến động số dư 33.000 đồng/tháng/thuê bao/tài khoản (khách hàng ưu tiên 16.500 đồng).",
+    "Biểu phí ngân hàng điện tử không ghi phí đăng ký hay phí duy trì SeAMobile/SeANet hàng tháng (chỉ ghi phí đóng dịch vụ miễn phí), nên digitalBankingFeeMonth để trống.",
+    "Biểu phí dịch vụ tài khoản không ghi ngày hiệu lực. Các biểu phí đều ghi mức phí đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.seabank.com.vn/ca-nhan/dich-vu-tai-khoan/tai-khoan/tai-khoan-thanh-toan",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/seauat-web-seabankoriginal-imageBie%CC%82%CC%89u%20phi%CC%81%20di%CC%A3ch%20vu%CC%A3%20t%C3%A0i%20kho%E1%BA%A3n.pdf",
+    "https://www.seabank.com.vn/ca-nhan/ngan-hang-so/seamobile/ngan-hang-di-dong",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/Ph%E1%BB%A5%20l%E1%BB%A5c%2001%20%20Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20Ng%C3%A2n%20h%C3%A0ng%20%C4%91i%E1%BB%87n%20t%E1%BB%AD%202003.pdf",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20th%E1%BA%BB%20ghi%20n%E1%BB%A3%20SeABank_052026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "standard-chartered",
+  "bank": "standard-chartered",
+  "accountMonthlyFee": 200000,
+  "minBalance": 5000000,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 10000,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 0,
+  "smsFeeMonth": 20000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Miễn phí mở tài khoản",
+    "Miễn phí chuyển tiền nội bộ trong Standard Chartered qua Ngân hàng trực tuyến",
+    "Miễn phí xem, cập nhật thông tin tài khoản và tải sao kê trên Ngân hàng trực tuyến",
+    "Miễn phí thu đổi ngoại tệ"
+  ],
+  "notes": [
+    "Phí dịch vụ 200.000 VNĐ/tháng chỉ thu khi số dư trung bình hằng tháng (MAB) thấp hơn 5.000.000 VNĐ, áp dụng cho tất cả tài khoản vãng lai; không có phí quản lý tài khoản khi giữ đủ số dư.",
+    "Các mức phí trong biểu phí chưa bao gồm 10% thuế GTGT, trừ một số phí giao dịch ATM và rút tiền mặt được đánh dấu riêng.",
+    "Chuyển khoản đến ngân hàng khác tại Việt Nam qua Ngân hàng trực tuyến: 10.000 VNĐ/giao dịch; tại quầy 30.000 VNĐ. Trang tài khoản EliteFly ghi chuyển khoản 24/7 tới ngân hàng khác không mất phí cho tài khoản này.",
+    "Standard Chartered hiện không giới thiệu thẻ ghi nợ nội địa trên website; biểu phí vẫn có Thẻ ATM (phí thường niên 60.000 VNĐ). Rút tiền tại ATM Standard Chartered miễn phí với mọi loại thẻ; tại ATM ngân hàng khác trong nước miễn phí với thẻ ghi nợ Visa và Thẻ ATM (máy có logo Napas), chưa gồm phí của ngân hàng chủ ATM.",
+    "Phí thông báo giao dịch qua tin nhắn: 20.000 VNĐ/tháng.",
+    "Trang Ngân hàng trực tuyến ghi \"Hoàn toàn miễn phí sử dụng\"; biểu phí không có phí thuê bao, chỉ thu phí chuyển khoản ra ngoài hệ thống.",
+    "Tài khoản đóng trong vòng một năm sau khi mở: 100.000 VNĐ; tài khoản không hoạt động: 150.000 VNĐ/tháng.",
+    "Khách hàng nhận lương qua công ty tham gia chương trình: MAB 3.000.000 VNĐ, phí dịch vụ 50.000 VNĐ/tháng nếu không đạt; miễn phí phát hành và thường niên thẻ ghi nợ Visa Classic và EliteFly."
+  ],
+  "sourceUrls": [
+    "https://av.sc.com/vn/content/docs/vn-individual-banking-tariff-vn.pdf",
+    "https://www.sc.com/vn/interest-rates/",
+    "https://www.sc.com/vn/deposits/current-accounts/power-saver/",
+    "https://www.sc.com/vn/deposits/current-accounts/vna/",
+    "https://www.sc.com/vn/ways-to-bank/online-banking/"
+  ],
+  "lastVerified": "2026-11-26"
+}

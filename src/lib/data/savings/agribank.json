@@ -1,0 +1,49 @@
+{
+  "id": "agribank",
+  "bank": "agribank",
+  "channel": "counter",
+  "rates": [
+    {
+      "termMonths": 1,
+      "rate": 2.6
+    },
+    {
+      "termMonths": 3,
+      "rate": 2.9
+    },
+    {
+      "termMonths": 6,
+      "rate": 3.5
+    },
+    {
+      "termMonths": 9,
+      "rate": 3.5
+    },
+    {
+      "termMonths": 12,
+      "rate": 5.4
+    },
+    {
+      "termMonths": 18,
+      "rate": 5.4
+    },
+    {
+      "termMonths": 24,
+      "rate": 5.5
+    }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Bảng \"Lãi suất tiền gửi trực tuyến (VND)\" của Agribank chỉ ghi \"mức lãi suất tối đa (%/năm)\" theo khung kỳ hạn, không phải mức áp dụng cho từng kỳ hạn, nên ở đây dùng bảng lãi suất tại quầy. Mức tối đa khi gửi trực tuyến: từ 01 đến dưới 03 tháng 4,75; từ 03 đến dưới 06 tháng 4,75; từ 06 đến dưới 12 tháng 6,6; từ 12 đến dưới 24 tháng 6,8; từ 24 tháng trở lên 6,8. Mức thực tế có thể thấp hơn.",
+    "Trang không ghi ngày hiệu lực của bảng lãi suất, và ghi thông tin chỉ mang tính tham khảo, có thể thay đổi theo chính sách khách hàng, sản phẩm.",
+    "Bảng tại quầy (lãi suất tiền gửi khách hàng cá nhân, VND) dừng ở 24 tháng và không ghi hình thức trả lãi; kỳ hạn 36 tháng không được liệt kê nên không đưa vào.",
+    "Sản phẩm Tiết kiệm có kỳ hạn: tối thiểu 1.000.000 VND khi lĩnh lãi cuối kỳ.",
+    "Sản phẩm Tiền gửi trực tuyến: VND, khách hàng cá nhân (trừ người nước ngoài), tối thiểu 1.000.000 VND, kỳ hạn theo tháng, trả lãi cuối kỳ; mở trên Internet Banking, Agribank E-Mobile Banking hoặc CDM. Bảng không chia mức lãi theo số tiền gửi."
+  ],
+  "sourceUrls": [
+    "https://www.agribank.com.vn/vn/lai-suat-tien-gui",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/gui-tien-agribank/tien-gui/tien-gui-truc-tuyen/tien-gui-truc-tuyen",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/gui-tien-agribank/tien-gui-tiet-kiem/tiet-kiem-co-ky-han/tiet-kiem-co-ky-han"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "vietcombank",
+  "bank": "vietcombank",
+  "accountMonthlyFee": 0,
+  "minBalance": null,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 1000,
+  "atmOffUsFee": 3000,
+  "smsFeeMonth": 10000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Miễn phí mở tài khoản, mở online bằng eKYC trên ứng dụng VCB Digibank",
+    "Miễn phí quản lý 01 tài khoản thanh toán mặc định sử dụng VCB Digibank",
+    "Miễn phí chuyển tiền trong và ngoài hệ thống trên VCB Digibank",
+    "Miễn phí đăng ký và duy trì VCB Digibank; thông báo biến động số dư qua ứng dụng"
+  ],
+  "notes": [
+    "accountMonthlyFee là mức cho 01 tài khoản thanh toán mặc định sử dụng VCB Digibank (miễn phí). Tài khoản thanh toán thường khác: 2.000 VND/tháng; tài khoản chung hoặc không hoạt động: 10.000 VND/tháng. Đóng tài khoản trong 12 tháng đầu: 50.000 VND.",
+    "Biểu phí không nêu số dư tối thiểu; điều khoản tài khoản ghi khách hàng duy trì số dư tối thiểu theo quy định của Vietcombank từng thời kỳ, không nêu số tiền.",
+    "Chuyển tiền trên kênh ngân hàng điện tử miễn phí, trong và ngoài hệ thống. Phí tách giao dịch 9.000 VND/giao dịch gốc khi tách lệnh chuyển nhanh 24/7 từ 500 triệu VND trở lên đi ngân hàng khác. Tại quầy: cùng hệ thống 5.000 VND/giao dịch, khác hệ thống 0,03% (tối thiểu 10.000, tối đa 1.000.000 VND).",
+    "Rút tiền tại ATM Vietcombank bằng thẻ ghi nợ nội địa 1.000 VND/giao dịch (thẻ Visa Platinum Debit miễn phí); tại ATM ngân hàng khác 3.000 VND/giao dịch (thẻ ghi nợ quốc tế 9.090 VND).",
+    "SMS Banking 10.000 VND/tháng/số điện thoại khi dưới 20 tin; từ 20 tin trở lên 700 VND/tin; miễn phí khi không dùng tính năng nhận tin chủ động.",
+    "Các biểu phí (hiệu lực 06/07/2026) ghi các mức phí chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/Dich-vu-tai-khoan/Tai-khoan-thanh-toan",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/Bieu-mau-Bieu-phi-KHCN/Update-30062026/BP-dich-vu-tai-khoan-thanh-toan.pdf?ts=20260630031446",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/Bieu-mau-Bieu-phi-KHCN/Update-30062026/BP-dich-vu-chuyen-tien-trong-nuoc.pdf?ts=20260630031424",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/Bieu-mau-Bieu-phi-KHCN/Update-30062026/BP-dich-vu-NHDT_BS-phi-tach-lenh.pdf?ts=20260630035916",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/202608_VNI_BP-TGN_KHCN_BS-Haha.pdf?ts=20260824094435",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/Bieu-mau-Bieu-phi-KHCN/Bieu-mau/Dich-vu-tai-khoan/Tai-khoan-thanh-toan/20240927_DKDK-mo-va-su-dung-TK-thanh-toan-KHCN.pdf?ts=20241001011924"
+  ],
+  "lastVerified": "2026-11-26"
+}

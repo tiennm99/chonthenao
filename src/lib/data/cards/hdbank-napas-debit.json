@@ -1,0 +1,37 @@
+{
+  "id": "hdbank-napas-debit",
+  "bank": "hdbank",
+  "name": "HDBank Napas Debit",
+  "kind": "debit",
+  "network": "napas",
+  "tier": "Chuẩn",
+  "issuanceFee": 0,
+  "annualFee": 110000,
+  "feesFinal": null,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Rút tiền mặt miễn phí tại ATM HDBank",
+    "Thanh toán hàng hóa, dịch vụ qua POS/ECOM miễn phí",
+    "Hưởng lãi không kỳ hạn trên số dư tài khoản thanh toán",
+    "Ưu đãi giảm giá tại đối tác Happy Zone của HDBank"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa: biểu phí ghi phí chuyển đổi ngoại tệ là \"Không áp dụng dịch vụ\"; trang sản phẩm chỉ nêu rút tiền và thanh toán tại điểm chấp nhận thẻ trên toàn quốc.",
+    "Rút tiền tại ATM ngân hàng khác trong liên minh Napas: 5.500 đồng/giao dịch; chuyển khoản tại ATM HDBank 1.100 đồng, chuyển tiền liên ngân hàng tại ATM HDBank 5.500 đồng/giao dịch.",
+    "Phát hành nhanh 110.000 đồng; phát hành lại do mất/hỏng 88.000 đồng.",
+    "Biểu phí thẻ ghi nợ (hiệu lực 19/01/2026) không ghi phí đã gồm hay chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://hdbank.com.vn/vi/personal/product/detail/the/the-ghi-no/hdbank-napas",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/19126Bieuphitheghino_1770689958167.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

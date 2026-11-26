@@ -1,5 +1,5 @@
-// Validates every card and bank file under src/lib/data and exits non-zero on any problem.
-import { readFileSync, readdirSync } from 'node:fs';
+// Validates every data file under src/lib/data and exits non-zero on any problem.
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validateAll } from '../src/lib/data/schema.js';
@@ -12,6 +12,7 @@ const root = fileURLToPath(new URL('../src/lib/data/', import.meta.url));
  */
 function load(dir) {
   const path = join(root, dir);
+  if (!existsSync(path)) return [];
   return readdirSync(path)
     .filter((f) => f.endsWith('.json'))
     .map((f) => {
@@ -27,7 +28,15 @@ function load(dir) {
 
 const cards = load('cards');
 const banks = load('banks');
-const errors = validateAll({ cards, banks });
+const banking = load('banking');
+const savings = load('savings');
+const loans = load('loans');
+const errors = validateAll({ cards, banks, banking, savings, loans });
 for (const e of errors) console.error(e);
 if (errors.length > 0) process.exitCode = 1;
-console.log(`${banks.length} banks, ${cards.length} cards, ${errors.length} problems`);
+const debit = cards.filter((c) => /** @type {{ kind?: string }} */ (c)?.kind === 'debit').length;
+console.log(
+  `${banks.length} banks, ${cards.length - debit} credit cards, ${debit} debit cards, ` +
+    `${banking.length} banking, ${savings.length} savings, ${loans.length} loans records, ` +
+    `${errors.length} problems`,
+);

@@ -1,0 +1,39 @@
+{
+  "id": "nam-a-bank-mastercard-debit",
+  "bank": "nam-a-bank",
+  "name": "Nam A Bank Mastercard Debit",
+  "kind": "debit",
+  "network": "mastercard",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 0,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "virtual": null,
+  "perks": [
+    "Miễn phí phát hành, gia hạn và phí thường niên trong suốt quá trình sử dụng",
+    "Rút tiền mặt miễn phí tại ATM Nam A Bank",
+    "Chip VCCS và thanh toán không tiếp xúc (contactless), mua sắm online",
+    "Hưởng lãi trên số dư trong tài khoản thẻ"
+  ],
+  "notes": [
+    "fxFee là phí giao dịch ngoại tệ 3% số tiền giao dịch. Giao dịch bằng VND tại đơn vị bán hàng có mã nước ngoài chịu phí giao dịch nội tệ ở nước ngoài 1,8%.",
+    "Trang sản phẩm gọi đây là thẻ ghi nợ quốc tế nhưng ghi dùng \"trong phạm vi trong nước Việt Nam\" và gọi biểu phí là \"Biểu phí thẻ ghi nợ nội địa Mastercard\"; biểu phí vẫn ghi phí giao dịch ngoại tệ và phí rút tiền tại ATM Mastercard nước ngoài. Nên hỏi Nam A Bank trước khi dùng thẻ ở nước ngoài.",
+    "Rút tiền tại ATM liên minh Mastercard trong nước 2.200 đồng/giao dịch, ở nước ngoài 4% (tối thiểu 110.000 đồng); biểu phí ghi rút tại ATM liên minh Napas là \"Không áp dụng\" cho thẻ Mastercard. Truy vấn số dư tại ATM liên minh Mastercard 7.700 đồng/lần.",
+    "Nhận tiền qua Mastercard MoneySend: 3% số tiền. Cấp lại thẻ 110.000 đồng tại quầy, 55.000 đồng qua Open Banking.",
+    "Biểu phí thẻ ghi nợ, thẻ trả trước (hiệu lực 04/09/2025) ghi đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.namabank.com.vn/mastercard-debit-1",
+    "https://www.namabank.com.vn/the-ghi-no",
+    "https://www.namabank.com.vn/Data/Sites/1/media/bieu-phi/bieu-phi-the-ghi-no-the-tra-truoc-4.9.25.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

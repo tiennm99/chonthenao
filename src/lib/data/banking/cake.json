@@ -1,0 +1,39 @@
+{
+  "id": "cake",
+  "bank": "cake",
+  "accountMonthlyFee": 0,
+  "minBalance": null,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": null,
+  "atmOffUsFee": null,
+  "smsFeeMonth": 0,
+  "digitalBankingFeeMonth": null,
+  "feesFinal": false,
+  "perks": [
+    "Số điện thoại là số tài khoản",
+    "Miễn phí mở tài khoản",
+    "Miễn phí nạp tiền, chuyển tiền và rút tiền",
+    "Miễn phí dịch vụ SMS Banking",
+    "Miễn phí chuyển khoản nội bộ, đến VPBank, liên ngân hàng Napas và CITAD trên ứng dụng",
+    "Lãi suất 0,1%/năm trên tài khoản thanh toán"
+  ],
+  "notes": [
+    "Phí quản lý tài khoản: trang Câu hỏi thường gặp ghi \"Không phí duy trì với tài khoản đang hoạt động\"; biểu phí áp dụng từ 01/10/2026 không có dòng phí quản lý tài khoản hằng tháng.",
+    "Tài khoản ngủ quên (không giao dịch chủ động từ 181 đến 360 ngày) và tài khoản không duy trì hoạt động (từ 361 ngày) chịu phí 11.000 đồng/tháng.",
+    "Tài khoản có hạn mức thấu chi: phí thiết lập tối đa 500.000 đồng/lần cấp và phí duy trì, quản lý tối đa 50.000 đồng/tháng.",
+    "Số dư tối thiểu: biểu phí ghi \"Phí dịch vụ nếu số dư trung bình hàng tháng dưới mức quy định tối thiểu: Không thu phí\" nhưng không công bố mức số dư tối thiểu.",
+    "Rút tiền ATM: biểu phí tài khoản hiện hành không có mục rút tiền. Biểu phí năm 2024 (áp dụng từ 02/10/2024) của Thẻ thanh toán Thú Cưng, thẻ ghi nợ Visa đã ngưng phát hành mới, ghi rút tiền tại ATM VPBank không thu phí và tại ATM ngân hàng khác trong nước miễn phí.",
+    "Cake là ngân hàng số, giao dịch qua ứng dụng; biểu phí không có dòng phí sử dụng ứng dụng hằng tháng.",
+    "Sao kê hoặc xác nhận số dư: 20.000 đồng/bản.",
+    "Biểu phí ghi các mức phí chưa bao gồm thuế GTGT."
+  ],
+  "sourceUrls": [
+    "https://cake.vn/tai-khoan/tai-khoan-thanh-toan/bieu-phi",
+    "https://cake.vn/tai-khoan/tai-khoan-thanh-toan",
+    "https://cake.vn/huong-dan-su-dung",
+    "https://cake.vn/the/the-thanh-toan/the-thanh-toan-thu-cung/bieu-phi",
+    "https://cake.vn/the/the-thanh-toan/the-thanh-toan-thu-cung"
+  ],
+  "lastVerified": "2026-11-26"
+}

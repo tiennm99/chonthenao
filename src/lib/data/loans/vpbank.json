@@ -1,0 +1,68 @@
+{
+  "id": "vpbank",
+  "bank": "vpbank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng - Vay tín chấp theo mức lương",
+      "rateFrom": 18,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 750000000,
+      "note": "Lãi suất từ 18%/năm theo dư nợ giảm dần, trả góp hằng tháng bằng nhau; vay 12 - 60 tháng; hạn mức tối đa 15 lần thu nhập, đến 750 triệu đồng (banner trang ghi \"lên đến 500 triệu đồng\"); không cần tài sản bảo đảm. Điều kiện: quốc tịch Việt Nam, 22 - 65 tuổi, thu nhập tối thiểu 5 triệu đồng/tháng. Trang không ghi thời gian cố định lãi suất."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay tín chấp ưu đãi Giáo viên",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 200000000,
+      "note": "Trang chỉ ghi \"lãi suất ưu đãi\", không công bố con số. Dành cho giáo viên, cán bộ quản lý trường học 22 - 60 tuổi; kỳ hạn đến 60 tháng; mục Hỏi đáp ghi vay tối đa 200 triệu đồng."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay thấu chi tín chấp online cho Khách hàng trả lương qua tài khoản VPBank",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 100000000,
+      "note": "Trang chỉ ghi \"lãi suất ưu đãi\", không công bố con số. Hạn mức thấu chi đến 100 triệu đồng, kỳ hạn 12 tháng, đăng ký qua VPBank Online. Điều kiện: 22 - 60 tuổi, thu nhập tối thiểu 5 triệu đồng/tháng, nhận lương qua tài khoản VPBank tối thiểu 3 tháng."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà đất, căn hộ",
+      "rateFrom": 4.6,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": 20000000000,
+      "note": "Banner trang ghi \"lãi suất ưu đãi chỉ từ 4.6%\" và \"thời hạn vay 25 năm\"; mục Tính năng nổi bật cùng trang ghi \"chỉ từ 5.8%/năm\" và vay đến 35 năm (tối thiểu 12, tối đa 420 tháng). Trang không ghi thời gian cố định của mức ưu đãi; lãi suất xác định theo từng gói sản phẩm và hồ sơ khách hàng. Vay đến 80% giá trị căn nhà, tối đa 20 tỷ đồng tùy tài sản đảm bảo; trả theo dư nợ giảm dần hoặc trả góp cố định; có phí tất toán trước hạn tùy thời điểm và gói vay."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua xe ô tô trả góp",
+      "rateFrom": 6.8,
+      "fixedMonths": null,
+      "maxTermMonths": 96,
+      "maxAmount": 8000000000,
+      "note": "Lãi suất chỉ từ 6.8%/năm, tùy thương hiệu xe và gói vay; trang không ghi thời gian cố định lãi suất. Vay đến 85% giá trị xe; ô tô mới và đã qua sử dụng. Thời hạn 12 - 96 tháng cho xe mới mục đích tiêu dùng, tối đa 84 tháng cho xe đã qua sử dụng hoặc xe kinh doanh. Số tiền vay tối đa 8 tỷ đồng cho mục đích tiêu dùng, 20 tỷ đồng cho mục đích kinh doanh. Khách hàng 18 - 75 tuổi."
+    }
+  ],
+  "notes": [
+    "Các khoản vay không tài sản bảo đảm lãi suất điều chỉnh theo Biểu lãi suất cho vay tham chiếu VND của VPBank, áp dụng từ 13/11/2026: với khoản giải ngân từ 16/10/2023, 10,4%/năm (kỳ hạn đến 2 tháng) đến 11,7% (12 tháng), 12,2% (trên 12 - 24 tháng) và 12,3%/năm (trên 24 - 60 tháng). Khoản vay đến 12 tháng điều chỉnh mỗi tháng; trên 12 tháng điều chỉnh mỗi quý vào 01/01, 01/04, 01/07, 01/10. Biên độ linh hoạt theo lịch sử trả nợ: cộng hoặc trừ 0,5%/năm mỗi lần, tối đa 3,0%/năm. VPBank không công bố biên độ cộng thêm trên lãi suất tham chiếu.",
+    "Trang sản phẩm vay mua nhà và vay mua ô tô không công bố công thức lãi suất sau thời gian ưu đãi.",
+    "Chương trình \"Vay mua VinFast - Vững vàng kinh doanh\" (17/08/2026 - 31/12/2026): lãi suất 0% cố định 12 tháng đầu kể từ ngày giải ngân, ân hạn gốc 3 tháng, vay đến 85% giá trị xe, thời hạn 48 - 96 tháng; chỉ cho khách hàng cá nhân vay mua VinFast Limo Green và VinFast MPV 7 để kinh doanh.",
+    "VPBank còn có các gói vay tín chấp dành riêng cho cán bộ nhân viên VPBank, khách hàng đang có khoản vay thế chấp bất động sản và vay trả nợ trước hạn tại ngân hàng khác; các gói này không đưa vào danh sách trên."
+  ],
+  "sourceUrls": [
+    "https://www.vpbank.com.vn/ca-nhan/vay",
+    "https://www.vpbank.com.vn/ca-nhan/vay/tin-chap-ca-nhan",
+    "https://www.vpbank.com.vn/ca-nhan/vay/tin-chap-giao-vien",
+    "https://www.vpbank.com.vn/ca-nhan/vay/kh-tra-luong",
+    "https://www.vpbank.com.vn/ca-nhan/vay/vay-mua-nha",
+    "https://www.vpbank.com.vn/ca-nhan/vay/vay-mua-oto",
+    "https://www.vpbank.com.vn/uu-dai/retail/loans-promotion-category/vay-mua-vinfast-vung-vang-kinh-doanh-lai-suat-0-trong-12-thang-dau",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/lai-suat-tham-chieu/khach-hang-ca-nhan/2026/20261113-Bieu-lai-suat-tham-chieu-VND-va-bien-do-lai-suat-linh-hoat-ap-dung-voi-cho-vay-khong-TSBD-KHCN.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

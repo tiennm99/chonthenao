@@ -1,0 +1,38 @@
+{
+  "id": "cake",
+  "bank": "cake",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay nhanh",
+      "rateFrom": 27.6,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 60000000,
+      "note": "Công bố \"chỉ từ 2,3%/tháng theo dư nợ giảm dần\" (lưu ×12). Hạn mức 5 - 60 triệu đồng, kỳ hạn 6 - 60 tháng; phần đầu trang lại ghi \"kỳ hạn linh hoạt tới 48 tháng\". Khách hàng 20 - 50 tuổi, thu nhập từ 5 triệu đồng. Tất toán trước hạn chịu phí 5 - 8% dư nợ còn lại. Lãi suất quá hạn bằng 150% lãi suất trong hạn."
+    },
+    {
+      "type": "unsecured",
+      "name": "Ứng Trước",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": null,
+      "maxAmount": 6000000,
+      "note": "Khoản vay nhỏ tất toán một lần, kỳ hạn 30 - 45 ngày, hạn mức 3 - 6 triệu đồng. Lãi suất công bố \"~0,15%/ngày\" (theo ngày, xấp xỉ, nên không quy đổi). Tất toán trước hạn không mất phí."
+    }
+  ],
+  "notes": [
+    "Cake chỉ cho vay qua ứng dụng; trang của Cake không công bố khoản vay mua nhà hay mua ô tô.",
+    "Trang không công bố lãi suất cố định hay cách tính lãi thả nổi.",
+    "\"Ứng tiền nhanh\" (hạn mức đến 20 triệu đồng, từ 0,1%/ngày) đã ngưng phát hành mới nên không liệt kê.",
+    "\"Ứng tiền nhanh liên kết sổ tiết kiệm\" (7,9%/năm, hạn mức 5 - 100 triệu đồng và tối đa 85% giá trị sổ tiết kiệm từ 10 triệu, kỳ hạn từ 6 tháng, thời gian vay 12 tháng) là hạn mức có bảo đảm bằng sổ tiết kiệm, không thuộc các loại vay ở đây, và trang của nó cũng ghi \"Ngưng phát hành mới\"."
+  ],
+  "sourceUrls": [
+    "https://cake.vn/khoan-vay",
+    "https://cake.vn/khoan-vay/vay-nhanh",
+    "https://cake.vn/khoan-vay/ung-truoc",
+    "https://cake.vn/khoan-vay/ung-tien-nhanh",
+    "https://cake.vn/khoan-vay/ung-tien-nhanh-lien-ket-so-tiet-kiem"
+  ],
+  "lastVerified": "2026-11-26"
+}

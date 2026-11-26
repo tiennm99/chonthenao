@@ -1,0 +1,39 @@
+{
+  "id": "seabank-s24-plus-plus",
+  "bank": "seabank",
+  "name": "SeABank S24++",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 55000,
+  "annualFee": 66000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Khách hàng ưu tiên được miễn phí thường niên năm đầu tiên.",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Giao dịch tại hơn 95% ATM ở Việt Nam; rút tiền mặt và truy vấn số dư ở nước ngoài tại Thái Lan, Nga, Malaysia và Hàn Quốc",
+    "Thanh toán trực tuyến tại website chấp nhận thẻ Napas",
+    "Chủ thẻ chính có thể phát hành tối đa 3 thẻ phụ"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa (thẻ ATM): trang sản phẩm chỉ ghi rút tiền mặt và truy vấn số dư ở nước ngoài (Thái Lan, Nga, Malaysia, Hàn Quốc), không ghi thanh toán tại đơn vị chấp nhận thẻ nước ngoài, nên fxFee để trống. Biểu phí vẫn ghi phí chuyển đổi ngoại tệ và xử lý giao dịch 3,3% (tối thiểu 11.000 đồng) cho giao dịch bằng ngoại tệ, như rút tiền tại ATM ở nước ngoài.",
+    "Phí phát hành 55.000 đồng không áp dụng với khách hàng trả lương, thẻ phát hành theo gói và thẻ phát hành qua kênh online.",
+    "Rút tiền tại ATM SeABank 1.100 đồng/lần, tại ATM ngân hàng khác 3.300 đồng/lần.",
+    "Biểu phí dịch vụ thẻ ghi nợ (hiệu lực 01/05/2026) ghi các mức phí đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.seabank.com.vn/ca-nhan/the/the-ghi-no-quoc-te/the-seabank-s24",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20th%E1%BA%BB%20ghi%20n%E1%BB%A3%20SeABank_052026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

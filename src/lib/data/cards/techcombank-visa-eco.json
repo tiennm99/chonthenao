@@ -1,0 +1,45 @@
+{
+  "id": "techcombank-visa-eco",
+  "bank": "techcombank",
+  "name": "Techcombank Visa Eco",
+  "kind": "debit",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 150000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Chỉ dùng thẻ phi vật lý: miễn phí thường niên trọn đời. Dùng cả thẻ vật lý: miễn phí năm đầu, từ năm thứ 2 thu 150.000 VND/năm. Hội viên Techcombank Inspire được miễn phí thường niên trọn đời hội viên.",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 2.5,
+  "virtual": true,
+  "perks": [
+    "Phiên bản phi vật lý dùng ngay sau khi đăng ký, thêm vào Apple Pay, Google Pay, Samsung Pay",
+    "Rút tiền không dùng thẻ miễn phí tại ATM Techcombank",
+    "Đo lường và bù đắp CO₂ trên mỗi giao dịch thẻ trong Techcombank Mobile",
+    "Thẻ vật lý làm từ nhựa PVC tái chế"
+  ],
+  "notes": [
+    "Phí giao dịch ngoại tệ gồm phí quản lý chuyển đổi chi tiêu ngoại tệ 1,4% cộng phí xử lý giao dịch 1,1%, tổng 2,5% (đã bao gồm VAT; trang sản phẩm cũng ghi 2,5%). Giao dịch bằng VND tại đơn vị có mã nước khác Việt Nam chịu 1,1%, tối thiểu 9.900 VND.",
+    "Phí thường niên và các phí khác của thẻ chưa bao gồm VAT, trừ các phí giao dịch ngoại tệ, giao dịch nội tệ ở nước ngoài và phí đo lường CO₂.",
+    "Phí sử dụng tính năng đo lường CO₂ khi bật trên Techcombank Mobile: 1.000 VND/kg CO₂, tối thiểu 30.000 VND, tối đa 100.000 VND (đã bao gồm VAT).",
+    "Rút tiền tại ATM Techcombank miễn phí; tại ATM ngân hàng khác ở Việt Nam 9.900 VND/giao dịch; tại ATM ở nước ngoài 4% số tiền, tối thiểu 50.000 VND. Phát hành từ thẻ thứ 2 trong vòng 6 tháng 150.000 VND/thẻ.",
+    "Các ưu đãi đối tác (vé Metro TP.HCM, Grab, VNVC...) là chương trình khuyến mại theo từng thời kỳ, không phải hoàn tiền cố định.",
+    "Trang tài khoản thanh toán quảng cáo tích điểm Techcombank OneU 1 điểm cho mỗi 1.000 VND chi tiêu thẻ thanh toán, nhưng thể lệ Techcombank OneU hiện hành (21/11/2026 đến 10/01/2027) không có mức tích điểm thẻ thanh toán cố định cho khách hàng thường; các chương trình tích điểm, hoàn tiền thẻ thanh toán trong thể lệ dành cho thẻ hoặc hội viên Priority và Private, hoặc là khuyến mại có thời hạn. Vì vậy chưa ghi nhận ưu đãi tích điểm."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-thanh-toan/the-thanh-toan-techcombank-eco",
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-thanh-toan",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-the-thanh-toan-0707.pdf",
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/tai-khoan/tai-khoan-thanh-toan",
+    "https://techcombank.com/content/dam/techcombank/public-site/promo_file/the-le-chuong-trinh-khach-hang-than-thiet-tai-techcombank-12092026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

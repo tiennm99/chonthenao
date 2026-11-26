@@ -1,0 +1,42 @@
+{
+  "id": "pvcombank-mastercard-debit",
+  "bank": "pvcombank",
+  "name": "Thẻ thanh toán Quốc tế PVcomBank Mastercard Debit",
+  "kind": "debit",
+  "network": "mastercard",
+  "tier": null,
+  "issuanceFee": 110000,
+  "annualFee": 119000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Hoàn phí thường niên từ năm thứ 2 khi tổng giao dịch thanh toán (POS và internet, không gồm rút tiền) của thẻ chính trong năm liền trước đạt từ 30 triệu đồng (thẻ phụ: từ 15 triệu đồng).",
+    "minSpendYear": 30000000
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 2.3,
+  "virtual": null,
+  "perks": [
+    "Thanh toán và rút tiền tại điểm chấp nhận thẻ, ATM có biểu tượng Mastercard trên toàn thế giới",
+    "Thanh toán không tiếp xúc (contactless), bảo mật 3D Secure",
+    "Giao dịch qua POS miễn phí",
+    "Hạn mức giao dịch lên đến 300 triệu đồng"
+  ],
+  "notes": [
+    "fxFee là phí xử lý giao dịch 2,3%/số tiền giao dịch, khoản phí phần trăm duy nhất biểu phí ghi cho giao dịch thanh toán ở nước ngoài.",
+    "Phí thường niên thẻ chính 119.000 đồng/năm cả năm đầu (thẻ phụ 59.000 đồng); phát hành 110.000 đồng cho khách hàng thông thường, phát hành nhanh 50.000 đồng.",
+    "Rút tiền mặt ở nước ngoài: 4% (tối thiểu 50.000 đồng). ATM PVcomBank: rút tiền 1.100 đồng, chuyển khoản 550 đồng; ATM ngân hàng khác trong nước: rút tiền 11.000 đồng, chuyển khoản 5.500 đồng.",
+    "Phát hành lại thẻ 88.000 đồng; gia hạn thẻ hết hạn 30.000 đồng; cấp lại PIN 22.000 đồng.",
+    "Hội viên ngân hàng ưu tiên, khách hàng ngân sách nhà nước hạng Kim Cương và Bạch Kim, và khách hàng nhận lương/gói tài khoản được miễn phí phát hành lần đầu; mọi phân khúc ngoài khách hàng thông thường được miễn phí thường niên năm đầu, các năm sau tùy hạng.",
+    "Biểu phí (Phụ lục 04C, áp dụng từ 15/06/2026) ghi các phí đã gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/dich-vu-the/the-thanh-toan-quoc-te-PVcomBank",
+    "https://www.pvcombank.com.vn/static/BieuPhi/Bieu%20phi%207-2024/8.%20Bi%E1%BB%83u%20ph%C3%AD%20ph%C3%A1t%20h%C3%A0nh%20v%C3%A0%20s%E1%BB%AD%20d%E1%BB%A5ng%20d%E1%BB%8Bch%20v%E1%BB%A5%20Th%E1%BA%BB%20ghi%20n%E1%BB%A3%20Qu%E1%BB%91c%20t%E1%BA%BF%20PVcomBank%20Mastercard.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "techcombank",
+  "bank": "techcombank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng tín chấp trả góp",
+      "rateFrom": 12.9,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 1000000000,
+      "note": "Lãi suất chỉ từ 12,9%/năm trên dư nợ giảm dần; thời gian vay 12 - 60 tháng; hạn mức đến 1 tỷ đồng; không cần tài sản đảm bảo. Điều kiện: quốc tịch Việt Nam, 20 - 70 tuổi, thu nhập tối thiểu 10 triệu đồng/tháng. Trang không ghi thời gian cố định lãi suất."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay hạn mức thấu chi không tài sản bảo đảm",
+      "rateFrom": 14.4,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": null,
+      "note": "Trang công bố lãi suất chỉ từ 1,2%/tháng (quy đổi ×12 = 14,4%/năm), lãi tính theo số ngày thực dùng, miễn mọi loại phí, trả nợ bất kỳ lúc nào. Thời gian của hạn mức 3 - 12 tháng; trang không ghi hạn mức tối đa. Điều kiện: 20 - 60 tuổi, thu nhập từ lương tối thiểu 5 triệu đồng/tháng hoặc thuộc danh sách phê duyệt trước."
+    },
+    {
+      "type": "unsecured",
+      "name": "Tài khoản thấu chi MyCash",
+      "rateFrom": 13.87,
+      "fixedMonths": null,
+      "maxTermMonths": null,
+      "maxAmount": null,
+      "note": "Trang công bố lãi suất chỉ từ 380 đồng/triệu/ngày, tức 0,038%/ngày (quy đổi ×365 ≈ 13,87%/năm). Hạn mức thấu chi không tài sản đảm bảo, chỉ cấp cho khách hàng hiện hữu được thông báo trên Techcombank Mobile; kèm thẻ ảo Visa Debit MyCash; không rút tiền mặt; miễn phí đăng ký và phí thường niên trọn đời. Trang không ghi hạn mức và thời hạn tối đa."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua bất động sản, có Giấy chứng nhận",
+      "rateFrom": 3.99,
+      "fixedMonths": null,
+      "maxTermMonths": 540,
+      "maxAmount": null,
+      "note": "Lãi suất cố định chỉ từ 3,99%/năm cho khách hàng thỏa mãn điều kiện vay; trang ghi kỳ cố định lãi suất lên đến 24 tháng nhưng không nói mức 3,99% đi với kỳ cố định nào. Chương trình mua nhà ở: vay đến 45 năm, đến 80% giá trị tài sản đảm bảo, miễn trả gốc đến 60 tháng. Chương trình mua bất động sản tích sản: cũng từ 3,99%/năm, vay đến 15 năm, đến 75% giá trị tài sản, miễn trả gốc đến 120 tháng. Phí trả nợ trước hạn từ 1%, miễn phí từ năm thứ 6."
+    },
+    {
+      "type": "home",
+      "name": "Vay nhận chuyển nhượng bất động sản tại các dự án liên kết",
+      "rateFrom": 3.99,
+      "fixedMonths": null,
+      "maxTermMonths": 540,
+      "maxAmount": null,
+      "note": "Mức từ 3,99%/năm và thời hạn đến 45 năm là chương trình cho khách hàng từ 30 tuổi trở xuống (đến 80% giá trị tài sản, miễn trả gốc đến 120 tháng). Khách hàng có thu nhập từ lương: từ 6%/năm, vay đến 35 năm, đến 80% giá trị tài sản; mua nhà tích sản: từ 6%/năm, đến 75%. Trang cũng ghi lãi suất cố định chỉ từ 5%/năm và giảm trừ lãi suất đến 0,2% trong thời gian cố định và/hoặc 2,2% trong giai đoạn thả nổi tùy nhóm khách hàng; được hưởng tiếp lãi suất 0% nếu khoản vay của bên bán còn được chủ đầu tư hỗ trợ."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà dự án trực tiếp từ Chủ đầu tư",
+      "rateFrom": 3.99,
+      "fixedMonths": null,
+      "maxTermMonths": 540,
+      "maxAmount": null,
+      "note": "Mức từ 3,99%/năm và thời hạn đến 45 năm là chương trình cho khách hàng từ 30 tuổi trở xuống (đến 80% giá trị tài sản đảm bảo, miễn trả gốc đến 120 tháng). Khách hàng có thu nhập từ lương: từ 6%/năm, vay đến 35 năm, đến 80%, miễn trả gốc 5 năm đầu rồi trả 0,1% dư nợ/tháng 5 năm tiếp theo; mua nhà tích sản: từ 6%/năm, đến 75%. Chủ đầu tư hỗ trợ lãi suất và phí trả nợ trước hạn lên tới 48 tháng. Bảng chính sách theo từng dự án liên kết: tối đa 60% - 100% giá trị hợp đồng mua bán, thời hạn tối đa 15 - 35 năm; bảng này không có dự án nào cho vay quá 35 năm, khác với mức \"lên đến 45 năm\" của chương trình khách hàng trẻ trên cùng trang."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô đi lại",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 96,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất (nút \"Xem biểu lãi suất\" dẫn về trang lãi suất chung). Vay mua ô tô mới và cũ, hạn mức đến 80% giá trị xe, thời gian vay đến 96 tháng, trả kết quả phê duyệt sau 2 phút."
+    }
+  ],
+  "notes": [
+    "Các khoản vay cá nhân điều chỉnh theo cơ chế lãi suất cơ sở/lãi suất tham chiếu dùng mức Techcombank công bố, hiệu lực từ 15/09/2026: 9,00%/năm cho vay mua bất động sản, vay tiêu dùng thế chấp và vay mua ô tô; 13,00%/năm cho vay tiêu dùng tín chấp (thấu chi MyCash, F2, vay trả góp PIL); lãi suất tham chiếu 9,95%/năm. Một số dự án và hãng xe có lãi suất cơ sở riêng (ô tô Vinfast 8,50%, Thaco 9,50%/năm). Các trang và biểu không công bố biên độ cộng thêm.",
+    "Lãi suất tối thiểu trên các hợp đồng có điều khoản này bằng lãi suất tiết kiệm thường trả lãi cuối kỳ 12 tháng cho khách hàng thường cộng biên độ ghi trên hợp đồng.",
+    "Lãi suất cho vay bình quân các khoản vay VND mới giải ngân tháng 10/2026 cho khách hàng cá nhân là 11,15%/năm (Techcombank cập nhật 13/11/2026).",
+    "Trang Chương trình ưu đãi có chương trình vay mua chuyển nhượng bất động sản lãi suất từ 8,5%/năm; trang không ghi ngày kết thúc. Các trang sản phẩm không ghi ngày kết thúc ưu đãi."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/vay",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-tieu-dung/vay-tieu-dung-tin-chap",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-tieu-dung/vay-han-muc-thau-chi-khong-tai-san-dam-bao",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-tieu-dung/mycash",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-mua-nha/vay-mua-nha-o",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-mua-nha/vay-nhan-chuyen-nhuong",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-mua-nha/vay-mua-nha-du-an-truc-tiep-tu-chu-dau-tu",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/vay-mua-o-to",
+    "https://techcombank.com/khach-hang-ca-nhan/vay/chuong-trinh-uu-dai",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/lai-suat-co-so-cho-vay-1409.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bao-cao-lai-suat-khcn-techcombank-13112026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

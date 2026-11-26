@@ -1,0 +1,62 @@
+{
+  "id": "sacombank-platinum-amex-debit",
+  "bank": "sacombank",
+  "name": "Sacombank Platinum American Express (thẻ thanh toán)",
+  "kind": "debit",
+  "network": "amex",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 199000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "travel",
+      "type": "cashback",
+      "rate": 8,
+      "earn": null,
+      "capMonth": null,
+      "note": "Vé máy bay (MCC 4511 và các MCC được liệt kê trong khoảng 3000-3301), khách sạn (các MCC được liệt kê trong khoảng 3501-3836 và 7011), đại lý du lịch (MCC 4722), theo danh mục MCC hoàn tiền."
+    },
+    {
+      "category": "foreign",
+      "type": "cashback",
+      "rate": 0.5,
+      "earn": null,
+      "capMonth": null,
+      "note": "Giao dịch tại thiết bị chấp nhận thẻ và trực tuyến nước ngoài."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["travel", "foreign"],
+      "capMonth": 300000,
+      "note": "Tổng tiền hoàn tối đa 300.000 đồng/tháng (3.600.000 đồng/năm), tối thiểu 10.000 đồng/tháng; chốt doanh số ngày cuối tháng, hoàn từ ngày 20 đến 25 tháng sau."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 2.99,
+  "virtual": null,
+  "perks": [
+    "Thanh toán toàn cầu, rút tiền tại ATM Sacombank và ATM có biểu tượng American Express trên toàn thế giới",
+    "Ưu đãi toàn cầu từ American Express",
+    "Phát hành nhanh miễn phí"
+  ],
+  "notes": [
+    "fxFee 2,99% = phí chuyển đổi ngoại tệ 1,99% + phí xử lý giao dịch nước ngoài 1%/giao dịch (tối thiểu 10.000 đồng) từ ngày 01/10/2026 (trước đó 0,8%). Trang sản phẩm chỉ ghi phí chuyển đổi ngoại tệ 1,99%.",
+    "Trang sản phẩm ghi phí thường niên 199.000 đồng/năm \"bao gồm thẻ chính và thẻ phụ\"; biểu phí ghi 199.000 đồng cho thẻ chính và 199.000 đồng cho thẻ phụ.",
+    "Không hoàn tiền cho phí chuyển đổi ngoại tệ, phí rút tiền mặt, chứng khoán, sòng bạc, vàng trang sức, thanh toán hóa đơn (MCC 4900) và giao dịch bằng VND tại đơn vị ngoài lãnh thổ Việt Nam như Amazon. Giao dịch thẻ phụ tính cho thẻ chính.",
+    "Rút tiền tại ATM Sacombank tại Việt Nam 1.000 đồng, ATM ngân hàng khác tại Việt Nam 10.000 đồng; ATM nước ngoài và POS khác 4% số tiền (tối thiểu 60.000 đồng). Thay thế thẻ 199.000 đồng.",
+    "Đăng ký tại điểm giao dịch Sacombank. Biểu phí thẻ thanh toán (hiệu lực 01/10/2026) ghi mức phí thẻ đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/ca-nhan/the/the-thanh-toan/the-thanh-toan-Sacombank-Platinum-American-Express.html",
+    "https://www.sacombank.com.vn/content/dam/sacombank/files/ca-nhan/the/tin-dung/PL_Quy_dinh_hoan_tien_DebitAmex.pdf",
+    "https://www.sacombank.com.vn/content/dam/sacombank/files/ca-nhan/the/tin-dung/DANH_SACH_MCC_HOAN_TIEN.pdf",
+    "https://www.sacombank.com.vn/cong-cu/bieu-phi.html"
+  ],
+  "lastVerified": "2026-11-26"
+}

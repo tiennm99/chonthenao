@@ -4,6 +4,7 @@
   "shortName": "Vietcombank",
   "officialUrl": "https://www.vietcombank.com.vn/",
   "cardsUrl": "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The",
+  "debitCardsUrl": "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The#card-list_type=Th%E1%BA%BB%20thanh%20to%C3%A1n",
   "feeScheduleUrl": "https://www.vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/KHCN---Bieu-mau-va-bieu-phi",
   "referral": null,
   "sourceUrls": [

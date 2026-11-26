@@ -1,0 +1,53 @@
+{
+  "id": "cake",
+  "bank": "cake",
+  "channel": "online",
+  "rates": [
+    {
+      "termMonths": 1,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 3,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 6,
+      "rate": 6.9
+    },
+    {
+      "termMonths": 9,
+      "rate": 6.9
+    },
+    {
+      "termMonths": 12,
+      "rate": 6.9
+    },
+    {
+      "termMonths": 18,
+      "rate": 6.9
+    },
+    {
+      "termMonths": 24,
+      "rate": 6.9
+    },
+    {
+      "termMonths": 36,
+      "rate": 6.3
+    }
+  ],
+  "minAmount": 100000,
+  "notes": [
+    "Bảng \"Lãi suất tiết kiệm tiêu chuẩn\", áp dụng chính thức từ 17h00 ngày 21/10/2026; cột lãi cuối kỳ.",
+    "Cake là ngân hàng số: tiền gửi mở trên ứng dụng Cake và trang chỉ công bố một bảng lãi suất tiêu chuẩn.",
+    "Bảng không chia bậc theo số tiền gửi. Số tiền gửi tối thiểu 100.000 VNĐ.",
+    "Bảng còn liệt kê kỳ hạn 2, 4, 5, 7, 8, 10, 11, 13 và 15 tháng, cùng các cột lãi đầu kỳ, theo tháng và theo quý.",
+    "Được rút trước hạn một phần hoặc toàn bộ; rút một phần tối thiểu 100.000 VNĐ (hoặc 10% giá trị tiền gửi), không quá 90% giá trị sổ, số dư còn lại tối thiểu 100.000 VNĐ.",
+    "Các ưu đãi tặng thêm lãi suất theo từng tháng (gửi lần đầu hoặc gửi lần tiếp theo, kỳ hạn 6 - 18 tháng) không tính vào bảng này."
+  ],
+  "sourceUrls": [
+    "https://cake.vn/cong-cu-tien-ich/ty-gia-lai-suat",
+    "https://cake.vn/tien-gui/tien-gui-tieu-chuan"
+  ],
+  "lastVerified": "2026-11-26"
+}

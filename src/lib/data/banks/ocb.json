@@ -4,7 +4,8 @@
   "shortName": "OCB",
   "officialUrl": "https://ocb.com.vn/",
   "cardsUrl": "https://ocb.com.vn/vi/ca-nhan/the/the-tin-dung",
-  "feeScheduleUrl": null,
+  "debitCardsUrl": "https://ocb.com.vn/vi/ca-nhan/the/the-ghi-no",
+  "feeScheduleUrl": "https://ocb.com.vn/vi/cong-cu/bieu-phi",
   "referral": null,
   "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://ocb.com.vn/"],
   "lastVerified": "2026-11-25"

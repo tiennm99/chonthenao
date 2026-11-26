@@ -1,0 +1,40 @@
+{
+  "id": "msb-visa-classic-debit",
+  "bank": "msb",
+  "name": "MSB Visa Classic",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Classic",
+  "issuanceFee": 50000,
+  "annualFee": 100000,
+  "feesFinal": null,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "virtual": true,
+  "perks": [
+    "Rút tiền miễn phí tại ATM MSB",
+    "Chuyển khoản nội bộ trên ATM MSB miễn phí",
+    "Thanh toán 1 chạm Apple Pay, Google Pay, Samsung Pay",
+    "Chi tiêu trong nước và nước ngoài, ưu đãi từ MSB, Visa và đối tác"
+  ],
+  "notes": [
+    "fxFee là phí xử lý giao dịch bằng ngoại tệ 3%/số tiền giao dịch, khoản phí phần trăm duy nhất biểu phí ghi cho giao dịch này.",
+    "Rút tiền tại ATM nước ngoài: 4%/số tiền giao dịch (tối thiểu 100.000 đồng); tại ATM ngân hàng khác trong nước: 5.000 đồng/giao dịch; chuyển khoản liên ngân hàng 247 trên ATM MSB: 10.000 đồng/giao dịch; phí giao nhận thẻ 25.000 đồng.",
+    "Phí phát hành 50.000 đồng là phí phát hành thẻ vật lý lần đầu; biểu phí ghi miễn phí phát hành thẻ số. Phí thường niên năm đầu thu ngay khi đăng ký, từ năm thứ 2 hệ thống thu tự động.",
+    "Biểu phí còn có bản MSB Visa Debit Classic CVP miễn phí thường niên (các phí khác như bản thường); biểu phí không ghi ai được cấp bản này.",
+    "Biểu phí dịch vụ tài khoản KHCN (hiệu lực 01/12/2025, chưa gồm VAT 10%) ghi khác cho Visa Debit Classic: phí phát hành và phí thường niên 20.000 đồng; rút tiền tại ATM MSB 1.000 đồng/lần; tại ATM ngân hàng khác 1.000 đồng/lần cho 2 giao dịch đầu tiên trong tháng, từ giao dịch thứ 3 thu 3.000 đồng. Ở đây lưu theo biểu phí thẻ ghi nợ, đăng ngày 14/08/2026.",
+    "Biểu phí thẻ ghi nợ không ghi phí đã gồm hay chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.msb.com.vn/khach-hang-ca-nhan/the/msb-visa-classic/",
+    "https://www.msb.com.vn/msb-website/Bieu-phi-The-ghi-no.pdf",
+    "https://www.msb.com.vn/msb-website/PH_Quye%CC%82%CC%81t-di%CC%A3nh-ban-ha%CC%80nh-bie%CC%82%CC%89u-phi%CC%81-di%CC%A3ch-vu%CC%A3-ta%CC%80i-khoa%CC%89n-do%CC%82%CC%81i-vo%CC%9B%CC%81i-Kha%CC%81ch-ha%CC%80ng-ca%CC%81-nha%CC%82n_Signed.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

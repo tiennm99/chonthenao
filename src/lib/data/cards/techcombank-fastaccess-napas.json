@@ -1,0 +1,42 @@
+{
+  "id": "techcombank-fastaccess-napas",
+  "bank": "techcombank",
+  "name": "Techcombank F@stAccess NAPAS",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 60000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu; từ năm thứ 2 thu 60.000 VND/năm. Hội viên Techcombank Inspire, Priority và Private được miễn phí thường niên trọn đời hội viên.",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Rút tiền tại ATM Techcombank miễn phí",
+    "Thanh toán không chạm tại POS trong nước",
+    "Quản lý thẻ (hạn mức, khóa/mở thẻ) trên Techcombank Mobile"
+  ],
+  "notes": [
+    "Thẻ nội địa Napas: rút tiền tại ATM trong liên minh Napas và thanh toán trực tuyến tại website nội địa hoặc website chấp nhận thẻ nội địa; trang sản phẩm không nhắc đến thanh toán ở nước ngoài, nên phí giao dịch ngoại tệ để trống.",
+    "Rút tiền tại ATM Techcombank miễn phí; tại ATM ngân hàng khác 3.000 VND/giao dịch. Phát hành thẻ lần đầu và thẻ thay thế miễn phí; từ thẻ thứ 2 trong vòng 6 tháng 60.000 VND/thẻ.",
+    "Điều kiện phát hành: từ đủ 15 tuổi và có tài khoản thanh toán tại Techcombank.",
+    "Biểu phí thẻ F@stAccess chưa bao gồm VAT.",
+    "Trang tài khoản thanh toán quảng cáo tích điểm Techcombank OneU 1 điểm cho mỗi 1.000 VND chi tiêu thẻ thanh toán, nhưng thể lệ Techcombank OneU hiện hành (21/11/2026 đến 10/01/2027) không có mức tích điểm thẻ thanh toán cố định cho khách hàng thường; các chương trình tích điểm, hoàn tiền thẻ thanh toán trong thể lệ dành cho thẻ hoặc hội viên Priority và Private, hoặc là khuyến mại có thời hạn. Vì vậy chưa ghi nhận ưu đãi tích điểm."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/the/the-thanh-toan/the-thanh-toan-noi-dia-fast-access",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-the-thanh-toan-0707.pdf",
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/tai-khoan/tai-khoan-thanh-toan",
+    "https://techcombank.com/content/dam/techcombank/public-site/promo_file/the-le-chuong-trinh-khach-hang-than-thiet-tai-techcombank-12092026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

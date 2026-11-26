@@ -1,0 +1,36 @@
+{
+  "id": "tpbank",
+  "bank": "tpbank",
+  "accountMonthlyFee": 8000,
+  "minBalance": null,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 0,
+  "smsFeeMonth": 10000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Miễn phí chuyển tiền liên ngân hàng, rút tiền tại LiveBank 24/7 và ATM trên toàn quốc cùng hơn 60 loại phí khác trên App TPBank",
+    "Mở tài khoản thanh toán đầu tiên miễn phí, mở online trên App TPBank",
+    "Chọn số tài khoản theo ý thích (số điện thoại, ngày sinh, số đẹp; có thu phí theo quy tắc chọn số)",
+    "Đăng ký và sử dụng eBank miễn phí, cấp eToken miễn phí"
+  ],
+  "notes": [
+    "accountMonthlyFee là phí quản lý tài khoản VND 8.000 VND/tháng theo Phụ lục 01 - Biểu phí dịch vụ Tài khoản/Tiết kiệm (áp dụng từ 28/06/2026); tài khoản không hoạt động liên tục 6 tháng thu 5.000 VND/tháng. Các biểu phí tài khoản, eBank và thẻ ghi nợ nội địa đều ghi mức phí chưa bao gồm VAT.",
+    "minBalance để trống: biểu phí nhắc tới số dư tối thiểu theo quy định của TPBank từng thời kỳ nhưng chỉ in mức cho tài khoản ngoại tệ (10 USD), không in mức cho tài khoản VND.",
+    "transferInternalFee và transferInterbankFee lấy từ trang tài khoản (\"MIỄN PHÍ chuyển tiền và hơn 60 loại phí khác\") và trang eBank (\"Miễn phí chuyển tiền liên ngân hàng, rút tiền tại LiveBank 24/7 và ATM trên toàn quốc...và hơn 60 loại phí khác\"); biểu phí eBank (Phụ lục 06) không có dòng phí chuyển tiền và không tìm thấy biểu phí chuyển tiền riêng trên tpb.vn.",
+    "atmOnUsFee và atmOffUsFee: biểu phí thẻ ghi nợ nội địa ghi phí rút tiền mặt tại ATM miễn phí, trang thẻ ATM Smart 24/7 ghi miễn 100% phí rút tiền tại toàn bộ ATM nội địa. Vấn tin tại ATM ngân hàng khác 500 VND.",
+    "smsFeeMonth là SMS Banking 10.000 VND/tháng cho 1 - 20 tin, từ tin thứ 21 thêm 700 VND/tin; thông báo biến động số dư qua Zalo 10.000 VND/tháng cho 1 - 40 tin. Nhận OTP qua SMS (PTXT OTP SMS) thu riêng 40.000 VND/tháng; eToken miễn phí.",
+    "Mở tài khoản thanh toán thứ 2 trở đi 20.000 VND/tài khoản; đóng tài khoản trong 12 tháng kể từ ngày mở 20.000 VND."
+  ],
+  "sourceUrls": [
+    "https://tpb.vn/khach-hang-ca-nhan/tai-khoan/tai-khoan-thanh-toan",
+    "https://tpb.vn/wps/wcm/connect/b1fedfff-7a91-4516-a839-f1d02a85298d/Phu_luc_01_Bieu_phi_TKTT_va_TKiem.pdf?MOD=AJPERES",
+    "https://tpb.vn/khach-hang-ca-nhan/ebanking/ngan-hang-dien-tu-ebank",
+    "https://tpb.vn/wps/wcm/connect/71613539-d820-4f65-aaf6-ebb53c372ab1/Phu_luc_06_Bieu_phi_Ebank.pdf?MOD=AJPERES",
+    "https://tpb.vn/khach-hang-ca-nhan/the-thanh-toan/the-atm-smart-247",
+    "https://tpb.vn/wps/wcm/connect/74bf2d24-6bcb-4758-99a3-a8a1a47c9f5c/Phu-luc-05---Bieu-phi-the-ghi-no-noi-dia-up+web.pdf?MOD=AJPERES"
+  ],
+  "lastVerified": "2026-11-26"
+}

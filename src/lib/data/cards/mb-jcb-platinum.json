@@ -2,6 +2,7 @@
   "id": "mb-jcb-platinum",
   "bank": "mb",
   "name": "MB JCB Platinum",
+  "kind": "credit",
   "network": "jcb",
   "tier": "Platinum",
   "issuanceFee": 0,

@@ -2,6 +2,7 @@
   "id": "cake-2in1-standard",
   "bank": "cake",
   "name": "Thẻ Cake 2in1 - Gói Standard",
+  "kind": "credit",
   "network": "visa",
   "tier": null,
   "issuanceFee": 150000,

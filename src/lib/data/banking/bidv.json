@@ -1,0 +1,35 @@
+{
+  "id": "bidv",
+  "bank": "bidv",
+  "accountMonthlyFee": 5000,
+  "minBalance": null,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 1000,
+  "atmOffUsFee": 3000,
+  "smsFeeMonth": 10000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Mở tài khoản thanh toán miễn phí, mở online 24/7 trên BIDV SmartBanking",
+    "Chuyển khoản trong BIDV và liên ngân hàng trên SmartBanking miễn phí",
+    "Đăng ký và duy trì SmartBanking miễn phí; thông báo biến động số dư qua OTT trên SmartBanking miễn phí"
+  ],
+  "notes": [
+    "Phí quản lý tài khoản thanh toán VND theo số dư: dưới 2 triệu VND 5.000 VND/tháng, từ 2 đến dưới 10 triệu VND 3.000 VND/tháng, từ 10 triệu VND miễn phí.",
+    "Miễn phí quản lý cho 01 tài khoản thanh toán mặc định trên SmartBanking nếu SmartBanking có phát sinh giao dịch tài chính trong tháng liền trước. Khách hàng Premier, Premier Elite, Private miễn phí.",
+    "Phí quản lý tài khoản không hoạt động (không phát sinh giao dịch chủ động trong quý): 30.000 VND/quý, biểu phí ghi dự kiến áp dụng từ quý 3/2025.",
+    "Số dư tối thiểu theo quy định của BIDV từng thời kỳ; trang sản phẩm không công bố con số.",
+    "Phí rút tiền ATM theo biểu phí thẻ ghi nợ nội địa (thẻ BIDV Smart): 1.000 VND/giao dịch tại ATM BIDV, 3.000 VND/giao dịch tại ATM ngân hàng khác trong nước.",
+    "Tin nhắn biến động số dư (BSMS): 10.000 VND/tháng khi dưới 15 tin nhắn/tháng; từ 15 tin nhắn trở lên 700 VND/tin nhắn.",
+    "Biểu phí ghi các mức phí chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/vn/ca-nhan/cong-cu-tien-ich/bieu-phi",
+    "https://bidv.com.vn/wps/wcm/connect/e8b43daf-a69b-441a-b60e-01f23ec0544c/01.+DV%2Bquan%2Bly%2Btai%2Bkhoan%2B%28ap%2Bdung%2Btu%2B10.05.2025%29.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e8b43daf-a69b-441a-b60e-01f23ec0544c-pHygaS1",
+    "https://bidv.com.vn/wps/wcm/connect/21d43fca-5cdc-4ba1-bb89-257712b0cdf2/7.+DV+ngan+hang+dien+tu+%28ap+dung+tu+10.05.2025%29.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-21d43fca-5cdc-4ba1-bb89-257712b0cdf2-pqQIfnm",
+    "https://bidv.com.vn/wps/wcm/connect/517a3656-a452-490c-94c1-5bb5beca287a/BIEU+PHI+THE+KHACH+HANG+CA+NHAN+BIDV+20.08.26.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-517a3656-a452-490c-94c1-5bb5beca287a-p.RH4bB",
+    "https://bidv.com.vn/vn/ca-nhan/san-pham-dich-vu/tai-khoan/tai-khoan-thanh-toan"
+  ],
+  "lastVerified": "2026-11-26"
+}

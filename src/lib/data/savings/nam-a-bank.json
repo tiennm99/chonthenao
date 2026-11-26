@@ -1,0 +1,29 @@
+{
+  "id": "nam-a-bank",
+  "bank": "nam-a-bank",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.6 },
+    { "termMonths": 3, "rate": 4.7 },
+    { "termMonths": 6, "rate": 5.9 },
+    { "termMonths": 9, "rate": 6.1 },
+    { "termMonths": 12, "rate": 6.1 },
+    { "termMonths": 18, "rate": 6.3 },
+    { "termMonths": 24, "rate": 6.4 },
+    { "termMonths": 36, "rate": 6.1 }
+  ],
+  "minAmount": 100000,
+  "notes": [
+    "Bảng \"Lãi suất Tiết kiệm Trực tuyến (Online)\" của Nam A Bank, lãi cuối kỳ, áp dụng từ ngày 20/10/2026. Bảng chỉ có một mức lãi cho mọi số tiền gửi, không chia bậc theo số tiền.",
+    "Tiết kiệm online có kỳ hạn 1 đến 3 tuần (0,50%/năm), 1 đến 18 tháng, 24 và 36 tháng. Các kỳ hạn khác trong bảng: 2 tháng 4,70%; 4-5 tháng 4,70%; 7-8 tháng 6,00%; 10-11 tháng 6,10%; 13-17 tháng 6,20%/năm.",
+    "Theo trang sản phẩm Tiết Kiệm Online, số tiền gửi tối thiểu 100.000 đồng; cần có tài khoản Nam A Bank và dịch vụ ngân hàng điện tử cho phép chuyển khoản. Được rút một phần vốn trước hạn, một hoặc nhiều lần; phần rút trước hạn hưởng lãi không kỳ hạn, phần còn lại giữ lãi suất cố định đến hạn.",
+    "Gửi tại quầy (Lãi suất Tiền gửi VND, hiệu lực 20/10/2026, lãi cuối kỳ) thấp hơn: 1 tháng 4,50%; 3 tháng 4,60%; 6 tháng 5,10%; 9 tháng 5,30%; 12 tháng 5,70%; 18 tháng 5,80%/năm. Kỳ hạn 24 và 36 tháng lãi cuối kỳ tại quầy dưới 500 tỷ đồng áp dụng lãi suất kỳ hạn 23 và 35 tháng (5,80%/năm).",
+    "Biểu tại quầy ghi khoản tiền gửi từ 6 tháng trở lên có thể thỏa thuận lãi suất cụ thể với ngân hàng."
+  ],
+  "sourceUrls": [
+    "https://www.namabank.com.vn/lai-suat-tiet-kiem-truc-tuyen-online-nam-hieu-luc-ngay-20102026",
+    "https://www.namabank.com.vn/tiet-kiem-online",
+    "https://www.namabank.com.vn/lai-suat-tien-gui-vnd-hieu-luc-20102026"
+  ],
+  "lastVerified": "2026-11-26"
+}

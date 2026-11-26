@@ -2,6 +2,7 @@
   "id": "agribank-visa-gold",
   "bank": "agribank",
   "name": "Agribank Visa Gold",
+  "kind": "credit",
   "network": "visa",
   "tier": "Gold",
   "issuanceFee": 200000,

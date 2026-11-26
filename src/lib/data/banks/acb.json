@@ -4,6 +4,7 @@
   "shortName": "ACB",
   "officialUrl": "https://acb.com.vn/",
   "cardsUrl": "https://acb.com.vn/the",
+  "debitCardsUrl": "https://acb.com.vn/the/the-ghi-no",
   "feeScheduleUrl": "https://acb.com.vn/bieu-mau-bieu-phi",
   "referral": null,
   "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://acb.com.vn/"],

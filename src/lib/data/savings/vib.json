@@ -1,0 +1,26 @@
+{
+  "id": "vib",
+  "bank": "vib",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": null },
+    { "termMonths": 3, "rate": null },
+    { "termMonths": 6, "rate": null },
+    { "termMonths": 9, "rate": null },
+    { "termMonths": 12, "rate": null },
+    { "termMonths": 18, "rate": null },
+    { "termMonths": 24, "rate": null },
+    { "termMonths": 36, "rate": null }
+  ],
+  "minAmount": 2000000,
+  "notes": [
+    "Chưa đọc được con số lãi suất: bảng \"Tiền gửi trực tuyến\" trên trang tiết kiệm của VIB tải lãi suất từ máy chủ sau khi mở trang, và lần kiểm tra ngày 26/11/2026 không đọc được bảng này. Các kỳ hạn bảng liệt kê gồm dưới 1 tháng, 1 - 12 tháng, 15, 18, 24 và 36 tháng; không đọc được ngày áp dụng của bảng.",
+    "Bảng chia ba mức số tiền: 2 triệu đến dưới 300 triệu, 300 triệu đến dưới 3 tỷ, và từ 3 tỷ đồng. Số tiền gửi tối thiểu 2.000.000 đồng.",
+    "Lãi suất niêm yết tính trên cơ sở 1 năm 365 ngày, áp dụng cho kỳ trả lãi cuối kỳ; lãi trả hàng tháng, hàng quý được quy đổi theo công thức của VIB.",
+    "Cộng thêm 1,0%/năm cho khách hàng ưu tiên Premier, 0,7%/năm cho Priority, kỳ hạn 01 - 11 tháng và 15 - 36 tháng, hiệu lực từ 12/06/2026; lãi suất kỳ hạn 01 - 05 tháng không vượt trần của NHNN (4,75%/năm).",
+    "Cộng thêm 2,8%/năm cho khách hàng mới gửi tiền trong tháng đầu tiên giao dịch tại VIB, kỳ hạn 06 - 11 tháng, hiệu lực từ 01/11/2026.",
+    "Tất toán trước hạn hưởng lãi suất không kỳ hạn 0,1%/năm."
+  ],
+  "sourceUrls": ["https://www.vib.com.vn/vn/tiet-kiem"],
+  "lastVerified": "2026-11-26"
+}

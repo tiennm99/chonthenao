@@ -1,0 +1,53 @@
+{
+  "id": "lpbank",
+  "bank": "lpbank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Cho vay tiêu dùng không TSBĐ - Tín dụng Cá nhân",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 3800000000,
+      "note": "Tối đa 3,8 tỷ đồng dựa trên thu nhập hoặc chức danh; khách hàng từ 18 đến 70 tuổi có thu nhập ổn định. Trang sản phẩm không công bố lãi suất."
+    },
+    {
+      "type": "home",
+      "name": "Cho vay mua nhà đất",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Cho vay tối đa 100% nhu cầu vay vốn của phương án vay; lãi suất \"theo quy định của LPBank tại thời điểm vay vốn\"."
+    },
+    {
+      "type": "home",
+      "name": "Cho vay mua nhà dự án",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Cho vay tối đa 100% giá trị nhà mua/nhận chuyển nhượng, không vượt quá mức cho vay tối đa trên giá trị tài sản bảo đảm; lãi suất theo quy định của LPBank từng thời kỳ."
+    },
+    {
+      "type": "auto",
+      "name": "Cho vay mua xe ô tô KHCN",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 120,
+      "maxAmount": 2000000000,
+      "note": "Lên đến 100% phương án vay, tối đa 02 tỷ đồng; lãi suất \"theo quy định của LPBank tại thời điểm vay vốn\"."
+    }
+  ],
+  "notes": [
+    "Các trang sản phẩm vay của LPBank không công bố lãi suất cụ thể, chỉ ghi lãi suất theo quy định của ngân hàng tại thời điểm vay."
+  ],
+  "sourceUrls": [
+    "https://lpbank.com.vn/ca-nhan/cho-vay",
+    "https://lpbank.com.vn/ca-nhan/cho-vay/detail-cho-vay/2519",
+    "https://lpbank.com.vn/ca-nhan/cho-vay/detail-cho-vay/2037",
+    "https://lpbank.com.vn/ca-nhan/cho-vay/detail-cho-vay/2038",
+    "https://lpbank.com.vn/ca-nhan/cho-vay/detail-cho-vay/1875"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "msb-napas-debit",
+  "bank": "msb",
+  "name": "MSB Napas Debit M-Pro",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 50000,
+  "annualFee": 50000,
+  "feesFinal": null,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Rút tiền miễn phí tại ATM MSB",
+    "Chuyển khoản nội bộ trên ATM MSB miễn phí",
+    "Thanh toán 1 chạm Apple Pay, Google Pay, Samsung Pay",
+    "Thanh toán trực tuyến trên website, MSB mBank và ứng dụng mua sắm"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa: biểu phí ghi \"Không hỗ trợ giao dịch\" với rút tiền ở ATM nước ngoài và giao dịch bằng ngoại tệ; trang sản phẩm ghi thẻ chỉ dùng trong nước.",
+    "Phí phát hành 50.000 đồng là phí phát hành thẻ vật lý lần đầu; biểu phí ghi miễn phí phát hành thẻ số. Phí thường niên năm đầu thu ngay khi đăng ký, từ năm thứ 2 hệ thống thu tự động.",
+    "Rút tiền tại ATM ngân hàng khác: 3.000 đồng/giao dịch; chuyển khoản liên ngân hàng 247 trên ATM MSB: 10.000 đồng/giao dịch; phí giao nhận thẻ 25.000 đồng.",
+    "Biểu phí còn có bản MSB Napas Debit CVP VCCS miễn phí phát hành lần đầu, phí thường niên, rút tiền ATM ngân hàng khác và giao nhận thẻ; biểu phí không ghi ai được cấp bản này.",
+    "Biểu phí dịch vụ tài khoản KHCN (hiệu lực 01/12/2025, chưa gồm VAT 10%) ghi khác cho thẻ M-Pro: phí phát hành và phí thường niên 20.000 đồng; rút tiền tại ATM ngân hàng khác miễn phí 2 giao dịch đầu tiên trong tháng, từ giao dịch thứ 3 thu 3.000 đồng. Ở đây lưu theo biểu phí thẻ ghi nợ, đăng ngày 14/08/2026.",
+    "Biểu phí thẻ ghi nợ không ghi phí đã gồm hay chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.msb.com.vn/khach-hang-ca-nhan/the/the-noi-dia-napas/",
+    "https://www.msb.com.vn/msb-website/Bieu-phi-The-ghi-no.pdf",
+    "https://www.msb.com.vn/msb-website/PH_Quye%CC%82%CC%81t-di%CC%A3nh-ban-ha%CC%80nh-bie%CC%82%CC%89u-phi%CC%81-di%CC%A3ch-vu%CC%A3-ta%CC%80i-khoa%CC%89n-do%CC%82%CC%81i-vo%CC%9B%CC%81i-Kha%CC%81ch-ha%CC%80ng-ca%CC%81-nha%CC%82n_Signed.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

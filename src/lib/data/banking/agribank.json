@@ -1,0 +1,35 @@
+{
+  "id": "agribank",
+  "bank": "agribank",
+  "accountMonthlyFee": null,
+  "minBalance": null,
+  "transferInternalFee": null,
+  "transferInterbankFee": null,
+  "atmOnUsFee": 1000,
+  "atmOffUsFee": 3000,
+  "smsFeeMonth": null,
+  "digitalBankingFeeMonth": null,
+  "feesFinal": false,
+  "perks": [
+    "Miễn phí mở tài khoản thanh toán",
+    "Miễn phí nộp tiền mặt VND tại chi nhánh mở tài khoản"
+  ],
+  "notes": [
+    "Biểu phí ghi phí quản lý tài khoản VND \"tối đa 5.000 VNĐ/tháng\", là mức trần chứ không phải mức cố định, nên để trống. Miễn phí quản lý tài khoản khi số dư bình quân tháng trước trên 5 triệu đồng, nhưng biểu phí ghi điều này chỉ thực hiện khi hệ thống CNTT hoàn thiện.",
+    "Số dư tối thiểu: biểu phí ghi \"thực hiện theo quy định của Agribank\", không nêu số tiền.",
+    "Biểu phí dịch vụ chuyển tiền chỉ nêu phí chuyển tại quầy (chuyển khoản cùng chi nhánh miễn phí; chuyển đi ngân hàng khác dưới 500 triệu VND 0,02%-0,04%, tối thiểu 20.000 VND). Agribank không công bố biểu phí ngân hàng điện tử cho khách hàng cá nhân trên trang biểu phí, nên phí chuyển khoản qua Agribank Plus để trống.",
+    "Chuyển khoản tại ATM Agribank bằng thẻ ghi nợ nội địa: cùng hệ thống 3.000 VND/giao dịch, liên ngân hàng 0,05% số tiền (tối thiểu 8.000, tối đa 15.000 VND); đây là phí kênh ATM, không phải phí chuyển trên ứng dụng.",
+    "Rút tiền tại ATM Agribank bằng thẻ ghi nợ nội địa hạng Chuẩn 1.000 VND/giao dịch (in hóa đơn thêm 500 VND); tại ATM ngân hàng khác trong nước 3.000 VND/giao dịch.",
+    "Agribank có thu phí duy trì Agribank Plus và phí nhận tin OTT biến động số dư (trang ưu đãi khách hàng ưu tiên nhắc miễn/giảm các phí này), nhưng không công bố mức phí; phí SMS Banking cũng không có trong biểu phí đã công bố.",
+    "Các mức phí trong biểu phí chưa bao gồm thuế GTGT."
+  ],
+  "sourceUrls": [
+    "https://www.agribank.com.vn/vn/bieu-phi",
+    "https://www.agribank.com.vn/wcm/connect/749ffcca-1574-4b36-b24f-5bb5221d6f4f/BieuPhi_KHCN+d%E1%BB%8Bch+v%E1%BB%A5+t%C3%A0i+kho%E1%BA%A3n+ti%E1%BB%81n+g%E1%BB%ADi+final.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-749ffcca-1574-4b36-b24f-5bb5221d6f4f-q4quNpP",
+    "https://www.agribank.com.vn/wcm/connect/bafe006b-bb56-4f0b-b1d6-767eb8508716/BieuPhi_KHCN+d%E1%BB%8Bch+v%E1%BB%A5+chuy%E1%BB%83n+ti%E1%BB%81n+final.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-bafe006b-bb56-4f0b-b1d6-767eb8508716-q4qIqLT",
+    "https://www.agribank.com.vn/wcm/connect/80a284ff-5b2a-4ff7-a06b-c9be47f3e08e/Bi%E1%BB%83u+ph%C3%AD+d%E1%BB%8Bch+v%E1%BB%A5+th%E1%BA%BB+KHCN.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-80a284ff-5b2a-4ff7-a06b-c9be47f3e08e-q3Ho-kd",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham-dich-vu/gui-tien-agribank/tien-gui/tai-khoan-thanh-toan",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/khach-hang-uu-tien/dac-quyen-phi-dich-vu-ngan-hang-dien-tu/dac-quyen-phi-dich-vu-ngan-hang-dien-tu"
+  ],
+  "lastVerified": "2026-11-26"
+}

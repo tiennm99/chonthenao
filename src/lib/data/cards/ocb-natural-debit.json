@@ -1,0 +1,50 @@
+{
+  "id": "ocb-natural-debit",
+  "bank": "ocb",
+  "name": "OCB Natural Debit",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": null,
+  "annualFee": 60000,
+  "feesFinal": null,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên cho thẻ phi vật lý mở trên OCB OMNI. Thẻ vật lý phát hành tại quầy: khách hàng vãng lai bị thu phí; hoàn phí thường niên các năm tiếp theo khi số dư tài khoản thanh toán bình quân 12 tháng từ 10.000.000 VND trở lên.",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "dining",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": 300000,
+      "note": "Mức thấp nhất, khi số dư tài khoản thanh toán bình quân tháng từ 5 triệu đến dưới 50 triệu đồng. Từ 50 đến dưới 150 triệu: hoàn 3%, tối đa 500.000 VND/tháng; từ 150 triệu trở lên: hoàn 5%, tối đa 1.000.000 VND/tháng. Dưới 5 triệu: không hoàn tiền."
+    }
+  ],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2027-02-28",
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Bảo hiểm mất bóp ví miễn phí, tổng giá trị 20.000.000 VND/năm",
+    "Rút tiền mặt miễn phí tại ATM OCB và ATM ngân hàng khác trong nước (thẻ phát hành từ 01/07/2025)",
+    "Hạn mức giao dịch 100 triệu đồng/ngày"
+  ],
+  "notes": [
+    "Hoàn tiền theo \"Chương trình ưu đãi hoàn tiền cho thẻ ghi nợ năm 2026\" (18/03/2026 - 28/02/2027): mức hoàn tính theo số dư tài khoản thanh toán bình quân tháng (tổng mọi tài khoản thanh toán), không theo số tiền chi tiêu. Mỗi khách hàng chỉ được hoàn tiền cho 01 thẻ ghi nợ OCB mỗi tháng (Natural, Mastercard Passport hoặc Mastercard World Debit), là thẻ có số tiền hoàn cao nhất.",
+    "Thẻ ghi nợ nội địa, dùng trong nước; fxFee để trống. Biểu phí vẫn ghi rút tiền tại ATM BC Card (Hàn Quốc) 2% số tiền giao dịch (tối thiểu 50.000 VND) và phí xử lý giao dịch tại nước ngoài bằng VND 1% (tối thiểu 10.000 VND).",
+    "Biểu phí thẻ không ghi phí phát hành cho thẻ ghi nợ; in thẻ vật lý theo yêu cầu cho thẻ phi vật lý mở trên OCB OMNI: 100.000 VND/thẻ. Cấp lại thẻ 50.000 VND/lần.",
+    "Thẻ phát hành trước 01/07/2025, khách hàng vãng lai: rút tiền tại ATM OCB 1.100 VND/lần, tại ATM ngân hàng khác trong nước 3.300 VND/lần.",
+    "Biểu phí dịch vụ thẻ (bản 15/10/2026) không ghi phí đã gồm hay chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://ocb.com.vn/vi/ca-nhan/the/the-ghi-no/ocb-natural",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20261016103427_bieu-phi-the-upweb15102026.pdf",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20260320131913_the-le-chuong-trinh-ocb-natural-debit.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "seabank-mastercard-gold-debit",
+  "bank": "seabank",
+  "name": "SeABank Mastercard Gold (ghi nợ)",
+  "kind": "debit",
+  "network": "mastercard",
+  "tier": "Vàng",
+  "issuanceFee": 165000,
+  "annualFee": 220000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Khách hàng ưu tiên được miễn phí thường niên năm đầu tiên.",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.2,
+      "earn": null,
+      "capMonth": null,
+      "note": "Giao dịch thanh toán bằng VND."
+    },
+    {
+      "category": "foreign",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": null,
+      "note": "Giao dịch thanh toán bằng ngoại tệ."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["all", "foreign"],
+      "capMonth": 300000,
+      "note": "Đổi tối đa 300.000 điểm mỗi kỳ sao kê; số tiền hoàn lên đến 3.600.000 đồng/năm (12 × 300.000), nên 1 điểm được hiểu là 1 đồng — trang sản phẩm không ghi tỷ lệ quy đổi."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 3.85,
+  "virtual": null,
+  "perks": [
+    "Thanh toán tại POS và rút tiền tại ATM trên toàn thế giới, mua sắm trực tuyến quốc tế",
+    "Giảm giá lên đến 70% tại các đối tác của SeABank",
+    "Có thể mở thêm tối đa 3 thẻ phụ"
+  ],
+  "notes": [
+    "Hoàn tiền tích lũy dưới dạng điểm thưởng theo phần trăm giá trị giao dịch; được đổi khi đạt tối thiểu 50.000 điểm và tự động hoàn vào tài khoản thanh toán.",
+    "fxFee là phí chuyển đổi ngoại tệ và xử lý giao dịch 3,85% (tối thiểu 11.000 đồng). Giao dịch bằng VND tại đơn vị chấp nhận thẻ nước ngoài (như Facebook, Google, TikTok) chịu phí quản lý 3,3% (tối thiểu 5.500 đồng).",
+    "Rút tiền tại ATM SeABank 1.100 đồng/lần; tại ATM ngân hàng khác 5.500 đồng/lần trong nước, 3,3% (tối thiểu 55.000 đồng) ở nước ngoài.",
+    "Phí phát hành 165.000 đồng (thẻ phụ thứ 2 trở đi 220.000 đồng) không áp dụng với khách hàng trả lương, thẻ phát hành theo gói và thẻ phát hành qua kênh online.",
+    "Biểu phí dịch vụ thẻ ghi nợ (hiệu lực 01/05/2026) ghi các mức phí đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.seabank.com.vn/ca-nhan/the/the-ghi-no-quoc-te/the-ghi-no-seabank-mastercard-gold",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20th%E1%BA%BB%20ghi%20n%E1%BB%A3%20SeABank_052026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

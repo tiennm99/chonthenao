@@ -1,0 +1,66 @@
+{
+  "id": "vietinbank-visa-debit-historia",
+  "bank": "vietinbank",
+  "name": "VietinBank Visa Debit Historia",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 180000,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "education",
+      "type": "cashback",
+      "rate": 2,
+      "earn": null,
+      "capMonth": null,
+      "note": "Giáo dục học tập (MCC 5111, 5192, 5942, 5943, 8211, 8220, 8241, 8244, 8249, 8299, 8351)."
+    },
+    {
+      "category": "health",
+      "type": "cashback",
+      "rate": 2,
+      "earn": null,
+      "capMonth": null,
+      "note": "Y tế, sức khỏe (MCC 4119, 5047, 5122, 5912, 5975, 5976, 8011, 8021, 8031, 8041, 8042, 8043, 8049, 8050, 8062, 8071, 8099)."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["education", "health"],
+      "capMonth": 150000,
+      "note": "Giá trị hoàn tiền tối đa 150.000 đồng/loại thẻ/tháng."
+    }
+  ],
+  "minSpendMonth": 2000000,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 2.73,
+  "virtual": true,
+  "perks": [
+    "Hạn mức rút tiền đến 15 triệu đồng/lần",
+    "Thanh toán, rút tiền mặt tại ATM/POS trong và ngoài nước",
+    "Kích hoạt, cài đặt thẻ online trên VietinBank iPay; thẻ chip tiếp xúc và phi tiếp xúc",
+    "Thanh toán trực tuyến bảo mật 3D Secure, Apple Pay, Samsung Pay, Google Pay",
+    "Miễn phí thông báo biến động số dư và chuyển tiền trong, ngoài hệ thống qua VietinBank iPay"
+  ],
+  "notes": [
+    "Thuộc bộ sưu tập thẻ ghi nợ quốc tế Visa Debit Life Journey (Historia, Moderna, Futura): cùng biểu phí, mỗi mẫu thẻ hoàn tiền ở nhóm lĩnh vực khác nhau.",
+    "Hoàn tiền 2% chỉ khi tổng chi tiêu tích lũy trong tháng dương lịch từ 2.000.000 đồng/thẻ; chương trình áp dụng từ 11/08/2026, thể lệ không ghi ngày kết thúc. Không tính giao dịch trên VietinBank iPay (QR, thanh toán hóa đơn), rút tiền mặt, ví điện tử, chuyển tiền, chứng khoán.",
+    "Trang sản phẩm có chỗ mâu thuẫn: phần ưu đãi ghi hoàn 2% cho \"giải trí, thể thao, công nghệ\", còn tiêu đề và thể lệ chương trình ghi Giáo dục và Y tế, sức khỏe. Dữ liệu theo thể lệ.",
+    "Biểu phí thẻ ghi nợ quốc tế ghi mức phí chưa gồm VAT: phát hành lần đầu miễn phí (phát hành lại thẻ vật lý 50.000 đồng), phí thường niên thẻ vật lý 180.000 đồng/năm; thẻ phi vật lý Historia Virtual 99.000 đồng/năm.",
+    "fxFee gồm phí chuyển đổi ngoại tệ 1,82% và phí xử lý giao dịch ngoại tệ 0,91% (chưa gồm VAT). Giao dịch bằng VND tại đơn vị chấp nhận thẻ nước ngoài chịu phí xử lý 0,80% (thêm 3.000 đồng/giao dịch khi giá trị từ 500.000 đồng trở xuống).",
+    "Rút tiền tại ATM VietinBank 1.000 đồng, ATM ngân hàng khác trong nước 9.090 đồng/lần, ngoài lãnh thổ Việt Nam 3,64% (tối thiểu 50.000 đồng). Phí quản lý tính năng thẻ online 5.000 đồng/kỳ 6 tháng.",
+    "Ưu đãi mở mới (không phải hoàn tiền thường xuyên): hoàn 100.000 đồng khi phát hành thẻ vật lý, kích hoạt và chi tiêu từ 1 triệu đồng trong 30 ngày đầu, từ 21/08/2026 đến 31/12/2026 hoặc khi hết ngân sách."
+  ],
+  "sourceUrls": [
+    "https://www.vietinbank.vn/vi/ca-nhan/san-pham-dich-vu/danh-sach-the/vietinbank-visa-debit-historia-20-html",
+    "https://vietinbank.vn/assets/e730a516-a827-4e10-9498-6866e55e0296",
+    "https://vietinbank.vn/assets/586c509b-476c-47a4-8d43-71c68a4800f8",
+    "https://www.vietinbank.vn/ca-nhan/cong-cu-tien-ich/bieu-phi-va-bieu-mau/bieu-phi-ap-dung-cho-san-pham-the-ghi-no-quoc-te-40-html"
+  ],
+  "lastVerified": "2026-11-26"
+}

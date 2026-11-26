@@ -1,0 +1,51 @@
+{
+  "id": "tpbank",
+  "bank": "tpbank",
+  "channel": "online",
+  "rates": [
+    {
+      "termMonths": 1,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 3,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 6,
+      "rate": 5.5
+    },
+    {
+      "termMonths": 9,
+      "rate": 5.5
+    },
+    {
+      "termMonths": 12,
+      "rate": 5.7
+    },
+    {
+      "termMonths": 18,
+      "rate": 5.7
+    },
+    {
+      "termMonths": 24,
+      "rate": 5.8
+    },
+    {
+      "termMonths": 36,
+      "rate": 5.8
+    }
+  ],
+  "minAmount": null,
+  "notes": [
+    "Dòng \"TK Điện tử\" (Tiết kiệm Ebank trên kênh ngân hàng số) trong Biểu lãi suất huy động tiền gửi dành cho Khách hàng cá nhân, áp dụng từ ngày 16/11/2026. Biểu không chia bậc theo số tiền gửi và không ghi số tiền gửi tối thiểu.",
+    "Bảng tóm tắt trên trang Lãi suất của tpb.vn ghi khác bản PDF (12 tháng 5,50%, không có kỳ 9 tháng); ở đây dùng bản PDF có ngày áp dụng.",
+    "Tiết kiệm VTM trên LiveBank thấp hơn một chút: 1 đến 3 tháng 4,65%, 6 và 9 tháng 5,45%, 12 và 18 tháng 5,65%, 24 và 36 tháng 5,75%/năm.",
+    "Tiết kiệm lĩnh lãi cuối kỳ tại quầy (TK thường): 1 đến 3 tháng 4,10%, 6 tháng 4,75%, 9 tháng 5,10%, 18 tháng 5,30%, 36 tháng 5,40%/năm. Rút trước hạn hưởng lãi suất không kỳ hạn thấp nhất (hiện 0,05%/năm)."
+  ],
+  "sourceUrls": [
+    "https://tpb.vn/cong-cu-tinh-toan/lai-suat",
+    "https://tpb.vn/wps/wcm/connect/56b36cb3-596d-4fd8-b477-7480b0e42023/BieuLaiSuat_upwweb_14h+-+19.10.2026.pdf?MOD=AJPERES"
+  ],
+  "lastVerified": "2026-11-26"
+}

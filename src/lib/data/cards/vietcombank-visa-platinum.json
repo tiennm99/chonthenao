@@ -2,6 +2,7 @@
   "id": "vietcombank-visa-platinum",
   "bank": "vietcombank",
   "name": "Vietcombank Visa Platinum",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

@@ -1,0 +1,27 @@
+{
+  "id": "lpbank",
+  "bank": "lpbank",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.3 },
+    { "termMonths": 3, "rate": 4.55 },
+    { "termMonths": 6, "rate": 6.5 },
+    { "termMonths": 9, "rate": 6.3 },
+    { "termMonths": 12, "rate": 6.7 },
+    { "termMonths": 18, "rate": 6.55 },
+    { "termMonths": 24, "rate": 6.7 },
+    { "termMonths": 36, "rate": 5.6 }
+  ],
+  "minAmount": 100000,
+  "notes": [
+    "Bảng \"Tiết kiệm Online\" trên trang lãi suất của LPBank, hiệu lực từ ngày 19/11/2026; lãi trả cuối kỳ.",
+    "Gửi trên ứng dụng LPBank Plus; số tiền gửi tối thiểu 100.000 VND; kỳ hạn từ 01 tuần đến 60 tháng.",
+    "Bảng online không chia bậc theo số tiền gửi.",
+    "Tất toán trước hạn được hưởng lãi suất không kỳ hạn thấp nhất tại thời điểm rút (không kỳ hạn: 0,10%/năm)."
+  ],
+  "sourceUrls": [
+    "https://lpbank.com.vn/ca-nhan/lai-suat",
+    "https://lpbank.com.vn/ca-nhan/tiet-kiem/detail-tiet-kiem/2160"
+  ],
+  "lastVerified": "2026-11-26"
+}

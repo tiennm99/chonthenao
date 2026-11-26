@@ -1,0 +1,41 @@
+{
+  "id": "acb-visa-debit",
+  "bank": "acb",
+  "name": "ACB Visa Debit",
+  "kind": "debit",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 200000,
+  "annualFee": 100000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Thẻ thứ nhất: miễn phí thường niên năm đầu khi kết nối với TK EBIZ, TK Thương Gia, TK First; giảm 50% năm đầu khi kết nối tài khoản khác. Thẻ phi vật lý: miễn phí thường niên năm đầu; riêng sản phẩm Visa Debit Int CB EMV phi vật lý miễn phí thường niên khi kết nối TK Ebiz/ECO+. Miễn phí khi tham gia Gói DVTC dành cho Nguồn nhân lực Việt (EB).",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 3.6,
+  "virtual": true,
+  "perks": [
+    "Mở thẻ trực tuyến trên ACB ONE",
+    "Liên kết Apple Pay, Google Pay, Samsung Pay",
+    "Thanh toán không tiếp xúc",
+    "Ưu đãi của Visa theo từng thời kỳ"
+  ],
+  "notes": [
+    "Phí gia nhập: thẻ phi vật lý miễn phí; thẻ vật lý 200.000 VND, được hoàn nếu có giao dịch chi tiêu hoặc rút tiền mặt trong 30 ngày đầu kể từ ngày cấp thẻ (thẻ cấp mới từ 01/08/2026). In thẻ vật lý từ thẻ phi vật lý miễn phí.",
+    "Phí giao dịch ngoại tệ gồm phí xử lý giao dịch 2,6% (tối thiểu 10.000 VND) cộng phí chênh lệch tỷ giá 1%, tổng 3,6%. Giao dịch bằng VND tại đơn vị nước ngoài chịu phí 1,5% (thẻ phát hành từ 10/03/2020 kết nối TK Ebiz, ECO+, First, TKTT trực tuyến) hoặc 1,2% (các trường hợp còn lại), tối thiểu 10.000 VND.",
+    "Rút tiền tại ATM ACB miễn phí khi kết nối TK EBIZ, ECO+, Tài Lộc, Thương Gia, TKTT trực tuyến, First; các trường hợp khác 1.100 VND/lần. Rút tại ATM ngân hàng khác trong nước miễn phí khi kết nối TK Ebiz, ECO+, First, TKTT trực tuyến, còn lại 3.300 VND/lần. Rút tiền ở nước ngoài 3%, tối thiểu 60.000 VND.",
+    "Biểu phí thẻ ghi nợ hiệu lực từ 11/11/2026."
+  ],
+  "sourceUrls": [
+    "https://acb.com.vn/the/the-acb-visa-debit",
+    "https://acb.com.vn/the/the-acb-visa-debit-ket-noi-voi-tai-khoan-first-va-eco",
+    "https://acb.com.vn/acbwebsite/files/BIEU%20PHI%20THE%20GHI%20NO%20KHCN%20(1)%2012%2011.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

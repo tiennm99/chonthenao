@@ -1,0 +1,36 @@
+{
+  "id": "lpbank-visa-debit",
+  "bank": "lpbank",
+  "name": "LPBank Visa Debit",
+  "kind": "debit",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 99000,
+  "feesFinal": false,
+  "feeWaiver": { "text": "Miễn phí thường niên năm đầu.", "minSpendYear": null },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "virtual": null,
+  "perks": [
+    "Hưởng lãi suất không kỳ hạn của tài khoản thanh toán",
+    "Google Pay, thanh toán phi tiếp xúc (contactless), bảo mật 3D Secure",
+    "Miễn phí rút tiền tại ATM của LPBank"
+  ],
+  "notes": [
+    "Biểu phí ghi mức phí chưa gồm VAT 10%: phí thường niên 99.000 VND/năm cho thẻ chính và thẻ phụ, miễn phí năm đầu; phát hành nhanh 199.000 VND.",
+    "Phí giao dịch ngoại tệ là một khoản duy nhất \"phí chuyển đổi ngoại tệ\" 3% số tiền giao dịch (chưa gồm VAT), áp dụng cả giao dịch tại Trung Quốc và các nước khác.",
+    "Rút tiền tại ATM ngân hàng khác trong nước 5.000 VND/lần; tại ATM ngoài Việt Nam 4% số tiền giao dịch, tối thiểu 60.000 VND (chưa gồm VAT).",
+    "Không có chương trình hoàn tiền hay tích điểm được công bố cho thẻ này."
+  ],
+  "sourceUrls": [
+    "https://lpbank.com.vn/ca-nhan/the/detail-the/2056",
+    "https://lpbank.com.vn/api/content-file/public/file/view/710b7bda-9248-49b3-90d7-f006569ccead"
+  ],
+  "lastVerified": "2026-11-26"
+}

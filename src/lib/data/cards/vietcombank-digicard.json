@@ -1,0 +1,69 @@
+{
+  "id": "vietcombank-digicard",
+  "bank": "vietcombank",
+  "name": "VCB DigiCard",
+  "kind": "debit",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 0,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.2,
+      "earn": null,
+      "capMonth": null,
+      "note": "Không giới hạn số tiền hoàn."
+    },
+    {
+      "category": "dining",
+      "type": "cashback",
+      "rate": 5,
+      "earn": null,
+      "capMonth": null,
+      "note": "Chỉ giao dịch trực tuyến đặt đồ ăn, nhà hàng (MCC 5812, 5814)."
+    },
+    {
+      "category": "transport",
+      "type": "cashback",
+      "rate": 5,
+      "earn": null,
+      "capMonth": null,
+      "note": "Chỉ giao dịch trực tuyến đặt xe, dịch vụ vận chuyển (MCC 4121, 4789)."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["dining", "transport"],
+      "capMonth": 300000,
+      "note": "Mức hoàn 5% tối đa 300.000 VND mỗi kỳ sao kê, chung cho mọi lĩnh vực 5% (cả giải trí, nội dung số, truyền hình)."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 2.27,
+  "virtual": true,
+  "perks": [
+    "Phát hành ngay trên VCB Digibank, miễn phí phát hành và thường niên",
+    "Thanh toán qua Apple Pay, Google Pay, Samsung Pay",
+    "Ưu đãi từ Vietcombank và Visa (Agoda, Klook, CGV, Dine and Save with Visa)"
+  ],
+  "notes": [
+    "Thẻ ghi nợ quốc tế phi vật lý, đăng ký trên VCB Digibank, từ 18 tuổi. Biểu phí ghi không có thẻ phụ; trang sản phẩm ghi tối đa 01 thẻ chính và 03 thẻ phụ.",
+    "Hoàn 5% còn áp dụng cho giao dịch trực tuyến về dịch vụ giải trí, sách/phim/game/ứng dụng/phần mềm dạng điện tử và đăng ký truyền hình, radio dài hạn; các lĩnh vực này không có nhóm riêng trên trang này. Không hoàn tiền cho quảng cáo (MCC 7311, 5968), giao dịch POS tại khu vực kinh tế châu Âu (EEA), rút tiền mặt, nạp hoặc rút ví điện tử. Chủ thẻ phải là hội viên VCB Loyalty; kỳ xét hoàn tiền từ ngày 21 tháng này đến ngày 20 tháng sau.",
+    "fxFee là phí xử lý giao dịch ngoại tệ 2,27% giá trị giao dịch. Giao dịch bằng VND tại nước ngoài chịu phí 1% (tối thiểu 9.000 VND/giao dịch).",
+    "Biểu phí thẻ ghi nợ (hiệu lực 06/07/2026) ghi các mức phí chưa gồm VAT. Rút tiền tại ATM Vietcombank 1.000 VND/giao dịch; tại ATM ngân hàng khác 9.090 VND/giao dịch ở Việt Nam, 3,64% (tối thiểu 45.454 VND) ở nước ngoài.",
+    "Hạn mức: rút tiền mặt 100 triệu VND/ngày, chi tiêu tối đa 500 triệu VND/ngày; cần xác thực trực tiếp tại Vietcombank để dùng tối đa hạn mức và thanh toán quốc tế."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The/Debit_VCB-DigiCard",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/202608_VNI_BP-TGN_KHCN_BS-Haha.pdf?ts=20260824094435",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/20260820_DKDK-chuong-trinh-hoan-tien-the-tren-VCB-Loyalty_VN.pdf?ts=20260818075434"
+  ],
+  "lastVerified": "2026-11-26"
+}

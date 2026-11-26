@@ -1,0 +1,64 @@
+{
+  "id": "vietcombank",
+  "bank": "vietcombank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tín chấp theo lương",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cạnh tranh trên thị trường\", không công bố mức. Số tiền vay \"linh hoạt, theo chính sách áp dụng với từng phân khúc khách hàng\". Thời hạn đến 84 tháng khi vay từng lần, 12 tháng khi vay thấu chi. Cần hợp đồng lao động từ 01 năm và thu nhập sau thuế từ lương bình quân từ 7 triệu đồng/tháng (trừ người hưởng lương ngân sách)."
+    },
+    {
+      "type": "home",
+      "name": "Nhà Mới Thành Đạt",
+      "rateFrom": 5.2,
+      "fixedMonths": null,
+      "maxTermMonths": 480,
+      "maxAmount": null,
+      "note": "Lãi suất \"chỉ từ 5,2%/năm\"; trang không ghi thời gian áp dụng mức này. Dành cho khách hàng 20 đến 35 tuổi, nhận lương qua tài khoản ngân hàng, hợp đồng lao động từ 01 năm. Vay đến 70% giá trị căn nhà, thời hạn đến 40 năm, ân hạn nợ gốc đến 5 năm đầu. Ra mắt ngày 16/04/2025."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà ở, đất ở",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 360,
+      "maxAmount": 50000000000,
+      "note": "Trang sản phẩm không công bố lãi suất. Vay đến 100% giá trị hợp đồng mua bán/chuyển nhượng, tối đa 50 tỷ VND/khoản vay; thời hạn đến 30 năm; tài sản bảo đảm là bất động sản hoặc giấy tờ có giá."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà dự án",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 360,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cạnh tranh\", không công bố mức. Vay đến 100% phương án sử dụng vốn, thời hạn đến 30 năm, cho nhà dự án chưa được cấp giấy chứng nhận."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 96,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cạnh tranh\", không công bố mức. Vay đến 70% giá trị xe nếu thế chấp bằng chính chiếc xe mua, 100% nếu thế chấp tài sản bảo đảm khác; thời hạn đến 96 tháng."
+    }
+  ],
+  "notes": [
+    "Các trang sản phẩm vay của Vietcombank không công bố lãi suất sau thời gian ưu đãi, cách thả nổi hay ngày kết thúc chương trình.",
+    "Vay tiêu dùng có tài sản bảo đảm không phải vay tín chấp nên không có ở đây."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/Vay/Vay-tin-chap-doi-voi-nguoi-lao-dong",
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/Vay/Nha-moi-thanh-dat",
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/Truy-cap-nhanh/Tin-noi-bat/Articles/2025/04/16/Launch-of-Nha-moi-thanh-dat",
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/Vay/Vay-mua-nha-dat",
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/Vay/Vay-mua-nha-du-an",
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/Vay/Vay-mua--oto"
+  ],
+  "lastVerified": "2026-11-26"
+}

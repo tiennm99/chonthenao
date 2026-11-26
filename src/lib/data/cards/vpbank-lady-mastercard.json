@@ -2,6 +2,7 @@
   "id": "vpbank-lady-mastercard",
   "bank": "vpbank",
   "name": "VPBank Lady Mastercard",
+  "kind": "credit",
   "network": "mastercard",
   "tier": "Titanium",
   "issuanceFee": 0,

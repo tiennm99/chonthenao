@@ -1,0 +1,49 @@
+{
+  "id": "acb",
+  "bank": "acb",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Thấu chi tiêu dùng Online",
+      "rateFrom": 21.9,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": null,
+      "note": "Hạn mức thấu chi tín chấp, không cần tài sản bảo đảm, đăng ký trên ACB ONE. Trang công bố lãi suất từ 0,06%/ngày theo số ngày thực tế sử dụng (quy đổi ×365 = 21,9%/năm); miễn lãi nếu trả trong cùng ngày trước 17:00 (thứ 2 - thứ 6) hoặc 12:00 (thứ 7). Không phí quản lý thấu chi. Trang không ghi hạn mức tối đa."
+    },
+    {
+      "type": "home",
+      "name": "Vay Mua Nhà Đất",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": null,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất và thời hạn vay tối đa. Số tiền vay theo giá trị nhà đất mua và tài sản thế chấp; ân hạn trả gốc đến 1 năm; lãi tính trên dư nợ giảm dần."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua xe ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Vay đến 90% phương án sử dụng vốn; nhận ô tô mới và đã qua sử dụng. Thời hạn tối đa 6 năm khi thế chấp chính xe mua, 7 năm khi thế chấp nhà đất."
+    }
+  ],
+  "notes": [
+    "ACB công bố lãi suất cơ sở 9,50% áp dụng toàn hệ thống từ 01/10/2026, dùng cho các khoản vay có lãi suất tại kỳ tái định theo biểu lãi suất cho vay của ACB; trang không công bố công thức biên độ.",
+    "ACB còn có Vay Tiêu dùng thế chấp (đến 10 năm, thế chấp bất động sản hoặc giấy tờ có giá) và Vay Xây Dựng Sửa Chữa Nhà (đến 15 năm), đều không công bố lãi suất.",
+    "Chương trình Giảm lãi vay tự động trên ACB ONE giảm lãi cho khoản vay khi duy trì số dư không kỳ hạn bình quân 3 tháng từ 10 triệu đồng; mức giảm theo chính sách từng thời kỳ."
+  ],
+  "sourceUrls": [
+    "https://acb.com.vn/vay-von",
+    "https://acb.com.vn/vay-von/thau-chi-tieu-dung-online",
+    "https://acb.com.vn/vay-von/vay-mua-nha-dat",
+    "https://acb.com.vn/vay-von/vay-mua-xe-o-to",
+    "https://acb.com.vn/vay-von/vay-tieu-dung-the-chap",
+    "https://acb.com.vn/vay-von/vay-xay-dung-sua-chua-nha",
+    "https://acb.com.vn/vay-von/giam-lai-vay-tu-dong",
+    "https://acb.com.vn/lai-suat-tien-gui"
+  ],
+  "lastVerified": "2026-11-26"
+}

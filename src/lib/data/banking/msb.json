@@ -1,0 +1,35 @@
+{
+  "id": "msb",
+  "bank": "msb",
+  "accountMonthlyFee": 0,
+  "minBalance": 0,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 3000,
+  "smsFeeMonth": 20000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Miễn phí phát hành, phí thường niên, phí quản lý tài khoản, chuyển khoản nội bộ và liên ngân hàng trọn đời",
+    "Mở tài khoản online trên app MSB Digital Bank, chọn số tài khoản đẹp",
+    "Rút tiền không cần thẻ",
+    "Nộp tiền mặt vào tài khoản tại quầy miễn phí"
+  ],
+  "notes": [
+    "Số liệu theo gói combo tài khoản M-Pro dành cho khách hàng mở mới từ ngày 10/05/2023, trong biểu phí dịch vụ tài khoản KHCN hiệu lực 01/12/2025: miễn phí thường niên tài khoản, không yêu cầu số dư tối thiểu, miễn phí duy trì gói, miễn phí Internet Banking và Mobile Banking. Biểu phí này ghi mức phí chưa gồm VAT 10%.",
+    "Chuyển khoản nội bộ, liên ngân hàng thường và liên ngân hàng nhanh 247 qua ngân hàng điện tử đều miễn phí.",
+    "smsFeeMonth là mức thấp nhất: 20.000 đồng/tháng/số điện thoại khi chỉ nhận SMS biến động số dư cho giao dịch từ 500.000 đồng; nhận cho giao dịch từ 50.000 đồng là 50.000 đồng/tháng.",
+    "atmOnUsFee và atmOffUsFee lấy từ biểu phí thẻ ghi nợ (đăng ngày 14/08/2026, không ghi VAT), cột MSB Napas Debit M-Pro. Biểu phí tài khoản ghi khác cho thẻ M-Pro: rút tại ATM ngân hàng khác miễn phí 2 giao dịch đầu tiên trong tháng, từ giao dịch thứ 3 thu 3.000 đồng.",
+    "Phí quản lý tài khoản 10.000 đồng/tháng chỉ thu khi tài khoản không có giao dịch tài chính chủ động trong 6 tháng và số dư bình quân tháng dưới 3 triệu đồng. Tài khoản không theo gói combo: phí thường niên 50.000 đồng/năm, Internet/Mobile Banking 10.000 đồng/tháng, SMS 15.000 đồng/tháng.",
+    "Tại quầy: chuyển khoản trong MSB 10.000 đồng/giao dịch; rút tiền mặt hoặc chuyển liên ngân hàng trong vòng 2 ngày làm việc kể từ ngày ghi có 0,05% (tối thiểu 20.000, tối đa 1.000.000 đồng), sau 2 ngày làm việc miễn phí. Đóng tài khoản 50.000 đồng.",
+    "Gói M-Pro của khách hàng hiện hữu mở trước 10/05/2023 thu phí duy trì 22.000 đồng/tháng khi số dư bình quân dưới 2 triệu đồng."
+  ],
+  "sourceUrls": [
+    "https://www.msb.com.vn/khach-hang-ca-nhan/tai-khoan/tai-khoan-thanh-toan/",
+    "https://www.msb.com.vn/khach-hang-ca-nhan/bieu-mau-bieu-phi/",
+    "https://www.msb.com.vn/msb-website/PH_Quye%CC%82%CC%81t-di%CC%A3nh-ban-ha%CC%80nh-bie%CC%82%CC%89u-phi%CC%81-di%CC%A3ch-vu%CC%A3-ta%CC%80i-khoa%CC%89n-do%CC%82%CC%81i-vo%CC%9B%CC%81i-Kha%CC%81ch-ha%CC%80ng-ca%CC%81-nha%CC%82n_Signed.pdf",
+    "https://www.msb.com.vn/msb-website/Bieu-phi-The-ghi-no.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

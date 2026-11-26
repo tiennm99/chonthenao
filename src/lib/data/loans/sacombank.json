@@ -1,0 +1,98 @@
+{
+  "id": "sacombank",
+  "bank": "sacombank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng từ lương",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 500000000,
+      "note": "Không cần tài sản bảo đảm; vay đến 16 lần thu nhập, tối đa 500 triệu VND, thời hạn đến 5 năm. Trang sản phẩm không công bố lãi suất."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay tín chấp từ lương trực tuyến",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 24,
+      "maxAmount": 50000000,
+      "note": "Vay hoàn toàn trên Sacombank Pay, chỉ cho khách hàng nhận lương qua Sacombank tối thiểu 6 tháng và đã định danh cấp 2. Trang không công bố lãi suất."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng cán bộ nhân viên",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 500000000,
+      "note": "Dành cho nhân viên cơ quan Nhà nước, không cần tài sản bảo đảm: đến 200 triệu VND với cán bộ nhân viên, 300 triệu với Trưởng/Phó phòng ban, 400 triệu với Trưởng/Phó đơn vị, trường hợp đặc biệt đến 500 triệu. Trang không công bố lãi suất."
+    },
+    {
+      "type": "unsecured",
+      "name": "Thấu chi tiêu dùng",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 150000000,
+      "note": "Hạn mức thấu chi không tài sản bảo đảm, đến 4 lần thu nhập chuyển khoản vào tài khoản Sacombank, tối đa 150 triệu đồng, cấp hạn mức tối đa 1 năm; cần sao kê lương qua Sacombank 6 tháng gần nhất. Trang không công bố lãi suất."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 360,
+      "maxAmount": null,
+      "note": "Tài trợ đến 100% giá trị tài sản mua/nhận chuyển nhượng, thời hạn tối đa 30 năm (15 năm với tài trợ thuế). Thế chấp bằng chính nhà đất mua hoặc tài sản khác. Trang sản phẩm không công bố lãi suất."
+    },
+    {
+      "type": "home",
+      "name": "Ưu đãi Vay mua Vinhomes",
+      "rateFrom": 10.5,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Chương trình ưu đãi 26/06/2026 - 31/12/2026, chỉ cho 6 dự án Vinhomes được liệt kê. \"Chỉ từ 10,5%/năm\" khi không chọn hỗ trợ lãi suất từ Vinhomes; chọn hỗ trợ của chủ đầu tư thì 0%. Trang không ghi thời gian cố định lãi suất. Vay đến 80% giá trị bất động sản, ân hạn gốc đến 36 tháng, thời hạn đến 35 năm, miễn phí trả nợ trước hạn từ năm thứ 5."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua xe ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 120,
+      "maxAmount": null,
+      "note": "Vay đến 100% giá trị xe (gồm VAT và phí trước bạ), xe mới hoặc cũ mọi thương hiệu. Thời gian vay đến 10 năm; tài sản bảo đảm là chính xe mua, bất động sản hoặc tài sản khác. Trang sản phẩm không công bố lãi suất."
+    },
+    {
+      "type": "auto",
+      "name": "Vay siêu nhanh, VinFast ‘lăn bánh’",
+      "rateFrom": 10,
+      "fixedMonths": null,
+      "maxTermMonths": 96,
+      "maxAmount": null,
+      "note": "Chương trình ưu đãi 12/03/2026 - 31/12/2026, chỉ cho xe ô tô VinFast. Lãi suất \"chỉ từ 10%/năm\" chưa gồm ưu đãi từ VinFast; trang không ghi thời gian cố định lãi suất. Thế chấp chính xe mua, vay đến 80%, thời hạn đến 8 năm."
+    }
+  ],
+  "notes": [
+    "Các trang sản phẩm vay cá nhân của Sacombank không công bố lãi suất; chỉ hai chương trình ưu đãi theo đối tác (Vinhomes, VinFast) ghi mức \"từ\". Trang không công bố thời gian cố định lãi suất hay công thức thả nổi sau ưu đãi.",
+    "Bảng lãi suất cơ sở (hiệu lực từ 26/05/2026): VND 1-3 tháng 6,5%; 4-6 tháng 7,8%; 7-9 tháng 7,9%; 10-12 tháng 8,2%; trung dài hạn mục đích bất động sản (tiêu dùng/kinh doanh) 10,5%, mục đích khác 10,0%/năm. Lãi suất cơ sở có thể thay đổi từng thời kỳ; bảng không nêu biên độ cộng thêm.",
+    "Sacombank còn có Vay tiêu dùng phục vụ đời sống, có tài sản bảo đảm (bất động sản, phương tiện vận chuyển), vay đến 100% nhu cầu, thời hạn đến 20 năm, không công bố lãi suất."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/ca-nhan/vay.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-tieu-dung.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-tieu-dung/vay-tieu-dung-tu-luong.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-tieu-dung/vay-tin-chap-tu-luong.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-tieu-dung/vay-tieu-dung-can-bo-nhan-vien-nha-nuoc.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-tieu-dung/thau-chi-tieu-dung.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-tieu-dung/vay-tieu-dung-phuc-vu-cuoc-song.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-mua-nha/vay-mua-nha.html",
+    "https://www.sacombank.com.vn/ca-nhan/vay/vay-mua-xe/vay-mua-xe-o-to.html",
+    "https://www.sacombank.com.vn/trang-chu/khuyen-mai/khcn/chuong-trinh-uu-dai/uu-dai-vay-mua-vinhomes.html",
+    "https://www.sacombank.com.vn/trang-chu/khuyen-mai/khcn/chuong-trinh-uu-dai/vay-sieu-nhanh-lai-xe-xanh.html",
+    "https://www.sacombank.com.vn/content/dam/sacombank/files/cong-cu/lai-suat/vay-co-so/khcn/Sacombank_LaiSuat_Viet.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

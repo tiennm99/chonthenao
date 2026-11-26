@@ -1,0 +1,36 @@
+{
+  "id": "tpbank-atm-smart-247",
+  "bank": "tpbank",
+  "name": "TPBank ATM Smart 24/7",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 50000,
+  "annualFee": 50000,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Miễn 100% phí rút tiền tại toàn bộ ATM nội địa trên toàn quốc",
+    "Thẻ chip, thêm được vào Apple Pay",
+    "Có thẻ trong 5 phút tại LiveBank 24/7",
+    "Miễn phí chuyển khoản, thanh toán hóa đơn tại ATM và thanh toán tại đơn vị chấp nhận thẻ"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa; biểu phí thẻ ghi nợ nội địa không có phí giao dịch ngoại tệ nên fxFee để trống. Trang sản phẩm và biểu phí không ghi tên mạng thẻ; network ghi napas vì đây là thẻ ghi nợ nội địa, TPBank chưa công bố tên mạng thẻ.",
+    "issuanceFee là phí phát hành thẻ không in ảnh; thẻ có in ảnh 100.000 VND, phát hành nhanh trong 2 ngày làm việc 100.000 VND (không in ảnh) hoặc 150.000 VND (có in ảnh). Phí thường niên 50.000 VND/năm.",
+    "Biểu phí thẻ ghi nợ nội địa (Phụ lục 05, ban hành kèm quyết định ngày 22/06/2021) ghi mức phí chưa bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://tpb.vn/khach-hang-ca-nhan/the-thanh-toan/the-atm-smart-247",
+    "https://tpb.vn/wps/wcm/connect/74bf2d24-6bcb-4758-99a3-a8a1a47c9f5c/Phu-luc-05---Bieu-phi-the-ghi-no-noi-dia-up+web.pdf?MOD=AJPERES"
+  ],
+  "lastVerified": "2026-11-26"
+}

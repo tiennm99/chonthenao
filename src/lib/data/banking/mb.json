@@ -1,0 +1,34 @@
+{
+  "id": "mb",
+  "bank": "mb",
+  "accountMonthlyFee": null,
+  "minBalance": 50000,
+  "transferInternalFee": null,
+  "transferInterbankFee": null,
+  "atmOnUsFee": 1000,
+  "atmOffUsFee": 3000,
+  "smsFeeMonth": null,
+  "digitalBankingFeeMonth": null,
+  "feesFinal": false,
+  "perks": [
+    "Mở tài khoản thanh toán miễn phí, mở online trên App MBBank",
+    "Chọn tài khoản số đẹp miễn phí trên App MBBank",
+    "Nhận thông báo biến động số dư qua App MBBank miễn phí",
+    "Sao kê trực tuyến miễn phí trên App MBBank"
+  ],
+  "notes": [
+    "Biểu phí KHCN thông thường (áp dụng 26/10/2026) không có dòng phí quản lý tài khoản hằng tháng; mở tài khoản thanh toán miễn phí, số dư tối thiểu tài khoản VND 50.000 VND.",
+    "Biểu phí KHCN không tách phí theo kênh: chuyển tiền trong hệ thống MB 5.000 VND/món; sang ngân hàng khác qua thanh toán điện tử 0,015% số tiền (tối thiểu 18.000 VND, tối đa 950.000 VND) với giao dịch dưới 500 triệu đồng. Phí chuyển khoản qua App MBBank không được công bố trên các trang của MB nên để trống.",
+    "Không tìm thấy mức phí SMS Banking và phí App/Internet Banking trên các trang của MB.",
+    "Phí rút tiền ATM lấy từ biểu phí thẻ ghi nợ cho thẻ nội địa Active Plus: tại ATM MB 1.000 VND/GD đến 2 triệu đồng, 2.000 VND/GD từ trên 2 đến 5 triệu đồng, 3.000 VND/GD trên 5 triệu đồng; tại ATM ngân hàng khác trong nước 3.000 VND/GD.",
+    "Biểu phí thẻ ghi nợ ghi rõ mức phí chưa bao gồm VAT. Biểu phí KHCN không nói rõ VAT, chỉ ghi mục tín dụng \"không thu VAT\"."
+  ],
+  "sourceUrls": [
+    "https://www.mbbank.com.vn/ho-tro/bieu-phi-va-bieu-mau-khcn",
+    "https://webcdn.mbbank.com.vn/public/media/7f00a4ac-4ebd-49f7-85cd-8c48ca1b03e9.pdf",
+    "https://webcdn.mbbank.com.vn/public/media/bbd94b0d-8acb-4ded-9778-bf54e03dd92e.pdf",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/thanh-toan",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/thanh-toan/tai-khoan/tai-khoan-so-dep"
+  ],
+  "lastVerified": "2026-11-26"
+}

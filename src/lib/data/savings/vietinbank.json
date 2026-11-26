@@ -1,0 +1,28 @@
+{
+  "id": "vietinbank",
+  "bank": "vietinbank",
+  "channel": "counter",
+  "rates": [
+    { "termMonths": 1, "rate": 2.1 },
+    { "termMonths": 3, "rate": 2.4 },
+    { "termMonths": 6, "rate": 3 },
+    { "termMonths": 9, "rate": 3 },
+    { "termMonths": 12, "rate": 5.4 },
+    { "termMonths": 18, "rate": 5.4 },
+    { "termMonths": 24, "rate": 5.5 },
+    { "termMonths": 36, "rate": 5.5 }
+  ],
+  "minAmount": 100000,
+  "notes": [
+    "Bảng \"Lãi suất huy động đối với các kỳ hạn\" (VND, khách hàng cá nhân) trên trang Lãi suất KHCN của VietinBank; trang không ghi ngày áp dụng. VietinBank không công bố bảng lãi suất riêng cho tiết kiệm online: nút \"Lãi suất tiền gửi\" trên trang Tiền gửi tiết kiệm online dẫn về chính bảng này.",
+    "Bảng không chia mức lãi theo số tiền gửi. Mức 12 tháng áp dụng cho kỳ hạn đúng 12 tháng; 18 tháng thuộc khoảng \"từ 18 tháng đến dưới 24 tháng\", 24 tháng thuộc \"từ 24 tháng đến dưới 36 tháng\". Không kỳ hạn 0,1%/năm, dưới 1 tháng 0,2%/năm, trên 36 tháng 5,5%/năm.",
+    "Số tiền gửi tối thiểu 100.000 VND theo trang Tiết kiệm có kỳ hạn thông thường (kỳ hạn từ 01 tuần đến 60 tháng). Tiết kiệm online trên VietinBank iPay: tối thiểu 1.000.000 VND, kỳ hạn 1 đến 36 tháng, trả lãi cuối kỳ.",
+    "VietinBank ghi lãi suất chỉ mang tính tham khảo và có thể thay đổi tùy địa bàn; liên hệ chi nhánh để biết mức cụ thể."
+  ],
+  "sourceUrls": [
+    "https://www.vietinbank.vn/ca-nhan/cong-cu-tien-ich/lai-suat-khcn",
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/tien-gui/tiet-kiem-co-ky-han-thong-thuong-30-html",
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/tien-gui/tien-gui-tiet-kiem-online-30-html"
+  ],
+  "lastVerified": "2026-11-26"
+}

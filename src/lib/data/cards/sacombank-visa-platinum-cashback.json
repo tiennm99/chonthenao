@@ -2,6 +2,7 @@
   "id": "sacombank-visa-platinum-cashback",
   "bank": "sacombank",
   "name": "Sacombank Visa Bạch Kim Hoàn Tiền",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

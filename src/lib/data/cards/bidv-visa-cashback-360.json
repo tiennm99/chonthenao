@@ -2,6 +2,7 @@
   "id": "bidv-visa-cashback-360",
   "bank": "bidv",
   "name": "BIDV Visa Cashback 360",
+  "kind": "credit",
   "network": "visa",
   "tier": null,
   "issuanceFee": 0,

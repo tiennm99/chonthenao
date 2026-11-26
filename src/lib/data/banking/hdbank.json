@@ -1,0 +1,33 @@
+{
+  "id": "hdbank",
+  "bank": "hdbank",
+  "accountMonthlyFee": 11000,
+  "minBalance": 50000,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 5500,
+  "smsFeeMonth": 12000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Chuyển khoản trong và ngoài hệ thống HDBank qua Internet Banking và Mobile Banking miễn phí",
+    "Đăng ký và duy trì Internet Banking, Mobile Banking miễn phí",
+    "Tài khoản số đẹp mở online trên app HDBank: miễn tất cả phí tài khoản và không yêu cầu số dư tối thiểu (mỗi khách hàng một tài khoản miễn phí theo số điện thoại)"
+  ],
+  "notes": [
+    "accountMonthlyFee là \"Phí duy trì tài khoản tiền gửi thanh toán\" 11.000 đồng/tháng, minBalance là số dư tối thiểu của tài khoản thanh toán thông thường, theo biểu phí dịch vụ tại quầy áp dụng từ 23/12/2025; biểu phí này ghi mức phí chưa gồm VAT.",
+    "smsFeeMonth là mức thấp nhất của SMS Banking, chưa gồm VAT: 12.000 đồng/tháng cho 1 - 10 tin; 11 - 20 tin 18.000 đồng; 21 - 30 tin 40.000 đồng; trên 30 tin cộng 1.000 đồng/tin. Biểu phí thẻ ghi nợ thì ghi dịch vụ SMS thông báo biến động giao dịch thẻ miễn phí.",
+    "atmOnUsFee và atmOffUsFee lấy từ biểu phí thẻ ghi nợ (thẻ nội địa), biểu phí này không ghi đã gồm hay chưa gồm VAT.",
+    "Chuyển khoản tại quầy: trong hệ thống 2.000 đồng/món cùng tỉnh; ngoài hệ thống miễn phí đến 500.000 đồng, trên đó 0,03% (tối thiểu 20.000 đồng). Đóng tài khoản trong 6 tháng kể từ ngày mở: 50.000 đồng."
+  ],
+  "sourceUrls": [
+    "https://hdbank.com.vn/vi/personal/cong-cu/fees-and-form",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/23122025WEBBIEUPHIDICHVUDANHCHOKHCN_1767598713753.pdf",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/PHULUC03BIEUPHIDICHVUNGANHANGDIENTU30052025_1748606643009.pdf",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/19126Bieuphitheghino_1770689958167.pdf",
+    "https://hdbank.com.vn/vi/personal/product/detail/ngan-hang-dien-tu/ebanking/sms-banking",
+    "https://hdbank.com.vn/vi/personal/product/detail/ngan-hang-dien-tu/tien-ich-chuc-nang/tai-khoan-so-dep"
+  ],
+  "lastVerified": "2026-11-26"
+}

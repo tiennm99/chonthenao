@@ -1,0 +1,31 @@
+{
+  "id": "standard-chartered",
+  "bank": "standard-chartered",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 3.89 },
+    { "termMonths": 3, "rate": 4.25 },
+    { "termMonths": 6, "rate": 4.51 },
+    { "termMonths": 9, "rate": 4.75 },
+    { "termMonths": 12, "rate": 5.25 },
+    { "termMonths": 18, "rate": 5.25 },
+    { "termMonths": 24, "rate": 5.25 },
+    { "termMonths": 36, "rate": 5.25 }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Biểu lãi suất Tiền Gửi Có Kỳ Hạn Trực Tuyến (Online Flexi Term Deposit), ngày hiệu lực 25/11/2026, cột VND (%/năm). Lãi trả vào cuối kỳ hạn, tính trên cơ sở 365 ngày.",
+    "Biểu ghi lãi suất ưu đãi tiền gửi trực tuyến VND 12 tháng 5,25%/năm, bằng mức trong bảng. Bảng còn có kỳ hạn 2 tháng (3,99%) và 30 tháng (5,25%).",
+    "Biểu lãi suất không chia theo mức tiền gửi. Trang Tiền Gửi Trực Tuyến ghi tiền gửi ban đầu và số dư trung bình tối thiểu 1 triệu VND; mở qua Ngân hàng Trực tuyến, chỉ từ tài khoản vãng lai đứng tên một cá nhân, khách hàng sống, làm việc ở Hà Nội hoặc TP. Hồ Chí Minh.",
+    "Rút trước hạn hưởng lãi suất thấp nhất của tài khoản vãng lai (hiện 0,00%/năm với VND).",
+    "Tiền Gửi Linh Hoạt mở tại quầy có lãi thấp hơn (biểu hiệu lực 25/11/2026: 1 tháng 3,64%; 3 tháng 4,00%; 6 tháng 4,26%; 9 tháng 4,50%; 12 đến 36 tháng 5,00%/năm), tối thiểu 10 triệu VND.",
+    "Ngân hàng ghi lãi suất có thể thay đổi mà không báo trước; lãi suất đặc biệt có thể áp dụng cho khách hàng đủ điều kiện."
+  ],
+  "sourceUrls": [
+    "https://av.sc.com/vn/content/docs/vn-interest-rate-online-term-deposit-vn.pdf",
+    "https://www.sc.com/vn/deposits/term-deposits/online-term-deposit/",
+    "https://av.sc.com/vn/content/docs/vn-interest-rate-personal-banking-vn.pdf",
+    "https://www.sc.com/vn/deposits/term-deposits/flexi-deposit/"
+  ],
+  "lastVerified": "2026-11-26"
+}

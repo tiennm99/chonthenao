@@ -2,6 +2,7 @@
   "id": "techcombank-style",
   "bank": "techcombank",
   "name": "Techcombank Style",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

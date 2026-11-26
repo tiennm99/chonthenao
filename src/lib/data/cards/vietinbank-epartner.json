@@ -1,0 +1,40 @@
+{
+  "id": "vietinbank-epartner",
+  "bank": "vietinbank",
+  "name": "VietinBank Epartner",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 60000,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Thẻ chip contactless, thanh toán chạm tại thiết bị chấp nhận thanh toán không tiếp xúc",
+    "Hạn mức rút tiền đến 100 triệu đồng/ngày, tối đa 30 lần rút/ngày",
+    "Thanh toán trực tuyến với mã OTP",
+    "Chủ thẻ được tham gia gói bảo hiểm dành cho thẻ E-Partner"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa Napas: dùng tại ATM/POS của VietinBank và các ngân hàng thành viên Napas; không thanh toán ở nước ngoài nên fxFee để trống.",
+    "Biểu phí thẻ ghi nợ nội địa ghi mức phí chưa gồm VAT: phí thường niên 60.000 đồng/năm (C031, áp dụng chung cho thẻ chính và thẻ phụ). Trang sản phẩm ghi 66.000 VND/năm, bằng 60.000 đồng cộng VAT 10%.",
+    "Rút tiền tại ATM VietinBank 1.000 đồng/giao dịch, tại ATM ngân hàng khác 3.000 đồng/giao dịch (chưa gồm VAT). Phát hành lại thẻ 45.454 đồng; hủy thẻ vật lý 30.000 đồng.",
+    "Phí bảo hiểm toàn diện thẻ E-Partner (C036) thu tự động theo quy định của công ty bảo hiểm; biểu phí không ghi số tiền.",
+    "Phí quản lý tính năng thẻ online (C800): 5.000 đồng/khách hàng cho mỗi kỳ 6 tháng.",
+    "Trang sản phẩm ghi số dư tối thiểu 50.000 VND.",
+    "virtual để trống: trang sản phẩm không nói thẻ có phiên bản phi vật lý. Biểu phí liệt kê riêng thẻ E-Partner Vpay, phí thường niên 30.000 đồng/năm (chưa gồm VAT), nhưng không ghi đó là thẻ phi vật lý."
+  ],
+  "sourceUrls": [
+    "https://www.vietinbank.vn/vi/ca-nhan/san-pham-dich-vu/danh-sach-the/vietinbank-e-partner-chip-20-html",
+    "https://www.vietinbank.vn/ca-nhan/cong-cu-tien-ich/bieu-phi-va-bieu-mau/bieu-phi-ap-dung-cho-san-pham-the-ghi-no-noi-dia-40-html"
+  ],
+  "lastVerified": "2026-11-26"
+}

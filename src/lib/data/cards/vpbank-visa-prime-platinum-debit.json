@@ -1,0 +1,66 @@
+{
+  "id": "vpbank-visa-prime-platinum-debit",
+  "bank": "vpbank",
+  "name": "VPBank Visa Prime Platinum (ghi nợ quốc tế)",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 199000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu cho thẻ chính; miễn phí năm tiếp theo khi tổng chi tiêu của thẻ chính và thẻ phụ năm liền trước đạt từ 30 triệu đồng (chi tiêu tại POS và online, không tính rút tiền mặt). Thẻ phi vật lý miễn phí thường niên.",
+    "minSpendYear": 30000000
+  },
+  "rewards": [
+    {
+      "category": "online",
+      "type": "cashback",
+      "rate": 1,
+      "earn": null,
+      "capMonth": 400000,
+      "note": "Không tính chi tiêu online ngành Quảng cáo và thanh toán hóa đơn điện nước, xăng dầu, viễn thông, công nghệ thông tin. Hạn mức 400.000 VND/hợp đồng thẻ/tháng dùng chung với hoàn tiền 3% cho thanh toán không chạm tại POS."
+    },
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.3,
+      "earn": null,
+      "capMonth": null,
+      "note": "Không giới hạn số tiền hoàn mỗi tháng."
+    }
+  ],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
+  "pointValueVnd": null,
+  "fxFee": 2.5,
+  "virtual": true,
+  "perks": [
+    "Hoàn tiền 3% cho mọi thanh toán không chạm (contactless) tại POS",
+    "Miễn phí rút tiền mặt tại ATM VPBank và ATM ngân hàng khác trong nước",
+    "Thẻ phi vật lý dùng ngay trong khi chờ thẻ vật lý, miễn phí phát hành và thường niên",
+    "Giảm giá đến 30% tại hơn 5.000 cửa hàng, đối tác ăn uống, du lịch, mua sắm"
+  ],
+  "notes": [
+    "Hoàn tiền 3% cho thanh toán không chạm tại POS dùng chung hạn mức 400.000 VND/tháng với hoàn tiền online 1%; trang web không có hạng mục riêng cho hình thức thanh toán này.",
+    "Chỉ hoàn tiền khi thẻ có tối thiểu 3 giao dịch chi tiêu đủ điều kiện trong tháng (tính trên một hợp đồng thẻ). Kỳ hoàn tính theo tháng dương lịch; tiền hoàn về tài khoản thanh toán của chủ thẻ chính chậm nhất ngày 25 của tháng T+2.",
+    "Không hoàn tiền cho giao dịch trên VPBank NEO, nạp ví điện tử, rút tiền mặt, chứng khoán, ngoại hối, chuyển tiền, phí và lãi.",
+    "Phí xử lý giao dịch thẻ quốc tế 2,5%/giao dịch. Giao dịch bằng VND tại điểm thanh toán nước ngoài chịu phí 1,1% giá trị giao dịch. Rút tiền mặt ở nước ngoài 4% (tối thiểu 50.000 VND).",
+    "Phát hành thường miễn phí; phát hành nhanh 300.000 VND; phát hành lại 50.000 VND. Thẻ phụ 149.000 VND/năm.",
+    "Thẻ nằm trong Gói Tài khoản số đẹp VPBank Prime 5in1.",
+    "Ưu đãi chào mừng: hoàn đến 180.000 VND khi chi tiêu từ 200.000 VND trong 2 tháng đầu; trong 3 tháng đầu, khi đăng ký qua SMS, hoàn thêm 1-2% (tối đa 200.000-300.000 VND/tháng) nếu số dư bình quân tài khoản thường từ 2 triệu VND, hoặc 3-5% (tối đa 400.000-500.000 VND/tháng) nếu tài khoản VPSuper có số dư bình quân từ 10 triệu VND (chương trình đến 31/03/2028).",
+    "Điều kiện miễn phí thường niên năm tiếp theo: biểu phí tính chi tiêu năm liền trước, trang sản phẩm ghi chi tiêu năm hiện tại.",
+    "Biểu phí chưa bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.vpbank.com.vn/ca-nhan/dich-vu-the/the-ghi-no-quoc-te-vpbank-visa-prime-platinum",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/debit-cards/tnc-idc-prime-20260225.pdf",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/debit-cards/tnc-casa-bundle-0104.pdf",
+    "https://www.vpbank.com.vn/ca-nhan/dich-vu-the/the-ghi-no-quoc-te-phi-vat-ly",
+    "https://www.vpbank.com.vn/ca-nhan/tai-khoan-thanh-toan/tai-khoan-combo-prime-5in1",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/bieu-phi/khcn/2026/Bieu-phi-dich-vu-Khach-hang-Ca-nhan---Hieu-luc-tu-15.01.2026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

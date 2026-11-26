@@ -1,0 +1,33 @@
+{
+  "id": "ocb",
+  "bank": "ocb",
+  "accountMonthlyFee": 10000,
+  "minBalance": 50000,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 0,
+  "smsFeeMonth": 15000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Đăng ký và phí thường niên OCB OMNI miễn phí",
+    "Chuyển tiền trong và ngoài hệ thống, chuyển tiền nhanh 24/7 qua OCB OMNI miễn phí",
+    "Mở tài khoản thanh toán miễn phí",
+    "Rút tiền bằng thẻ ghi nợ nội địa OCB Natural miễn phí tại ATM OCB và ATM ngân hàng khác trong nước (thẻ phát hành từ 01/07/2025)"
+  ],
+  "notes": [
+    "accountMonthlyFee và minBalance theo cột \"TK thông thường (1001)\" của biểu phí tài khoản thanh toán hiệu lực từ 01/11/2026: phí quản lý tài khoản 10.000 VND/tháng chỉ thu khi số dư bình quân tháng dưới 1.000.000 VND; số dư tối thiểu 50.000 VND. Biểu phí này ghi mức phí chưa gồm VAT.",
+    "Biểu phí cũng có các gói tài khoản (Invest Pro, Invest, Speedup, Dream 1, Payroll...) với yêu cầu số dư và phí riêng; gói Dream 1 miễn phí quản lý tài khoản và không yêu cầu số dư tối thiểu.",
+    "smsFeeMonth: 15.000 VND/tháng đến 20 SMS, từ SMS thứ 21 thêm 700 VND/SMS; không gửi tin cho giao dịch dưới 100.000 VND.",
+    "atmOnUsFee và atmOffUsFee theo biểu phí thẻ (thẻ OCB Natural phát hành từ 01/07/2025, khách hàng vãng lai), biểu phí này không ghi về VAT. Thẻ phát hành trước 01/07/2025: 1.100 VND/lần tại ATM OCB, 3.300 VND/lần tại ATM khác trong nước.",
+    "Chuyển khoản ngoài hệ thống tại quầy, tài khoản thông thường: 0,03% (tối thiểu 20.000 VND, tối đa 1.000.000 VND). Phí OCB OMNI theo biểu phí hiệu lực từ 30/09/2026."
+  ],
+  "sourceUrls": [
+    "https://ocb.com.vn/vi/cong-cu/bieu-phi",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20261030164815_up-website-bieu-phi-dich-vu-tai-khoan-thanh-toan-ngan-quy-va-dich-vu-khac-tai-quay-danh-cho-khach-hang-ca-nhan.pdf",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20261006170113_20260929bieuphidichvuocbomnidanhchokhcnnew1.pdf",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20261016103427_bieu-phi-the-upweb15102026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

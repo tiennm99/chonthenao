@@ -1,0 +1,28 @@
+{
+  "id": "hsbc",
+  "bank": "hsbc",
+  "channel": "counter",
+  "rates": [
+    { "termMonths": 1, "rate": 1.0 },
+    { "termMonths": 3, "rate": 2.25 },
+    { "termMonths": 6, "rate": 2.75 },
+    { "termMonths": 9, "rate": 2.75 },
+    { "termMonths": 12, "rate": 3.25 },
+    { "termMonths": 18, "rate": 3.75 },
+    { "termMonths": 24, "rate": 3.75 },
+    { "termMonths": 36, "rate": 3.75 }
+  ],
+  "minAmount": 5000000,
+  "notes": [
+    "Biểu lãi suất khách hàng cá nhân có hiệu lực từ ngày 25/11/2026, cột VND, nhận lãi cuối kỳ (%/năm).",
+    "HSBC công bố một biểu lãi suất chung, không có bảng riêng cho gửi trực tuyến; tiền gửi có kỳ hạn VND cũng mở được trên Ứng dụng HSBC Việt Nam.",
+    "Biểu lãi suất không chia theo mức tiền gửi; số tiền gửi tối thiểu 5.000.000 VND.",
+    "Biểu còn có kỳ hạn 1, 2, 3 tuần (0,10%/năm) và 2 tháng (1,00%/năm); lãi trả hàng tháng thấp hơn ở các kỳ từ 6 tháng (ví dụ 12 tháng 3,19%/năm).",
+    "Khách hàng Premier có biểu lãi suất riêng. Ngân hàng ghi lãi suất chỉ mang tính tham khảo và có thể áp dụng mức khác trong phạm vi quy định."
+  ],
+  "sourceUrls": [
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/vi/rates/HSBC_INTEREST_RATES_VN.pdf",
+    "https://www.hsbc.com.vn/accounts/products/time-deposit/"
+  ],
+  "lastVerified": "2026-11-26"
+}

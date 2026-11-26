@@ -1,0 +1,40 @@
+{
+  "id": "acb-green",
+  "bank": "acb",
+  "name": "ACB Green",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 50000,
+  "annualFee": 50000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu cho thẻ thứ nhất khi kết nối với TK Partner, TK EBIZ, TK Tài Lộc, TK First; kết nối tài khoản khác thu 50.000 VND/năm từ năm đầu. Miễn phí khi tham gia Gói DVTC dành cho Nguồn nhân lực Việt (EB).",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Rút tiền tại ATM có biểu tượng Napas trên toàn quốc",
+    "Thanh toán trực tuyến tại website kết nối với ACB và đối tác",
+    "Nhận thẻ trong 15 phút tại chi nhánh, phòng giao dịch"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa Napas: biểu phí không có phí giao dịch ngoại tệ, thẻ không dùng để thanh toán ở nước ngoài.",
+    "Phí gia nhập 50.000 VND được hoàn nếu có giao dịch chi tiêu hoặc rút tiền mặt trong 30 ngày đầu kể từ ngày cấp thẻ (thẻ cấp mới từ 01/08/2026).",
+    "Rút tiền tại ATM ACB miễn phí khi kết nối TK EBIZ, Tài Lộc, ECO+, Thương Gia, First; các trường hợp khác 1.100 VND/lần. Rút tại ATM ngân hàng khác 3.300 VND/lần (1.100 VND/lần với TK lương/Payroll và TK ECO+).",
+    "Phí chuyển tiền liên ngân hàng qua thẻ trên ACB ONE 10.000 VND/lần.",
+    "Biểu phí thẻ ghi nợ hiệu lực từ 11/11/2026."
+  ],
+  "sourceUrls": [
+    "https://acb.com.vn/the/the-acb-green",
+    "https://acb.com.vn/acbwebsite/files/BIEU%20PHI%20THE%20GHI%20NO%20KHCN%20(1)%2012%2011.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

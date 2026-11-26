@@ -2,6 +2,7 @@
   "id": "vpbank-stepup",
   "bank": "vpbank",
   "name": "VPBank StepUp Mastercard",
+  "kind": "credit",
   "network": "mastercard",
   "tier": "Titanium",
   "issuanceFee": 0,

@@ -1,0 +1,47 @@
+{
+  "id": "bidv",
+  "bank": "bidv",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng không tài sản đảm bảo",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cạnh tranh theo các gói tín dụng ưu đãi từng thời kỳ\", không công bố mức. Thời hạn đến 84 tháng khi vay theo món, 12 tháng khi vay thấu chi."
+    },
+    {
+      "type": "home",
+      "name": "Vay nhu cầu nhà ở",
+      "rateFrom": 9.0,
+      "fixedMonths": 12,
+      "maxTermMonths": 360,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất; mức 9,0%/năm là của gói ưu đãi \"ngôi nhà đầu tiên\" (lãi suất cập nhật 17/9/2026): từ 9,0%/năm cố định 12 tháng đầu (vay tối thiểu 36 tháng), từ 9,5%/năm cố định 18 tháng hoặc từ 10%/năm cố định 24 tháng (vay tối thiểu 60 tháng). Gói chỉ dành cho khách hàng chưa có khoản vay mua nhà tại BIDV, tối đa 01 khoản cho cả hai vợ chồng. Mức cho vay đến 100% giá trị hợp đồng mua bán/chuyển nhượng/phương án vay vốn; thời hạn đến 30 năm."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cạnh tranh theo các gói tín dụng ưu đãi từng thời kỳ\", không công bố mức. Mức cho vay đến 100% giá trị xe mua."
+    }
+  ],
+  "notes": [
+    "Các trang của BIDV không công bố lãi suất áp dụng sau thời gian cố định ưu đãi hay công thức điều chỉnh.",
+    "Gói \"ngôi nhà đầu tiên\" (đăng ngày 01/06/2026) không ghi ngày kết thúc. Gói vay ưu đãi cá nhân năm 2026 chỉ dành cho vay sản xuất kinh doanh và đã hết hạn 30/06/2026; gói \"An cư vững bước\" đã hết hiệu lực.",
+    "BIDV ghi các mức lãi suất là tham khảo; liên hệ chi nhánh để biết mức cụ thể."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/vn/ca-nhan/san-pham-dich-vu/vay-ca-nhan/vay-tieu-dung-khong-tai-san-dam-bao",
+    "https://bidv.com.vn/vn/ca-nhan/san-pham-dich-vu/vay-ca-nhan/vay-nhu-cau-nha-o",
+    "https://bidv.com.vn/vn/ca-nhan/san-pham-dich-vu/vay-ca-nhan/vay-mua-o-to",
+    "https://bidv.com.vn/bidv/ca-nhan/khuyen-mai/san-pham-vay/bidv-trien-khai-goi-vay-uu-dai-ngoi-nha-dau-tien-danh-cho-khach-hang-ca-nhan",
+    "https://bidv.com.vn/bidv/ca-nhan/khuyen-mai/san-pham-vay/bidv-trien-khai-goi-vay-uu-dai-danh-cho-khach-hang-ca-nhan-nam-2026",
+    "https://bidv.com.vn/bidv/ca-nhan/khuyen-mai/san-pham-vay/bidv-gioi-thieu-goi-tin-dung-an-cu-vung-buoc"
+  ],
+  "lastVerified": "2026-11-26"
+}

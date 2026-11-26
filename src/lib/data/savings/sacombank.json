@@ -1,0 +1,28 @@
+{
+  "id": "sacombank",
+  "bank": "sacombank",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.5 },
+    { "termMonths": 3, "rate": 4.5 },
+    { "termMonths": 6, "rate": 6.3 },
+    { "termMonths": 9, "rate": 6.3 },
+    { "termMonths": 12, "rate": 6.5 },
+    { "termMonths": 18, "rate": 6.5 },
+    { "termMonths": 24, "rate": 6.7 },
+    { "termMonths": 36, "rate": 6.7 }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Bảng \"Tiền gửi có kỳ hạn trực tuyến - VND\" (Phần B) trong biểu lãi suất huy động khách hàng cá nhân của Sacombank, hiệu lực từ 07h30 ngày 20/10/2026, mức gửi dưới 50 triệu đồng, lãi cuối kỳ. Áp dụng cho tiền gửi mở mới trên eBanking, Sacombank Pay, STM.",
+    "Mức gửi cao hơn được lãi cao hơn: từ 50 triệu đến dưới 500 triệu: 4,60% (1-5 tháng), 6,60% (6-11 tháng), 6,80% (12-18 tháng), 7,00% (24, 36 tháng); từ 500 triệu: 4,75%, 6,70%, 7,00%, 7,30%/năm.",
+    "Gửi tại quầy (tiết kiệm có kỳ hạn truyền thống, dưới 500 triệu, lãi cuối kỳ) thấp hơn: 1, 3 tháng 4,50%; 6, 9 tháng 5,70%; 12 tháng 5,40%; 18 tháng 5,50%; 24, 36 tháng 6,20%/năm.",
+    "Số tiền mở tối thiểu 1.000.000 VND theo trang sản phẩm Tiết kiệm có kỳ hạn; lãi suất cố định trong suốt kỳ hạn gửi."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/cong-cu/lai-suat.html",
+    "https://www.sacombank.com.vn/content/dam/sacombank/files/cong-cu/lai-suat/tien-gui/khcn/SACOMBANK_LAISUATNIEMYETTAIQUAY_KHCN_VIE.pdf",
+    "https://www.sacombank.com.vn/ca-nhan/tiet-kiem/truc-tuyen/tiet-kiem-co-ky-han.html"
+  ],
+  "lastVerified": "2026-11-26"
+}

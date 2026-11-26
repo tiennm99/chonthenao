@@ -4,6 +4,7 @@
   "shortName": "HDBank",
   "officialUrl": "https://hdbank.com.vn/",
   "cardsUrl": "https://hdbank.com.vn/vi/personal/product/the/the-tin-dung",
+  "debitCardsUrl": "https://hdbank.com.vn/vi/personal/product/the/the-ghi-no",
   "feeScheduleUrl": "https://hdbank.com.vn/vi/personal/cong-cu/fees-and-form",
   "referral": null,
   "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://hdbank.com.vn/"],

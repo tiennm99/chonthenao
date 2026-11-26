@@ -1,0 +1,41 @@
+{
+  "id": "mb-napas-active-plus",
+  "bank": "mb",
+  "name": "MB Napas Active Plus",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 50000,
+  "annualFee": 60000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Thẻ phi vật lý miễn phí phát hành và phí thường niên. Khách hàng trả lương qua MB được miễn phí phát hành thẻ vật lý.",
+    "minSpendYear": null
+  },
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Rút tiền tại hơn 9.300 máy ATM trên toàn Việt Nam",
+    "Thanh toán trực tuyến tại các website có logo Napas",
+    "Chuyển tiền liên ngân hàng qua số thẻ trong hệ thống Napas"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa: chỉ giao dịch trong lãnh thổ Việt Nam, không thanh toán được ở nước ngoài.",
+    "Phí phát hành và phí thường niên ghi ở trên là của thẻ vật lý cho khách hàng vãng lai; phát hành nhanh 100.000 VND/thẻ.",
+    "Thẻ phi vật lý chỉ thực hiện được giao dịch thanh toán trực tuyến.",
+    "Rút tiền tại ATM MB: 1.000 VND/GD đến 2 triệu đồng, 2.000 VND/GD từ trên 2 đến 5 triệu đồng, 3.000 VND/GD trên 5 triệu đồng; tại ATM ngân hàng khác trong nước: 3.000 VND/GD.",
+    "Biểu phí thẻ ghi nợ ghi rõ mức phí chưa bao gồm VAT; từ 10/04/2026 MB làm tròn phí thẻ (chưa VAT) đến hàng chục."
+  ],
+  "sourceUrls": [
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/the/the-ghi-no/the-ghi-no-noi-dia-mb-napas-active-plus",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/uu-dai/the/dich-vu-the-mbbank-bieu-phi-hien-hanh",
+    "https://webcdn.mbbank.com.vn/public/media/bbd94b0d-8acb-4ded-9778-bf54e03dd92e.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

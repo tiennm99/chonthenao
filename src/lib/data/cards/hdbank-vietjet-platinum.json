@@ -2,6 +2,7 @@
   "id": "hdbank-vietjet-platinum",
   "bank": "hdbank",
   "name": "HDBank Vietjet Platinum",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

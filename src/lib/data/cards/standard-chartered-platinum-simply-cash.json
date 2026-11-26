@@ -2,6 +2,7 @@
   "id": "standard-chartered-platinum-simply-cash",
   "bank": "standard-chartered",
   "name": "Standard Chartered Platinum Simply Cash",
+  "kind": "credit",
   "network": "mastercard",
   "tier": "Platinum",
   "issuanceFee": null,

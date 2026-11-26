@@ -2,6 +2,7 @@
   "id": "techcombank-spark",
   "bank": "techcombank",
   "name": "Techcombank Spark",
+  "kind": "credit",
   "network": "mastercard",
   "tier": "Platinum",
   "issuanceFee": 0,

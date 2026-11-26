@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { validateAll, validateBank, validateCard } from './schema.js';
+import {
+  validateAll,
+  validateBank,
+  validateBanking,
+  validateCard,
+  validateLoans,
+  validateSavings,
+} from './schema.js';
 
 // Test fixtures only: made-up values that never ship as site data.
 const bank = {
@@ -18,6 +25,7 @@ const card = {
   id: 'test-bank-cashback',
   bank: 'test-bank',
   name: 'Thẻ Thử nghiệm Cashback',
+  kind: 'credit',
   network: 'visa',
   tier: null,
   issuanceFee: 0,
@@ -106,6 +114,122 @@ describe('validateCard', () => {
     expect(validateCard({ ...card, annualFee: -1 })).toContain(
       'annualFee must be a non-negative number or null',
     );
+  });
+});
+
+describe('card kinds', () => {
+  const { interestRate, interestFreeDays, minIncome, ...debitBase } = card;
+  const debit = { ...debitBase, id: 'test-bank-debit', kind: 'debit' };
+
+  it('accepts a debit card that leaves out the credit-only fields', () => {
+    expect([interestRate, interestFreeDays, minIncome]).toEqual([null, 45, null]);
+    expect(validateCard(debit)).toEqual([]);
+  });
+
+  it('rejects a debit card that carries a credit-only field', () => {
+    expect(validateCard({ ...debit, interestRate: null })).toContain(
+      'interestRate does not apply to a debit card; leave it out',
+    );
+  });
+
+  it('rejects a credit card missing a credit-only field', () => {
+    expect(validateCard({ ...debit, kind: 'credit' })).toContain(
+      'interestRate is required on a credit card (null when unknown)',
+    );
+  });
+
+  it('rejects an unknown kind', () => {
+    expect(validateCard({ ...card, kind: 'prepaid' })).toContain(
+      'kind must be one of credit, debit',
+    );
+  });
+});
+
+const banking = {
+  id: 'test-bank',
+  bank: 'test-bank',
+  accountMonthlyFee: 0,
+  minBalance: null,
+  transferInternalFee: 0,
+  transferInterbankFee: 0,
+  atmOnUsFee: 1100,
+  atmOffUsFee: 3300,
+  smsFeeMonth: 11000,
+  digitalBankingFeeMonth: 0,
+  feesFinal: true,
+  perks: [],
+  notes: [],
+  sourceUrls: ['https://bank.example.com/fees'],
+  lastVerified: '2026-11-26',
+};
+
+const savings = {
+  id: 'test-bank',
+  bank: 'test-bank',
+  channel: 'online',
+  rates: [
+    { termMonths: 1, rate: 3.1 },
+    { termMonths: 12, rate: null },
+  ],
+  minAmount: 1000000,
+  notes: [],
+  sourceUrls: ['https://bank.example.com/rates'],
+  lastVerified: '2026-11-26',
+};
+
+const loans = {
+  id: 'test-bank',
+  bank: 'test-bank',
+  products: [
+    {
+      type: 'home',
+      name: 'Vay mua nhà',
+      rateFrom: 6.5,
+      fixedMonths: 12,
+      maxTermMonths: 300,
+      maxAmount: null,
+    },
+  ],
+  notes: [],
+  sourceUrls: ['https://bank.example.com/loans'],
+  lastVerified: '2026-11-26',
+};
+
+describe('per-bank records', () => {
+  it('accepts banking, savings and loans records', () => {
+    expect(validateBanking(banking)).toEqual([]);
+    expect(validateSavings(savings)).toEqual([]);
+    expect(validateLoans(loans)).toEqual([]);
+  });
+
+  it('requires every banking fee key, null when unknown', () => {
+    const { smsFeeMonth, ...bad } = banking;
+    expect(smsFeeMonth).toBe(11000);
+    expect(validateBanking(bad)).toContain('smsFeeMonth must be a non-negative number or null');
+  });
+
+  it('requires id to equal bank', () => {
+    expect(validateSavings({ ...savings, id: 'other' })).toContain('id must equal bank');
+  });
+
+  it('rejects an unlisted or repeated savings term', () => {
+    expect(validateSavings({ ...savings, rates: [{ termMonths: 5, rate: 4 }] })).toHaveLength(1);
+    const twice = { ...savings, rates: [savings.rates[0], savings.rates[0]] };
+    expect(validateSavings(twice)).toContain('rates[1]: term 1 is listed twice');
+  });
+
+  it('rejects an unknown loan type', () => {
+    const bad = { ...loans, products: [{ ...loans.products[0], type: 'payday' }] };
+    expect(validateLoans(bad)).toContain('products[0].type must be one of unsecured, home, auto');
+  });
+
+  it('flags a per-bank record whose bank does not exist', () => {
+    const errors = validateAll({
+      cards: [],
+      banks: [bank],
+      savings: [{ ...savings, id: 'x', bank: 'x' }],
+    });
+    expect(errors).toContain('savings x: unknown bank x');
   });
 });
 

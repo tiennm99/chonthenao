@@ -1,0 +1,38 @@
+{
+  "id": "sacombank-napas-debit",
+  "bank": "sacombank",
+  "name": "Sacombank Thẻ nội địa Napas",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 99000,
+  "annualFee": 66000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Thẻ phi vật lý (thẻ chính) miễn phí thường niên",
+    "Rút tiền miễn phí tại POS Sacombank, nộp tiền mặt miễn phí tại ATM Sacombank",
+    "Thanh toán trực tuyến trong nước với FastPay (không cần OTP cho giao dịch đến 1 triệu đồng), AutoPay, VietQRPay",
+    "Giảm đến 50% ăn uống, mua sắm, du lịch tại đối tác ưu đãi"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa: trang sản phẩm ghi thẻ dùng để giao dịch tại Việt Nam và rút tiền tại ATM có biểu tượng Napas trên toàn quốc; biểu phí không có phí chuyển đổi ngoại tệ. Trang danh sách thẻ thanh toán ghi \"Thanh toán toàn cầu\" cho thẻ này, trái với trang sản phẩm.",
+    "Phí thường niên 66.000 đồng áp dụng cho thẻ vật lý; thẻ phi vật lý (thẻ chính) 0 đồng; thẻ phụ 66.000 đồng. Biểu phí cho phép thu theo tháng (chia đều) hoặc theo năm.",
+    "Rút tiền tại ATM Sacombank 1.000 đồng/giao dịch, tại ATM Napas 3.300 đồng/giao dịch. Thay thế thẻ 49.000 đồng; phát hành nhanh 100.000 đồng.",
+    "Biểu phí thẻ thanh toán (hiệu lực 01/10/2026) ghi mức phí thẻ đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/ca-nhan/the/the-thanh-toan/the-noi-dia-napas.html",
+    "https://www.sacombank.com.vn/ca-nhan/the/the-thanh-toan.html",
+    "https://www.sacombank.com.vn/cong-cu/bieu-phi.html"
+  ],
+  "lastVerified": "2026-11-26"
+}

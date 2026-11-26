@@ -2,6 +2,7 @@
   "id": "vib-max-card",
   "bank": "vib",
   "name": "VIB Max Card",
+  "kind": "credit",
   "network": "visa",
   "tier": "Starter",
   "issuanceFee": null,

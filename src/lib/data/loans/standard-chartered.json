@@ -1,0 +1,49 @@
+{
+  "id": "standard-chartered",
+  "bank": "standard-chartered",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay Tiêu Dùng",
+      "rateFrom": 18,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 1300000000,
+      "note": "Trang sản phẩm ghi lãi suất từ 18%/năm theo dư nợ giảm dần, vay đến 18 lần thu nhập hàng tháng, tối đa 1,3 tỷ VND, thời hạn 12 đến 60 tháng, trả đều hàng tháng. Trang không nói lãi suất cố định bao lâu. Đăng ký vay trực tuyến được giảm 1% trên lãi suất công bố cho khách hàng không chuyển lương qua ngân hàng (không cộng dồn ưu đãi khác). Thu nhập sau thuế tối thiểu 8 triệu VND/tháng, tuổi 24 đến 60, sống ở Hà Nội hoặc TP. Hồ Chí Minh và vùng phụ cận. Phí tất toán trước hạn 4% dư nợ còn lại trong hai năm đầu, 3% từ năm thứ ba."
+    },
+    {
+      "type": "home",
+      "name": "Vay Mua Nhà/ Thế Chấp Nhà",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 300,
+      "maxAmount": null,
+      "note": "Trang sản phẩm và biểu phí vay thế chấp nhà (hiệu lực 24/05/2026) không công bố lãi suất; tài liệu của ngân hàng hướng dẫn liên hệ nhân viên tín dụng. Vay tối đa 75% giá trị thẩm định tài sản thế chấp, tối đa 25 năm. Ngân hàng mua miễn phí bảo hiểm cháy nổ tài sản thế chấp. Phí trả nợ trước hạn không công bố, ghi trong hợp đồng tín dụng."
+    },
+    {
+      "type": "home",
+      "name": "Vay Mua Nhà Xanh/ Căn Hộ Xanh",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 300,
+      "maxAmount": null,
+      "note": "Trang sản phẩm ghi ưu đãi đặc biệt cho lãi suất và biểu phí nhưng không công bố mức lãi suất. Miễn 100% phí thẩm định tài sản và phí dịch vụ pháp lý do bên thứ ba thu. Vay tối đa 75% giá trị thẩm định tài sản thế chấp, tối đa 25 năm, cho nhà/căn hộ thuộc danh sách dự án xanh ngân hàng công bố."
+    }
+  ],
+  "notes": [
+    "Trang web và các tài liệu PDF của ngân hàng (kiểm tra 26/11/2026) không ghi mức lãi suất vay mua nhà, công thức thả nổi hay biên độ; tài liệu vay mua nhà ghi lãi suất được công bố theo từng thời điểm và hướng dẫn liên hệ Nhân viên tín dụng, còn lãi suất áp dụng được xác định theo Hợp Đồng Tín Dụng. Tài liệu vay mua nhà ghi có thể giảm thêm lãi suất cho khách hàng ưu tiên, nhận lương qua Standard Chartered hoặc mua kèm bảo hiểm nhân thọ.",
+    "Không có sản phẩm vay mua ô tô cá nhân đang công bố: trang VAY TIÊU DÙNG MUA XE Ô TÔ trong menu dẫn tới trang lỗi 404 (kiểm tra 26/11/2026). Vay Mua Xe Ô tô Công ty là sản phẩm cho doanh nghiệp; Vay Tiêu Dùng có thể dùng cho mục đích mua xe.",
+    "Vay Tiêu Dùng Thế Chấp Nhà (tối đa 60% giá trị tài sản, tối đa 15 năm) và Vay Cầm Cố Tiêu Dùng không thuộc các loại vay ở đây.",
+    "Lãi chậm trả bằng 150% lãi suất công bố. Lãi tính trên cơ sở một năm 365 ngày."
+  ],
+  "sourceUrls": [
+    "https://www.sc.com/vn/loans/personal-loan/",
+    "https://av.sc.com/vn/content/docs/vn-08-personal-loan-pl-online-deduction-vn.pdf",
+    "https://www.sc.com/vn/loans/mortgage/",
+    "https://www.sc.com/vn/loans/mortgage/green-mortgage/",
+    "https://av.sc.com/vn/content/docs/vn-mortgage-loan-fees-charges.pdf",
+    "https://av.sc.com/vn/content/docs/vn-ml-sales-brochure-3g.pdf",
+    "https://www.sc.com/vn/loans/"
+  ],
+  "lastVerified": "2026-11-26"
+}

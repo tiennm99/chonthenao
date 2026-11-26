@@ -1,0 +1,39 @@
+{
+  "id": "vib-values",
+  "bank": "vib",
+  "name": "VIB Values (ATM)",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 110000,
+  "annualFee": 66000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Rút tiền, thanh toán trực tuyến, mua sắm tại các điểm chấp nhận thẻ có logo Napas trên toàn quốc",
+    "Ưu đãi giảm giá đến 50% tại các đối tác liên kết với VIB (mua sắm, du lịch, nhà hàng, khách sạn, spa, giải trí)",
+    "Chuyển khoản sang tài khoản VIB khác tại ATM/POS của VIB miễn phí"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa Napas: biểu phí ghi phí quản lý giao dịch ngoại tệ là \"N/A\", thẻ không dùng để thanh toán ở nước ngoài.",
+    "Biểu phí hiệu lực từ 19/07/2024, đã gồm VAT. Phát hành thẻ chính và thẻ phụ 110.000 đồng/thẻ; phí thường niên thẻ chính và thẻ phụ 66.000 đồng/năm.",
+    "Rút tiền tại ATM VIB 2.200 đồng/lần, tại ATM ngân hàng khác 3.300 đồng/lần; truy vấn số dư ngoài hệ thống 550 đồng/lần. Chuyển khoản sang tài khoản VIB tại ATM/POS ngân hàng khác 0,01% (tối thiểu 1.100, tối đa 16.500 đồng/lần).",
+    "Rút tiền tại ATM VIB tối đa 5 triệu đồng/lần, 30 triệu đồng/ngày. Thay thế hoặc phát hành lại thẻ 50.000 đồng/lần.",
+    "Trang sản phẩm ghi thẻ hưởng lãi không kỳ hạn của tài khoản thanh toán; biểu phí tài khoản thanh toán (hiệu lực 20/07/2026) niêm yết lãi suất tài khoản thanh toán VND 0,00%.",
+    "Chủ thẻ chính từ 15 tuổi (mở tại quầy) hoặc 18 tuổi (mở trực tuyến); thẻ phụ từ 6 tuổi."
+  ],
+  "sourceUrls": [
+    "https://www.vib.com.vn/vn/the-thanh-toan/the-noi-dia-value",
+    "https://www.vib.com.vn/vn/product-landing/the-ngan-hang/the-thanh-toan/the-thanh-toan-noi-dia/bieu-phi-va-dieu-kien",
+    "https://www.vib.com.vn/vn/tai-khoan/tai-khoan-thanh-toan/bieu-phi-va-dieu-kien"
+  ],
+  "lastVerified": "2026-11-26"
+}

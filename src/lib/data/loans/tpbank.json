@@ -1,0 +1,51 @@
+{
+  "id": "tpbank",
+  "bank": "tpbank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng tín chấp theo lương",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 1000000000,
+      "note": "Trang sản phẩm không công bố lãi suất. Không cần tài sản đảm bảo, thời hạn đến 60 tháng, hạn mức tới 1 tỷ đồng; trang danh sách Vay tín chấp lại ghi \"Vay tối đa tới 300 triệu trong 60 tháng\"."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà, xây sửa nhà",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 360,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"Lãi suất cạnh tranh\", không công bố mức. Vay tới 90% phương án vay, thời gian vay 10 đến 30 năm, thế chấp bằng chính căn nhà mua hoặc sửa."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô",
+      "rateFrom": 7.5,
+      "fixedMonths": null,
+      "maxTermMonths": 96,
+      "maxAmount": null,
+      "note": "Trang sản phẩm ghi \"Lãi suất cạnh tranh chỉ 7.5%/năm\", không nói thời gian cố định; trang danh sách Vay thế chấp lại ghi \"chỉ 6.5%/năm\" và hạn mức tới 80%. Trang sản phẩm: vay tới 85% giá trị xe, đến 96 tháng, trả góp gốc và lãi hàng tháng; phải mua bảo hiểm vật chất xe suốt thời gian vay."
+    }
+  ],
+  "notes": [
+    "Khoản vay trung, dài hạn bắt buộc áp dụng lãi suất điều chỉnh sau thời gian cố định ban đầu (nếu có), mặc định điều chỉnh 3 tháng/lần, dựa trên lãi suất cho vay cơ sở KHCN kỳ hạn 3 tháng; các trang sản phẩm không công bố phần cộng thêm vào lãi suất cơ sở.",
+    "Biểu lãi suất cho vay cơ sở VND cho khách hàng cá nhân, hiệu lực từ 15/10/2026: kỳ hạn 1 tháng 9,65%, 3 tháng 11,00%, 6 tháng 11,10%, 12 tháng 11,20%/năm; lãi suất cơ sở cho vay ô tô và lãi suất cơ sở 3 tháng cho vay mua bất động sản đều 11,00%/năm.",
+    "Các khoản vay tín chấp qua đối tác (Cho vay tiêu dùng trên App Kredivo: tới 100 triệu đồng trong 18 tháng; Cho vay tiêu dùng dành cho người dùng ShopeePay; Cho vay tiền mặt tín chấp TPFico: tới 100 triệu đồng, đến 36 tháng theo trang danh sách) không công bố lãi suất trên trang của TPBank và không đưa vào danh sách sản phẩm."
+  ],
+  "sourceUrls": [
+    "https://tpb.vn/khach-hang-ca-nhan/vay-tin-chap",
+    "https://tpb.vn/khach-hang-ca-nhan/vay-tin-chap/vay-tieu-dung-tra-gop",
+    "https://tpb.vn/khach-hang-ca-nhan/vay-the-chap",
+    "https://tpb.vn/khach-hang-ca-nhan/vay-the-chap/vay-mua-nha-xay-sua-nha",
+    "https://tpb.vn/khach-hang-ca-nhan/vay-the-chap/vay-mua-o-to",
+    "https://tpb.vn/vay-mua-o-to",
+    "https://tpb.vn/cong-cu-tinh-toan/lai-suat",
+    "https://tpb.vn/wps/wcm/connect/84afff78-0b6e-4064-8a3a-7db024003e91/Bieu+LSCS+danh+cho+KHCN_15.10.2026.pdf?MOD=AJPERES",
+    "https://tpb.vn/khach-hang-ca-nhan/vay-tin-chap/cho-vay-tieu-dung-tren-kredivo",
+    "https://tpb.vn/khach-hang-ca-nhan/cho-vay/cho-vay-tren-shopee"
+  ],
+  "lastVerified": "2026-11-26"
+}

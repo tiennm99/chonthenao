@@ -1,0 +1,68 @@
+{
+  "id": "pvcombank",
+  "bank": "pvcombank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng tín chấp",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 3000000000,
+      "note": "Trang sản phẩm không công bố lãi suất \"từ\"; công cụ ước lượng trên trang dùng 13%/năm, chỉ để tham khảo. Hạn mức đến 36 lần thu nhập, tối đa 3 tỷ đồng; theo câu hỏi thường gặp, khách hàng nhận lương qua PVcomBank được tối đa 36 lần lương và không quá 3,6 tỷ đồng. Không cần tài sản bảo đảm; gốc lãi trả đều hàng tháng."
+    },
+    {
+      "type": "unsecured",
+      "name": "Cấp hạn mức thấu chi",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 1500000000,
+      "note": "Thấu chi không tài sản bảo đảm, hạn mức đến 18 lần thu nhập, tối đa 1,5 tỷ đồng, dùng trong 12 tháng. Trang không công bố lãi suất \"từ\"; công cụ ước lượng dùng 18%/năm, chỉ để tham khảo. Lãi tính theo số tiền và số ngày sử dụng thực tế."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay tín chấp người hưởng lương hưu",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 500000000,
+      "note": "Trang ghi \"lãi suất ưu đãi\" nhưng không công bố con số; công cụ ước lượng dùng 13%/năm, chỉ để tham khảo. Hạn mức đến 500 triệu đồng, trả góp tối đa 60 tháng."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà, xây sửa nhà",
+      "rateFrom": 5.99,
+      "fixedMonths": 3,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Lãi suất từ 5,99%/năm theo bản Công bố lãi suất cho vay (mục \"Cho vay mua Bất động sản\") và banner \"Ưu đãi vay mua nhà chỉ từ 5,99%\". Thời gian ưu đãi 3 tháng lấy từ công cụ ước lượng trên trang (\"Lãi suất 3 tháng đầu\"), các tháng sau công cụ dùng 13%/năm, chỉ để tham khảo. Cho vay tới 85% giá trị tài sản, thời hạn đến 35 năm."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô",
+      "rateFrom": 11.5,
+      "fixedMonths": null,
+      "maxTermMonths": 72,
+      "maxAmount": null,
+      "note": "Lãi suất từ 11,5%/năm theo bản Công bố lãi suất cho vay (mục \"Cho vay có TSBĐ là ô tô\"). Công cụ ước lượng trên trang sản phẩm lại dùng 9,5%/năm cho 6 tháng đầu và 13%/năm các tháng sau, chỉ để tham khảo. Cho vay 80% giá trị xe, ô tô mới và đã qua sử dụng; trang ghi thời hạn đến 72 tháng, thanh trượt của công cụ ước lượng đến 7 năm."
+    }
+  ],
+  "notes": [
+    "Bản Công bố lãi suất cho vay ghi số liệu bình quân tháng 10/2026 (lãi suất cho vay bình quân 9,84%/năm) và không ghi ngày hiệu lực; các mức \"từ\" áp dụng theo điều khoản của từng chương trình cho vay.",
+    "Sau thời gian ưu đãi lãi suất được điều chỉnh định kỳ theo hợp đồng tín dụng, dựa trên lãi suất cơ sở; PVcomBank không công bố biên độ. Lãi suất cơ sở VND cho khách hàng cá nhân, hiệu lực từ 20/03/2026: 9%/năm (kỳ hạn đến 12 tháng), 10%/năm (kỳ hạn trên 12 tháng).",
+    "PVcomBank còn có Vay tiêu dùng thế chấp và Vay kinh doanh (lãi suất cho vay sản xuất kinh doanh từ 5,79%/năm), nằm ngoài ba loại vay ở đây."
+  ],
+  "sourceUrls": [
+    "https://www.pvcombank.com.vn/danh-muc-san-pham/ca-nhan/san-pham-vay",
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/san-pham-vay/vay-tieu-dung-tin-chap",
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/san-pham-vay/cap-han-muc-thau-chi",
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/san-pham-vay/vay-tin-chap-nguoi-huong-luong-huu",
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/san-pham-vay/vay-mua-nha-xay-sua-nha",
+    "https://www.pvcombank.com.vn/san-pham/ca-nhan/san-pham-vay/vay-mua-o-to",
+    "https://www.pvcombank.com.vn/static/BieuPhi/CONG_BO_LAI_SUAT_CHO_VAY.pdf",
+    "https://www.pvcombank.com.vn/static/2024/T12/Template_Bieu%20mau%20Online_PVCB_%20LSCS.pdf",
+    "https://www.pvcombank.com.vn/static/2024/T12/DKDK_Captindung.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

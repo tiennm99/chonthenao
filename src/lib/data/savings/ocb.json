@@ -1,0 +1,55 @@
+{
+  "id": "ocb",
+  "bank": "ocb",
+  "channel": "online",
+  "rates": [
+    {
+      "termMonths": 1,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 3,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 6,
+      "rate": 6.0
+    },
+    {
+      "termMonths": 9,
+      "rate": 6.0
+    },
+    {
+      "termMonths": 12,
+      "rate": 6.3
+    },
+    {
+      "termMonths": 18,
+      "rate": 6.0
+    },
+    {
+      "termMonths": 24,
+      "rate": 6.0
+    },
+    {
+      "termMonths": 36,
+      "rate": 6.0
+    }
+  ],
+  "minAmount": null,
+  "notes": [
+    "Cột \"Online - Tiết kiệm/ tiền gửi có kỳ hạn trực tuyến, lĩnh lãi cuối kỳ\", mức gửi dưới 100 triệu đồng, trong Bảng lãi suất tiền gửi áp dụng cho KHCN từ ngày 06/11/2026 của OCB.",
+    "Mức gửi cao hơn được lãi cao hơn từ kỳ hạn 6 tháng: từ 100 triệu đến 500 triệu đồng 6,10%/năm (6-11 và 13-36 tháng), 6,40% (12 tháng); trên 500 triệu đồng 6,20% và 6,50%. Kỳ hạn 1-5 tháng là 4,75%/năm ở mọi mức.",
+    "Gửi tại quầy (tiết kiệm thông thường, lĩnh lãi cuối kỳ) thấp hơn: 1 và 3 tháng 4,75%; 6, 9, 18, 24, 36 tháng 5,90%; 12 tháng 6,20%/năm.",
+    "Rút trước hạn chỉ được lãi không kỳ hạn 0,00%/năm. Bảng còn ghi OCB có thể áp dụng lãi suất khác tùy kỳ hạn, số tiền gửi và mức độ thân thiết của khách hàng.",
+    "Trang tiết kiệm trực tuyến E-saving và bảng lãi suất không ghi số tiền gửi tối thiểu cho tiền gửi online; trang Tiết kiệm thông thường và Tiền gửi có kỳ hạn (tại quầy) ghi tối thiểu 100.000 VND."
+  ],
+  "sourceUrls": [
+    "https://ocb.com.vn/vi/cong-cu/lai-suat",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20261106091027_3-06.11.2026-bang-lai-suat-tien-gui-khcnvn-web-vnd.pdf",
+    "https://ocb.com.vn/vi/ca-nhan/omni-ca-nhan/tiet-kiem-tich-luy/tiet-kiem-ky-han",
+    "https://ocb.com.vn/vi/ca-nhan/tiet-kiem/tiet-kiem-thong-thuong",
+    "https://ocb.com.vn/vi/ca-nhan/tiet-kiem/tien-gui-co-ki-han"
+  ],
+  "lastVerified": "2026-11-26"
+}

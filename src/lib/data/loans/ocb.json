@@ -1,0 +1,70 @@
+{
+  "id": "ocb",
+  "bank": "ocb",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay thấu chi online",
+      "rateFrom": 18,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 1000000000,
+      "note": "Thấu chi tín chấp, không cần tài sản bảo đảm, đăng ký và dùng trên OCB OMNI; dành cho khách hàng nhận lương, có tiền gửi tại OCB, khách hàng Ưu tiên và CBNV OCB. Lãi suất cố định theo nhóm khách hàng: khách hàng cá nhân khác 18%/năm, khách hàng Ưu tiên/CBNV OCB 15%/năm; lãi chỉ tính trên số tiền và số ngày thực dùng. Hạn mức từ 100 triệu đồng trở xuống được duyệt tự động trên app; trên 100 triệu phải ký hợp đồng tại chi nhánh."
+    },
+    {
+      "type": "home",
+      "name": "Bất Động Sản",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Vay mua, nhận chuyển nhượng căn hộ chung cư hoặc bất động sản đã có giấy chứng nhận. Trang không công bố lãi suất (\"Áp dụng theo từng thời kỳ\"). Vay đến 90% phương án vay vốn, tối đa 35 năm, ân hạn gốc tối đa 60 tháng. Trang danh sách sản phẩm vay ghi ân hạn gốc tối đa 24 tháng, khác với 60 tháng trên trang sản phẩm."
+    },
+    {
+      "type": "home",
+      "name": "Nhà/Căn Hộ Thuộc Dự Án",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 480,
+      "maxAmount": null,
+      "note": "Vay mua bất động sản thuộc dự án chưa có giấy chứng nhận, theo danh sách dự án của OCB. Trang không công bố lãi suất. Vay đến 100% nhu cầu vốn và đến 80% giá trị tài sản bảo đảm, tối đa 40 năm, ân hạn gốc đến 24 tháng."
+    },
+    {
+      "type": "home",
+      "name": "Căn hộ xanh",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 360,
+      "maxAmount": null,
+      "note": "Chương trình \"Vay Mua Nhà Xanh - Mở Tương Lai Xanh\" cho bất động sản tại dự án đạt chứng chỉ xanh: giảm 0,5% lãi suất trong thời gian cố định đầu tiên so với gói vay mua bất động sản khác và miễn phí định giá tài sản. Trang không công bố lãi suất. Thời gian vay đến 360 tháng, ân hạn gốc tối đa 60 tháng theo từng sản phẩm. Trang danh sách sản phẩm vay ghi thời gian vay đến 30 năm và ân hạn gốc tối đa 24 tháng."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua xe",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm \"Vay mua ô tô - Mục Đích Tiêu Dùng\" không công bố lãi suất (\"Lãi suất hấp dẫn\"). Cho xe ô tô dưới 9 chỗ, xe bán tải mới 100%, thế chấp chính xe mua; vay đến 80% phương án vay và đến 80% giá trị tài sản bảo đảm."
+    }
+  ],
+  "notes": [
+    "Ngoài thấu chi online, các trang sản phẩm vay của OCB không công bố lãi suất; trang danh sách sản phẩm vay ghi \"Lãi suất ưu đãi theo từng thời kỳ\".",
+    "OCB công bố lãi suất cơ sở cho KHCN, hiệu lực từ 20/10/2026: kỳ hạn 12 tháng 10,40%/năm, kỳ hạn 13 tháng 10,50%/năm, dùng để điều chỉnh lãi suất cho vay sau thời gian cố định lãi suất. Trang lãi suất và biểu lãi suất cơ sở không công bố biên độ cộng thêm.",
+    "OCB còn có Vay xây dựng/ Sửa chữa nhà (đến 240 tháng, đến 70% giá trị tài sản bảo đảm), Vay tiêu dùng có tài sản bảo đảm (đến 180 tháng, tối đa 5 tỷ đồng) và Vay cầm cố sổ tiết kiệm online (từ 10 triệu đồng, đến 95% giá trị sổ, thời hạn theo kỳ hạn còn lại của sổ); các trang này không công bố lãi suất."
+  ],
+  "sourceUrls": [
+    "https://ocb.com.vn/vi/ca-nhan/vay",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-thau-chi/vay-thau-chi-online",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-mua-bds/bat-dong-san",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-mua-bds/nha-can-ho-thuoc-du-an",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-mua-bds/can-ho-xanh",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-mua-bds/xaysua-nha",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-mua-o-to/muc-dich-tieu-dung",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-tieu-dung/co-tai-san-dam-bao",
+    "https://ocb.com.vn/vi/ca-nhan/tien-vay/vay-tieu-dung/vay-cam-co-so-tiet-kiem",
+    "https://ocb.com.vn/vi/cong-cu/lai-suat",
+    "https://webocb-api.ocb.com.vn/Resources/Files/20261019175835_website-lscs-20.10.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

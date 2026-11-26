@@ -2,6 +2,7 @@
   "id": "techcombank-vietnam-airlines-visa-platinum",
   "bank": "techcombank",
   "name": "Vietnam Airlines Techcombank Visa Platinum",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

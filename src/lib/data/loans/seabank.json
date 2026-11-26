@@ -1,0 +1,67 @@
+{
+  "id": "seabank",
+  "bank": "seabank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 500000000,
+      "note": "Vay tín chấp, không tài sản bảo đảm. Trang sản phẩm không công bố lãi suất (chỉ ghi \"lãi suất cạnh tranh\"). Số tiền vay tối đa 25 lần thu nhập và lên tới 500 triệu đồng; gốc và lãi trả hàng tháng. Người vay từ 18 tuổi đến không quá 70 tuổi khi kết thúc khoản vay, có thu nhập từ lương hoặc lương hưu."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay vốn dành cho Giáo viên, Công chức, Viên chức",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 300000000,
+      "note": "Vay tín chấp, không tài sản bảo đảm, gốc và lãi trả hàng tháng. Trang sản phẩm không công bố lãi suất. Thu nhập tối thiểu 2,5 triệu đồng/tháng; người vay từ 18 tuổi đến không quá 70 tuổi khi kết thúc khoản vay."
+    },
+    {
+      "type": "unsecured",
+      "name": "Vay hạn mức thấu chi",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 300000000,
+      "note": "Thấu chi không tài sản bảo đảm, hạn mức tối đa 5 lần thu nhập và lên tới 300 triệu đồng; lãi tính theo số tiền và số ngày thực tế sử dụng, trả lãi hàng tháng, gốc trả linh hoạt; không phí trả nợ trước hạn. Trang sản phẩm không công bố lãi suất. Thời hạn 12 tháng lấy từ trang danh sách sản phẩm vay tín chấp (\"thời gian vay tối đa đến 12 tháng\"); ô \"Thời hạn hạn mức\" trên trang sản phẩm lặp lại nội dung hạn mức thay vì ghi thời hạn."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua, xây dựng, sửa chữa nhà - SeAHome",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Cho vay tối đa 100% nhu cầu vốn mua bất động sản, không vượt quá 75% giá trị tài sản bảo đảm. Thời hạn tối đa: mua bất động sản đã có Giấy chứng nhận 420 tháng; mua bất động sản dự án 240 tháng; xây nhà 240 tháng; sửa nhà 120 tháng. Tài sản bảo đảm: bất động sản hình thành từ vốn vay, bất động sản khác hoặc tiền gửi cá nhân."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô - SeACar",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 96,
+      "maxAmount": 1500000000,
+      "note": "Trang sản phẩm không công bố lãi suất (chỉ ghi \"lãi suất hấp dẫn\"). Số tiền vay tối thiểu 50 triệu đồng, tối đa 1,5 tỷ đồng, đến 75% giá trị mua xe. Tài sản bảo đảm là xe ô tô hình thành từ vốn vay hoặc bất động sản; thông báo cấp tín dụng trong 4 giờ."
+    }
+  ],
+  "notes": [
+    "SeABank không công bố lãi suất cho vay theo từng sản phẩm. Ngân hàng chỉ công bố lãi suất cho vay bình quân hằng tháng: tháng 09/2026, khoản vay khách hàng cá nhân phát sinh mới bình quân 11,43%/năm (ngắn hạn) và 11,14%/năm (trung dài hạn), tính theo bình quân gia quyền theo dư nợ. Đây không phải mức \"lãi suất từ\" của sản phẩm nào.",
+    "SeABank còn có Vay tiêu dùng có tài sản đảm bảo - SeAFlex (thời hạn đến 300 tháng) và Vay hạn mức thấu chi có tài sản đảm bảo - SeAFast, đều không công bố lãi suất."
+  ],
+  "sourceUrls": [
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-tin-chap",
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-tin-chap/cho-vay-tra-gop",
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-tin-chap/cho-vay-giao-vien-cong-chuc-vien-chuc",
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-tin-chap/cho-vay-thau-chi-khong-tai-san-bao-dam",
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-the-chap",
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-the-chap/cho-vay-mua-xay-dung-sua-chua-nha---seahome",
+    "https://www.seabank.com.vn/ca-nhan/tin-dung/cho-vay-tieu-dung-the-chap/cho-vay-mua-o-to---seacar",
+    "https://www.seabank.com.vn/tin-tuc/cong-bo-lai-suat-cho-vay/khach-hang-ca-nhan/cong-bo-lai-suat-cho-vay-khcn-thang-092026",
+    "https://cloud-cdn.seabank.com.vn/seabank-web/C%C3%94NG%20B%E1%BB%90%20L%C3%83I%20SU%E1%BA%A4T%20CHO%20VAY%20B%C3%8CNH%20QU%C3%82N%20T9.2026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "hdbank-visa-debit",
+  "bank": "hdbank",
+  "name": "HDBank Visa Debit",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Chuẩn",
+  "issuanceFee": 0,
+  "annualFee": 220000,
+  "feesFinal": null,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "virtual": null,
+  "perks": [
+    "Thanh toán không tiếp xúc (contactless), bảo mật 3D Secure khi mua sắm online",
+    "Rút tiền mặt miễn phí tại ATM HDBank",
+    "Hưởng lãi không kỳ hạn trên số dư tài khoản thanh toán",
+    "Ưu đãi giảm giá tại đối tác Happy Zone của HDBank"
+  ],
+  "notes": [
+    "fxFee là phí chuyển đổi ngoại tệ 3,0% giá trị giao dịch. Giao dịch bằng VND tại đơn vị chấp nhận thẻ có mã quốc gia khác Việt Nam chịu phí xử lý 1,1% (tối thiểu 10.000 đồng).",
+    "Rút tiền tại ATM ngân hàng khác: 5.500 đồng/giao dịch ở Việt Nam, 2% (tối thiểu 55.000 đồng) ở nước ngoài.",
+    "Hạng Vàng: phát hành miễn phí, phí thường niên 330.000 đồng/năm. HDBank cũng phát hành thẻ ghi nợ Mastercard với cùng biểu phí thẻ ghi nợ quốc tế.",
+    "Biểu phí thẻ ghi nợ (hiệu lực 19/01/2026) không ghi phí đã gồm hay chưa gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://hdbank.com.vn/vi/personal/product/detail/the/the-ghi-no/hdbank-visa",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/19126Bieuphitheghino_1770689958167.pdf",
+    "https://hdbank.com.vn/vi/personal/product/the/the-ghi-no"
+  ],
+  "lastVerified": "2026-11-26"
+}

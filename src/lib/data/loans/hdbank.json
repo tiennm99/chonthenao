@@ -1,0 +1,47 @@
+{
+  "id": "hdbank",
+  "bank": "hdbank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng không tài sản bảo đảm",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Số tiền vay đến 12 tháng thu nhập thực lãnh; giải ngân trong 48 tiếng."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua bất động sản",
+      "rateFrom": 9.8,
+      "fixedMonths": 12,
+      "maxTermMonths": 600,
+      "maxAmount": null,
+      "note": "Lãi suất từ 9,8%/năm, cố định từ 12 tháng; hoặc từ 10,8%/năm, cố định từ 24 tháng. Vay từ 500 triệu đồng, thời hạn đến 50 năm, miễn trả gốc đến 10 năm, miễn phí trả nợ trước hạn."
+    },
+    {
+      "type": "auto",
+      "name": "Vay ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Vay đến 100% giá trị xe mua; nhận thế chấp cả xe ô tô cũ."
+    }
+  ],
+  "notes": [
+    "Trang sản phẩm không công bố lãi suất sau thời gian cố định. Lãi suất cơ sở cho vay của HDBank (cho các khoản vay điều chỉnh theo cơ chế lãi suất cơ sở) từ 14/10/2026: ngắn hạn 9,0%, trung hạn và dài hạn 10,5%/năm.",
+    "Lãi suất cho vay bình quân HDBank công bố từ 01/10/2026: ngắn hạn 9,1%, trung dài hạn 10,6%/năm.",
+    "Chương trình \"Ưu đãi vay, có nhà ngay\" (từ 09/05/2023, không ghi ngày kết thúc) cho người 25 đến 45 tuổi có lương chuyển khoản, vay mua nhà từ 500 triệu đồng, thời hạn trên 5 năm: ưu đãi 8,2%/năm trong 3 tháng đầu hoặc 9,2%/năm trong 6 tháng đầu."
+  ],
+  "sourceUrls": [
+    "https://hdbank.com.vn/vi/personal/product/detail/san-pham-vay/vay-tieu-dung/vay-tieu-dung-khong-tai-san-bao-dam",
+    "https://hdbank.com.vn/vi/personal/product/detail/san-pham-vay/vay-bat-dong-san/vay-mua-bat-dong-san",
+    "https://hdbank.com.vn/vi/personal/product/detail/san-pham-vay/vay-o-to/vay-o-to",
+    "https://hdbank.com.vn/vi/personal/promotion/detail/san-pham-vay/uu-dai-vay-co-nha-ngay",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/20261014BIEULAISUATCOSOKHCNWEBSITE_1791791092586.pdf",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/TBLAISUATCHOVAYBINHQUANTUNGAY01102026_1793354894163.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

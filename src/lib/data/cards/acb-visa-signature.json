@@ -2,6 +2,7 @@
   "id": "acb-visa-signature",
   "bank": "acb",
   "name": "ACB Visa Signature",
+  "kind": "credit",
   "network": "visa",
   "tier": "Signature",
   "issuanceFee": 0,

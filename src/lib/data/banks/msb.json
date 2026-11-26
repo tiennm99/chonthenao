@@ -4,6 +4,7 @@
   "shortName": "MSB",
   "officialUrl": "https://www.msb.com.vn/",
   "cardsUrl": "https://www.msb.com.vn/khach-hang-ca-nhan/the/",
+  "debitCardsUrl": "https://www.msb.com.vn/khach-hang-ca-nhan/the/#the-thanh-toan",
   "feeScheduleUrl": "https://www.msb.com.vn/khach-hang-ca-nhan/bieu-mau-bieu-phi/",
   "referral": null,
   "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://www.msb.com.vn/"],

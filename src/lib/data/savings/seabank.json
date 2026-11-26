@@ -1,0 +1,55 @@
+{
+  "id": "seabank",
+  "bank": "seabank",
+  "channel": "counter",
+  "rates": [
+    {
+      "termMonths": 1,
+      "rate": 3.45
+    },
+    {
+      "termMonths": 3,
+      "rate": 3.95
+    },
+    {
+      "termMonths": 6,
+      "rate": 3.95
+    },
+    {
+      "termMonths": 9,
+      "rate": 4.15
+    },
+    {
+      "termMonths": 12,
+      "rate": 4.3
+    },
+    {
+      "termMonths": 18,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 24,
+      "rate": 4.75
+    },
+    {
+      "termMonths": 36,
+      "rate": 4.75
+    }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Sản phẩm \"Tiết kiệm Lĩnh lãi cuối kỳ\" (khách hàng cá nhân, VND) trong công cụ Biểu lãi suất của SeABank. Công cụ không ghi ngày áp dụng của biểu lãi suất; số liệu xem ngày 26/11/2026.",
+    "SeABank không công bố bảng lãi suất riêng cho Tiết kiệm Online: trang sản phẩm chỉ ghi \"ưu đãi lãi suất cao hơn lãi suất tại quầy\" và công cụ Biểu lãi suất không có lựa chọn gửi online, nên đây là lãi suất của sản phẩm tiết kiệm thường.",
+    "Biểu lãi suất của sản phẩm này áp dụng một mức cho mọi số tiền gửi, không chia bậc theo số tiền.",
+    "Các kỳ hạn khác: 1, 2, 3 tuần 0,50%; 2 tháng 3,45%; 4, 5 tháng 3,95%; 7 tháng 4,05%; 8 tháng 4,10%; 10 tháng 4,20%; 11 tháng 4,25%; 15 tháng 4,55%/năm.",
+    "Lãi trả bằng tiền mặt hoặc vào tài khoản thanh toán một lần khi đáo hạn; đến hạn tự chuyển sang loại hình tương ứng. Số tiền gửi tối thiểu 1.000.000 VND.",
+    "Sản phẩm \"Tiết kiệm Bậc thang\" yêu cầu số tiền gửi tối thiểu 100 triệu đồng, chia 5 bậc; bậc 100 - dưới 500 triệu: 1 tháng 3,65%; 3 tháng 3,95%; 6 tháng 4,15%; 9 tháng 4,29%; 12 tháng 4,60%; 18, 24, 36 tháng 4,85%/năm. Các bậc 500 triệu, 1 tỷ, 5 tỷ và 10 tỷ trở lên cộng thêm 0,05% mỗi bậc cho kỳ hạn từ 6 tháng (36 tháng từ 10 tỷ: 5,05%); kỳ hạn 1 - 5 tháng không đổi theo bậc."
+  ],
+  "sourceUrls": [
+    "https://www.seabank.com.vn/cong-cu-tien-ich/bieu-lai-suat?type=lai-suat",
+    "https://www.seabank.com.vn/ca-nhan/tiet-kiem/tiet-kiem-co-ky-han/tiet-kiem-linh-lai-cuoi-ky",
+    "https://www.seabank.com.vn/ca-nhan/tiet-kiem/tiet-kiem-online/tiet-kiem-online",
+    "https://www.seabank.com.vn/ca-nhan/tiet-kiem/tiet-kiem-co-ky-han/tiet-kiem-bac-thang"
+  ],
+  "lastVerified": "2026-11-26"
+}

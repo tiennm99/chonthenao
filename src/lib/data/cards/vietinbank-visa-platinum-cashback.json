@@ -2,6 +2,7 @@
   "id": "vietinbank-visa-platinum-cashback",
   "bank": "vietinbank",
   "name": "VietinBank Visa Platinum Cashback",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

@@ -4,6 +4,7 @@
   "shortName": "VPBank",
   "officialUrl": "https://www.vpbank.com.vn/",
   "cardsUrl": "https://www.vpbank.com.vn/ca-nhan/the-tin-dung",
+  "debitCardsUrl": "https://www.vpbank.com.vn/ca-nhan/dich-vu-the",
   "feeScheduleUrl": "https://www.vpbank.com.vn/tai-lieu-bieu-mau",
   "referral": null,
   "sourceUrls": [

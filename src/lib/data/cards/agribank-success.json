@@ -1,0 +1,38 @@
+{
+  "id": "agribank-success",
+  "bank": "agribank",
+  "name": "Agribank Success",
+  "kind": "debit",
+  "network": "napas",
+  "tier": "Chuẩn",
+  "issuanceFee": 50000,
+  "annualFee": 20000,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Được hưởng lãi trên số dư tài khoản thanh toán phát hành thẻ",
+    "Gửi tiền, mở tài khoản tiền gửi trực tuyến tại CDM; rút tiền bằng mã (Cash by Code) tại ATM Agribank",
+    "Quản lý thẻ trên ứng dụng Agribank Plus"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa hạng Chuẩn; trang sản phẩm chỉ ghi rút tiền và thanh toán tại điểm chấp nhận thẻ có logo Agribank và Napas trên toàn quốc. Biểu phí vẫn có phí rút tiền tại ATM ngoài lãnh thổ Việt Nam 40.000 VND/giao dịch, nên mức phí giao dịch ngoại tệ để trống.",
+    "Biểu phí ghi phí thường niên 20.000 VND/thẻ/năm (chưa gồm VAT); trang sản phẩm ghi 12.000 VND/năm. Lấy theo biểu phí.",
+    "Phí phát hành 50.000 VND là phí phát hành tại quầy; thẻ vật lý đăng ký trên kênh điện tử 30.000 VND/thẻ; phát hành tại Agribank Digital miễn phí; thẻ phi vật lý phát hành miễn phí, phí thường niên 15.000 VND/thẻ/năm.",
+    "Các mức phí trong biểu phí chưa bao gồm thuế GTGT.",
+    "Rút tiền tại ATM Agribank 1.000 VND/giao dịch (in hóa đơn thêm 500 VND); tại ATM ngân hàng khác trong nước 3.000 VND/giao dịch. Thanh toán hàng hóa, dịch vụ tại POS miễn phí.",
+    "Trang sản phẩm và biểu phí không công bố tính năng hoàn tiền hay tích điểm cho thẻ này."
+  ],
+  "sourceUrls": [
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/the/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/the/the-ghi-no/the-success",
+    "https://www.agribank.com.vn/wcm/connect/80a284ff-5b2a-4ff7-a06b-c9be47f3e08e/Bi%E1%BB%83u+ph%C3%AD+d%E1%BB%8Bch+v%E1%BB%A5+th%E1%BA%BB+KHCN.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-80a284ff-5b2a-4ff7-a06b-c9be47f3e08e-q3Ho-kd"
+  ],
+  "lastVerified": "2026-11-26"
+}

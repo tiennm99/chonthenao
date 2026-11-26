@@ -2,6 +2,7 @@
   "id": "vib-one-card",
   "bank": "vib",
   "name": "VIB One Card",
+  "kind": "credit",
   "network": "visa",
   "tier": "Gold",
   "issuanceFee": 0,

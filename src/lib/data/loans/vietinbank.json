@@ -1,0 +1,57 @@
+{
+  "id": "vietinbank",
+  "bank": "vietinbank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Cho vay tiêu dùng tín chấp đối với khách hàng cá nhân",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": 1000000000,
+      "note": "Trang sản phẩm không công bố lãi suất. Mức cho vay đến 100% nhu cầu vốn, tối đa 01 tỷ đồng; tối đa 84 tháng khi vay từng lần, 12 tháng khi vay theo hạn mức thấu chi. Người vay phải làm việc tại doanh nghiệp thuộc danh mục của VietinBank; nếu không nhận lương qua VietinBank cần xác nhận của cơ quan quản lý lao động."
+    },
+    {
+      "type": "unsecured",
+      "name": "Cho vay tiêu dùng online không bảo đảm dành cho Khách hàng nhận trả lương qua VietinBank (iziCash)",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 100000000,
+      "note": "Trang sản phẩm không công bố lãi suất. Vay 100% online trên VietinBank iPay, chỉ dành cho khách hàng nhận lương qua VietinBank; tối đa 100 triệu đồng, tối đa 12 tháng, cho vay từng lần."
+    },
+    {
+      "type": "home",
+      "name": "Cho vay nhận quyền sử dụng đất, mua, xây dựng, sửa chữa nhà và/hoặc công trình xây dựng",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Hỗ trợ vay đến 100% nhu cầu vốn, thời hạn linh hoạt theo mục đích, tối đa 35 năm; tài sản bảo đảm có thể là tài sản hình thành từ vốn vay hoặc tài sản khác."
+    },
+    {
+      "type": "auto",
+      "name": "Cho vay mua ô tô đối với khách hàng bán lẻ",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 120,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không công bố lãi suất. Mức cho vay tối đa 100% nhu cầu vốn, thời hạn tối đa 10 năm; tài sản bảo đảm có thể là chính chiếc xe, bất động sản, ô tô hoặc tài sản khác."
+    }
+  ],
+  "notes": [
+    "Các trang sản phẩm vay cá nhân của VietinBank không công bố lãi suất cho vay tiêu dùng, mua nhà hay mua ô tô.",
+    "VietinBank công bố lãi suất tham chiếu cho vay VND trung dài hạn 6,3%/năm, áp dụng từ ngày 8/4/2026; thông báo không nêu biên độ hay công thức tính lãi suất cho vay từ mức này, khách hàng liên hệ chi nhánh để được tư vấn cụ thể.",
+    "Các gói ưu đãi lãi suất đang hiển thị trên trang cho vay (từ 7,2%/năm và 7,8%/năm) là cho vay sản xuất kinh doanh, không thuộc ba loại vay ở đây."
+  ],
+  "sourceUrls": [
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/cho-vay/cho-vay-tieu-dung-tin-chap-doi-voi-khach-hang-ca-nhan-30-html",
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/cho-vay/cho-vay-tieu-dung-online-khong-bao-dam-danh-cho-khach-hang-nhan-tra-luong-qua-vietinbank-izi-cash-30-html",
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/cho-vay/cho-vay-nhan-quyen-su-dung-dat-mua-xay-dung-sua-chua-nha-va-hoac-cong-trinh-xay-dung-30-html",
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/cho-vay/cho-vay-mua-o-to-doi-voi-khach-hang-ban-le-30-html",
+    "https://www.vietinbank.vn/vi/ca-nhan/cong-cu-tien-ich/lai-suat-khcn/thong-bao-ls-tham-chieu-trung-dai-han-20240606025500-00-html",
+    "https://www.vietinbank.vn/ca-nhan/san-pham-dich-vu/cho-vay",
+    "https://vietinbank.vn/assets/97a3d97e-049c-4090-ad49-b9d29e3ffa24"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "hsbc",
+  "bank": "hsbc",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay Tiêu Dùng HSBC",
+      "rateFrom": 22.49,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 900000000,
+      "note": "Lãi suất cố định cho cả khoản vay, có hiệu lực từ 20/04/2026. Trang sản phẩm ghi 22,49%/năm; biểu lãi suất vay ghi \"không vượt quá 22,49%/năm\" và có thể thấp hơn cho khách hàng Premier, nhận lương qua HSBC hoặc dùng thẻ tín dụng HSBC. Tính trên dư nợ giảm dần. Thu nhập ròng từ 8 triệu VND/tháng. Phí trả nợ trước hạn 3% dư nợ gốc (chỉ tất toán toàn bộ)."
+    },
+    {
+      "type": "home",
+      "name": "Vay Mua Nhà",
+      "rateFrom": 5.5,
+      "fixedMonths": 6,
+      "maxTermMonths": 300,
+      "maxAmount": 12000000000,
+      "note": "Lãi suất cố định ưu đãi (hiệu lực từ 01/04/2024): 6 tháng 5,50%; 12 tháng 6,50%; 24 tháng 6,99%; 36 tháng 7,99%; 48 tháng 8,49%; 60 tháng 8,99%/năm. Vay tối đa 70% giá trị căn nhà thế chấp, thời hạn 1 đến 25 năm. Thu nhập tối thiểu 20 triệu VND/tháng."
+    },
+    {
+      "type": "home",
+      "name": "Vay Thế Chấp Thông Minh",
+      "rateFrom": 5.5,
+      "fixedMonths": 6,
+      "maxTermMonths": null,
+      "maxAmount": null,
+      "note": "Khoản vay thế chấp nhà kèm Tài Khoản Thông Minh: dư nợ tính lãi cuối ngày được giảm trừ 50% số dư tài khoản này. Cùng bảng lãi suất cố định với Vay Mua Nhà. Trang sản phẩm ghi lãi suất cơ bản thả nổi 12,50% (1 tháng), 13,00% (3 tháng), 13,25% (6 tháng) cộng biên độ 0,75%/năm, khác với biểu lãi suất vay. Trang không ghi thời hạn và số tiền vay tối đa."
+    }
+  ],
+  "notes": [
+    "Vay thế chấp nhà: sau kỳ hạn cố định áp dụng lãi suất thả nổi = lãi suất cơ bản + biên độ 0,75%/năm. Theo biểu lãi suất vay và trang Vay Mua Nhà, lãi suất cơ bản là 10,75% (1 tháng), 11,25% (3 tháng), 11,50% (6 tháng)/năm, do HSBC quy định và thay đổi theo từng thời điểm.",
+    "Phí trả nợ trước hạn vay thế chấp nhà: 4% năm thứ 1, 3% năm 2, 2% năm 3, 1% năm 4 đến 5, 0% từ năm thứ 6.",
+    "HSBC không công bố sản phẩm vay mua ô tô. Vay Thế Chấp Bất Động Sản (đến 60% giá trị tài sản, tối đa 15 năm) và Vay Thấu Chi Có Đảm Bảo không thuộc các loại vay ở đây.",
+    "Ngân hàng ghi mọi lãi suất chỉ mang tính tham khảo và có thể thay đổi mà không báo trước."
+  ],
+  "sourceUrls": [
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/vi/loans/loan-interest-rates.pdf",
+    "https://www.hsbc.com.vn/loans/",
+    "https://www.hsbc.com.vn/loans/products/personal-instalment/",
+    "https://www.hsbc.com.vn/loans/products/home/",
+    "https://www.hsbc.com.vn/loans/products/smart-mortgage/"
+  ],
+  "lastVerified": "2026-11-26"
+}

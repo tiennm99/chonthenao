@@ -1,0 +1,28 @@
+{
+  "id": "bidv",
+  "bank": "bidv",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.75 },
+    { "termMonths": 3, "rate": 4.75 },
+    { "termMonths": 6, "rate": 6.6 },
+    { "termMonths": 9, "rate": 6.6 },
+    { "termMonths": 12, "rate": 6.8 },
+    { "termMonths": 18, "rate": 6.6 },
+    { "termMonths": 24, "rate": 6.8 },
+    { "termMonths": 36, "rate": 6.8 }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Bảng \"Tiền gửi online\" (VND, lãi cuối kỳ) trên trang lãi suất tiền gửi khách hàng cá nhân của BIDV, dữ liệu cập nhật ngày 21/10/2026; trang không ghi ngày hiệu lực riêng. Bảng giống nhau cho khu vực Hà Nội và TP.HCM.",
+    "Bảng không chia mức lãi theo số tiền gửi; cột \"+/- Ưu đãi lãi suất\" để trống. Kỳ hạn 1 đến 3 tuần 0,5%/năm.",
+    "Số dư tối thiểu 1.000.000 VND theo trang sản phẩm Tiết kiệm online (mở trên BIDV SmartBanking, kỳ hạn từ 1 tuần đến 36 tháng, dành cho cá nhân người Việt Nam cư trú).",
+    "Gửi tại quầy (bảng \"Tiền gửi\", cùng ngày cập nhật) thấp hơn nhiều: 1 tháng 2,1%, 3 tháng 2,4%, 6 và 9 tháng 3,0%, 12 và 18 tháng 5,4%, 24 và 36 tháng 5,5%/năm.",
+    "Lãi trả đầu kỳ hoặc định kỳ được quy đổi tương ứng. BIDV ghi lãi suất chỉ mang tính tham khảo, có thể thay đổi tùy địa bàn."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/vn/ca-nhan/cong-cu-tien-ich/lai-suat",
+    "https://bidv.com.vn/vn/ca-nhan/san-pham-dich-vu/tiet-kiem/tiet-kiem-online"
+  ],
+  "lastVerified": "2026-11-26"
+}

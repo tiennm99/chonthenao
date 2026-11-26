@@ -2,6 +2,7 @@
   "id": "seabank-visa-flexcard",
   "bank": "seabank",
   "name": "SeABank Visa FlexCard",
+  "kind": "credit",
   "network": "visa",
   "tier": null,
   "issuanceFee": 0,

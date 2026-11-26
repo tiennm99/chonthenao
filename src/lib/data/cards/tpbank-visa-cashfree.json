@@ -1,0 +1,50 @@
+{
+  "id": "tpbank-visa-cashfree",
+  "bank": "tpbank",
+  "name": "TPBank Visa CashFree",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Chuẩn",
+  "issuanceFee": 0,
+  "annualFee": 99000,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 2,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Điểm Khách hàng thân thiết TPBank, công bố là tỷ lệ tích điểm 0,2% giá trị giao dịch hợp lệ, không giới hạn tối đa, điểm hiệu lực 12 tháng. Không tích điểm cho rút tiền mặt, chuyển tiền, nạp ví điện tử, quảng cáo Facebook/Google, thanh toán hóa đơn (điện, nước, gas, truyền hình), xăng dầu, taxi và giao dịch QuickPay."
+    }
+  ],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": 1,
+  "fxFee": 3.3,
+  "virtual": null,
+  "perks": [
+    "Miễn phí rút tiền mặt tại ATM TPBank và ATM ngân hàng khác ở Việt Nam",
+    "Có thẻ trong 5 phút tại LiveBank 24/7",
+    "Dùng điểm thưởng đổi quà, evoucher hoặc hoàn phí thường niên"
+  ],
+  "notes": [
+    "fxFee là phí chuyển đổi giao dịch ngoại tệ 3,3% giá trị giao dịch. Giao dịch bằng VND tại đơn vị chấp nhận thẻ nước ngoài chịu phí quản lý 1,1% (tối thiểu 11.000 VND).",
+    "Rút tiền tại ATM ngân hàng khác ngoài Việt Nam: 3,19% (tối thiểu 33.000 VND) cho hạng Chuẩn và Vàng, 2,49% cho hạng Platinum.",
+    "Hạng Vàng: phí thường niên 199.000 VND; hạng Platinum: 299.000 VND. Phát hành thẻ chính và thẻ phụ thứ nhất miễn phí, từ thẻ thứ hai 55.000 VND (Chuẩn, Vàng) hoặc 199.000 VND (Platinum); tất toán thẻ trong 12 tháng kể từ ngày mở: 55.000 VND (Chuẩn, Vàng).",
+    "Biểu phí thẻ ghi nợ quốc tế (Phụ lục 04, hiệu lực từ 15/11/2025) ghi mức phí đã bao gồm thuế GTGT.",
+    "TPBank công bố giá trị quy đổi chung 1 điểm = 1 VND; đổi điểm đối tác hoặc hoàn phí thường niên có tỷ lệ riêng."
+  ],
+  "sourceUrls": [
+    "https://tpb.vn/khach-hang-ca-nhan/the-thanh-toan/the-ghi-no-quoc-te-tpbank-visa-cashfree",
+    "https://tpb.vn/wps/wcm/connect/5e0859f2-4733-4b19-aaa1-fe3937ee406b/PL04_Bieu_phi_the_ghi_no_quoc_te_UP+WEB.pdf?MOD=AJPERES",
+    "https://tpb.vn/wps/wcm/connect/13a9348e-eb31-41e6-860d-aff66bf4fefe/Th%E1%BB%83+l%E1%BB%87+T%C3%ADch+%C4%91i%E1%BB%83m+%C4%91%E1%BB%95i+qu%C3%A0_th%E1%BA%BB+thanh+to%C3%A1n+QT+TPBank%28upweb%29.pdf?MOD=AJPERES"
+  ],
+  "lastVerified": "2026-11-26"
+}

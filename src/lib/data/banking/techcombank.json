@@ -1,0 +1,37 @@
+{
+  "id": "techcombank",
+  "bank": "techcombank",
+  "accountMonthlyFee": 0,
+  "minBalance": null,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 3000,
+  "smsFeeMonth": 20000,
+  "digitalBankingFeeMonth": 0,
+  "feesFinal": false,
+  "perks": [
+    "Mở tài khoản trực tuyến trên Techcombank Mobile",
+    "Miễn phí tối đa 2 tài khoản số đẹp (10 đến 14 chữ số) cho khách hàng thường chưa có tài khoản số đẹp",
+    "Miễn phí chuyển khoản trên ngân hàng điện tử, cả trong hệ thống và liên ngân hàng 24/7",
+    "Thông báo biến động số dư qua Push Notification của Techcombank Mobile miễn phí"
+  ],
+  "notes": [
+    "Phí quản lý tài khoản thanh toán VND miễn phí (cả khi tài khoản không hoạt động trên 6 tháng); biểu phí không đặt điều kiện số dư cho mức miễn phí này và không công bố số dư tối thiểu, nên số dư tối thiểu để trống. Riêng tài khoản F@st Easy thu phí duy trì 100.000 VND/tháng khi số dư bình quân dưới 100.000 VND/tháng.",
+    "Chuyển khoản cùng hệ thống và liên ngân hàng (qua số thẻ, số tài khoản 24/7) trên ngân hàng điện tử miễn phí. Tại quầy: cùng hệ thống 3.000 VND/giao dịch đến 20 triệu đồng; liên ngân hàng 0,0175%, tối thiểu 20.000 VND, tối đa 1.000.000 VND.",
+    "Phí rút tiền ATM theo thẻ F@stAccess NAPAS: miễn phí tại ATM Techcombank, 3.000 VND/giao dịch tại ATM ngân hàng khác. Thẻ Visa ghi nợ rút tại ATM ngân hàng khác ở Việt Nam 9.900 VND/giao dịch.",
+    "SMS báo biến động số dư 20.000 VND/tháng cho 1 đến 20 tin, trên 20 tin 800 VND/tin (tối đa 2.000.000 VND/tháng), áp dụng cho khách hàng đăng ký từ 01/11/2026. Thông báo qua Zalo 15.000 VND/tháng cho 1 đến 50 tin.",
+    "Đăng ký, thay đổi, hủy F@st i-Bank và F@st Mobile miễn phí; biểu phí ngân hàng điện tử không có phí duy trì hằng tháng, và biểu phí dịch vụ tài khoản ghi rằng mọi phí không liệt kê đều miễn phí.",
+    "Biểu phí dịch vụ tài khoản và biểu phí thẻ thanh toán ghi các mức phí chưa bao gồm VAT 10%; biểu phí ngân hàng điện tử không ghi rõ VAT.",
+    "Số tài khoản đẹp theo yêu cầu có giá từ 1.000.000 đến 500.000.000 VND tùy loại số; khách hàng thường được mở tối đa 2 tài khoản số đẹp với giá 0 VND.",
+    "Số liệu cho khách hàng thường; hội viên Inspire, Priority, Private và khách hàng trả lương có biểu phí và ưu đãi riêng."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/tai-khoan/tai-khoan-thanh-toan",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-tai-khoan-cho-khach-hang-thuong-2104.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-ngan-hang-dien-tu-va-chuyen-tien-cho-khach-hang-thuong-07102026.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-the-thanh-toan-0707.pdf",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/bieu-phi-dich-vu-so-tai-khoan-theo-yeu-cau-cho-khach-hang-thuong-2603.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -4,6 +4,7 @@
   "shortName": "LPBank",
   "officialUrl": "https://lpbank.com.vn/",
   "cardsUrl": "https://lpbank.com.vn/ca-nhan/the",
+  "debitCardsUrl": "https://lpbank.com.vn/ca-nhan/the",
   "feeScheduleUrl": "https://lpbank.com.vn/ca-nhan/bieu-phi",
   "referral": null,
   "sourceUrls": ["https://sbv.gov.vn/vi/nhtm-c%E1%BB%95-ph%E1%BA%A7n", "https://lpbank.com.vn/"],

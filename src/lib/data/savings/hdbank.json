@@ -1,0 +1,29 @@
+{
+  "id": "hdbank",
+  "bank": "hdbank",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.2 },
+    { "termMonths": 3, "rate": 4.3 },
+    { "termMonths": 6, "rate": 5.0 },
+    { "termMonths": 9, "rate": 4.8 },
+    { "termMonths": 12, "rate": 5.3 },
+    { "termMonths": 18, "rate": 5.6 },
+    { "termMonths": 24, "rate": 5.0 },
+    { "termMonths": 36, "rate": 5.0 }
+  ],
+  "minAmount": null,
+  "notes": [
+    "Bảng \"Tiết kiệm Online VNĐ\", lãi cuối kỳ, trong biểu lãi suất tiền gửi khách hàng cá nhân ngày 19/10/2026 (ngày ghi trên trang lãi suất của HDBank; bản PDF không ghi ngày hiệu lực).",
+    "Biểu không chia mức lãi theo số tiền gửi và không ghi số tiền gửi tối thiểu.",
+    "Gửi tại quầy (tiết kiệm có kỳ hạn thông thường, lãi cuối kỳ) thấp hơn: 1 tháng 3,50%, 3 tháng 3,60%, 6 tháng 4,90%, 9 tháng 4,70%, 12 tháng 5,20%, 18 tháng 5,50%, 24 và 36 tháng 4,90%/năm.",
+    "Tại quầy, kỳ hạn 12 tháng 7,20%/năm và 13 tháng 7,10%/năm chỉ áp dụng cho khoản tiết kiệm từ 500 tỷ đồng trở lên.",
+    "Biểu còn có bảng riêng \"Lãi suất Tiền gửi tiết kiệm Online Vikki\": 1 tháng 4,15%, 3 tháng 4,35%, 6 tháng 5,65%, 12 tháng 5,95%, 13 tháng 6,00%/năm.",
+    "Biểu ghi lãi suất mang tính tham khảo; liên hệ HDBank để biết mức cập nhật nhất."
+  ],
+  "sourceUrls": [
+    "https://hdbank.com.vn/vi/personal/cong-cu/interest-rate",
+    "https://cdn.hdbank.com.vn/hdbank-file/document/20261910BIEULAISUATTIENGUIKHACHHANGCANHANKHCNWEBSITEF2TD_1792402278333.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

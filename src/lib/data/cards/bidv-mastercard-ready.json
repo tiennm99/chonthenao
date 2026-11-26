@@ -1,0 +1,55 @@
+{
+  "id": "bidv-mastercard-ready",
+  "bank": "bidv",
+  "name": "BIDV Mastercard Ready",
+  "kind": "debit",
+  "network": "mastercard",
+  "tier": "Chuẩn",
+  "issuanceFee": 50000,
+  "annualFee": 80000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Khách hàng Premier, Premier Elite và Private được miễn phí phát hành và miễn phí thường niên 2 năm đầu.",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 3,
+        "perVnd": 1000
+      },
+      "capMonth": 300000,
+      "note": "Điểm đổi quà Bpoint cho giao dịch thanh toán hàng hóa dịch vụ hợp lệ. Tối đa 300.000 điểm/tháng/thẻ. Không tích điểm cho xăng dầu, hóa đơn điện, nước, gas, viễn thông, nạp ví điện tử, thuế, chứng khoán."
+    }
+  ],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
+  "pointValueVnd": 1,
+  "fxFee": 2.36,
+  "virtual": true,
+  "perks": [
+    "PIN điện tử (ePIN)",
+    "Rút tiền không cần thẻ tại ATM/CRM bằng mã QR trên BIDV SmartBanking",
+    "Thanh toán không tiếp xúc, mua hàng trực tuyến tại các điểm có biểu tượng Mastercard toàn cầu"
+  ],
+  "notes": [
+    "Điểm thưởng là điểm đổi quà: 1 điểm = 1 VND khi đổi quà trên Membership Rewards (BIDV SmartBanking), không hoàn tiền mặt. Trang sản phẩm gọi là tích điểm 0,3%.",
+    "Thể lệ tích điểm áp dụng từ 01/07/2026 đến hết 31/12/2026; đổi điểm đến 31/03/2027 hoặc khi hết ngân sách.",
+    "Biểu phí ghi các mức phí chưa gồm VAT; cột \"Đối tượng KHÔNG chịu VAT\" không đánh dấu các phí thẻ ghi nợ quốc tế.",
+    "Thẻ vật lý: phí phát hành 50.000 VND; thẻ phi vật lý miễn phí phát hành. Thẻ phụ: phí thường niên 50.000 VND.",
+    "Giao dịch tại điểm bán nước ngoài theo biểu phí: phí chuyển đổi ngoại tệ 1% cộng phí xử lý 1,36% (tối thiểu 9.000 VND); giao dịch không xuất trình thẻ (trực tuyến) phí xử lý 1,7%, tổng 2,7%.",
+    "Trang sản phẩm ghi phí chuyển đổi ngoại tệ 1,1% và phí xử lý tại đơn vị chấp nhận thẻ nước ngoài 1,5%, khác biểu phí.",
+    "Rút tiền tại ATM/POS BIDV 2.000 VND, ngân hàng khác trong nước 10.000 VND, nước ngoài 3,64% (tối thiểu 50.000 VND) theo biểu phí; trang sản phẩm ghi 4% ở nước ngoài."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/bidv/ca-nhan/san-pham-dich-vu/dich-vu-the/the-ghi-no-quoc-te/1/the-bidv-mastercard-ready",
+    "https://bidv.com.vn/wps/wcm/connect/517a3656-a452-490c-94c1-5bb5beca287a/BIEU+PHI+THE+KHACH+HANG+CA+NHAN+BIDV+20.08.26.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-517a3656-a452-490c-94c1-5bb5beca287a-p.RH4bB",
+    "https://bidv.com.vn/wps/wcm/connect/010780c3-d9dd-467a-9947-4481dde3ed9d/Th%E1%BB%83+l%E1%BB%87+G%C4%902.2026+19.10.pdf?MOD=AJPERES&CVID=q5tCHgU"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "acb-lotusmiles-pay-debit",
+  "bank": "acb",
+  "name": "ACB Lotusmiles Pay (ghi nợ)",
+  "kind": "debit",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 100000,
+  "feesFinal": true,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu tiên.",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "all",
+      "type": "miles",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 50000
+      },
+      "capMonth": null,
+      "note": "Dặm Bông Sen Vàng cho chi tiêu trong nước, không giới hạn, khi số dư bình quân tài khoản thanh toán liên kết trong 3 tháng gần nhất từ 1.000.000 VND. Một số MCC đặc biệt cần chi tiêu gấp 5 lần mới được 1 dặm."
+    },
+    {
+      "category": "foreign",
+      "type": "miles",
+      "rate": null,
+      "earn": {
+        "units": 1,
+        "perVnd": 30000
+      },
+      "capMonth": null,
+      "note": "Dặm Bông Sen Vàng cho chi tiêu ở nước ngoài, không giới hạn, khi số dư bình quân tài khoản thanh toán liên kết trong 3 tháng gần nhất từ 1.000.000 VND."
+    }
+  ],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2027-04-14",
+  "pointValueVnd": null,
+  "fxFee": 1.9,
+  "virtual": true,
+  "perks": [
+    "Đặc quyền hội viên Bông Sen Vàng của Vietnam Airlines",
+    "Rút tiền tại ATM ngân hàng khác trong nước miễn phí",
+    "Ưu đãi của Visa theo từng thời kỳ"
+  ],
+  "notes": [
+    "Chỉ dành cho hội viên Bông Sen Vàng hạng Silver, Titanium, Gold, Platinum và Million Miler, công dân Việt Nam từ 18 tuổi cư trú tại Việt Nam.",
+    "Không tích dặm khi số dư bình quân 3 tháng gần nhất dưới 1.000.000 VND. Không tích dặm cho rút tiền mặt, phí, nạp ví điện tử, Facebook, Google, iTunes, quảng cáo, trang sức, bất động sản, chuyển tiền và các MCC loại trừ.",
+    "Chương trình tích dặm từ 15/04/2026 đến 14/04/2027 hoặc đến khi hết ngân sách.",
+    "Phí giao dịch ngoại tệ: phí xử lý giao dịch 1,9% (tối thiểu 10.000 VND), miễn phí chênh lệch tỷ giá. Giao dịch bằng VND tại đơn vị nước ngoài chịu phí 1,5%, tối thiểu 10.000 VND.",
+    "Rút tiền tại ATM ACB miễn phí khi kết nối TK EBIZ, ECO+, Thương Gia, TKTT trực tuyến, First và một số tài khoản khác; còn lại 1.100 VND/lần. Rút tiền ở nước ngoài 3%, tối thiểu 60.000 VND.",
+    "Thẻ phi vật lý: suy ra từ dòng \"Phí in thẻ vật lý từ thẻ phi vật lý: Miễn phí\" trong biểu phí; trang sản phẩm không mô tả thẻ phi vật lý.",
+    "Biểu phí thẻ ghi nợ hiệu lực từ 11/11/2026."
+  ],
+  "sourceUrls": [
+    "https://acb.com.vn/the/the-ghi-no-lotusmiles-pay",
+    "https://acb.com.vn/acbwebsite/files/Th%E1%BB%83%20l%E1%BB%87%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh_Ghi%20n%E1%BB%A3%20Lotusmile%2015%2005%2026.pdf",
+    "https://acb.com.vn/acbwebsite/files/BIEU%20PHI%20THE%20GHI%20NO%20KHCN%20(1)%2012%2011.pdf",
+    "https://acb.com.vn/acbwebsite/files/Bi%E1%BB%83u%20ph%C3%AD%20th%E1%BA%BB%20ghi%20n%E1%BB%A3%20Lotusmiles%20Pay%2018%2009.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

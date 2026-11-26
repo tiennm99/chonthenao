@@ -1,0 +1,53 @@
+{
+  "id": "vietcombank-visa-platinum-debit",
+  "bank": "vietcombank",
+  "name": "Vietcombank Visa Platinum Debit",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 0,
+  "annualFee": 327273,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm tiếp theo khi doanh số chi tiêu năm trước từ 50 triệu VND (không tính rút tiền, chuyển khoản; thẻ chính và thẻ phụ tính riêng).",
+    "minSpendYear": 50000000
+  },
+  "rewards": [
+    {
+      "category": "all",
+      "type": "cashback",
+      "rate": 0.3,
+      "earn": null,
+      "capMonth": 1500000,
+      "note": "Tối đa 1.500.000 VND mỗi kỳ sao kê; chủ thẻ phải là hội viên VCB Loyalty."
+    }
+  ],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 2.27,
+  "virtual": true,
+  "perks": [
+    "Bảo hiểm chuyến đi đến 11,65 tỷ VND cho chủ thẻ và người thân",
+    "Rút tiền mặt miễn phí tại ATM Vietcombank",
+    "Ưu đãi Evergreen: e-voucher giảm giá hoặc quà tặng từ đơn vị chấp nhận thẻ",
+    "Hotline chuyên biệt miễn phí 1800 1565",
+    "Thẻ phụ miễn phí thường niên"
+  ],
+  "notes": [
+    "Biểu phí thẻ ghi nợ (hiệu lực 06/07/2026) ghi các mức phí chưa gồm VAT: phí thường niên 327.273 VND/thẻ chính/năm; trang sản phẩm và bảng điều kiện miễn phí thường niên ghi 360.000 VND đã gồm VAT.",
+    "fxFee là phí xử lý giao dịch ngoại tệ 2,27% giá trị giao dịch. Giao dịch bằng VND tại nước ngoài chịu phí 1% (tối thiểu 9.000 VND/giao dịch).",
+    "Rút tiền tại ATM ngân hàng khác: 9.090 VND/giao dịch ở Việt Nam, 3,64% (tối thiểu 45.454 VND) ở nước ngoài (chưa gồm VAT).",
+    "Tỷ lệ hoàn tiền theo điều khoản áp dụng từ 21/07/2026; kỳ xét hoàn tiền từ ngày 21 tháng này đến ngày 20 tháng sau. Không hoàn tiền cho giao dịch POS tại khu vực kinh tế châu Âu (EEA), rút tiền mặt, nạp hoặc rút ví điện tử, chứng khoán, ngoại hối, đánh bạc.",
+    "Có hình thức thẻ phi vật lý dùng ngay, in thẻ vật lý theo nhu cầu. Hạn mức: rút tiền mặt 200 triệu VND/ngày, chi tiêu tối đa 1 tỷ VND/ngày."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The/Debit_VCB-Visa-Platinum",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/202608_VNI_BP-TGN_KHCN_BS-Haha.pdf?ts=20260824094435",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/20260820_DKDK-chuong-trinh-hoan-tien-the-tren-VCB-Loyalty_VN.pdf?ts=20260818075434",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/Tai-lieu-THE/06062024-UPDATE-MASTERCARD/20240524TC-phi-thuong-nien-va-dieu-kien-mien-phi-thuong-nienVi.pdf?ts=20240606023433"
+  ],
+  "lastVerified": "2026-11-26"
+}

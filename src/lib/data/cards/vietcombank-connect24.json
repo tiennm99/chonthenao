@@ -1,0 +1,39 @@
+{
+  "id": "vietcombank-connect24",
+  "bank": "vietcombank",
+  "name": "Vietcombank Connect24",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 45454,
+  "annualFee": 0,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Thẻ phi vật lý phát hành miễn phí",
+    "Thanh toán không tiếp xúc (contactless), rút tiền bằng mã QR tại ATM",
+    "Thanh toán qua Apple Pay, Samsung Pay",
+    "Phát hành thẻ phụ cho con từ 6 tuổi đến dưới 15 tuổi"
+  ],
+  "notes": [
+    "Thẻ ghi nợ nội địa (logo Napas trên thẻ theo cẩm nang sử dụng thẻ), thanh toán tại điểm chấp nhận thẻ ở Việt Nam; không phải thẻ quốc tế nên fxFee để trống.",
+    "Biểu phí thẻ ghi nợ (hiệu lực 06/07/2026) ghi các mức phí chưa gồm VAT: phí phát hành thẻ vật lý 45.454 VND/thẻ (trang sản phẩm ghi 49.999 VND/thẻ), thẻ phi vật lý miễn phí; nếu in thành thẻ vật lý 45.454 VND/thẻ.",
+    "Trang sản phẩm ghi phí thường niên miễn phí; biểu phí không có mục phí thường niên cho thẻ ghi nợ nội địa nhưng thu phí gia hạn thẻ vật lý 45.454 VND/thẻ (thẻ có hiệu lực 6 năm), thẻ phi vật lý gia hạn miễn phí.",
+    "Rút tiền tại ATM Vietcombank 1.000 VND/giao dịch, tại ATM ngân hàng khác 3.000 VND/giao dịch (chưa gồm VAT).",
+    "Hạn mức: rút tiền mặt 100 triệu VND/ngày, chi tiêu 200 triệu VND/ngày; tối đa 3 thẻ phụ."
+  ],
+  "sourceUrls": [
+    "https://www.vietcombank.com.vn/vi-VN/KHCN/SPDV/The/Debit_VCB-Connect24",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/Cam-nang-su-dung-the/CNSD_C24_VN.pdf?ts=20250425042904",
+    "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/KHCN/San-pham-Dich-vu/The/The-moi/VCB-Haha/202608_VNI_BP-TGN_KHCN_BS-Haha.pdf?ts=20260824094435"
+  ],
+  "lastVerified": "2026-11-26"
+}

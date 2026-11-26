@@ -1,0 +1,72 @@
+{
+  "id": "bidv-mastercard-discovery",
+  "bank": "bidv",
+  "name": "BIDV Mastercard Discovery",
+  "kind": "debit",
+  "network": "mastercard",
+  "tier": null,
+  "issuanceFee": 50000,
+  "annualFee": 200000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm tiếp theo khi đạt doanh số thanh toán từ 90 triệu VND/năm. Khách hàng Premier, Premier Elite và Private được miễn phí phát hành và miễn phí thường niên 2 năm đầu.",
+    "minSpendYear": 90000000
+  },
+  "rewards": [
+    {
+      "category": "all",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 3,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Điểm đổi quà Bpoint cho các giao dịch thanh toán hợp lệ còn lại (ngoài giao dịch tại nước ngoài). Không tích điểm cho xăng dầu, hóa đơn điện, nước, gas, viễn thông, nạp ví điện tử, thuế, chứng khoán."
+    },
+    {
+      "category": "foreign",
+      "type": "points",
+      "rate": null,
+      "earn": {
+        "units": 10,
+        "perVnd": 1000
+      },
+      "capMonth": null,
+      "note": "Giao dịch thanh toán tại nước ngoài. Trang sản phẩm ghi 1% cho giao dịch thanh toán bằng ngoại tệ."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["all", "foreign"],
+      "capMonth": 500000,
+      "note": "Tối đa 500.000 điểm/tháng/thẻ."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
+  "pointValueVnd": 1,
+  "fxFee": 2.36,
+  "virtual": true,
+  "perks": [
+    "Bảo hiểm du lịch toàn cầu giá trị tới 11,65 tỷ đồng",
+    "PIN điện tử (ePIN), rút tiền không cần thẻ tại ATM/CRM bằng mã QR",
+    "Hạn mức thanh toán đến 2 tỷ VND/ngày"
+  ],
+  "notes": [
+    "Điểm thưởng là điểm đổi quà: 1 điểm = 1 VND khi đổi quà trên Membership Rewards (BIDV SmartBanking), không hoàn tiền mặt.",
+    "Thể lệ tích điểm áp dụng từ 01/07/2026 đến hết 31/12/2026; đổi điểm đến 31/03/2027 hoặc khi hết ngân sách.",
+    "Trang sản phẩm ghi cả hoàn tiền tối đa 600.000 VND/tháng và 500.000 VND/tháng; thể lệ ghi tối đa 500.000 điểm/tháng/thẻ.",
+    "Biểu phí ghi phí phát hành thẻ vật lý 50.000 VND cho khách hàng thông thường; trang sản phẩm ghi miễn phí phát hành. Thẻ phi vật lý miễn phí phát hành.",
+    "Biểu phí ghi các mức phí chưa gồm VAT; cột \"Đối tượng KHÔNG chịu VAT\" không đánh dấu các phí thẻ ghi nợ quốc tế. Thẻ phụ: phí thường niên 100.000 VND.",
+    "Giao dịch tại điểm bán nước ngoài theo biểu phí: phí chuyển đổi ngoại tệ 1% cộng phí xử lý 1,36% (tối thiểu 9.000 VND); giao dịch không xuất trình thẻ (trực tuyến) phí xử lý 1,7%, tổng 2,7%.",
+    "Trang sản phẩm ghi phí chuyển đổi ngoại tệ 1,1% và phí xử lý tại đơn vị chấp nhận thẻ nước ngoài 1,5%, khác biểu phí."
+  ],
+  "sourceUrls": [
+    "https://bidv.com.vn/bidv/ca-nhan/san-pham-dich-vu/dich-vu-the/the-ghi-no-quoc-te/1/the-bidv-mastercard-discovery",
+    "https://bidv.com.vn/wps/wcm/connect/517a3656-a452-490c-94c1-5bb5beca287a/BIEU+PHI+THE+KHACH+HANG+CA+NHAN+BIDV+20.08.26.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-517a3656-a452-490c-94c1-5bb5beca287a-p.RH4bB",
+    "https://bidv.com.vn/wps/wcm/connect/010780c3-d9dd-467a-9947-4481dde3ed9d/Th%E1%BB%83+l%E1%BB%87+G%C4%902.2026+19.10.pdf?MOD=AJPERES&CVID=q5tCHgU"
+  ],
+  "lastVerified": "2026-11-26"
+}

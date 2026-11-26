@@ -1,0 +1,38 @@
+{
+  "id": "sacombank",
+  "bank": "sacombank",
+  "accountMonthlyFee": 6000,
+  "minBalance": null,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 1000,
+  "atmOffUsFee": 3300,
+  "smsFeeMonth": 15000,
+  "digitalBankingFeeMonth": null,
+  "feesFinal": null,
+  "perks": [
+    "Tài khoản thanh toán mở trên SACOMBANK PAY miễn phí quản lý tài khoản",
+    "Mở tài khoản online qua SACOMBANK PAY; miễn phí mở tài khoản số đẹp cho khách hàng từ đủ 15 tuổi",
+    "Miễn phí chuyển tiền, thanh toán trên Internet Banking và Mobile Banking",
+    "Smart OTP miễn phí"
+  ],
+  "notes": [
+    "Phí quản lý tài khoản thanh toán VND 6.000 đồng/tháng, miễn phí nếu số dư bình quân tháng trước từ 500.000 đồng; tài khoản mở trên SACOMBANK PAY 0 đồng. Từ tài khoản thứ 4 trở lên 100.000 đồng/tháng; tài khoản không hoạt động trên 6 tháng 10.000 đồng/tháng.",
+    "Các gói khác: Combo Đa Lợi 20.000 đồng/tháng (miễn phí khi số dư bình quân từ 1 triệu đồng hoặc chi tiêu thẻ từ 5 triệu đồng/tháng trước); Combo Hi-Tek cho khách hàng từ 20 tuổi 10.000 đồng/tháng khi số dư bình quân dưới 500.000 đồng.",
+    "Biểu phí ngân hàng điện tử (hiệu lực 01/08/2024) ghi phí chuyển tiền, thanh toán trên Internet Banking & Mobile Banking là miễn phí; Token/Token nâng cao 200.000 đồng/thiết bị. Biểu phí không liệt kê phí duy trì dịch vụ hằng tháng và không trang nào ghi rõ mức phí này, nên để trống. Trang SACOMBANK PAY và Internet Banking ghi miễn phí tất cả các giao dịch; Internet Banking đã ngưng đăng ký mới.",
+    "Trong vòng 2 ngày làm việc kể từ ngày nộp tiền mặt vào tài khoản, chuyển khoản online hoặc rút tiền mặt sẽ bị thu phí kiểm đếm (theo \"Lưu ý dành cho bạn\" trong biểu phí).",
+    "Rút tiền ATM theo biểu phí thẻ Napas: ATM Sacombank 1.000 đồng, ATM Napas 3.300 đồng/giao dịch. Thẻ Visa Debit rút tại ATM ngân hàng khác trong nước 6.000 đồng.",
+    "SMS báo giao dịch tự động 15.000 đồng/tháng cho đến 30 tin, từ tin thứ 31 thêm 700 đồng/tin; gồm biến động số dư tài khoản thanh toán, thẻ tín dụng và xác thực giao dịch.",
+    "Chuyển khoản tại quầy: trong hệ thống dưới 20 triệu đồng 3.000 đồng/món; ngoài hệ thống 0,04% (tối thiểu 20.000 đồng, tối đa 1.000.000 đồng).",
+    "Câu hỏi thường gặp chỉ nêu số dư tối thiểu cho tài khoản ngoại tệ (mở tại quầy: không yêu cầu; kênh điện tử: 10 ngoại tệ), không nêu cho tài khoản VND.",
+    "Biểu phí giao dịch tại quầy (hiệu lực 24/08/2026) và biểu phí ngân hàng điện tử không ghi phí đã gồm VAT hay chưa; biểu phí thẻ ghi mức phí thẻ đã bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.sacombank.com.vn/cong-cu/bieu-phi.html",
+    "https://www.sacombank.com.vn/ca-nhan/tai-khoan.html",
+    "https://www.sacombank.com.vn/ca-nhan/tai-khoan/tai-khoan-thanh-toan.html",
+    "https://www.sacombank.com.vn/ca-nhan/ngan-hang-so/sacombank-pay.html",
+    "https://www.sacombank.com.vn/ca-nhan/ngan-hang-so/internet-banking.html"
+  ],
+  "lastVerified": "2026-11-26"
+}

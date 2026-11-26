@@ -1,0 +1,37 @@
+{
+  "id": "lpbank-napas-debit",
+  "bank": "lpbank",
+  "name": "LPBank Ghi nợ nội địa liên kết phát triển chuẩn",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 0,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Miễn phí phát hành và miễn phí thường niên (thẻ chính và thẻ phụ)",
+    "Thanh toán không tiếp xúc",
+    "Ưu đãi chi tiêu của Napas",
+    "Miễn phí rút tiền tại ATM của LPBank"
+  ],
+  "notes": [
+    "Biểu phí ghi mức phí chưa gồm VAT 10%. Phát hành nhanh 199.000 VND; cấp lại thẻ do mất, hỏng 99.000 VND.",
+    "Rút tiền tại ATM ngân hàng khác trong nước 3.000 VND/lần (chưa gồm VAT); biểu phí ghi mức này có thể điều chỉnh theo từng sản phẩm triển khai theo từng thời kỳ.",
+    "Thẻ nội địa: biểu phí không có phí giao dịch ngoại tệ chung. Ngoài Việt Nam chỉ ghi giao dịch tại hệ thống BC Card Hàn Quốc: thanh toán POS 0,6%/giao dịch, rút tiền ATM 37.000 VND/lần.",
+    "Không có chương trình hoàn tiền hay tích điểm được công bố cho thẻ này."
+  ],
+  "sourceUrls": [
+    "https://lpbank.com.vn/ca-nhan/the/detail-the/1905",
+    "https://lpbank.com.vn/api/content-file/public/file/view/b87b92c3-d8ac-4d32-b1a3-1d9cfb4f958c"
+  ],
+  "lastVerified": "2026-11-26"
+}

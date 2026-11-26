@@ -1,0 +1,35 @@
+{
+  "id": "nam-a-bank",
+  "bank": "nam-a-bank",
+  "accountMonthlyFee": 10000,
+  "minBalance": 50000,
+  "transferInternalFee": 0,
+  "transferInterbankFee": 0,
+  "atmOnUsFee": 0,
+  "atmOffUsFee": 3300,
+  "smsFeeMonth": 11000,
+  "digitalBankingFeeMonth": null,
+  "feesFinal": false,
+  "perks": [
+    "Chuyển tiền trong và ngoài hệ thống Nam A Bank (kể cả NAPAS 247) qua Open Banking miễn phí",
+    "Đăng ký Open Banking và nhận biến động số dư trên Open Banking miễn phí",
+    "Tài khoản Green Account mở trên ngân hàng số: miễn phí mở và quản lý tài khoản, không duy trì số dư tối thiểu",
+    "Thẻ ghi nợ Napas và Mastercard miễn phí phát hành và phí thường niên; rút tiền miễn phí tại ATM Nam A Bank"
+  ],
+  "notes": [
+    "Biểu phí giao dịch tại quầy cho khách hàng cá nhân (hiệu lực 30/12/2025, ghi chưa gồm VAT): số dư tối thiểu tài khoản thanh toán VND 50.000 đồng; accountMonthlyFee là \"Phí duy trì số dư tài khoản\" 10.000 đồng/tháng, chỉ thu khi tài khoản không đạt số dư tối thiểu. Biểu phí không có phí quản lý tài khoản khác cho tài khoản thông thường.",
+    "Các gói tài khoản có phí riêng: Combo Bạc 12.000, Vàng 18.000, Kim Cương và VIP 30.000 đồng/tháng; Gói Tài khoản Tối ưu số dư bình quân tối thiểu 5.000.000 đồng, phí 50.000 đồng/tháng khi không đạt; Happy Combo (NAB Flex/Plus/Premium) số dư bình quân 2/5/10 triệu đồng, phí 15.000/35.000/45.000 đồng khi không đạt.",
+    "Chuyển tiền tại quầy: NAPAS 247 miễn phí đến 500.000 đồng, 2.000 đồng đến 2.000.000 đồng, trên đó 0,04% (tối thiểu 10.000 đồng); chuyển thường ngoài hệ thống 0,025% (tối thiểu 15.000 đồng) cùng tỉnh. Đóng tài khoản trong 12 tháng đầu: 100.000 đồng.",
+    "atmOffUsFee là phí rút tiền bằng thẻ ghi nợ Napas tại ATM liên minh Napas (3.300 đồng, biểu phí thẻ ghi nợ ghi đã gồm VAT), miễn phí với thẻ phát hành theo Gói ưu đãi như tài khoản nhận lương; thẻ Mastercard rút tại ATM Mastercard trong nước 2.200 đồng.",
+    "smsFeeMonth là mức thấp nhất của SMS Banking (đã gồm VAT, áp dụng từ 01/11/2026): nhà mạng Viettel 11.000 đồng/tháng cho 1 - 20 tin, 14.520 đồng cho 21 - 70 tin, 22.000 đồng từ 71 tin; nhà mạng khác 22.000 đồng/tháng cho 1 - 15 tin, thêm 765 đồng/tin từ tin thứ 16. Không thu phí tháng không phát sinh tin nhắn; không gửi SMS cho giao dịch từ 100.000 đồng trở xuống.",
+    "Biểu phí ngân hàng số cá nhân (hiệu lực 01/11/2026) ghi phí đăng ký Open Banking miễn phí nhưng không ghi phí duy trì hàng tháng, nên digitalBankingFeeMonth để trống. Biểu phí này ghi mức phí chưa gồm VAT, trừ SMS Banking.",
+    "feesFinal là false vì phí duy trì số dư lấy từ biểu phí tại quầy ghi chưa gồm VAT; phí ATM và SMS lấy từ biểu phí ghi đã gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.namabank.com.vn/Data/Sites/1/media/truy-cap-nhanh/bieu-phi/khcn/2026/bieu-phi-giao-dich-tai-quay.docx",
+    "https://www.namabank.com.vn/Data/Sites/1/media/the/bieu-phi/2026/bi%E1%BB%83u-ph%C3%AD-d%E1%BB%8Bch-v%E1%BB%A5-ng%C3%A2n-h%C3%A0ng-s%E1%BB%91-(d%C3%A0nh-cho-kh%C3%A1ch-h%C3%A0ng-c%C3%A1-nh%C3%A2n).pdf",
+    "https://www.namabank.com.vn/Data/Sites/1/media/bieu-phi/bieu-phi-the-ghi-no-the-tra-truoc-4.9.25.pdf",
+    "https://www.namabank.com.vn/bieu-phi-han-muc"
+  ],
+  "lastVerified": "2026-11-26"
+}

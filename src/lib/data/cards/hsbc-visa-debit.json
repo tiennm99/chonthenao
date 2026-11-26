@@ -1,0 +1,41 @@
+{
+  "id": "hsbc-visa-debit",
+  "bank": "hsbc",
+  "name": "Thẻ Thanh Toán Quốc Tế HSBC",
+  "kind": "debit",
+  "network": "visa",
+  "tier": null,
+  "issuanceFee": 0,
+  "annualFee": 0,
+  "feesFinal": true,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": 4,
+  "virtual": null,
+  "perks": [
+    "Miễn phí rút tiền tại ATM HSBC trong nước",
+    "Thanh toán không tiếp xúc, mua hàng trực tuyến và tại POS trong và ngoài nước",
+    "Ưu đãi giảm giá từ chương trình home&Away và Privilege Club"
+  ],
+  "notes": [
+    "Thẻ ghi nợ quốc tế Visa đi kèm Tài Khoản Vãng Lai HSBC. HSBC không phát hành thẻ ghi nợ nội địa Napas.",
+    "Phí phát hành lần đầu và cấp lại thẻ hết hạn: miễn phí; phí thường niên: miễn phí; phí cấp lại thẻ: 110.000 VNĐ/thẻ.",
+    "Phí quản lý giao dịch nước ngoài 4% số tiền trên mỗi giao dịch, là khoản phí theo phần trăm duy nhất của thẻ trong biểu phí; tỷ giá chuyển đổi do HSBC quy định.",
+    "Rút tiền tại ATM mạng VISA/PLUS ở Việt Nam (gồm ATM Techcombank) 5.000 VNĐ/giao dịch theo biểu phí; trang sản phẩm ghi miễn phí. Ở nước ngoài: 45.000 VNĐ tại ATM HSBC thuộc mạng toàn cầu, 60.000 VNĐ tại ATM VISA/PLUS.",
+    "Tin nhắn thông báo giao dịch trên thẻ và tài khoản liên kết: 132.000 VNĐ/năm.",
+    "Hạn mức: rút tiền 20 triệu VNĐ/ngày, thanh toán 100 triệu VNĐ/ngày, không tiếp xúc 10 triệu VNĐ/giao dịch.",
+    "Thẻ HSBC Visa Platinum ghi nợ chỉ dành cho khách hàng Premier nên không có trong dữ liệu."
+  ],
+  "sourceUrls": [
+    "https://www.hsbc.com.vn/debit-cards/",
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/foreign-exchange/personal-banking-tariff.pdf",
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/vi/debit-cards/debit-page-detail-vi.pdf",
+    "https://www.hsbc.com.vn/content/dam/hsbc/hbvn/documents/vi/debit-cards/26052017-VisaDebit-TnC-VN%20(002).pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

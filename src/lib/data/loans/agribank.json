@@ -1,0 +1,58 @@
+{
+  "id": "agribank",
+  "bank": "agribank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Cho vay tín dụng tiêu dùng",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 30000000,
+      "note": "Trang sản phẩm chỉ ghi lãi suất \"theo quy định của từng kỳ\", không công bố mức, và không nói rõ có cần tài sản bảo đảm hay không. Hạn mức tối đa 30 triệu đồng, thời gian vay tối đa 12 tháng, cho vay từng lần, theo hạn mức hoặc thấu chi, cho mục đích tiêu dùng (đồ dùng gia đình, học tập, khám chữa bệnh...)."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà ở dành cho khách hàng trẻ tuổi",
+      "rateFrom": 6.3,
+      "fixedMonths": 18,
+      "maxTermMonths": 480,
+      "maxAmount": 5000000000,
+      "note": "Trang sản phẩm ghi \"Lãi suất: Cố định 6,3% trong 18 tháng\" (không ghi /năm) và không công bố lãi suất sau 18 tháng. Dành cho khách hàng cá nhân không quá 35 tuổi, quốc tịch Việt Nam, là công chức, viên chức, người lao động vay mua nhà để ở. Vay tối đa 5 tỷ đồng, thời hạn đến 40 năm nhưng không vượt quá tuổi nghỉ hưu; miễn trả nợ gốc đến 5 năm; tài sản bảo đảm có hoặc không tùy phương án vay."
+    },
+    {
+      "type": "home",
+      "name": "Vay mua nhà ở thương mại",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 420,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi \"lãi suất cạnh tranh theo các gói tín dụng ưu đãi từng thời kỳ\", không công bố mức. Dành cho mua nhà ở thương mại thuộc dự án đầu tư xây dựng nhà ở trong hệ thống Agribank; cho vay tối đa 100% giá trị hợp đồng chuyển nhượng/mua bán/phương án sử dụng vốn; thời hạn tối đa 35 năm; có tài sản bảo đảm (có thể là chính căn nhà mua)."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua ô tô phục vụ nhu cầu đời sống",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm chỉ ghi lãi suất \"theo chính sách ưu đãi của Agribank trong từng thời kỳ\", không công bố mức. Cho vay tối đa đến 100% giá trị xe, thời hạn tối đa 07 năm, có tài sản bảo đảm; chỉ cho mua ô tô phục vụ đời sống cá nhân, không phục vụ sản xuất kinh doanh."
+    }
+  ],
+  "notes": [
+    "Chương trình cho vay ưu đãi mua nhà ở xã hội dành cho người trẻ dưới 35 tuổi (chương trình riêng, chỉ cho nhà ở xã hội thuộc dự án được công bố, mỗi khách hàng một lần): 5 năm đầu thấp hơn 2%/năm so với lãi suất trung, dài hạn VND bình quân của 4 ngân hàng thương mại Nhà nước, 10 năm tiếp theo thấp hơn 1%/năm. Mức áp dụng từ 01/7/2026 đến hết 31/12/2026 là 6,5%/năm (5 năm đầu) và 7,5%/năm (10 năm tiếp theo); NHNN thông báo lại mức này định kỳ 6 tháng. Chương trình áp dụng cho khoản vay giải ngân từ 30/5/2025 đến hết 31/12/2030 hoặc đến khi hết quy mô 10.000 tỷ đồng.",
+    "Bảng lãi suất cho vay bình quân tháng 10/2026 của Agribank: lãi suất cho vay thông thường tối thiểu 6,1%/năm (ngắn hạn) và 7,8%/năm (trung, dài hạn). Đây là mức chung toàn ngân hàng, không phải lãi suất của từng sản phẩm.",
+    "Lãi suất cụ thể của từng khoản vay do chi nhánh Agribank tư vấn; các trang sản phẩm không công bố công thức thả nổi sau thời gian ưu đãi."
+  ],
+  "sourceUrls": [
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/vay-von-agribank",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/vay-von-agribank/cho-vay-tin-dung-tieu-dung/cho-vay-tin-dung-tieu-dung",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/vay-von-agribank/vay/vay-mua-nha-o-cho-khach-hang-tre-tuoi",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/vay-von-agribank/vay-nha-o-thuong-mai/vay-nha-o-thuong-mai",
+    "https://www.agribank.com.vn/vn/ca-nhan/san-pham/dtl?current=true&urile=wcm:path:/agbank/ca-nhan/vay-von-agribank/vay-mua-o-to-phuc-vu-nhu-cau-doi-song/vay-mua-o-to-phuc-vu-nhu-cau-doi-song",
+    "https://www.agribank.com.vn/vn/khuyen-mai/khuyen-mai-ca-nhan/tin-dung-uu-dai/agribank-trien-khai-chuong-trinh-vay-von-uu-dai-mua-nha-o-xa-hoi-danh-cho-nguoi-tre",
+    "https://www.agribank.com.vn/vn/khuyen-mai/khuyen-mai-ca-nhan/tin-dung-uu-dai/agribank-thong-bao-lai-suat-cho-vay-doi-voi-nguoi-tre-duoi-35-tuoi-mua-nha-o-xa-hoi",
+    "https://www.agribank.com.vn/vn/lai-suat-cho-vay-agribank"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mb-visa-platinum-debit",
+  "bank": "mb",
+  "name": "MB Visa Debit Platinum",
+  "kind": "debit",
+  "network": "visa",
+  "tier": "Platinum",
+  "issuanceFee": 50000,
+  "annualFee": 100000,
+  "feesFinal": false,
+  "feeWaiver": {
+    "text": "Thẻ vật lý miễn phí thường niên năm đầu, từ năm thứ 2 là 100.000 VND/năm. Thẻ phi vật lý miễn phí phát hành và phí thường niên. Khách hàng trả lương qua MB được miễn phí phát hành thẻ vật lý.",
+    "minSpendYear": null
+  },
+  "rewards": [
+    {
+      "category": "travel",
+      "type": "cashback",
+      "rate": 10,
+      "earn": null,
+      "capMonth": null,
+      "note": "Giao dịch trực tuyến và trực tiếp thuộc MCC 3501–3839, 3000–3308 và 4722. Chỉ áp dụng cho thẻ mở mới từ 21/09/2026 đến 31/12/2026, khi chi tiêu trong tháng đạt từ 3 triệu đồng."
+    },
+    {
+      "category": "foreign",
+      "type": "cashback",
+      "rate": 10,
+      "earn": null,
+      "capMonth": null,
+      "note": "Chỉ giao dịch chi tiêu trực tiếp tại POS ở nước ngoài, không giới hạn MCC (trừ các MCC loại trừ rủi ro). Chỉ áp dụng cho thẻ mở mới từ 21/09/2026 đến 31/12/2026, khi chi tiêu trong tháng đạt từ 3 triệu đồng."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["travel", "foreign"],
+      "capMonth": 300000,
+      "note": "Tối đa 300.000 VND/khách hàng/tháng cho cả hai lĩnh vực."
+    }
+  ],
+  "minSpendMonth": 3000000,
+  "maxCategories": null,
+  "rewardsUntil": "2026-12-31",
+  "pointValueVnd": null,
+  "fxFee": 3,
+  "virtual": true,
+  "perks": [
+    "Tặng 01 lượt phòng chờ sân bay nội địa cho mỗi 20 triệu đồng chi tiêu trong tháng, tối đa 2 lượt/tháng",
+    "Ưu đãi tại Trip.com, Booking.com, Agoda, Hotels.com, Shopee, Grab và một số nhà hàng"
+  ],
+  "notes": [
+    "Ngân hàng giới thiệu thẻ với tên \"Thẻ ghi nợ quốc tế MB Visa Platinum (Priority)\", nhưng biểu phí thẻ ghi nợ niêm yết phí phát hành cho khách hàng vãng lai và trang sản phẩm cho mở thẻ qua App MBBank.",
+    "Phí phát hành ghi ở trên là của thẻ vật lý cho khách hàng vãng lai.",
+    "Phí chuyển đổi ngoại tệ 3% số tiền giao dịch (bao gồm giao dịch hoàn trả hàng hóa) là khoản phí phần trăm duy nhất trên giao dịch mua hàng bằng ngoại tệ.",
+    "Hoàn tiền là chương trình có thời hạn (21/09/2026–31/12/2026), chỉ cho thẻ mở mới trong thời gian chương trình.",
+    "Ưu đãi chào mừng: hoàn 200.000 VND khi chi tiêu tích lũy từ 3 triệu đồng và tối thiểu 2 giao dịch trong 30 ngày đầu từ khi kích hoạt thẻ, tối đa 1 lần mỗi khách hàng.",
+    "Rút tiền tại ATM MB 1.000 VND/GD, tại ATM ngân hàng khác trong nước 6.000 VND/GD, ở nước ngoài 3% số tiền (tối thiểu 50.000 VND).",
+    "Biểu phí thẻ ghi nợ ghi rõ mức phí chưa bao gồm VAT; từ 10/04/2026 MB làm tròn phí thẻ (chưa VAT) đến hàng chục."
+  ],
+  "sourceUrls": [
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/the/the-ghi-no/the-ghi-no-quoc-te-mb-visa-platinum-priority",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/uu-dai/the/dich-vu-the-mbbank-bieu-phi-hien-hanh",
+    "https://webcdn.mbbank.com.vn/public/media/bbd94b0d-8acb-4ded-9778-bf54e03dd92e.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

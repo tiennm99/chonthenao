@@ -1,0 +1,69 @@
+{
+  "id": "nam-a-bank",
+  "bank": "nam-a-bank",
+  "products": [
+    {
+      "type": "unsecured",
+      "name": "Vay tiêu dùng tín chấp",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 300000000,
+      "note": "Trang sản phẩm không công bố mức lãi suất; ghi lãi suất cố định trong suốt thời gian vay, theo quy định từng thời kỳ. Dành cho cán bộ nhân viên đang công tác tại các tổ chức được Nam A Bank chấp nhận. Gốc và lãi trả hàng tháng."
+    },
+    {
+      "type": "unsecured",
+      "name": "Tín chấp Siêu Linh Hoạt",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 60,
+      "maxAmount": 500000000,
+      "note": "Chỉ dành cho khách hàng đang vay tại Nam A Bank có lịch sử trả nợ tốt. Trang không công bố mức lãi suất; ghi lãi suất cố định trong suốt thời gian vay. Khoản vay trên 50 triệu đồng cần chứng từ thu nhập 3 tháng gần nhất."
+    },
+    {
+      "type": "unsecured",
+      "name": "Thấu chi tài khoản cá nhân không tài sản bảo đảm",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 12,
+      "maxAmount": 500000000,
+      "note": "Hạn mức thấu chi trên tài khoản thanh toán, không cần tài sản bảo đảm, cho các nhóm khách hàng theo quy định (nhân viên Nam A Bank, nhận lương qua Nam A Bank, cơ quan nhà nước, đối tác liên kết, khách hàng giao dịch tốt). Trang không công bố mức lãi suất; lãi trả ngày 16 hàng tháng."
+    },
+    {
+      "type": "home",
+      "name": "Happy Home - Vay bất động sản",
+      "rateFrom": 10,
+      "fixedMonths": null,
+      "maxTermMonths": 300,
+      "maxAmount": null,
+      "note": "Trang sản phẩm không ghi lãi suất. Bảng Lãi suất cho vay ngày 03/11/2026 của Nam A Bank công bố cho khoản vay mua/nhận chuyển nhượng nhà, đất và xây dựng, sửa chữa nhà (có tài sản bảo đảm): ngắn hạn 10,0%, trung hạn 10,3%, dài hạn 10,5%/năm, áp dụng từ 03 đến 06 tháng đầu của khoản vay. Vay đến 100% nhu cầu vốn nếu tài sản bảo đảm đủ giá trị; vay đến 25 năm."
+    },
+    {
+      "type": "auto",
+      "name": "Vay mua xe ô tô",
+      "rateFrom": null,
+      "fixedMonths": null,
+      "maxTermMonths": 84,
+      "maxAmount": null,
+      "note": "Trang sản phẩm ghi lãi suất theo quy định từng thời kỳ, không công bố mức cụ thể. Vay đến 100% nhu cầu vốn; tài sản bảo đảm là chính xe ô tô, bất động sản hoặc giấy tờ có giá. Có ưu đãi khi mua xe tại đại lý liên kết."
+    }
+  ],
+  "notes": [
+    "Sau thời gian ưu đãi, lãi suất được điều chỉnh tại các kỳ điều chỉnh theo lãi suất cơ sở Nam A Bank công bố: chuẩn ngắn hạn (đến 1 năm) 10,0%, trung hạn (trên 1 đến 5 năm) 11,0%, dài hạn (trên 5 năm) 11,2%/năm. Trang không công bố biên độ cộng thêm và không ghi ngày áp dụng.",
+    "Bảng Lãi suất cho vay ngày 03/11/2026 ghi lãi suất cho vay bình quân các khoản vay phát sinh trong tháng 11/2026 là 8,18%/năm; khoản vay cá nhân phục vụ nhu cầu đời sống có tài sản bảo đảm: ngắn hạn 9,5%, trung hạn 9,7%, dài hạn 10,0%/năm trong 03 đến 06 tháng đầu. Bảng không ghi riêng vay mua ô tô và vay tín chấp.",
+    "Nam A Bank còn có Vay Tiêu Dùng có tài sản bảo đảm (đến 60 tháng) và Siêu tốc lộc phát (đến 2 tỷ đồng, 80% giá trị tài sản bảo đảm, đến 60 tháng); các trang này không công bố lãi suất."
+  ],
+  "sourceUrls": [
+    "https://www.namabank.com.vn/cho-vay",
+    "https://www.namabank.com.vn/vay-tieu-dung-tin-chap-khcn",
+    "https://www.namabank.com.vn/tin-chap-sieu-linh-hoat",
+    "https://www.namabank.com.vn/thau-chi-tai-khoan-ca-nhan-khong-tai-san-bao-dam-1",
+    "https://www.namabank.com.vn/happy-home",
+    "https://www.namabank.com.vn/vay-mua-xe-o-to-khcn",
+    "https://www.namabank.com.vn/vay-tieu-dung-co-tai-san-bao-dam",
+    "https://www.namabank.com.vn/sieu-toc-loc-phat",
+    "https://www.namabank.com.vn/lai-suat-cho-vay-binh-quan",
+    "https://www.namabank.com.vn/lai-suat-co-so-khcn"
+  ],
+  "lastVerified": "2026-11-26"
+}

@@ -2,6 +2,7 @@
   "id": "hsbc-cash-back",
   "bank": "hsbc",
   "name": "HSBC Cash Back",
+  "kind": "credit",
   "network": "visa",
   "tier": null,
   "issuanceFee": 880000,

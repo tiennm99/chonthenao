@@ -1,0 +1,30 @@
+{
+  "id": "msb",
+  "bank": "msb",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.75 },
+    { "termMonths": 3, "rate": 4.75 },
+    { "termMonths": 6, "rate": 5.8 },
+    { "termMonths": 9, "rate": 5.8 },
+    { "termMonths": 12, "rate": 6.3 },
+    { "termMonths": 18, "rate": 6.1 },
+    { "termMonths": 24, "rate": 6.1 },
+    { "termMonths": 36, "rate": 5.6 }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Cột \"Lãi suất cao nhất\" (trả lãi cuối kỳ) trong Phụ lục 02 \"Biểu lãi suất huy động tiền gửi có kỳ hạn trực tuyến\" của Quyết định 12026/2026/QĐ-TGĐ1, áp dụng từ 20/10/2026; trang lãi suất tiết kiệm ghi \"Lãi suất cập nhật lúc 10:33 20/10/2026\". Biểu không chia mức theo số tiền gửi.",
+    "Số tiền gửi tối thiểu 1.000.000 đồng theo trang Tiền gửi có kỳ hạn trực tuyến; trang sản phẩm Tiết kiệm lãi suất cao nhất ghi tối thiểu 500.000 đồng (áp dụng chung cho sản phẩm, không tách kênh).",
+    "Sản phẩm online \"Lãi suất đặc biệt\" cao hơn: 6 tháng 6,5%; 12, 15 và 24 tháng 7,0%/năm. Chỉ cho khách hàng lúc mở sổ chưa có sổ tiết kiệm, hợp đồng tiền gửi hay chứng chỉ tiền gửi nào tại MSB; tối đa 5 tỷ đồng và 01 sổ mỗi khách hàng.",
+    "Gửi tại quầy (cột Lãi suất cao nhất, Phụ lục 01 cùng quyết định) thấp hơn: 1 - 5 tháng 4,5%; 6 - 11 tháng 5,6%; 12 tháng 6,0%; 13 - 24 tháng 5,8%; 36 tháng 5,3%/năm. Tại quầy, sổ 12 hoặc 13 tháng từ 500 tỷ đồng được 9,0%/năm.",
+    "Theo câu hỏi thường gặp trên trang sản phẩm, khách hàng ưu tiên được cộng thêm 0,5%/năm khi gửi trực tuyến và 0,2%/năm khi gửi tại quầy. Rút trước hạn hưởng lãi suất không kỳ hạn (biểu ghi 0%)."
+  ],
+  "sourceUrls": [
+    "https://www.msb.com.vn/khach-hang-ca-nhan/lai-suat-tiet-kiem/",
+    "https://www.msb.com.vn/msb-website/QD-12026-Ban-hanh-bieu-lai-suat-cac-san-pham-tien-gui-bang-dong-Viet-Nam-doi-voi-KHCN.pdf",
+    "https://www.msb.com.vn/khach-hang-ca-nhan/tiet-kiem/tien-gui-co-ky-han-truc-tuyen/",
+    "https://www.msb.com.vn/khach-hang-ca-nhan/tiet-kiem/tiet-kiem-lai-suat-cao-nhat/"
+  ],
+  "lastVerified": "2026-11-26"
+}

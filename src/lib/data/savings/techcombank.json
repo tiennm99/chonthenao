@@ -1,0 +1,30 @@
+{
+  "id": "techcombank",
+  "bank": "techcombank",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.25 },
+    { "termMonths": 3, "rate": 4.55 },
+    { "termMonths": 6, "rate": 6.05 },
+    { "termMonths": 9, "rate": 6.05 },
+    { "termMonths": 12, "rate": 6.25 },
+    { "termMonths": 18, "rate": 5.35 },
+    { "termMonths": 24, "rate": 5.35 },
+    { "termMonths": 36, "rate": 5.35 }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Bảng \"Tiền gửi Phát Lộc Online\" trong Biểu lãi suất tiền gửi dành cho khách hàng cá nhân của Techcombank, áp dụng từ ngày 01/11/2026, cột khách hàng thường, mức gửi dưới 1 tỷ đồng. Cùng mức lãi suất áp dụng cho Tiền gửi Phát Lộc Online ATM.",
+    "Với khách hàng thường, mức gửi 1 - 3 tỷ và từ 3 tỷ đồng có cùng lãi suất như dưới 1 tỷ. Hội viên Inspire như khách hàng thường; Priority và Private cao hơn 0,05 - 0,15 điểm % (12 tháng: Priority 6,30%, Private 6,40%/năm).",
+    "Tiền gửi Phát Lộc gửi qua Techcombank Mobile và Internet Banking: từ 1.000.000 VND, kỳ hạn 1 - 3 tuần và 1 - 36 tháng, trả lãi cuối kỳ, được tất toán trước hạn với lãi suất không kỳ hạn (0,05%/năm).",
+    "Tiết kiệm Phát Lộc tại quầy (khách hàng thường, dưới 1 tỷ) thấp hơn: 1 tháng 4,05%; 3 tháng 4,35%; 6 và 9 tháng 5,55%; 12 tháng 5,75%; 18 - 36 tháng 4,85%/năm; từ 5.000.000 VND và không được tất toán trước hạn.",
+    "Bảng \"Tiền gửi Online\" cùng biểu, khách hàng thường: 1 tháng 4,15%; 3 tháng 4,45%; 6 và 9 tháng 5,15%; 12 tháng 5,35%; 18 - 36 tháng 4,45%/năm.",
+    "Biểu ghi lãi suất chỉ mang tính tham khảo; khách hàng đáp ứng điều kiện riêng của Techcombank có thể được áp dụng lãi suất khác biểu niêm yết."
+  ],
+  "sourceUrls": [
+    "https://techcombank.com/cong-cu-tien-ich/bieu-phi-lai-suat",
+    "https://techcombank.com/content/dam/techcombank/public-site/documents/techcombank-bieu-lai-suat-tien-gui-tiet-kiem-tien-gui-co-ky-han-20261101.pdf",
+    "https://techcombank.com/khach-hang-ca-nhan/tiet-kiem/tien-gui-tiet-kiem-co-ky-han"
+  ],
+  "lastVerified": "2026-11-26"
+}

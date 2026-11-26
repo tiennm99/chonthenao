@@ -1,0 +1,38 @@
+{
+  "id": "vpbank-autolink-debit",
+  "bank": "vpbank",
+  "name": "VPBank AutoLink (thẻ ghi nợ nội địa)",
+  "kind": "debit",
+  "network": "napas",
+  "tier": null,
+  "issuanceFee": 20000,
+  "annualFee": 0,
+  "feesFinal": false,
+  "feeWaiver": null,
+  "rewards": [],
+  "sharedCaps": [],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": null,
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": null,
+  "perks": [
+    "Miễn phí thường niên",
+    "Miễn phí rút tiền, vấn tin và chuyển khoản giữa các tài khoản VPBank tại ATM VPBank",
+    "Thanh toán tại POS và các trang web có biểu tượng Smartlink",
+    "Nộp tiền vào tài khoản thẻ tại CDM VPBank"
+  ],
+  "notes": [
+    "Thẻ nội địa: trang sản phẩm nêu rút tiền và thanh toán qua mạng lưới VPBank và liên minh Smartlink, VNBC, Banknet; trang danh sách thẻ mô tả thẻ dùng cho giao dịch nội địa. Trang không nhắc tên Napas.",
+    "Phí phát hành thường 20.000 VND/thẻ; phát hành nhanh 100.000 VND; phát hành lại 30.000 VND; thẻ phụ 20.000 VND. Miễn phí phát hành cho khách hàng Payroll và thẻ nội địa VPSuper của khách hàng VPSuper.",
+    "Rút tiền tại ATM ngân hàng khác 2.500 VND/giao dịch theo biểu phí hiệu lực từ 15/01/2026; mục hỏi đáp trên trang sản phẩm vẫn ghi 3.000 VND (chưa gồm VAT). Vấn tin tại ATM ngân hàng khác 500 VND/lần; chuyển khoản ngoài hệ thống tại ATM 5.000 VND/giao dịch.",
+    "Hạn mức rút tiền mặt 20.000.000 VND/ngày, 2.000.000 VND/lần; thẻ có thời hạn 10 năm.",
+    "Biểu phí chưa bao gồm VAT."
+  ],
+  "sourceUrls": [
+    "https://www.vpbank.com.vn/ca-nhan/dich-vu-the/the-ghi-no-noi-dia-autolink",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/bieu-phi/khcn/2026/Bieu-phi-dich-vu-Khach-hang-Ca-nhan---Hieu-luc-tu-15.01.2026.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

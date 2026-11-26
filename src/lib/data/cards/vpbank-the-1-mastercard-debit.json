@@ -1,0 +1,72 @@
+{
+  "id": "vpbank-the-1-mastercard-debit",
+  "bank": "vpbank",
+  "name": "VPBank The 1 Mastercard (ghi nợ quốc tế)",
+  "kind": "debit",
+  "network": "mastercard",
+  "tier": null,
+  "issuanceFee": null,
+  "annualFee": null,
+  "feesFinal": null,
+  "feeWaiver": {
+    "text": "Miễn phí thường niên năm đầu tiên; miễn phí năm tiếp theo cho thẻ chính nếu tổng chi tiêu của hợp đồng thẻ năm hiện tại đạt từ 60 triệu VND. Thẻ phi vật lý miễn phí thường niên.",
+    "minSpendYear": 60000000
+  },
+  "rewards": [
+    {
+      "category": "dining",
+      "type": "points",
+      "rate": null,
+      "earn": { "units": 5, "perVnd": 1000 },
+      "capMonth": null,
+      "note": "Điểm The 1 cho chi tiêu ăn uống, mua sắm trong nước ngoài Central Retail theo danh sách MCC của thể lệ (gồm 5811-5814)."
+    },
+    {
+      "category": "grocery",
+      "type": "points",
+      "rate": null,
+      "earn": { "units": 5, "perVnd": 1000 },
+      "capMonth": null,
+      "note": "Cùng danh mục ăn uống, mua sắm trong nước; danh sách MCC gồm 5411, 5422, 5441, 5451, 5499. Tại Central Retail (GO!, Tops Market...) được 15 điểm/1.000 VND."
+    },
+    {
+      "category": "foreign",
+      "type": "points",
+      "rate": null,
+      "earn": { "units": 10, "perVnd": 1000 },
+      "capMonth": null,
+      "note": "Giao dịch thanh toán tại nước ngoài."
+    }
+  ],
+  "sharedCaps": [
+    {
+      "categories": ["dining", "grocery", "foreign"],
+      "capMonth": 1000000,
+      "note": "Tổng giá trị điểm thưởng (Extra Points) quy đổi tối đa 1.000.000 VND/khách hàng/kỳ sao kê; không áp dụng cho điểm cơ bản (Base Points)."
+    }
+  ],
+  "minSpendMonth": null,
+  "maxCategories": null,
+  "rewardsUntil": "2028-12-31",
+  "pointValueVnd": null,
+  "fxFee": null,
+  "virtual": true,
+  "perks": [
+    "Tích điểm The 1 trong hệ sinh thái Central Retail (GO!, Tops Market, Supersports, Crocs...)",
+    "Có thẻ phi vật lý, miễn phí thường niên",
+    "Mở thẻ trực tuyến trên VPBank NEO"
+  ],
+  "notes": [
+    "Chưa tìm thấy biểu phí riêng của thẻ The 1: biểu phí dịch vụ khách hàng cá nhân hiệu lực từ 15/01/2026 không có cột cho thẻ này, và mục \"Lãi suất và Phí\" trên trang sản phẩm dẫn tới biểu phí của thẻ JCB J-Go. Phí phát hành, thường niên và phí giao dịch ngoại tệ để trống.",
+    "Chi tiêu tại Central Retail Việt Nam (GO!, go!, Tops Market, Supersports, Crocs, HOKA, Dyson, Speedo, Under Armour, Columbia, KUBO): 15 điểm The 1/1.000 VND. Điểm cơ bản chỉ được cộng khi cung cấp số thành viên The 1 lúc thanh toán.",
+    "Điểm The 1 do Central Retail Việt Nam quản lý; theo chính sách hiện hành điểm hết hạn vào ngày cuối của tháng thứ 12 kể từ ngày tích lũy. VPBank không công bố giá trị quy đổi của điểm.",
+    "Không tích điểm cho rút tiền mặt, nạp ví điện tử, chứng khoán, ngoại hối, chuyển tiền, thu hộ điện, nước, viễn thông, vé máy bay, phí và lãi.",
+    "Quà chào mừng: hoàn đến 180.000 VND trong 60 ngày đầu (mỗi giai đoạn 30 ngày cần tối thiểu 3 giao dịch, tổng từ 200.000 VND).",
+    "Hạn mức rút tiền mặt tại ATM nội địa 50 triệu VND, tại ATM nước ngoài 30 triệu VND. Dành cho khách hàng từ 15 tuổi có tài khoản thanh toán VPBank."
+  ],
+  "sourceUrls": [
+    "https://www.vpbank.com.vn/ca-nhan/dich-vu-the/the-ghi-no-quoc-te-mastercard-the-1",
+    "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/cards/credit-cards/thang-11/20261113-The-le-uu-dai-tinh-nang-IDC-The-1-Mastercard-VNese.pdf"
+  ],
+  "lastVerified": "2026-11-26"
+}

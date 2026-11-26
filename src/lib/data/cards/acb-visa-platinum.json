@@ -2,6 +2,7 @@
   "id": "acb-visa-platinum",
   "bank": "acb",
   "name": "ACB Visa Platinum",
+  "kind": "credit",
   "network": "visa",
   "tier": "Platinum",
   "issuanceFee": 0,

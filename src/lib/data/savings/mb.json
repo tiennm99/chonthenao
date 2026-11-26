@@ -1,0 +1,27 @@
+{
+  "id": "mb",
+  "bank": "mb",
+  "channel": "online",
+  "rates": [
+    { "termMonths": 1, "rate": 4.5 },
+    { "termMonths": 3, "rate": 4.65 },
+    { "termMonths": 6, "rate": 5.2 },
+    { "termMonths": 9, "rate": 5.2 },
+    { "termMonths": 12, "rate": 5.8 },
+    { "termMonths": 18, "rate": 5.8 },
+    { "termMonths": 24, "rate": 6.5 },
+    { "termMonths": 36, "rate": 6.5 }
+  ],
+  "minAmount": 1000000,
+  "notes": [
+    "Bảng \"Lãi suất sản phẩm Tiền gửi số truyền thống\" cho Khách hàng Mass, số tiền dưới 1 tỷ đồng, lãi trả sau, trong Biểu lãi suất huy động vốn có hiệu lực từ ngày 21/10/2026.",
+    "Từ trên 1 tỷ đồng (Khách hàng Mass): 1 tháng 4,50%, 3 tháng 4,70%, 6 và 9 tháng 5,30%, 12 và 18 tháng 5,85%, 24 và 36 tháng 6,50%/năm. Khách hàng Priority và Private có bảng riêng với mức bằng hoặc cao hơn (Private, một bảng không chia theo số tiền: 1 tháng 4,60%, 6 tháng 5,40%, 12 tháng 5,90%/năm).",
+    "Trang sản phẩm Tiền gửi cố định (Tiền gửi số truyền thống): gửi tối thiểu 1.000.000 đồng, kỳ hạn 1 đến 3 tuần và 1 đến 60 tháng, lãi suất cố định suốt kỳ hạn, được rút gốc từ 50.000 đồng; đối tượng ghi \"KH có số dư TK thanh toán bình quân > 5 triệu đồng\".",
+    "Tiết kiệm tại quầy (lãi trả sau, dưới 1 tỷ đồng) thấp hơn: 1 tháng 3,70%, 3 đến 9 tháng 4,10%, 12 và 18 tháng 5,70%, 24 và 36 tháng 6,50%/năm. Chi nhánh miền Trung và miền Nam có bảng riêng: 1 tháng 3,80%, 3 đến 9 tháng 4,20%, các kỳ hạn khác như trên."
+  ],
+  "sourceUrls": [
+    "https://www.mbbank.com.vn/ho-tro/bieu-lai-suat?tab=lai-suat-huy-dong",
+    "https://www.mbbank.com.vn/ca-nhan/khach-hang-ca-nhan/tien-gui/tien-gui-ky-han/tien-gui-co-dinh"
+  ],
+  "lastVerified": "2026-11-26"
+}

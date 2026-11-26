@@ -1,5 +1,8 @@
-/** Days after `lastVerified` before a record is flagged as possibly out of date. */
+/** Days after `lastVerified` before a card, bank or banking-fee record may be out of date. */
 export const STALE_AFTER_DAYS = 90;
+
+/** Savings and loan rates change often, so their records are flagged sooner. */
+export const RATE_STALE_AFTER_DAYS = 30;
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 

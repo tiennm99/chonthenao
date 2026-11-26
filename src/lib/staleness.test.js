@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isStale } from './staleness.js';
+import { RATE_STALE_AFTER_DAYS, isStale } from './staleness.js';
 
 describe('isStale', () => {
   const now = new Date('2026-11-25T12:00:00Z');
@@ -14,5 +14,11 @@ describe('isStale', () => {
 
   it('flags an unparseable date', () => {
     expect(isStale('not-a-date', now)).toBe(true);
+  });
+
+  it('flags rate records after 30 days', () => {
+    expect(RATE_STALE_AFTER_DAYS).toBe(30);
+    expect(isStale('2026-11-01', now, RATE_STALE_AFTER_DAYS)).toBe(false);
+    expect(isStale('2026-10-20', now, RATE_STALE_AFTER_DAYS)).toBe(true);
   });
 });

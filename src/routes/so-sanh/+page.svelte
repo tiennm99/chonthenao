@@ -5,10 +5,12 @@
   import StaleBadge from '#lib/components/StaleBadge.svelte';
   import {
     CATEGORY_LABELS,
+    KIND_LABELS,
     NETWORK_LABELS,
     UNKNOWN,
     describeRate,
     formatCap,
+    formatCreditField,
     formatDate,
     formatPercent,
     formatVnd,
@@ -18,7 +20,11 @@
   import { SITE_NAME } from '#lib/site.js';
 
   const MAX = 3;
-  const options = [...cards].sort((a, b) => a.name.localeCompare(b.name, 'vi'));
+  const sorted = [...cards].sort((a, b) => a.name.localeCompare(b.name, 'vi'));
+  /** The card choices grouped by kind; a kind with no cards is left out. */
+  const groups = Object.entries(KIND_LABELS)
+    .map(([kind, label]) => ({ kind, label, cards: sorted.filter((c) => c.kind === kind) }))
+    .filter((g) => g.cards.length > 0);
 
   /** @type {string[]} Selected card ids, one per column; '' is an empty slot. */
   let ids = $state(['', '', '']);
@@ -27,8 +33,7 @@
   // The selection lives in ?the=a,b,c so a comparison can be shared; read it in the browser,
   // since the page is prerendered without a query.
   onMount(() => {
-    const fromUrl = (new URLSearchParams(location.search).get('the') ?? '')
-      .split(',')
+    const fromUrl = [...new Set((new URLSearchParams(location.search).get('the') ?? '').split(','))]
       .filter((id) => cardById.has(id))
       .slice(0, MAX);
     ids = [...fromUrl, '', '', ''].slice(0, MAX);
@@ -53,6 +58,7 @@
 
   /** @type {{ label: string, value: (c: import('#lib/data/schema.js').Card) => string }[]} */
   const rows = [
+    { label: 'Loại thẻ', value: (c) => KIND_LABELS[c.kind] },
     { label: 'Ngân hàng', value: (c) => bankById.get(c.bank)?.shortName ?? c.bank },
     { label: 'Tổ chức thẻ', value: (c) => NETWORK_LABELS[c.network] },
     {
@@ -62,17 +68,12 @@
     },
     { label: 'Miễn phí thường niên', value: (c) => c.feeWaiver?.text ?? 'Không thấy công bố' },
     { label: 'Phí nước ngoài (tổng)', value: (c) => formatPercent(c.fxFee) },
+    { label: 'Lãi suất', value: (c) => formatCreditField(c, 'interestRate') },
+    { label: 'Miễn lãi tối đa', value: (c) => formatCreditField(c, 'interestFreeDays') },
+    { label: 'Thu nhập tối thiểu', value: (c) => formatCreditField(c, 'minIncome') },
     {
-      label: 'Lãi suất',
-      value: (c) => (c.interestRate === null ? UNKNOWN : `${formatPercent(c.interestRate)}/năm`),
-    },
-    {
-      label: 'Miễn lãi tối đa',
-      value: (c) => (c.interestFreeDays === null ? UNKNOWN : `${c.interestFreeDays} ngày`),
-    },
-    {
-      label: 'Thu nhập tối thiểu',
-      value: (c) => (c.minIncome === null ? UNKNOWN : `${formatVnd(c.minIncome)}/tháng`),
+      label: 'Thẻ ảo',
+      value: (c) => (c.virtual === true ? 'Có' : c.virtual === false ? 'Không' : UNKNOWN),
     },
     {
       label: 'Chi tiêu tối thiểu để nhận ưu đãi',
@@ -103,12 +104,15 @@
   <title>So sánh thẻ — {SITE_NAME}</title>
   <meta
     name="description"
-    content="So sánh 2 đến 3 thẻ tín dụng cạnh nhau: phí, hoàn tiền, phí nước ngoài, lãi suất và điều kiện."
+    content="So sánh 2 đến 3 thẻ tín dụng hoặc thẻ ghi nợ cạnh nhau: phí, hoàn tiền, phí nước ngoài, lãi suất và điều kiện."
   />
 </svelte:head>
 
 <h1 class="text-3xl font-bold">So sánh thẻ</h1>
-<p class="mt-2 max-w-2xl text-slate-700">Chọn 2 đến 3 thẻ để xem cạnh nhau.</p>
+<p class="mt-2 max-w-2xl text-slate-700">
+  Chọn 2 đến 3 thẻ để xem cạnh nhau, có thể đặt thẻ tín dụng cạnh thẻ ghi nợ. Lãi suất, miễn lãi và
+  thu nhập tối thiểu không áp dụng cho thẻ ghi nợ.
+</p>
 
 <div class="mt-6 grid gap-3 sm:grid-cols-3">
   {#each ids as _, i (i)}
@@ -119,8 +123,14 @@
         bind:value={ids[i]}
       >
         <option value="">— Chọn thẻ —</option>
-        {#each options as c (c.id)}
-          <option value={c.id} disabled={ids.includes(c.id) && ids[i] !== c.id}>{c.name}</option>
+        {#each groups as g (g.kind)}
+          <optgroup label={g.label}>
+            {#each g.cards as c (c.id)}
+              <option value={c.id} disabled={ids.includes(c.id) && ids[i] !== c.id}>
+                {c.name}
+              </option>
+            {/each}
+          </optgroup>
         {/each}
       </select>
     </label>

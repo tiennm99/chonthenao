@@ -1,9 +1,11 @@
 /**
  * The "Tìm thẻ cho tôi" questionnaire: at most 20 questions of 2 to 4 answers each. Questions that
  * cannot change the result are skipped, and the quiz ends as soon as one card or none is left.
+ * It covers credit and debit cards; a debit card never fails the income filter, since banks set no
+ * income minimum for it, and a reader who carries a balance only ever gets credit cards.
  */
 
-import { CATEGORY_LABELS } from './catalog.js';
+import { CATEGORY_LABELS, KIND_LABELS } from './catalog.js';
 import { rank, scoreCard } from './scoring.js';
 
 /** @typedef {import('./data/schema.js').Card} Card */
@@ -71,7 +73,7 @@ const notRevolving = (/** @type {Context} */ c) => c.answers.goal !== 'revolve';
 export const QUESTIONS = [
   {
     id: 'goal',
-    text: 'Bạn muốn thẻ tín dụng giúp mình điều gì nhất?',
+    text: 'Bạn muốn thẻ giúp mình điều gì nhất?',
     options: [
       { value: 'cashback', label: 'Hoàn tiền khi chi tiêu' },
       { value: 'miles', label: 'Tích dặm bay' },
@@ -80,10 +82,25 @@ export const QUESTIONS = [
     ],
   },
   {
+    id: 'kind',
+    text: 'Bạn muốn loại thẻ nào?',
+    help: 'Thẻ tín dụng chi tiêu trước, trả sau. Thẻ ghi nợ trừ thẳng vào tiền trong tài khoản của bạn.',
+    options: [
+      { value: 'credit', label: KIND_LABELS.credit },
+      { value: 'debit', label: KIND_LABELS.debit },
+      { value: 'any', label: 'Cái nào cũng được' },
+    ],
+    when: (c) =>
+      notRevolving(c) &&
+      c.candidates.some((card) => card.kind === 'credit') &&
+      c.candidates.some((card) => card.kind === 'debit'),
+  },
+  {
     id: 'income',
     text: 'Thu nhập hằng tháng của bạn khoảng bao nhiêu?',
-    help: 'Ngân hàng xét thu nhập tối thiểu khi mở thẻ.',
+    help: 'Ngân hàng xét thu nhập tối thiểu khi mở thẻ tín dụng.',
     options: Object.entries(INCOME).map(([value, b]) => ({ value, label: b.label })),
+    when: (c) => c.candidates.some((card) => card.kind === 'credit'),
   },
   {
     id: 'spend',
@@ -160,6 +177,9 @@ function topBanks(c) {
 export function candidatesFor(a, cards) {
   const income = a.income ? INCOME[/** @type {keyof typeof INCOME} */ (a.income)] : null;
   return cards.filter((c) => {
+    // Only a credit card lets a balance roll over, so debit cards never suit that goal.
+    if (a.goal === 'revolve' && c.kind !== 'credit') return false;
+    if ((a.kind === 'credit' || a.kind === 'debit') && c.kind !== a.kind) return false;
     if (a.goal === 'miles' && !c.rewards.some((r) => r.type === 'miles')) return false;
     if (
       a.goal === 'cashback' &&
@@ -169,7 +189,8 @@ export function candidatesFor(a, cards) {
     ) {
       return false;
     }
-    if (income && c.minIncome !== null && c.minIncome > income.max) return false;
+    const minIncome = c.minIncome ?? null;
+    if (income && minIncome !== null && minIncome > income.max) return false;
     if (a.virtual === 'need' && c.virtual !== true) return false;
     return true;
   });
@@ -243,12 +264,14 @@ export function results(answers, candidates, opts = {}) {
 
 /**
  * Income warning for a card: the bracket's lower bound is below the card's published minimum.
+ * Debit cards have no income minimum, so they never get one.
  * @param {Answers} a
  * @param {Card} card
  * @returns {string|null}
  */
 export function incomeWarning(a, card) {
   const income = a.income ? INCOME[/** @type {keyof typeof INCOME} */ (a.income)] : null;
-  if (!income || card.minIncome === null || card.minIncome <= income.min) return null;
-  return `Cần thu nhập từ ${new Intl.NumberFormat('vi-VN').format(card.minIncome)} đ/tháng; hãy kiểm tra bạn có đủ không.`;
+  const minIncome = card.minIncome ?? null;
+  if (!income || minIncome === null || minIncome <= income.min) return null;
+  return `Cần thu nhập từ ${new Intl.NumberFormat('vi-VN').format(minIncome)} đ/tháng; hãy kiểm tra bạn có đủ không.`;
 }

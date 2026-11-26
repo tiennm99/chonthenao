@@ -7,6 +7,7 @@ const base = {
   id: 'a',
   bank: 'bank-a',
   name: 'A',
+  kind: 'credit',
   network: 'visa',
   tier: null,
   issuanceFee: 0,
@@ -115,6 +116,16 @@ describe('scoreCard', () => {
   it('leaves net unknown when foreign spend meets an unknown foreign fee', () => {
     const s = scoreCard(card({ fxFee: null }), profile({ all: 1_000_000 }, 1_000_000));
     expect(s.net).toBeNull();
+  });
+
+  it('scores a debit card, which has no credit-only fields, with the same formula', () => {
+    const { interestRate: _r, interestFreeDays: _d, minIncome: _i, ...rest } = base;
+    /** @type {import('./data/schema.js').Card} */
+    const debit = { ...rest, kind: 'debit', annualFee: 100_000, rewards: [cash('all', 0.5)] };
+    const s = scoreCard(debit, profile({ all: 10_000_000 }, 1_000_000));
+    expect(s.rewards).toBe(Math.round(11_000_000 * 0.005 * 12));
+    expect(s.cost).toBe(100_000 + Math.round(1_000_000 * 12 * 0.02));
+    expect(s.net).toBe(Number(s.rewards) - Number(s.cost));
   });
 
   it('marks expired reward terms', () => {

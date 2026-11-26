@@ -4,10 +4,13 @@ import {
   effectiveRate,
   filterCards,
   formatCap,
+  formatCreditField,
   formatDate,
   formatVnd,
   headlineReward,
   isConditional,
+  kindStats,
+  paidAnnualFee,
   rewardFor,
   sortCards,
 } from './catalog.js';
@@ -18,6 +21,7 @@ const base = {
   id: 'a',
   bank: 'bank-a',
   name: 'A',
+  kind: 'credit',
   network: 'visa',
   tier: null,
   issuanceFee: 0,
@@ -46,6 +50,20 @@ const base = {
  * @returns {import('./data/schema.js').Card}
  */
 const card = (over) => ({ ...base, ...over });
+
+/**
+ * A debit card: the credit-only fields are left out, as in the data files.
+ * @param {Partial<import('./data/schema.js').Card>} over
+ * @returns {import('./data/schema.js').Card}
+ */
+const debitCard = (over) => {
+  /** @type {import('./data/schema.js').Card} */
+  const c = { ...base, kind: 'debit', ...over };
+  delete c.interestRate;
+  delete c.interestFreeDays;
+  delete c.minIncome;
+  return c;
+};
 
 const cash = (/** @type {string} */ category, /** @type {number} */ rate) => ({
   category,
@@ -132,6 +150,20 @@ describe('isConditional and headlineReward', () => {
   });
 });
 
+const debit = debitCard({ id: 'g', name: 'Debit', annualFee: 0, rewards: [cash('online', 1)] });
+
+describe('credit-only fields', () => {
+  it('reads "không áp dụng" on a debit card and the value or unknown on a credit card', () => {
+    expect('interestRate' in debit).toBe(false);
+    expect(formatCreditField(debit, 'interestRate')).toBe('không áp dụng');
+    expect(formatCreditField(debit, 'minIncome')).toBe('không áp dụng');
+    expect(formatCreditField(flat, 'interestRate')).toBe('30%/năm');
+    expect(formatCreditField(flat, 'interestFreeDays')).toBe('45 ngày');
+    expect(formatCreditField(flat, 'minIncome')).toBe('10.000.000 đ/tháng');
+    expect(formatCreditField(card({ interestFreeDays: null }), 'interestFreeDays')).toBe('chưa rõ');
+  });
+});
+
 describe('filterCards', () => {
   const all = [miles, points, flat, dining];
 
@@ -149,6 +181,16 @@ describe('filterCards', () => {
     const ids = filterCards([flat, unknown], { myIncome: 5000000 }).map((c) => c.id);
     expect(ids).toEqual(['u']);
   });
+
+  it('filters by kind', () => {
+    expect(filterCards([flat, debit], { kind: 'debit' }).map((c) => c.id)).toEqual(['g']);
+    expect(filterCards([flat, debit], { kind: 'credit' }).map((c) => c.id)).toEqual(['f']);
+    expect(filterCards([flat, debit], { kind: '' })).toHaveLength(2);
+  });
+
+  it('keeps debit cards when filtering on income, since they have no income minimum', () => {
+    expect(filterCards([flat, debit], { myIncome: 50000000 }).map((c) => c.id)).toEqual(['f', 'g']);
+  });
 });
 
 describe('sortCards', () => {
@@ -162,7 +204,74 @@ describe('sortCards', () => {
     expect(ids).toEqual(['f', 'd']);
   });
 
+  it('puts debit cards after unknowns on credit-only sorts', () => {
+    const unknown = card({ id: 'u', name: 'Unknown', interestRate: null, interestFreeDays: null });
+    const low = card({ id: 'l', name: 'Low', interestRate: 20, interestFreeDays: 55 });
+    const byRate = sortCards([debit, unknown, flat, low], 'interestRate').map((c) => c.id);
+    expect(byRate).toEqual(['l', 'f', 'u', 'g']);
+    const byDays = sortCards([debit, unknown, flat, low], 'interestFreeDays').map((c) => c.id);
+    expect(byDays).toEqual(['l', 'f', 'u', 'g']);
+  });
+
   it('rejects an unknown sort key', () => {
     expect(() => sortCards([flat], 'nope')).toThrow();
+  });
+});
+
+describe('kindStats', () => {
+  it('summarises one kind from known values only', () => {
+    const s = kindStats(
+      [flat, dining, points, debit, debitCard({ id: 'h', annualFee: null })],
+      'credit',
+    );
+    expect(s.count).toBe(3);
+    expect(s.banks).toBe(1);
+    expect(s.minAnnualFee).toBe(500000);
+    expect(s.maxAnnualFee).toBe(500000);
+    expect(s.knownAnnualFee).toBe(2);
+    expect(s.freeAnnualFee).toBe(0);
+    expect(s.bestCashback).toBe(6);
+    expect(s.withRewards).toBe(3);
+    expect(s.virtual).toBe(0);
+    expect(s.virtualUnknown).toBe(3);
+    expect(s.minInterestRate).toBe(30);
+    expect(s.maxInterestFreeDays).toBe(45);
+  });
+
+  it('keeps unknown debit fees out of the range and counts free fees', () => {
+    const s = kindStats(
+      [flat, debit, debitCard({ id: 'h', annualFee: null, virtual: true })],
+      'debit',
+    );
+    expect(s.count).toBe(2);
+    expect(s.minAnnualFee).toBe(0);
+    expect(s.maxAnnualFee).toBe(0);
+    expect(s.freeAnnualFee).toBe(1);
+    expect(s.knownAnnualFee).toBe(1);
+    expect(s.bestCashback).toBe(1);
+    expect(s.virtual).toBe(1);
+    expect(s.minInterestRate).toBeNull();
+    expect(s.maxInterestFreeDays).toBeNull();
+  });
+
+  it('returns no range for a kind with no cards', () => {
+    const s = kindStats([flat], 'debit');
+    expect(s.count).toBe(0);
+    expect(s.minAnnualFee).toBeNull();
+    expect(s.bestCashback).toBeNull();
+    expect(s.minFxFee).toBeNull();
+  });
+});
+
+describe('paidAnnualFee', () => {
+  it('adds VAT only to a fee printed before VAT, and ranks and filters by it', () => {
+    const net = card({ id: 'net', annualFee: 99000, feesFinal: false });
+    const gross = card({ id: 'gross', annualFee: 100000, feesFinal: true });
+    expect(paidAnnualFee(net)).toBe(108900);
+    expect(paidAnnualFee(gross)).toBe(100000);
+    expect(paidAnnualFee(card({ annualFee: null }))).toBeNull();
+    expect(sortCards([net, gross], 'annualFee').map((c) => c.id)).toEqual(['gross', 'net']);
+    expect(filterCards([net, gross], { maxAnnualFee: 100000 }).map((c) => c.id)).toEqual(['gross']);
+    expect(kindStats([net, gross], 'credit').maxAnnualFee).toBe(108900);
   });
 });

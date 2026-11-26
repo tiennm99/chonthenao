@@ -6,12 +6,14 @@
   import StaleBadge from '#lib/components/StaleBadge.svelte';
   import {
     CATEGORY_LABELS,
+    KIND_LABELS,
     NETWORK_LABELS,
     REWARD_TYPE_LABELS,
     UNKNOWN,
     describeRate,
     effectiveRate,
     formatCap,
+    formatCreditField,
     formatDate,
     formatPercent,
     formatVnd,
@@ -30,11 +32,9 @@
         : 'Nguồn không ghi rõ VAT',
   );
 
-  /**
-   * @param {number|null} n
-   * @returns {string}
-   */
-  const days = (n) => (n === null ? UNKNOWN : `${n} ngày`);
+  const isDebit = $derived(card.kind === 'debit');
+  /** The bank's listing page for this kind of card, else its home page. */
+  const applyUrl = $derived((isDebit ? bank.debitCardsUrl : bank.cardsUrl) ?? bank.officialUrl);
 </script>
 
 <svelte:head>
@@ -52,7 +52,9 @@
 
 <h1 class="mt-2 text-3xl font-bold">{card.name}</h1>
 <p class="mt-1 text-slate-600">
-  {bank.shortName} · {NETWORK_LABELS[card.network]}{card.tier ? ` · ${card.tier}` : ''}
+  {KIND_LABELS[card.kind]} · {bank.shortName} · {NETWORK_LABELS[card.network]}{card.tier
+    ? ` · ${card.tier}`
+    : ''}
 </p>
 <p class="mt-2 text-sm text-slate-500">
   <StaleBadge lastVerified={card.lastVerified} />
@@ -68,7 +70,7 @@
 </p>
 
 <section class="mt-8">
-  <h2 class="text-xl font-semibold">Phí và lãi</h2>
+  <h2 class="text-xl font-semibold">{isDebit ? 'Phí' : 'Phí và lãi'}</h2>
   <dl class="mt-3 grid gap-x-6 gap-y-3 sm:grid-cols-2">
     <div>
       <dt class="text-sm text-slate-500">Phí phát hành</dt>
@@ -88,15 +90,15 @@
     </div>
     <div>
       <dt class="text-sm text-slate-500">Lãi suất</dt>
-      <dd>{card.interestRate === null ? UNKNOWN : `${formatPercent(card.interestRate)}/năm`}</dd>
+      <dd>{formatCreditField(card, 'interestRate')}</dd>
     </div>
     <div>
       <dt class="text-sm text-slate-500">Miễn lãi tối đa</dt>
-      <dd>{days(card.interestFreeDays)}</dd>
+      <dd>{formatCreditField(card, 'interestFreeDays')}</dd>
     </div>
     <div>
       <dt class="text-sm text-slate-500">Thu nhập tối thiểu</dt>
-      <dd>{card.minIncome === null ? UNKNOWN : `${formatVnd(card.minIncome)}/tháng`}</dd>
+      <dd>{formatCreditField(card, 'minIncome')}</dd>
     </div>
     <div>
       <dt class="text-sm text-slate-500">Thẻ ảo</dt>
@@ -199,7 +201,7 @@
   <h2 class="text-xl font-semibold">Đăng ký</h2>
   <p class="mt-3 text-sm">
     Đăng ký trực tiếp với ngân hàng:
-    <ExternalLink href={bank.cardsUrl ?? bank.officialUrl}>
+    <ExternalLink href={applyUrl}>
       trang chính thức của {bank.shortName}
     </ExternalLink>
   </p>

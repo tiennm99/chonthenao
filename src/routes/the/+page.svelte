@@ -1,7 +1,10 @@
 <script>
+  import { onMount } from 'svelte';
+  import { resolve } from '$app/paths';
   import CardSummary from '#lib/components/CardSummary.svelte';
   import {
     CATEGORY_LABELS,
+    KIND_LABELS,
     NETWORK_LABELS,
     REWARD_TYPE_LABELS,
     SORT_LABELS,
@@ -16,6 +19,11 @@
     .sort((a, b) => a.shortName.localeCompare(b.shortName, 'vi'));
   const networks = Object.keys(NETWORK_LABELS).filter((n) => cards.some((c) => c.network === n));
 
+  const creditCount = cards.filter((c) => c.kind === 'credit').length;
+  const debitCount = cards.filter((c) => c.kind === 'debit').length;
+
+  /** @type {string} `credit`, `debit`, or '' for both. */
+  let kind = $state('');
   let bank = $state('');
   let network = $state('');
   let rewardType = $state('');
@@ -28,9 +36,17 @@
   let sort = $state('rate');
   let category = $state('all');
 
+  // ?loai=credit or ?loai=debit preselects the kind; read it in the browser, since the page is
+  // prerendered without a query.
+  onMount(() => {
+    const fromUrl = new URLSearchParams(location.search).get('loai') ?? '';
+    if (Object.hasOwn(KIND_LABELS, fromUrl)) kind = fromUrl;
+  });
+
   const shown = $derived(
     sortCards(
       filterCards(cards, {
+        kind,
         bank,
         network,
         rewardType,
@@ -46,7 +62,7 @@
 
   /** Clears every filter. */
   function reset() {
-    bank = network = rewardType = maxFee = income = '';
+    kind = bank = network = rewardType = maxFee = income = '';
     waiverOnly = virtualOnly = false;
   }
 
@@ -54,23 +70,39 @@
 </script>
 
 <svelte:head>
-  <title>Danh mục thẻ tín dụng — {SITE_NAME}</title>
+  <title>Danh mục thẻ tín dụng và thẻ ghi nợ — {SITE_NAME}</title>
   <meta
     name="description"
-    content="Lọc và so sánh thẻ tín dụng của các ngân hàng tại Việt Nam theo phí thường niên, hoàn tiền, phí giao dịch nước ngoài và số ngày miễn lãi."
+    content="Lọc và so sánh thẻ tín dụng và thẻ ghi nợ của các ngân hàng tại Việt Nam theo phí thường niên, hoàn tiền, phí giao dịch nước ngoài và số ngày miễn lãi."
   />
 </svelte:head>
 
-<h1 class="text-3xl font-bold">Danh mục thẻ tín dụng</h1>
+<h1 class="text-3xl font-bold">Danh mục thẻ</h1>
 <p class="mt-2 max-w-2xl text-slate-700">
-  {cards.length} thẻ, lấy từ trang và biểu phí chính thức của ngân hàng. Ưu đãi "có điều kiện" có hạn
-  mức hoặc yêu cầu chi tiêu tối thiểu: xem chi tiết từng thẻ trước khi so sánh.
+  {creditCount} thẻ tín dụng và {debitCount} thẻ ghi nợ, lấy từ trang và biểu phí chính thức của ngân
+  hàng. Ưu đãi "có điều kiện" có hạn mức hoặc yêu cầu chi tiêu tối thiểu: xem chi tiết từng thẻ trước
+  khi so sánh.
+</p>
+<p class="mt-2 text-sm">
+  Chưa biết nên chọn loại nào?
+  <a class="text-teal-700 underline" href={resolve('/tin-dung-hay-ghi-no')}>
+    Thẻ tín dụng hay thẻ ghi nợ?
+  </a>
 </p>
 
 <form
   class="mt-6 grid gap-4 rounded-xl bg-slate-50 p-4 sm:grid-cols-2 lg:grid-cols-4"
   onsubmit={(e) => e.preventDefault()}
 >
+  <label class="text-sm">
+    Loại thẻ
+    <select class={field} bind:value={kind}>
+      <option value="">Tất cả</option>
+      {#each Object.entries(KIND_LABELS) as [key, label] (key)}
+        <option value={key}>{label}</option>
+      {/each}
+    </select>
+  </label>
   <label class="text-sm">
     Sắp xếp theo
     <select class={field} bind:value={sort}>
@@ -115,7 +147,7 @@
     </select>
   </label>
   <label class="text-sm">
-    Phí thường niên tối đa
+    Phí thường niên tối đa (đã gồm VAT)
     <select class={field} bind:value={maxFee}>
       <option value="">Không giới hạn</option>
       <option value="0">Miễn phí</option>
@@ -125,7 +157,17 @@
   </label>
   <label class="text-sm">
     Thu nhập mỗi tháng (triệu đồng)
-    <input class={field} type="number" min="0" inputmode="numeric" bind:value={income} />
+    <input
+      class={field}
+      type="number"
+      min="0"
+      inputmode="numeric"
+      aria-describedby="income-hint"
+      bind:value={income}
+    />
+    <span id="income-hint" class="mt-1 block text-xs text-slate-500">
+      Chỉ thẻ tín dụng có thu nhập tối thiểu; thẻ ghi nợ không yêu cầu nên luôn được giữ lại.
+    </span>
   </label>
   <div class="flex flex-col justify-end gap-1 text-sm">
     <label>

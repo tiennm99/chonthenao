@@ -14,13 +14,18 @@
 <div class="flex min-h-screen flex-col bg-white font-sans text-slate-900">
   <DisclaimerBanner />
   <header class="border-b border-slate-200">
-    <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+    <nav
+      class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-4"
+    >
       <a href={resolve('/')} class="text-lg font-bold text-teal-800">{SITE_NAME}</a>
-      <div class="flex gap-4 text-sm font-medium">
+      <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm font-medium">
         <a class="hover:text-teal-700" href={resolve('/goi-y')}>Tìm thẻ cho tôi</a>
         <a class="hover:text-teal-700" href={resolve('/the')}>Danh mục thẻ</a>
-        <a class="hover:text-teal-700" href={resolve('/so-sanh')}>So sánh</a>
+        <a class="hover:text-teal-700" href={resolve('/so-sanh')}>So sánh thẻ</a>
         <a class="hover:text-teal-700" href={resolve('/ngan-hang')}>Ngân hàng</a>
+        <a class="hover:text-teal-700" href={resolve('/so-sanh-ngan-hang')}>So sánh ngân hàng</a>
+        <a class="hover:text-teal-700" href={resolve('/tiet-kiem')}>Tiết kiệm</a>
+        <a class="hover:text-teal-700" href={resolve('/vay')}>Vay</a>
       </div>
     </nav>
   </header>

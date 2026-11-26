@@ -1,6 +1,6 @@
 <script>
   import { resolve } from '$app/paths';
-  import { formatVnd } from '#lib/catalog.js';
+  import { KIND_LABELS, formatVnd } from '#lib/catalog.js';
   import { bankById, cards } from '#lib/data/index.js';
   import { candidatesFor, incomeWarning, nextQuestion, results } from '#lib/quiz.js';
   import { ASSUMED_MILE_VND } from '#lib/scoring.js';
@@ -77,7 +77,7 @@
   <title>Tìm thẻ cho tôi — {SITE_NAME}</title>
   <meta
     name="description"
-    content="Trả lời vài câu hỏi ngắn về chi tiêu để nhận gợi ý thẻ tín dụng và ngân hàng phù hợp, kèm cách tính."
+    content="Trả lời vài câu hỏi ngắn về chi tiêu để nhận gợi ý thẻ tín dụng hoặc thẻ ghi nợ và ngân hàng phù hợp, kèm cách tính."
   />
 </svelte:head>
 
@@ -85,6 +85,9 @@
 <p class="mt-2 max-w-2xl text-slate-700">
   Tối đa 20 câu, mỗi câu vài lựa chọn. Bộ câu hỏi bỏ qua câu không ảnh hưởng kết quả và dừng ngay
   khi chỉ còn một thẻ phù hợp.
+  <a class="text-teal-700 underline" href={resolve('/tin-dung-hay-ghi-no')}>
+    Chưa biết nên chọn loại nào?
+  </a>
 </p>
 
 {#if !done && step}
@@ -149,6 +152,9 @@
           <a class="underline" href={resolve('/ngan-hang/[id]', { id: top.card.bank })}>
             {bankName(top.card.bank)}
           </a>.
+          {#if answers.kind === 'any'}
+            Đây là {KIND_LABELS[top.card.kind].toLowerCase()}.
+          {/if}
           {#if answers.goal !== 'revolve'}
             Ước tính {money(top.net)}/năm.
           {/if}
@@ -192,13 +198,13 @@
                 >
                   {s.card.name}
                 </a>
-                <span class="font-normal text-slate-500">· {bankName(s.card.bank)}</span>
+                <span class="font-normal text-slate-500">
+                  · {bankName(s.card.bank)} · {KIND_LABELS[s.card.kind]}
+                </span>
               </h3>
               {#if answers.goal === 'revolve'}
                 <span class="font-semibold">
-                  Lãi suất {s.card.interestRate === null
-                    ? 'chưa rõ'
-                    : `${s.card.interestRate}%/năm`}
+                  Lãi suất {s.card.interestRate == null ? 'chưa rõ' : `${s.card.interestRate}%/năm`}
                 </span>
               {:else}
                 <span class="font-semibold">{money(s.net)}/năm</span>

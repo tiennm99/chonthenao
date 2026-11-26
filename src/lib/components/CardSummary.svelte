@@ -2,10 +2,12 @@
   import { resolve } from '$app/paths';
   import {
     CATEGORY_LABELS,
+    KIND_LABELS,
     NETWORK_LABELS,
     describeRate,
     effectiveRate,
     formatCap,
+    formatCreditField,
     formatPercent,
     formatVnd,
     headlineReward,
@@ -37,7 +39,16 @@
       </a>
       <StaleBadge lastVerified={card.lastVerified} />
     </h3>
-    <span class="text-sm text-slate-500">{bank?.shortName} · {NETWORK_LABELS[card.network]}</span>
+    <span class="text-sm text-slate-500">
+      <span
+        class="mr-1 inline-block rounded px-1.5 text-xs font-medium {card.kind === 'debit'
+          ? 'bg-sky-100 text-sky-900'
+          : 'bg-teal-100 text-teal-900'}"
+      >
+        {KIND_LABELS[card.kind]}
+      </span>
+      {bank?.shortName} · {NETWORK_LABELS[card.network]}
+    </span>
   </div>
 
   <dl class="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-sm sm:grid-cols-4">
@@ -86,9 +97,7 @@
     </div>
     <div>
       <dt class="text-slate-500">Miễn lãi tối đa</dt>
-      <dd class="font-medium">
-        {card.interestFreeDays === null ? 'chưa rõ' : `${card.interestFreeDays} ngày`}
-      </dd>
+      <dd class="font-medium">{formatCreditField(card, 'interestFreeDays')}</dd>
     </div>
   </dl>
 </article>

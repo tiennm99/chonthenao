@@ -1,10 +1,13 @@
 /**
  * Estimates a card's yearly value for one spending profile: rewards earned minus the annual fee and
  * foreign transaction fees. It reads card records and the profile only, never bank records, so a
- * referral link can never change a result. Every figure it returns comes with its math.
+ * referral link can never change a result. Every figure it returns comes with its math. Credit and
+ * debit cards score with the same formula; it never reads the credit-only fields.
  */
 
-import { CATEGORY_LABELS } from './catalog.js';
+import { CATEGORY_LABELS, VAT_RATE, paidAnnualFee } from './catalog.js';
+
+export { VAT_RATE };
 
 /** @typedef {import('./data/schema.js').Card} Card */
 /** @typedef {import('./data/schema.js').Reward} Reward */
@@ -17,9 +20,6 @@ import { CATEGORY_LABELS } from './catalog.js';
  * it. Sources: docs/questionnaire.md.
  */
 export const ASSUMED_MILE_VND = 100;
-
-/** VAT the site adds when a fee schedule prints fees before VAT. */
-export const VAT_RATE = 0.1;
 
 /**
  * @typedef {object} Profile
@@ -184,10 +184,10 @@ export function scoreCard(card, p, { mileVnd = ASSUMED_MILE_VND, today = '' } = 
     cost = null;
     flags.push('Phí thường niên chưa rõ.');
   } else {
-    const fee = card.feesFinal === false ? card.annualFee * (1 + VAT_RATE) : card.annualFee;
+    const fee = /** @type {number} */ (paidAnnualFee(card));
     const waived =
       card.feeWaiver?.minSpendYear != null && total * 12 >= card.feeWaiver.minSpendYear;
-    const charged = waived ? 0 : Math.round(fee);
+    const charged = waived ? 0 : fee;
     cost += charged;
     lines.push({
       label: waived ? 'Phí thường niên (được miễn từ năm 2 nhờ đủ chi tiêu)' : 'Phí thường niên',

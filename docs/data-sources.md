@@ -18,16 +18,40 @@ Where bank and card facts come from, and which sites need care when fetching the
 
 ## Bank sites that resist fetching
 
-- MB (`mbbank.com.vn`) returns 403 to `curl` but loads in a real browser.
+- MB (`mbbank.com.vn` and its file host `webcdn.mbbank.com.vn`) returns 403 to `curl` but loads
+  in a real browser; fetch its PDFs from inside a loaded page.
 - SHB (`shb.com.vn`) shows a security check even in a browser; it is left out of the data until
   its pages can be read.
 - VIB (`vib.com.vn`) serves a JavaScript challenge to `curl` and 403 to headless browsers on its
-  card and fee pages. A real browser reads them: the VIB cards were read in Orca's built-in
-  browser.
+  card, fee and loan pages, often after the first page or two. Its savings page loads rates from a
+  separate service that also returns 403. A real browser reads the pages: the VIB cards were read
+  in Orca's built-in browser.
 - Vietcombank refuses headless Chrome, but `curl` reads its pages and PDFs. BIDV and MB need a
   browser. TPBank's firewall blocks headless Chrome and resets bursts of `curl`; spaced requests work.
 - Some fee schedules are image-only PDFs or PNGs (Standard Chartered, MSB, parts of MB and ACB).
   Render them (`pdftoppm -r 90 -png`) and read the image rather than trusting text extraction,
   which can misplace table columns.
 - Fee schedule PDFs change URL with every update, so `feeScheduleUrl` points at the bank's fee
-  landing page where one exists.
+  landing page where one exists. LPBank's PDF links carry file ids that change too.
+
+## Pages built by JavaScript
+
+`curl` gets an empty shell or partial page from these; read them in a browser, or call the data
+feed the page itself loads:
+
+- Agribank's product and rate pages (its fee PDFs fetch fine).
+- Cake's rate table and HDBank's HTML pages (HDBank's PDFs on `cdn.hdbank.com.vn` fetch fine).
+- Sacombank's fee page loads each schedule's table on click; Techcombank's rate page builds its
+  PDF list in the browser.
+- SeABank and TPBank product pages load their tabs separately: SeABank's "Lợi ích" and
+  "Điều kiện" text appears only after a click, and TPBank's tabs can be fetched through
+  `/wps/wcm/connect`.
+- BIDV's rate page loads its tables from a POST data feed, Vietcombank's from
+  `/vi-VN/api/interestrates`, and MSB embeds its rates as JSON in the page.
+
+## Other quirks
+
+- SeABank's card fee PDF has a text layer that merges table cells; read the rendered image.
+- OCB serves its PDFs from `webocb-api.ocb.com.vn` and Standard Chartered from `av.sc.com`, both
+  the banks' own hosts.
+- Standard Chartered's auto-loan page still sits in its menu but returns 404.

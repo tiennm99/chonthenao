@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Chọn Thẻ Nào — gợi ý thẻ tín dụng và ngân hàng theo nhu cầu chi tiêu. Static site.",
+  "description": "Chọn Thẻ Nào — so sánh thẻ tín dụng, thẻ ghi nợ và ngân hàng (phí, tiết kiệm, vay) tại Việt Nam. Static site.",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "vite dev",
